@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2022-01-14T13:32:17.094244073</meta:creation-date><dc:date>2022-01-19T00:12:54.393877718</dc:date><meta:editing-duration>PT7H2M32S</meta:editing-duration><meta:editing-cycles>100</meta:editing-cycles><meta:generator>LibreOffice/7.2.5.2.0$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator><meta:document-statistic meta:table-count="13" meta:cell-count="3390" meta:object-count="19"/></office:meta>
+ <office:meta><meta:creation-date>2022-01-14T13:32:17.094244073</meta:creation-date><dc:date>2022-01-19T00:46:00.666903206</dc:date><meta:editing-duration>PT7H10M43S</meta:editing-duration><meta:editing-cycles>103</meta:editing-cycles><meta:generator>LibreOffice/7.2.5.2.0$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator><meta:document-statistic meta:table-count="13" meta:cell-count="3446" meta:object-count="19"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -85,17 +85,17 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="slice and dice">
-       <config:config-item config:name="CursorPositionX" config:type="int">14</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">42</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">19</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">9</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">24</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">3</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -121,17 +121,17 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="tabel 34 Getransporteerde gewichten">
-       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">16</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">18</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">2</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">8</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -139,8 +139,8 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="tabel 35 Energie in PJ">
-       <config:config-item config:name="CursorPositionX" config:type="int">15</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">25</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">9</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">9</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -194,7 +194,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="tabel 38 Direct en indirect landgebruik">
        <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">30</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">2</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -211,8 +211,8 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="tabel 39 Directe en indirecte arbeid">
-       <config:config-item config:name="CursorPositionX" config:type="int">6</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">58</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">2</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -221,7 +221,7 @@
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">10</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -247,7 +247,7 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">slice and dice</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">tabel 34 Getransporteerde gewichten</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1531</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
@@ -7202,8 +7202,8 @@
    </table:table>
    <table:table table:name="tabel 34 Getransporteerde gewichten" table:style-name="ta1">
     <table:shapes>
-     <draw:frame draw:z-index="0" draw:style-name="gr1" draw:text-style-name="P1" svg:width="30cm" svg:height="15cm" svg:x="11.101cm" svg:y="10.06cm">
-      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B8:&apos;tabel 34 Getransporteerde gewichten&apos;.B8 &apos;tabel 34 Getransporteerde gewichten&apos;.C8:&apos;tabel 34 Getransporteerde gewichten&apos;.P8 &apos;tabel 34 Getransporteerde gewichten&apos;.B3:&apos;tabel 34 Getransporteerde gewichten&apos;.B3 &apos;tabel 34 Getransporteerde gewichten&apos;.C3:&apos;tabel 34 Getransporteerde gewichten&apos;.P3 &apos;tabel 34 Getransporteerde gewichten&apos;.B4:&apos;tabel 34 Getransporteerde gewichten&apos;.B4 &apos;tabel 34 Getransporteerde gewichten&apos;.C4:&apos;tabel 34 Getransporteerde gewichten&apos;.P4 &apos;tabel 34 Getransporteerde gewichten&apos;.B7:&apos;tabel 34 Getransporteerde gewichten&apos;.B7 &apos;tabel 34 Getransporteerde gewichten&apos;.C7:&apos;tabel 34 Getransporteerde gewichten&apos;.P7 &apos;tabel 34 Getransporteerde gewichten&apos;.B9:&apos;tabel 34 Getransporteerde gewichten&apos;.B9 &apos;tabel 34 Getransporteerde gewichten&apos;.C9:&apos;tabel 34 Getransporteerde gewichten&apos;.P9 &apos;tabel 34 Getransporteerde gewichten&apos;.B10:&apos;tabel 34 Getransporteerde gewichten&apos;.B10 &apos;tabel 34 Getransporteerde gewichten&apos;.C10:&apos;tabel 34 Getransporteerde gewichten&apos;.P10">
+     <draw:frame draw:z-index="0" draw:style-name="gr1" draw:text-style-name="P1" svg:width="30cm" svg:height="15cm" svg:x="12.057cm" svg:y="21.11cm">
+      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B8:&apos;tabel 34 Getransporteerde gewichten&apos;.B8 &apos;tabel 34 Getransporteerde gewichten&apos;.C8:&apos;tabel 34 Getransporteerde gewichten&apos;.P8 &apos;tabel 34 Getransporteerde gewichten&apos;.B3:&apos;tabel 34 Getransporteerde gewichten&apos;.B3 &apos;tabel 34 Getransporteerde gewichten&apos;.C3:&apos;tabel 34 Getransporteerde gewichten&apos;.P3 &apos;tabel 34 Getransporteerde gewichten&apos;.B4:&apos;tabel 34 Getransporteerde gewichten&apos;.B4 &apos;tabel 34 Getransporteerde gewichten&apos;.C4:&apos;tabel 34 Getransporteerde gewichten&apos;.P4 &apos;tabel 34 Getransporteerde gewichten&apos;.B7:&apos;tabel 34 Getransporteerde gewichten&apos;.B7 &apos;tabel 34 Getransporteerde gewichten&apos;.C7:&apos;tabel 34 Getransporteerde gewichten&apos;.P7 &apos;tabel 34 Getransporteerde gewichten&apos;.B20:&apos;tabel 34 Getransporteerde gewichten&apos;.B20 &apos;tabel 34 Getransporteerde gewichten&apos;.C20:&apos;tabel 34 Getransporteerde gewichten&apos;.P20 &apos;tabel 34 Getransporteerde gewichten&apos;.B21:&apos;tabel 34 Getransporteerde gewichten&apos;.B21 &apos;tabel 34 Getransporteerde gewichten&apos;.C21:&apos;tabel 34 Getransporteerde gewichten&apos;.P21">
        <loext:p/>
        <office:document xmlns:chartooo="http://openoffice.org/2010/chart" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.chart">
         <office:meta><meta:generator>LibreOffice/7.2.5.2.0$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator></office:meta>
@@ -7293,7 +7293,7 @@
          <office:chart>
           <chart:chart svg:width="30.001cm" svg:height="15.001cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:row-mapping="0 1 2" chart:style-name="ch1">
            <chart:legend chart:legend-position="end" svg:x="26.302cm" svg:y="6.454cm" style:legend-expansion="high" chart:style-name="ch2"/>
-           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B7:&apos;tabel 34 Getransporteerde gewichten&apos;.P10 &apos;tabel 34 Getransporteerde gewichten&apos;.B3:&apos;tabel 34 Getransporteerde gewichten&apos;.P4" chart:data-source-has-labels="both" svg:x="0.6cm" svg:y="0.3cm" svg:width="25.102cm" svg:height="14.401cm">
+           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B7:&apos;tabel 34 Getransporteerde gewichten&apos;.P8 &apos;tabel 34 Getransporteerde gewichten&apos;.B3:&apos;tabel 34 Getransporteerde gewichten&apos;.P4 &apos;tabel 34 Getransporteerde gewichten&apos;.B20:&apos;tabel 34 Getransporteerde gewichten&apos;.P21" chart:data-source-has-labels="both" svg:x="0.6cm" svg:y="0.3cm" svg:width="25.102cm" svg:height="14.401cm">
             <chart:coordinate-region svg:x="3.232cm" svg:y="0.499cm" svg:width="22.47cm" svg:height="14.003cm"/>
             <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch4" chartooo:axis-type="auto">
              <chartooo:date-scale/>
@@ -7314,10 +7314,10 @@
             <chart:series chart:style-name="ch10" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C7:&apos;tabel 34 Getransporteerde gewichten&apos;.P7" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B7:&apos;tabel 34 Getransporteerde gewichten&apos;.B7" chart:class="chart:bar">
              <chart:data-point chart:repeated="14"/>
             </chart:series>
-            <chart:series chart:style-name="ch11" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C9:&apos;tabel 34 Getransporteerde gewichten&apos;.P9" loext:hide-legend="true" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B9:&apos;tabel 34 Getransporteerde gewichten&apos;.B9" chart:class="chart:line">
+            <chart:series chart:style-name="ch11" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C20:&apos;tabel 34 Getransporteerde gewichten&apos;.P20" loext:hide-legend="true" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B20:&apos;tabel 34 Getransporteerde gewichten&apos;.B20" chart:class="chart:line">
              <chart:data-point chart:repeated="14"/>
             </chart:series>
-            <chart:series chart:style-name="ch12" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C10:&apos;tabel 34 Getransporteerde gewichten&apos;.P10" loext:hide-legend="true" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B10:&apos;tabel 34 Getransporteerde gewichten&apos;.B10" chart:class="chart:line">
+            <chart:series chart:style-name="ch12" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C21:&apos;tabel 34 Getransporteerde gewichten&apos;.P21" loext:hide-legend="true" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B21:&apos;tabel 34 Getransporteerde gewichten&apos;.B21" chart:class="chart:line">
              <chart:data-point chart:repeated="14"/>
             </chart:series>
             <chart:wall chart:style-name="ch13"/>
@@ -7590,12 +7590,12 @@
               <table:table-cell office:value-type="string">
                <text:p>output </text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B9:&apos;tabel 34 Getransporteerde gewichten&apos;.B9</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B20:&apos;tabel 34 Getransporteerde gewichten&apos;.B20</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="16077256">
                <text:p>16077256</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C9:&apos;tabel 34 Getransporteerde gewichten&apos;.P9</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C20:&apos;tabel 34 Getransporteerde gewichten&apos;.P20</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="16617881.1740274">
                <text:p>16617881.1740274</text:p>
@@ -7641,12 +7641,12 @@
               <table:table-cell office:value-type="string">
                <text:p>input </text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B10:&apos;tabel 34 Getransporteerde gewichten&apos;.B10</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B21:&apos;tabel 34 Getransporteerde gewichten&apos;.B21</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="-7799557">
                <text:p>-7799557</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C10:&apos;tabel 34 Getransporteerde gewichten&apos;.P10</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C21:&apos;tabel 34 Getransporteerde gewichten&apos;.P21</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="NaN">
                <text:p>NaN</text:p>
@@ -8374,7 +8374,7 @@
       </draw:image>
      </draw:frame>
      <draw:frame draw:z-index="1" draw:style-name="gr1" draw:text-style-name="P1" svg:width="7.723cm" svg:height="4.343cm" svg:x="14.426cm" svg:y="20.159cm">
-      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.C12:&apos;tabel 34 Getransporteerde gewichten&apos;.P12">
+      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.C23:&apos;tabel 34 Getransporteerde gewichten&apos;.P23">
        <loext:p/>
        <office:document xmlns:chartooo="http://openoffice.org/2010/chart" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.chart">
         <office:meta><meta:generator>LibreOffice/7.2.5.2.0$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator></office:meta>
@@ -8440,7 +8440,7 @@
            <chart:title svg:x="0.612cm" svg:y="0.29cm" chart:style-name="ch2">
             <text:p>input/output</text:p>
            </chart:title>
-           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.C12:&apos;tabel 34 Getransporteerde gewichten&apos;.P12" chart:data-source-has-labels="row" svg:x="-0.06cm" svg:y="0.165cm" svg:width="7.627cm" svg:height="3.961cm">
+           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.C23:&apos;tabel 34 Getransporteerde gewichten&apos;.P23" chart:data-source-has-labels="row" svg:x="-0.06cm" svg:y="0.165cm" svg:width="7.627cm" svg:height="3.961cm">
             <chart:coordinate-region svg:x="0.35cm" svg:y="0.165cm" svg:width="7.059cm" svg:height="3.392cm"/>
             <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch4" chartooo:axis-type="auto">
              <chartooo:date-scale/>
@@ -8449,7 +8449,7 @@
             <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch5">
              <chart:grid chart:style-name="ch6" chart:class="major"/>
             </chart:axis>
-            <chart:series chart:style-name="ch7" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C12:&apos;tabel 34 Getransporteerde gewichten&apos;.P12" chart:class="chart:line">
+            <chart:series chart:style-name="ch7" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C23:&apos;tabel 34 Getransporteerde gewichten&apos;.P23" chart:class="chart:line">
              <chart:data-point chart:repeated="14"/>
             </chart:series>
             <chart:wall chart:style-name="ch8"/>
@@ -8516,14 +8516,14 @@
             <table:table-rows>
              <table:table-row>
               <table:table-cell office:value-type="string">
-               <text:p>Row 12</text:p>
+               <text:p>Row 23</text:p>
                <draw:g>
                 <svg:desc/></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="0.485129862956714">
                <text:p>0.485129862956714</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C12:&apos;tabel 34 Getransporteerde gewichten&apos;.P12</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C23:&apos;tabel 34 Getransporteerde gewichten&apos;.P23</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="NaN">
                <text:p>NaN</text:p>
@@ -8912,8 +8912,8 @@
        </office:binary-data>
       </draw:image>
      </draw:frame>
-     <draw:frame draw:z-index="2" draw:style-name="gr1" draw:text-style-name="P1" svg:width="15.999cm" svg:height="8.999cm" svg:x="39.045cm" svg:y="8.041cm">
-      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.B1 &apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B14:&apos;tabel 34 Getransporteerde gewichten&apos;.B14 &apos;tabel 34 Getransporteerde gewichten&apos;.C14:&apos;tabel 34 Getransporteerde gewichten&apos;.P14 &apos;tabel 34 Getransporteerde gewichten&apos;.B15:&apos;tabel 34 Getransporteerde gewichten&apos;.B15 &apos;tabel 34 Getransporteerde gewichten&apos;.C15:&apos;tabel 34 Getransporteerde gewichten&apos;.P15">
+     <draw:frame draw:z-index="2" draw:style-name="gr1" draw:text-style-name="P1" svg:width="15.999cm" svg:height="8.999cm" svg:x="51.103cm" svg:y="9.898cm">
+      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.B1 &apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B25:&apos;tabel 34 Getransporteerde gewichten&apos;.B25 &apos;tabel 34 Getransporteerde gewichten&apos;.C25:&apos;tabel 34 Getransporteerde gewichten&apos;.P25 &apos;tabel 34 Getransporteerde gewichten&apos;.B26:&apos;tabel 34 Getransporteerde gewichten&apos;.B26 &apos;tabel 34 Getransporteerde gewichten&apos;.C26:&apos;tabel 34 Getransporteerde gewichten&apos;.P26">
        <loext:p/>
        <office:document xmlns:chartooo="http://openoffice.org/2010/chart" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.chart">
         <office:meta><meta:generator>LibreOffice/7.2.5.2.0$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator></office:meta>
@@ -8983,7 +8983,7 @@
          <office:chart>
           <chart:chart svg:width="16cm" svg:height="9cm" xlink:href=".." xlink:type="simple" chart:class="chart:scatter" chart:style-name="ch1">
            <chart:legend chart:legend-position="end" svg:x="10.687cm" svg:y="3.952cm" style:legend-expansion="high" chart:style-name="ch2"/>
-           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B14:&apos;tabel 34 Getransporteerde gewichten&apos;.P15" chart:data-source-has-labels="both" svg:x="0.32cm" svg:y="0.18cm" svg:width="10.047cm" svg:height="8.64cm">
+           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B25:&apos;tabel 34 Getransporteerde gewichten&apos;.P26" chart:data-source-has-labels="both" svg:x="0.32cm" svg:y="0.18cm" svg:width="10.047cm" svg:height="8.64cm">
             <chart:coordinate-region svg:x="2.476cm" svg:y="0.379cm" svg:width="7.519cm" svg:height="7.794cm"/>
             <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch4" chartooo:axis-type="auto">
              <chart:categories table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1"/>
@@ -8991,11 +8991,11 @@
             <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch5">
              <chart:grid chart:style-name="ch6" chart:class="major"/>
             </chart:axis>
-            <chart:series chart:style-name="ch7" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C14:&apos;tabel 34 Getransporteerde gewichten&apos;.P14" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B14:&apos;tabel 34 Getransporteerde gewichten&apos;.B14" chart:class="chart:scatter">
+            <chart:series chart:style-name="ch7" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C25:&apos;tabel 34 Getransporteerde gewichten&apos;.P25" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B25:&apos;tabel 34 Getransporteerde gewichten&apos;.B25" chart:class="chart:scatter">
              <chart:domain table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1"/>
              <chart:data-point chart:repeated="14"/>
             </chart:series>
-            <chart:series chart:style-name="ch8" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C15:&apos;tabel 34 Getransporteerde gewichten&apos;.P15" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B15:&apos;tabel 34 Getransporteerde gewichten&apos;.B15" chart:class="chart:scatter">
+            <chart:series chart:style-name="ch8" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C26:&apos;tabel 34 Getransporteerde gewichten&apos;.P26" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B26:&apos;tabel 34 Getransporteerde gewichten&apos;.B26" chart:class="chart:scatter">
              <chart:data-point chart:repeated="14"/>
             </chart:series>
             <chart:wall chart:style-name="ch9"/>
@@ -9064,12 +9064,12 @@
               <table:table-cell office:value-type="string">
                <text:p>output/landgebruik (direct)</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B14:&apos;tabel 34 Getransporteerde gewichten&apos;.B14</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B25:&apos;tabel 34 Getransporteerde gewichten&apos;.B25</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="6.88013091597533">
                <text:p>6.88013091597533</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C14:&apos;tabel 34 Getransporteerde gewichten&apos;.P14</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C25:&apos;tabel 34 Getransporteerde gewichten&apos;.P25</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="NaN">
                <text:p>NaN</text:p>
@@ -9115,12 +9115,12 @@
               <table:table-cell office:value-type="string">
                <text:p>output/landgebruik (totaal)</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B15:&apos;tabel 34 Getransporteerde gewichten&apos;.B15</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B26:&apos;tabel 34 Getransporteerde gewichten&apos;.B26</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="5.91423919529076">
                <text:p>5.91423919529076</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C15:&apos;tabel 34 Getransporteerde gewichten&apos;.P15</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C26:&apos;tabel 34 Getransporteerde gewichten&apos;.P26</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="NaN">
                <text:p>NaN</text:p>
@@ -9707,7 +9707,7 @@
       </draw:image>
      </draw:frame>
      <draw:frame draw:z-index="3" draw:style-name="gr1" draw:text-style-name="P1" svg:width="15.999cm" svg:height="8.999cm" svg:x="50.98cm" svg:y="0.578cm">
-      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.B1 &apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B16:&apos;tabel 34 Getransporteerde gewichten&apos;.B16 &apos;tabel 34 Getransporteerde gewichten&apos;.C16:&apos;tabel 34 Getransporteerde gewichten&apos;.P16 &apos;tabel 34 Getransporteerde gewichten&apos;.B17:&apos;tabel 34 Getransporteerde gewichten&apos;.B17 &apos;tabel 34 Getransporteerde gewichten&apos;.C17:&apos;tabel 34 Getransporteerde gewichten&apos;.P17">
+      <draw:object draw:notify-on-update-of-ranges="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.B1 &apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B27:&apos;tabel 34 Getransporteerde gewichten&apos;.B27 &apos;tabel 34 Getransporteerde gewichten&apos;.C27:&apos;tabel 34 Getransporteerde gewichten&apos;.P27 &apos;tabel 34 Getransporteerde gewichten&apos;.B28:&apos;tabel 34 Getransporteerde gewichten&apos;.B28 &apos;tabel 34 Getransporteerde gewichten&apos;.C28:&apos;tabel 34 Getransporteerde gewichten&apos;.P28">
        <loext:p/>
        <office:document xmlns:chartooo="http://openoffice.org/2010/chart" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.chart">
         <office:meta><meta:generator>LibreOffice/7.2.5.2.0$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator></office:meta>
@@ -9777,7 +9777,7 @@
          <office:chart>
           <chart:chart svg:width="16cm" svg:height="9cm" xlink:href=".." xlink:type="simple" chart:class="chart:scatter" chart:style-name="ch1">
            <chart:legend chart:legend-position="end" svg:x="11.772cm" svg:y="3.952cm" style:legend-expansion="high" chart:style-name="ch2"/>
-           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B16:&apos;tabel 34 Getransporteerde gewichten&apos;.P17" chart:data-source-has-labels="both" svg:x="0.32cm" svg:y="0.18cm" svg:width="11.132cm" svg:height="8.64cm">
+           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1 &apos;tabel 34 Getransporteerde gewichten&apos;.B27:&apos;tabel 34 Getransporteerde gewichten&apos;.P28" chart:data-source-has-labels="both" svg:x="0.32cm" svg:y="0.18cm" svg:width="11.132cm" svg:height="8.64cm">
             <chart:coordinate-region svg:x="2.952cm" svg:y="0.379cm" svg:width="8.128cm" svg:height="7.794cm"/>
             <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch4" chartooo:axis-type="auto">
              <chart:categories table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1"/>
@@ -9785,11 +9785,11 @@
             <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch5">
              <chart:grid chart:style-name="ch6" chart:class="major"/>
             </chart:axis>
-            <chart:series chart:style-name="ch7" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C16:&apos;tabel 34 Getransporteerde gewichten&apos;.P16" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B16:&apos;tabel 34 Getransporteerde gewichten&apos;.B16" chart:class="chart:scatter">
+            <chart:series chart:style-name="ch7" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C27:&apos;tabel 34 Getransporteerde gewichten&apos;.P27" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B27:&apos;tabel 34 Getransporteerde gewichten&apos;.B27" chart:class="chart:scatter">
              <chart:domain table:cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C1:&apos;tabel 34 Getransporteerde gewichten&apos;.P1"/>
              <chart:data-point chart:repeated="14"/>
             </chart:series>
-            <chart:series chart:style-name="ch8" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C17:&apos;tabel 34 Getransporteerde gewichten&apos;.P17" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B17:&apos;tabel 34 Getransporteerde gewichten&apos;.B17" chart:class="chart:scatter">
+            <chart:series chart:style-name="ch8" chart:values-cell-range-address="&apos;tabel 34 Getransporteerde gewichten&apos;.C28:&apos;tabel 34 Getransporteerde gewichten&apos;.P28" chart:label-cell-address="&apos;tabel 34 Getransporteerde gewichten&apos;.B28:&apos;tabel 34 Getransporteerde gewichten&apos;.B28" chart:class="chart:scatter">
              <chart:data-point chart:repeated="14"/>
             </chart:series>
             <chart:wall chart:style-name="ch9"/>
@@ -9858,12 +9858,12 @@
               <table:table-cell office:value-type="string">
                <text:p>output/FTE (direct)</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B16:&apos;tabel 34 Getransporteerde gewichten&apos;.B16</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B27:&apos;tabel 34 Getransporteerde gewichten&apos;.B27</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="30.8927293619409">
                <text:p>30.8927293619409</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C16:&apos;tabel 34 Getransporteerde gewichten&apos;.P16</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C27:&apos;tabel 34 Getransporteerde gewichten&apos;.P27</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="NaN">
                <text:p>NaN</text:p>
@@ -9909,12 +9909,12 @@
               <table:table-cell office:value-type="string">
                <text:p>output/FTE (totaal)</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B17:&apos;tabel 34 Getransporteerde gewichten&apos;.B17</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.B28:&apos;tabel 34 Getransporteerde gewichten&apos;.B28</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="26.5146366643908">
                <text:p>26.5146366643908</text:p>
                <draw:g>
-                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C17:&apos;tabel 34 Getransporteerde gewichten&apos;.P17</svg:desc></draw:g>
+                <svg:desc>&apos;tabel 34 Getransporteerde gewichten&apos;.C28:&apos;tabel 34 Getransporteerde gewichten&apos;.P28</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="NaN">
                <text:p>NaN</text:p>
@@ -10911,6 +10911,248 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>mijnbouw</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-5640000" calcext:value-type="float">
+      <text:p>-5.640.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-12870000" calcext:value-type="float">
+      <text:p>-12.870.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-18887000" calcext:value-type="float">
+      <text:p>-18.887.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-24000000" calcext:value-type="float">
+      <text:p>-24.000.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>kolen en olie</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-268484" calcext:value-type="float">
+      <text:p>-268.484 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-563450" calcext:value-type="float">
+      <text:p>-563.450 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-790696" calcext:value-type="float">
+      <text:p>-790.696 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-1050522" calcext:value-type="float">
+      <text:p>-1.050.522 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>kassen</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-174902" calcext:value-type="float">
+      <text:p>-174.902 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-106801" calcext:value-type="float">
+      <text:p>-106.801 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-19169" calcext:value-type="float">
+      <text:p>-19.169 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-16372" calcext:value-type="float">
+      <text:p>-16.372 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>andere gebouwen</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-1196580" calcext:value-type="float">
+      <text:p>-1.196.580 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-4101376" calcext:value-type="float">
+      <text:p>-4.101.376 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-7466978" calcext:value-type="float">
+      <text:p>-7.466.978 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-7344327" calcext:value-type="float">
+      <text:p>-7.344.327 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>trekkers en machines</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-18436" calcext:value-type="float">
+      <text:p>-18.436 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-61880" calcext:value-type="float">
+      <text:p>-61.880 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-107752" calcext:value-type="float">
+      <text:p>-107.752 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-122654" calcext:value-type="float">
+      <text:p>-122.654 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>veevoer (geïmporteerd)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-735000" calcext:value-type="float">
+      <text:p>-735.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-11790000" calcext:value-type="float">
+      <text:p>-11.790.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-11332000" calcext:value-type="float">
+      <text:p>-11.332.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-12400000" calcext:value-type="float">
+      <text:p>-12.400.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>getransporteerde dierlijke mest</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-4902000" calcext:value-type="float">
+      <text:p>-4.902.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-8563000" calcext:value-type="float">
+      <text:p>-8.563.000 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-22253327" calcext:value-type="float">
+      <text:p>-22.253.327 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-28947898" calcext:value-type="float">
+      <text:p>-28.947.898 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>kunstmest</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-500800" calcext:value-type="float">
+      <text:p>-500.800 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-899300" calcext:value-type="float">
+      <text:p>-899.300 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-407605" calcext:value-type="float">
+      <text:p>-407.605 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-431280" calcext:value-type="float">
+      <text:p>-431.280 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>bestrijdingsmiddelen</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-21791" calcext:value-type="float">
+      <text:p>-21.791 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-43248" calcext:value-type="float">
+      <text:p>-43.248 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-19584" calcext:value-type="float">
+      <text:p>-19.584 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-19360" calcext:value-type="float">
+      <text:p>-19.360 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>elektronica</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-2748" calcext:value-type="float">
+      <text:p>-2.748 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-13339" calcext:value-type="float">
+      <text:p>-13.339 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-16986" calcext:value-type="float">
+      <text:p>-16.986 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>transport &amp; infra</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-23876813" calcext:value-type="float">
+      <text:p>-23.876.813 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-58956171" calcext:value-type="float">
+      <text:p>-58.956.171 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-80269708" calcext:value-type="float">
+      <text:p>-80.269.708 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="-89529048" calcext:value-type="float">
+      <text:p>-89.529.048 ton</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="1006"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>output </text:p>
      </table:table-cell>
@@ -11108,7 +11350,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1008"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048558">
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048547">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -20367,7 +20609,9 @@
      <table:table-cell table:number-columns-repeated="1008"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce18"/>
+     <table:table-cell table:style-name="ce10" office:value-type="string" calcext:value-type="string">
+      <text:p>direct landgebruik </text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>direct landgebruik </text:p>
      </table:table-cell>
