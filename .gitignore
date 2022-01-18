@@ -1,6 +1,7 @@
 \#*
 *.bib~*
 *~
+*#
 *.pdf
 websites/*
 literatuur/*
