@@ -1,0 +1,420 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "palatino" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+De échte kost van voedsel
+\end_layout
+
+\begin_layout Author
+Eric Seynaeve
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Inleiding
+\end_layout
+
+\begin_layout Standard
+Hallo beste lezer.
+ Bedankt om dit verdiepend werkstuk eens vast te nemen.
+ Hopelijk kan het je genoeg boeien en kun je er interessante informatie
+ uit vinden.
+\end_layout
+
+\begin_layout Section
+Hoe is het idee voor dit verdiepend werkstuk tot stand gekomen ?
+\end_layout
+
+\begin_layout Standard
+Het is begonnen met een 'Hùh' moment tijdens het bekijken van de reportage
+ XXX.
+ Daar werd erin verteld dat de sandwich die ze opengedaan had droop in olie
+ want het koste 10 keer zoveel energie om die sandwich te maken dan wat
+ ze eruit zou halen bij het eten.
+ Dat getal heeft me gegrepen.
+ Waar kwam die informatie vandaan ?
+\end_layout
+
+\begin_layout Standard
+Maar het was pas toen ik 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang french
+Permaculture: Guérir la terre, nourrir les hommes
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ van 
+\noun on
+Charles Hervé-Gruyer
+\noun default
+ las 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Herve2017"
+literal "false"
+
+\end_inset
+
+, dat de zoektocht verder kon gaan.
+ Hij verwees namelijk naar 
+\noun on
+Patrick Whitefield
+\noun default
+.
+ Op naar iemand die dat werk had (dank je 
+\noun on
+Bert
+\noun default
+).
+ Oh nee, 
+\noun on
+Patrick
+\noun default
+ verwijst naar werken van 
+\noun on
+Lampkin
+\noun default
+ en 
+\noun on
+Jackson
+\noun default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 31"
+key "Whitefield2011"
+literal "false"
+
+\end_inset
+
+.
+ Hmm, verder zoeken dus.
+ Een eerste hint dat de werkelijkheid niet zo eenvoudig is als de oneliner
+ liet uitschijnen, is dat Patrick schrijft 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 9"
+key "Whitefield2011"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+Most of the ecological impact of food is generated in transport, processing
+ and retailing, not on the farm.
+\end_layout
+
+\begin_layout Standard
+Dus al een eerste hint dat de 
+\begin_inset Quotes pld
+\end_inset
+
+10 eenheden energie voor 1 eenheid arbeid
+\begin_inset Quotes prd
+\end_inset
+
+ in de juiste context moet gezien worden.
+ Het gaat namelijk over het volledige voedselsysteem, niet enkel de landbouw.
+\end_layout
+
+\begin_layout Standard
+In het boek van 
+\noun on
+Lampkin
+\noun default
+ stond volgende mooie grafiek die liet zien dat de informatie 
+\begin_inset Quotes pld
+\end_inset
+
+10 eenheden energie voor 1 eenheid voedsel
+\begin_inset Quotes prd
+\end_inset
+
+ een zware veralgemening is.
+ Maar ook hier kunnen we duidelijk zien dat verschillende landbouw systemen
+ op verschillende momenten in de tijd een heel andere ecologische impact
+ hebben.
+ Het gaat van een zeer energetisch voordelige landbouw (oud China) tot zeer
+ energie verslindend (visserij).
+ Hoe dit berekend wordt ? Nope, dit wordt hier niet gezegd want 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+dots
+\end_layout
+
+\end_inset
+
+ 
+\noun on
+Lampkin
+\noun default
+ verwijst naar het werk van 
+\noun on
+Leach
+\noun default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 585"
+key "Lampkin1990"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Met 
+\noun on
+Leach
+\noun default
+ kon ik dan eindelijk zien dat de oorspronkelijke auteur gevonden is.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Wat deed dit met mij ?
+\end_layout
+
+\begin_layout Standard
+Het prikkelde me wel.
+\end_layout
+
+\begin_layout Standard
+Ten eerste is het leuk om dit soort informatie tot op de bron uit te vlooien.
+ Leuk voor de 
+\begin_inset Quotes pld
+\end_inset
+
+Sherlock
+\begin_inset Quotes prd
+\end_inset
+
+ in de mens.
+\end_layout
+
+\begin_layout Standard
+Ten tweede is het ook interessant om te zien met welke nuances je rekening
+ moet houden als je boutades hoort.
+\end_layout
+
+\begin_layout Standard
+Tot slot geeft het ook aan dat het belangrijk is om in de landbouw een zicht
+ te hebben op wat er eigenlijk allemaal nodig is om een product tot stand
+ te brengen.
+ Het is duidelijk dat je niet zomaar mag uitgaan van de meest simpele informatie
+, maar dat er verschillende verborgen kosten zijn.
+ Dat is belangrijk om te weten als je een positieve impact wilt hebben op
+ de wereld.
+\end_layout
+
+\begin_layout Standard
+Een positieve impact ? Wat is een positieve impact ? Je kunt in eerste instantie
+ zeggen dat je een positieve impact hebt als er minder impact is dan het
+ huidige gangbare systeem.
+ Maar dan kun je nog altijd een feitelijke negatieve impact hebben.
+ Het is dus belangrijk om zicht te hebben met welke domeinen je allemaal
+ rekening moet houden om te zien of je werkelijk een positieve impact hebt.
+ Uiteraard moet je ook niet te fanatiek hierin worden.
+ Het kan ook genoeg zijn om te zeggen dat je op een bepaald domein (bijvoorbeeld
+ methaan uitstoot) nog negatief zit.
+ Toch doe je het beter dan het merendeel van de mensen omdat je
+\end_layout
+
+\begin_layout Enumerate
+er een zicht op hebt.
+\end_layout
+
+\begin_layout Enumerate
+je erover nagedacht hebt hoe je je impact kan verkleinen.
+\end_layout
+
+\begin_layout Enumerate
+je niet ziet hoe je, in je huidige context, beter kunt doen.
+\end_layout
+
+\begin_layout Standard
+Uiteraard moet je open staan voor input om op elk van die drie factoren
+ een aanpassing te kunnen doen.
+ Ofwel krijg je extra inzichten (factor 1), ofwel komen er nieuwe ideeën
+ hoe je je impact kunt verkleinen (factor 2 en 3) ofwel verandert je context
+ (factor 3).
+\end_layout
+
+\begin_layout Standard
+Dit is allemaal een belangrijk aspect naar buiten toe.
+ Je kunt verantwoorden waarom je een bepaalde prijs vraagt en waarom die
+ hoger is dan van het gangbare model.
+ Er zijn namelijk bepaalde kosten die je wel in rekening brengt.
+\end_layout
+
+\begin_layout Section
+Wat kan je van dit verdiepend werkstuk verwachten ?
+\end_layout
+
+\begin_layout Standard
+Gezien de tijd die ik heb voor dit werkstuk en mijn huidige kennis, zal
+ het vooral een overzicht zijn van welke factoren er allemaal meespelen
+ bij landbouw.
+ Dit aan de hand van een aantal werken die welbekend zijn in de wereld.
+\end_layout
+
+\begin_layout Standard
+Ik zal proberen om aan de hand van de werken toch ook mijn eigen bevindingen
+ en bedenking te geven.
+\end_layout
+
+\begin_layout Standard
+Hopelijk heb je na het doornemen van dit werkstuk het volgende ervaren:
+\end_layout
+
+\begin_layout Itemize
+een verwondering over welke factoren die meespelen in de landbouw.
+ Ik weet dat er bij mij van tijd tot tijd lampjes gingen branden.
+\end_layout
+
+\begin_layout Itemize
+dat er niet één manier is om zaken te vergelijken.
+ Je kunt kijken met een economische bril, een energetische bril, een ecologische
+ bril, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+dots
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+achter de échte kost komen geen eenvoudige materie is.
+ Er is niet één methode die alles omvat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/permaculture"
+options "bibtotoc,abbrvnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
