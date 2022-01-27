@@ -10,8 +10,19 @@
 \renewcommand\quote{\small\oldquote}
 \let\oldquotation\quotation
 \renewcommand\quotation{\small\oldquotation}
+
+\lefthyphenmin=2
+\hyphenation{ge-groe-peerd}
+\hyphenation{ge-pro-beerd}
+\hyphenation{cij-fers}
+\hyphenation{ver-die-pend}
+\hyphenation{broei-kas-gas-sen}
+\hyphenation{ver-oor-zaakt}
 \end_preamble
 \use_default_options false
+\begin_modules
+boxedfloat
+\end_modules
 \maintain_unincluded_children false
 \language dutch
 \language_package default
@@ -59,9 +70,11 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
-\biblio_style plain
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrvnat
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -82,7 +95,7 @@
 \quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -128,7 +141,7 @@ De conceptie van dit werkstuk
 \begin_layout Standard
 Dit werkstuk is een kind van Landwijzer opleiding tot biodynamische landbouwer.
  Wat was de drijfveer om eerst met die opleiding te beginnen en dan vervolgens
- dit thema te kiezen ?
+ dit thema te kiezen?
 \end_layout
 
 \begin_layout Standard
@@ -140,7 +153,7 @@ De reden om die opleiding te starten was vanuit een bezorgdheid rond de
 \begin_inset Quotes pld
 \end_inset
 
-de wereld is een beetje beter omdat Eric er geweest is
+de wereld is beter achtergelaten ten opzicht van hou hij hem gekregen heeft
 \begin_inset Quotes prd
 \end_inset
 
@@ -148,7 +161,7 @@ de wereld is een beetje beter omdat Eric er geweest is
 \end_layout
 
 \begin_layout Standard
-Maar waarom landbouw ? Dat is een proces dat al een tijd aan de gang is.
+Maar waarom landbouw? Dat is een proces dat al een tijd aan de gang is.
 \end_layout
 
 \begin_layout Standard
@@ -207,30 +220,22 @@ Collapse
  van Jared Diamond.
  Daarin stelt ie dat een maatschappij niet kan blijven bestaan als de natuur
  vernietigd wordt.
- En gezien het nauwe verband tussen natuur en landbouw 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+ En gezien het nauwe verband tussen natuur en landbouw
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
 Dus kunnen we met behulp van landbouw de toegediende schade niet genezen
- in plaats van gelukkig te zijn minder schade te berokkenen ? Dat is mijn
+ in plaats van gelukkig te zijn minder schade te berokkenen? Dat is mijn
  missie geworden.
 \end_layout
 
 \begin_layout Standard
-En dan nu, waarom dit specifieke onderwerp ? Dat is gegroeid tijdens het
+En dan nu, waarom dit specifieke onderwerp? Dat is gegroeid tijdens het
  inwerken in de permacultuur.
 \end_layout
 
@@ -293,40 +298,31 @@ Ook zijn er andere stellingen die je regelmatig terug vindt:
 
 \begin_layout Standard
 Met mijn wetenschappelijke achtergrond ben ik dan geprikkeld.
- Waar komen die cijfers vandaan ? Wat betekenen ze ? Worden ze niet misbruikt
- ?
+ Waar komen die cijfers vandaan? Wat betekenen ze? Worden ze niet misbruikt?
 \end_layout
 
 \begin_layout Standard
 Anderzijds groeide in de zoektocht ook het besef dat biologische voeding
  niet duur is.
  Het is de huidige gangbare voeding die gewoon te goedkoop is.
- Waarom ? Omdat er veel kosten zijn die niet doorgerekend worden (bv.
- verlies aan biodiversiteit, gezondheidsimpact van pesticiden, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+ Waarom? Omdat er veel kosten zijn die niet doorgerekend worden (bv.
+ verlies aan biodiversiteit, gezondheidsimpact van pesticiden,
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
 ).
  Dat noemt men de externe of ook maatschappelijke kosten.
 \end_layout
 
 \begin_layout Standard
-Maar welke externe kosten zijn er in de landbouw (gangbaar én biologisch)
- ? Hoe worden die berekend ? Hebben ze een grote impact of niet ? De wetenschapp
-er in mij wilt dit weten, vandaar dat ik een nood had aan meer cijfermateriaal.
+Maar welke externe kosten zijn er in de landbouw (gangbaar én biologisch)?
+ Hoe worden die berekend? Hebben ze een grote impact of niet? De wetenschapper
+ in mij wilt dit weten, vandaar dat ik een nood had aan meer cijfermateriaal.
 \end_layout
 
 \begin_layout Standard
-Ook kan inzicht in deze materie helpen om later de prijzen van mijn producten
+Een inzicht in deze materie zal later helpen om de prijzen van mijn producten
  te verklaren en te rechtvaardigen.
 \end_layout
 
@@ -351,19 +347,11 @@ een verwondering over de externe kosten die meespelen in de landbouw.
 \begin_layout Itemize
 dat er niet één manier is om zaken te vergelijken.
  Je kunt kijken met een economische bril, een energetische bril, een ecologische
- bril, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+ bril,
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
 .
  Het zal nooit volledig zijn, maar elke andere kijk leidt tot andere verrassinge
 n.
@@ -383,6 +371,7 @@ een samenkomen van de puzzelstukjes aan de hand van een aantal voorbeelden
 Dit zal gebeuren aan de hand van een literatuurstudie.
  Dat klinkt als een inleiding tot een werkstuk dat een prima alternatief
  is voor het tellen van schapen.
+ Hopelijk is het gelukt om de stijl luchtig te houden.
 \end_layout
 
 \begin_layout Standard
@@ -408,21 +397,13 @@ Voorstelling van de problematiek
 \end_layout
 
 \begin_layout Standard
-Wat is dat eigenlijk, een externe kost ? In het kort gezegd is dat een kost
+Wat is dat eigenlijk, een externe kost? In het kort gezegd is dat een kost
  die niet meegerekend wordt bij de kost van een product, of dit nu in tijd,
- euro's, milieuschade, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+ euro's, milieuschade,
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
  uitgedrukt wordt.
  Sommige van deze kosten worden meegenomen waardoor ze geïnternaliseerd
  worden.
@@ -767,7 +748,7 @@ noprefix "false"
 
 \end_inset
 
- ?
+?
 \end_layout
 
 \begin_layout Standard
@@ -926,7 +907,7 @@ Je ziet dat door de grotere oogst, het deel dat Umbalio zelf gebruikt relatief
 
 \begin_layout Standard
 De hak is gemaakt van een stok en een stuk silex (we zitten nog in de prehistori
-e !).
+e!).
  Om de silex in de juiste vorm te krijgen, heeft Umbalio hulp nodig van
  Gornan, de stenen expert van haar clan.
  Dit is een extra relatie die we in rekening moeten brengen zoals in figuur
@@ -1002,7 +983,7 @@ Zolang deze indirecte kost niet opgemerkt én in rekening gebracht wordt,
 \begin_layout Standard
 We zien nog iets speciaals.
  Gornan eet een deel van de oogst van Umbalio zodat hij energie heeft om
- de hak te maken ! Dit deel moet van de oogst afgetrokken worden omdat het
+ de hak te maken! Dit deel moet van de oogst afgetrokken worden omdat het
  enkel gebruikt wordt door Gornan om de kop van haar hak te maken.
  In dit voorbeeld kunnen we er wel van uitgaan dat dit aandeel verwaarloosbaar
  is, maar dat is niet altijd zo.
@@ -1060,8 +1041,7 @@ noprefix "false"
 \end_inset
 
 .
- Ziet het er niet fantastisch uit, de technologie die de mens kan ontwikkelen
- ?
+ Ziet het er niet fantastisch uit, de technologie die de mens kan ontwikkelen?
 \end_layout
 
 \begin_layout Standard
@@ -1090,7 +1070,7 @@ name "fig:Umbalio-met-koperen-hak"
 
 \end_inset
 
-Umbalio met koperen en hak en alles errond
+Umbalio met koperen hak en alles errond
 \end_layout
 
 \end_inset
@@ -1171,21 +1151,13 @@ De metallurgie van Borjan zorgt voor vervuiling door roet,
 \begin_inset Formula $\ce{CO2}$
 \end_inset
 
- uitstoot, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+ uitstoot,
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
 
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 .
@@ -1230,33 +1202,27 @@ we beginnen nu duidelijk externe kosten te zien die door de maatschappij
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Een-sprong-naar-vandaag"
+
+\end_inset
+
 Een sprong naar vandaag
 \end_layout
 
 \begin_layout Standard
-Ken je dansles video's ? Eerst tonen ze de basis danspassen, dan opeens,
+Ken je dansles video's? Eerst tonen ze de basis danspassen, dan opeens,
  boem, worden ingewikkelde figuren aangeleerd.
  Wel, we doen nu ook zo'n reuzensprong door naar de situatie van vandaag
  te kijken.
 \end_layout
 
 \begin_layout Standard
-Umbalio (ja, ja, de achter-achter-achter-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
--achter-kleindochter van) rijdt nu rond in een tractor om het land te bewerken
- (figuur
-\begin_inset space ~
+Umbalio (ja, ja, de achter-achter-achter-\SpecialChar ldots
+-achter-kleindochter van) rijdt
+ nu rond in een tractor om het land te bewerken (figuur
+\begin_inset space \thinspace{}
 \end_inset
 
 
@@ -1270,7 +1236,7 @@ noprefix "false"
 \end_inset
 
 ).
- Gezellig, niet ? Ze doet ook aan de bij ons gangbare landbouw.
+ Gezellig, niet? Ze doet ook aan de bij ons gangbare landbouw.
 \end_layout
 
 \begin_layout Standard
@@ -1314,7 +1280,7 @@ Umbalio in tractor
 
 \begin_layout Standard
 Maar om zo aan landbouw te kunnen doen, heeft ze wel wat nodig (figuur
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 
@@ -1335,7 +1301,7 @@ noprefix "false"
 
 \begin_layout Standard
 Oh, maar nog een stap verder (figuur
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 
@@ -1357,7 +1323,7 @@ noprefix "false"
 
 \begin_layout Standard
 Maar dit allemaal ontstaat ook niet op een natuurlijke manier (figuur
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 
@@ -1421,19 +1387,11 @@ name "fig:Umbalio-in-tractor-ronde-1"
 
 \end_inset
 
-Wat Umbalio nodig heeft om te boeren 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+Wat Umbalio nodig heeft om te boeren
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
 
 \end_layout
 
@@ -1455,10 +1413,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename ../ondersteunende documenten/externe kost 5c.jpg
 	lyxscale 10
@@ -1477,20 +1431,8 @@ name "fig:Umbalio-in-tractor-ronde-2"
 
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
- is meer dan je denkt !
+\SpecialChar ldots
+ is meer dan je denkt!
 \end_layout
 
 \end_inset
@@ -1533,7 +1475,7 @@ name "fig:Umbalio-in-tractor-ronde-3"
 
 \end_inset
 
-Zelfs veel meer !!
+Zelfs veel meer!!
 \end_layout
 
 \end_inset
@@ -1566,7 +1508,7 @@ De complexiteit van de landbouw groeit
 
 \begin_layout Standard
 In heel dit kluwen hebben we ook duidelijke maatschappelijke kosten (figuur
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 
@@ -1584,20 +1526,16 @@ noprefix "false"
 \end_inset
 
 , 
-\begin_inset Formula $\ce{NOx}$
+\begin_inset Formula $\ce{NO_{x}}$
 \end_inset
 
-, 
-\begin_inset ERT
-status open
+,
+\begin_inset space \thinspace{}
+\end_inset
 
-\begin_layout Plain Layout
+\SpecialChar ldots
 
-
-\backslash
-dots
-\end_layout
-
+\begin_inset space \thinspace{}
 \end_inset
 
 .
@@ -1663,48 +1601,1142 @@ je systeem wordt kwetsbaarder aan storingen.
 op een bepaald moment loop je het risico dat de maatschappelijke kosten
  zwaarder gaan doorwegen dan de voordelen die de maatschappij uit de hoofdtaak
  haalt.
+ 
 \end_layout
 
 \begin_layout Chapter
-De duurzaamheid van de Nederlandse landbouw 1950 - 2015 - 2040, Meino Smit
+De doctoraatsthesis van Meino Smit
 \end_layout
 
 \begin_layout Standard
-Dit is de thesis van Meino Smit
+In 2018 heeft Meino Smit met succes zijn doctoraatsthesis verdedigd over
+ de duurzaamheid van de Nederlands landbouw, onder begeleiding van Prof.
+\begin_inset space \thinspace{}
+\end_inset
+
+dr.
+\begin_inset space \thinspace{}
+\end_inset
+
+ir.
+ Jan Douwe van
+\begin_inset space \thinspace{}
+\end_inset
+
+der
+\begin_inset space \thinspace{}
+\end_inset
+
+Ploeg
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Hij heeft hiervoor een aantal factoren bekeken vanaf 1950, het moment dat
+ de grote industrialisatie van de landbouw opmars begon te maken, tot 2015.
+\end_layout
+
+\begin_layout Section*
+Wie is Meino Smit?
 \end_layout
 
 \begin_layout Standard
-XXX achtergrond Meino Smit
+Hij is een biologische akkerbouwer sinds 1996.
 \end_layout
 
 \begin_layout Standard
-XXX waar heb ik het vandaan (URL)
+Hiervoor was hij werkzaam rond duurzaamheid in waterbeheer na in 1975 afgestuurd
+ te zijn aan de Landbouwhogeschool Wageningen met een focus op hydrologie.
+\end_layout
+
+\begin_layout Section*
+Waarom heeft ie dat doctoraat gedaan?
 \end_layout
 
 \begin_layout Standard
-Meino Smit heeft hier een uitgebreid onderzoek gedaan naar het energie en
- landgebruik van de Nederlandse landbouw.
- Hiervoor is hij diep in de archieven gedoken om cijfers op te zoeken vanaf
+In de inleiding van zijn doctoraat vermeld hij:
+\end_layout
+
+\begin_layout Quotation
+De aanleiding voor het uitvoeren van dit onderzoek is dat ik mij al lange
+ tijd afvraag hoe duurzaam de landbouw in Nederland eigenlijk is.
+ Er worden steeds zwaardere machines gebruikt en steeds meer van allerlei
+ hulpmiddelen.
+ In de landbouwbladen staat dat de landbouw de laatste jaren duurzamer is
+ geworden.
+ Is dat echt zo of komt het omdat dit wordt afgemeten aan een bepaald criterium
+ of aan een te beperkt aantal criteria?
+\end_layout
+
+\begin_layout Standard
+Het is dus duidelijk dat zijn insteek anders is dan in mijn verdiepend werkstuk.
+ Hij kijkt eerder naar de duurzaamheid van de Nederlandse landbouw.
+ Ik ben op zoek naar de externe kosten, hoe ze berekenen en wat er de impact
+ is van ze in rekening te brengen.
+\end_layout
+
+\begin_layout Standard
+Zijn doctoraatsthesis is wel heel interessant om mee te nemen omdat hij
+ niet alleen een aantal factoren opsomt die meestal niet meegenomen worden
+ bij het bekijken van de kosten, hij geeft ook inzicht in hoe ze bepaald
+ kunnen worden.
+ Dat samen met duidelijke kanttekeningen van de beperkingen en onzekerheden
+ die eraan vast hangen.
+ Hij is hiervoor diep in de archieven gedoken om cijfers op te zoeken vanaf
  1950 tot zover het kon.
- Voor sommige factoren moest hij de waarde afleiden uit algemene waarden
- voor de hele Nederlandse maatschappij.
- Voor anderen konden de gegevens niet meer gevonden worden in recente uitgaven
- (ofwel werden ze nu enkel in beperkte kring verspreid ofwel waren ze elektronis
-ch opgeslagen op een manier dat een buitenstaander ze niet meer kan benaderen
- XXXX).
+ Dat is een huzarenstuk waar we alleen maar respect voor kunnen hebben.
+\end_layout
+
+\begin_layout Standard
+Een belangrijke opmerking is wel dat Meino Smit de Nederlandse landbouw
+ vergeleken heeft over de tijd heen, maar geen onderscheid gemaakt heeft
+ tussen gangbare, biologische en biodynamische landbouw.
+ Dus alle cijfers gelden voor de landbouw in het algemeen.
+\end_layout
+
+\begin_layout Section*
+Wat kan je verwachten van deze samenvatting?
+\end_layout
+
+\begin_layout Standard
+Aangezien de insteek van Meino's doctoraatsthesis en dit verdiepend werkstuk
+ anders is, is dit geen letterlijke samenvatting van zijn werk.
+ Ik heb geprobeerd zo dicht mogelijk bij zijn werk te blijven zonder teveel
+ af te wijken van mijn onderwerp.
+\end_layout
+
+\begin_layout Standard
+Ik heb besloten om zijn werk op te splitsen.
+ Daardoor kon ik de samenvatting logischer groeperen volgens mijn insteek.
+ Dit geeft volgende opsplitsing:
+\end_layout
+
+\begin_layout Enumerate
+de algemene inleiding komt overeen met zijn hoofdstuk
+\begin_inset space ~
+\end_inset
+
+1 en delen van hoofdstukken
+\begin_inset space ~
+\end_inset
+
+2 en 3.
+\end_layout
+
+\begin_layout Enumerate
+de beschrijving van het doel van zijn thesis komt overeen met delen van
+ hoofdstukken
+\begin_inset space ~
+\end_inset
+
+2, 3 en 4.
+\end_layout
+
+\begin_layout Enumerate
+de presentatie van de gegevens komt overeen met de resultaten in hoofdstukken
+\begin_inset space ~
+\end_inset
+
+5 t.e.m.
+ 10.
+ Hierbij groepeer ik de resultaten volgens gemeten (productie)factor (arbeid,
+ energie, gewicht en landgebruik).
+\end_layout
+
+\begin_layout Enumerate
+de beschrijving van de vermelde externe factoren komt uit het voorgaande,
+ hoofdstuk
+\begin_inset space ~
+\end_inset
+
+12 en een deel van hoofdstuk
+\begin_inset space ~
+\end_inset
+
+13.
+\end_layout
+
+\begin_layout Enumerate
+doorheen het proefschrift merk je dat Meino vragen heeft bij de duurzaamheid
+ van elektronica en een overschakeling naar hernieuwbare energie bij 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+business-as-usual
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Deze bedenkingen van hem worden gegroepeerd vanuit delen van hoofdstukken
+\begin_inset space ~
+\end_inset
+
+2, 6 en 8.
+\end_layout
+
+\begin_layout Enumerate
+kort geef ik ook een overzicht van zijn voorstel rond een duurzame landbouw
+ in 2040.
+ Dit hoofdstuk geeft geen inzicht in externe kosten, maar wel de impact
+ ervan.
+ Hiervoor behandel ik voornamelijk hoofdstuk
+\begin_inset space ~
+\end_inset
+
+14 met een deel van hoofdstuk
+\begin_inset space ~
+\end_inset
+
+15.
+\end_layout
+
+\begin_layout Enumerate
+tot slot geef ik een samenvatting over de impact van het meerekenen van
+ de externe kosten.
+\end_layout
+
+\begin_layout Standard
+Een opmerkzame lezer zal merken dat hoofdstuk
+\begin_inset space ~
+\end_inset
+
+11 (
+\begin_inset Quotes pld
+\end_inset
+
+Landbouwkundige aspecten
+\begin_inset Quotes prd
+\end_inset
+
+) niet meegenomen wordt.
+ Niet omdat deze niet interessant is, verre van, maar dit onderwerp wijkt
+ teveel af van het onderwerp van mijn verdiepend werkstuk.
+\end_layout
+
+\begin_layout Standard
+Voor de gehele samenvatting geldt:
+\end_layout
+
+\begin_layout Itemize
+voor de beknoptheid en overzichtelijkheid zijn details soms weggelaten.
+\end_layout
+
+\begin_layout Itemize
+wil je meer details weten, verwijs ik naar de doctoraatsthesis zelf.
+ In de bibliografie vind je verwijzingen naar het werk.
+\end_layout
+
+\begin_layout Itemize
+eventuele foute interpretaties of overnames in cijfermateriaal zijn niet
+ uitgesloten en komen door mijn eigen tekortkomingen.
+ Zie terug het oorspronkelijke werk voor de juiste versie.
+ Mijn welgemeende verontschuldigingen aan Meino Smit hiervoor.
 \end_layout
 
 \begin_layout Section
-Wat kan je verwachten van deze samenvatting
+Inleiding
+\end_layout
+
+\begin_layout Subsection
+Achtergrond
 \end_layout
 
 \begin_layout Standard
-Gezien de omvang van het proefwerk, is het niet de bedoeling om enkel te
- herhalen wat er neergeschreven is.
+Tja, wat is landbouw? Landbouw is zowel een deel van het natuurlijke (zonne-ener
+gie, biodiversiteit, grondstoffen, ruimte,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) als het economische (productie en consumptie door de mens) systeem.
+ Het is een kunstmatig ecosysteem van gedomesticeerde dieren en planten.
+ Voila, nu weet je het.
 \end_layout
 
 \begin_layout Standard
-Eventuele foute interpretaties zijn volledig van mijner zijde.
+Voor duurzaamheid is het belangrijk dat landbouw, samen de andere economische
+ systemen, de grenzen van het natuurlijke systeem niet overschrijdt.
+ Er mag uit het natuurlijke systeem niet meer opgenomen worden dan er aangevuld
+ kan worden.
+ De natuur kan ook wonderlijke dingen doen met onze afval, maar er mag niet
+ meer afval geproduceerd worden dan dat wat het natuurlijke systeem kan
+ verwerken.
+\end_layout
+
+\begin_layout Standard
+We merken echter dat deze grenzen overschreden zijn, zowel in opname als
+ vervuiling.
+ Waar de landbouw vroeger meer energie produceerde dan erin gestopt moest
+ worden, is door Wirsenius berekend dat er nu wereldwijd meer energie gebruikt
+ wordt in de landbouw dan dat er geproduceerd wordt
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Het gaat bijvoorbeeld over een oogst van 13 miljard ton aan biomassa (240
+\begin_inset space \thinspace{}
+\end_inset
+
+EJ) tegenover een gebruik van 390
+\begin_inset space \thinspace{}
+\end_inset
+
+EJ aan fossiele energie 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wirsenius2007"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Dus qua energie gebruik heeft de landbouw een grens overschreden, los van
+ de aard van die energie zelf (herbruikbaar of niet).
+\end_layout
+
+\begin_layout Standard
+Het overschrijden van de grenzen veroorzaakt verschillende effecten die
+ in rekening gebracht moeten worden bij een eindafrekening:
+\end_layout
+
+\begin_layout Itemize
+verlies aan diversiteit.
+ Dit is niet enkel biodiversiteit maar ook een culturele diversiteit die
+ vroeger tot uiting kwam in het gewassen, machines, klederdracht en architectuur
+ die aangepast waren aan de lokale situatie.
+\end_layout
+
+\begin_layout Itemize
+verhoging van de negatieve milieueffecten.
+ Een goed voorbeeld zijn broeikasgassen (zie ook kader 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "box:broeikasgassen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+verhoogde afhankelijkheid van externe input.
+ Dit maakt het systeem zowel fysiek als geopolitiek fragiel.
+ Het eerste uit zich in paniek door één vastgelopen containerschip in het
+ Suez kanaal, het tweede door autoloze zondagen als olie producerende landen
+ de prijs kunstmatig opdrijven.
+\end_layout
+
+\begin_layout Itemize
+uitputting van grondstoffen en fossiele brandstoffen.
+\end_layout
+
+\begin_layout Itemize
+verlies aan een verbondenheid met de grond en de natuur.
+ De verbondenheid is vervangen door een anonieme voedselproductie.
+\end_layout
+
+\begin_layout Itemize
+vervangen van een gevoel van schaarste van energie en grondstoffen door
+ een gevoel aan overvloed van energie en grondstoffen.
+ Deze situatie is echter maar kortstondig en enkel mogelijk door het verbruiken
+ van fossiele brandstoffen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float boxfloat
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+We kennen natuurlijk allemaal het broeikaseffect en weten dat 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ een broeikasgas is.
+ Maar wist je ook het volgende ?
+\end_layout
+
+\begin_layout Itemize
+Broeikasgassen komen niet enkel vrij bij verbranding.
+ Ook veeteelt en het gebruik van kunstmest dragen bij aan het broeikaseffect.
+\end_layout
+
+\begin_layout Itemize
+Niet alleen 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ is een broeikasgas.
+ Er zijn er nog anderen zoals
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "broeikasgassen2019"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+methaan (
+\begin_inset Formula $\ce{NH4}$
+\end_inset
+
+).
+ Deze is 25 keer krachtiger dan 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ en veroorzaakt 20% van het broeikaseffect.
+ Methaan onder andere wordt uitgestoten in de veeteelt.
+\end_layout
+
+\begin_layout Itemize
+lachgas (
+\begin_inset Formula $\ce{N2O}$
+\end_inset
+
+).
+ Deze is 289 keer krachtiger dan 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ en veroorzaakt 6% van het broeikaseffect.
+ Lachgas wordt in de landbouw aangemaakt bij overdadig gebruik van drijfmest
+ en kunstmest.
+\end_layout
+
+\begin_layout Itemize
+andere natuurlijke broeikasgassen zijn water (
+\begin_inset Formula $\ce{H2O}$
+\end_inset
+
+) en ozon (
+\begin_inset Formula $\ce{O3}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes pld
+\end_inset
+
+industriële
+\begin_inset Quotes prd
+\end_inset
+
+ broeikasgassen zijn meestal veel krachtiger dan deze hierboven:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CFK's en aanverwanten zijn tussen 1.300 en 11.700 keer zo krachtig als 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Zwavelhexafluoride (
+\begin_inset Formula $\ce{SF6}$
+\end_inset
+
+) is maar liefst 23.900 keer zo krachtig als 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Stikstoftrifluoride (
+\begin_inset Formula $\ce{NF3}$
+\end_inset
+
+) is 17.200 keer zo krachtig als 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "box:broeikasgassen"
+
+\end_inset
+
+Broeikasgassen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We zouden kunnen zeggen dat de landbouw teveel is doorgeschoten naar het
+ economische systeem waar resultaten op korter termijn belangrijker zijn
+ dan effecten op lange termijn.
+ Dit heeft de visie op landbouw verengt.
+ Zoals Meino Smit vermeld
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 18"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quotation
+De productie van voedsel is van oorsprong niet het enige doel van de landbouw.
+ Het in stand houden van de bodemvruchtbaarheid en daarmee het bieden van
+ bestaanszekerheid aan de plattelandsbevolking was/is ook een doelstelling
+ van landbouw.
+ Het gaat ook om betrokkenheid bij het gebied en binding aan de grond.
+\end_layout
+
+\begin_layout Standard
+Maar we schatten de natuur en zijn functies niet meer naar waarde.
+ Daardoor worden de kosten om de negatieve effecten weg te werken niet doorgerek
+end.
+ Als die kosten groter worden dan de baten, wordt de economische groei echter
+ negatief beïnvloed!
+\end_layout
+
+\begin_layout Standard
+Debbie Barker stelt twee belangrijke factoren voorop die nodig zijn voor
+ het overleven van lokale gemeenschappen
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 23"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+zeggenschap over de wereldvoedselvoorziening.
+\end_layout
+
+\begin_layout Enumerate
+beschikbaarheid van schoon water.
+\end_layout
+
+\begin_layout Standard
+Laat dit net factoren zijn waar landbouw een belangrijke rol speelt.
+\end_layout
+
+\begin_layout Subsection
+Productiefactoren
+\end_layout
+
+\begin_layout Standard
+We hebben net gezien dat landbouw systemen ook deel uitmaken van het economische
+ systeem.
+ Productiefactoren spelen dus ook hier een rol.
+ Voor een duurzaam systeem is het uiteraard belangrijk deze in te zetten
+ binnen de grenzen van het natuurlijke systeem!
+\end_layout
+
+\begin_layout Standard
+Alhoewel Meino Smit dit niet aanhaalt, is kennis ook een belangrijk factor
+ in dit verhaal.
+ Door kennis kun je het gebruik van productiefactoren beïnvloeden.
+ Een paar voorbeelden uit de agro-ecologie: minder grondgebruik bij combinatiete
+elten, minder arbeid door niet-kerende grondbewerkingen, minder kapitaal
+ door eigen zadenteelt.
+ In mijn visie moeten we, om een duurzame landbouw te kunnen hebben, onze
+ kennis sterk vergroten.
+\end_layout
+
+\begin_layout Standard
+Laten we even kijken wat speciaal is aan deze productie factoren.
+\end_layout
+
+\begin_layout Subsubsection
+Grond
+\end_layout
+
+\begin_layout Standard
+Dit is een speciale productiefactor voor de landbouw.
+ Je hebt nu eenmaal grond nodig om aan landbouw te kunnen doen, ook voor
+ niet grondgebonden landbouw! Daar gaan we later nog dieper op in.
+\end_layout
+
+\begin_layout Standard
+De totale hoeveelheid grond kan je in een land niet veranderen.
+ Wel kan je de functie ervan aanpassen door bijvoorbeeld meer natuurgebieden
+ toe te kennen aan de landbouw of omgekeerd.
+\end_layout
+
+\begin_layout Subsubsection
+Kapitaal
+\end_layout
+
+\begin_layout Standard
+Dit zijn goederen die gebruikt worden om andere goederen te produceren,
+ inclusief zaken zoals grondstoffen (zaad, ijzererts, tractor, schuur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) en energie (olie, gas,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+\end_layout
+
+\begin_layout Standard
+Je hebt kapitaal dat verbruikt wordt bij de productie van goederen (zaad,
+ ijzererts, gas, olie,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ Ander kapitaal kun je meermaals gebruiken voor de productie van goederen
+ (tractor, schuur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+\end_layout
+
+\begin_layout Standard
+Twee vormen van kapitaal, grondstof en energie, zijn innig met elkaar verbonden:
+\end_layout
+
+\begin_layout Itemize
+Je hebt enerzijds energie nodig om grondstoffen te delven en in een nuttige
+ vorm beschikbaar te maken (bv.
+ brandstof om olie op te pompen, steenkool om zuiver ijzer te krijgen uit
+ ijzererts,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+\end_layout
+
+\begin_layout Itemize
+Anderzijds zijn er ook grondstoffen nodig voor het produceren van energie
+ (staal voor boorplatformen, beton voor hoogovens,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+\end_layout
+
+\begin_layout Itemize
+Als het laaghangende fruit bij het delven van een grondstof op is, is er
+ zowel meer energie als grondstoffen nodig om eenzelfde hoeveelheid grondstof
+ te produceren.
+ Maar hierdoor zijn er nog meer energie en grondstoffen nodig waardoor de
+ totale hoeveelheid gevraagde grondstoffen en energie nog sneller toeneemt
+ dan eerst verwacht.
+ Er moet dan ook altijd afgewogen worden of dit de verhoogde productie rechtvaar
+digt.
+\end_layout
+
+\begin_layout Standard
+Er zijn een aantal factoren in onze maatschappij die het gebruik van grondstoffe
+n en energie versneld de hoogte in jagen.
+\end_layout
+
+\begin_layout Standard
+Ten eerste worden de invoerlijnen steeds langer.
+ Waar vroeger een ploeg gemaakt werd door de smid van het dorp, kwam een
+ ploeg later uit een fabriek een paar honderd kilometer verderop.
+ Deze afstand is steeds vergroot naar het buitenland of zelfs een ander
+ werelddeel.
+ Een fabriek vraagt echter meer grondstoffen en energie voor het bouwen,
+ in stand houden en afbraak dan een smidse.
+ Transport vraagt ook energie en grondstoffen dus hoe verder weg, hoe meer
+ hiervan nodig zijn.
+\end_layout
+
+\begin_layout Standard
+Ten tweede stijgen de hoeveelheden grondstof en energie voor het maken van
+ hetzelfde product naarmate de complexiteit ervan toeneemt.
+ Denk bijvoorbeeld aan een moderne tractor die veel meer staal, kunststoffen
+ en elektronica vraagt dan een tractor van pakweg 60 jaar geleden.
+\end_layout
+
+\begin_layout Standard
+Ten derde gaan de zaken ook steeds minder lang mee.
+ Hoewel een vermindering van de kwaliteit meestal als oorzaak aangehaald
+ wordt, spelen bijvoorbeeld ook wettelijke eisen mee die maken dat zaken
+ vervangen moeten worden in plaats van hersteld of simpelweg uitgebreid.
+ Denk bijvoorbeeld aan verstrengen van de milieuwetgeving die ervoor zorgt
+ dat een stal vervangen moet worden in plaats van uitgebreid.
+\end_layout
+
+\begin_layout Standard
+Tot slot neemt de bevolking toe samen met de ongelijkheid in verdeling van
+ de welvaart.
+ Dit verhoogt de vraag naar grondstoffen en energie nog sterker.
+\end_layout
+
+\begin_layout Standard
+Hierdoor zitten we in een steeds versnellende cyclus van verbruik.
+\end_layout
+
+\begin_layout Subsubsection
+Arbeid
+\end_layout
+
+\begin_layout Standard
+Arbeid wordt bij de landbouw altijd gebruikt in combinatie met grond.
+\end_layout
+
+\begin_layout Standard
+Een belangrijke evolutie die al heel lang bezig is, is dat arbeid vervangen
+ wordt door kapitaal.
+ Wel zien we dat hierbij het volgende gebeurd:
+\end_layout
+
+\begin_layout Itemize
+verschuiven van arbeid en grond naar het buitenland.
+ Dit wordt later in meer detail uitgewerkt.
+\end_layout
+
+\begin_layout Itemize
+verhoging van het energie gebruik.
+\end_layout
+
+\begin_layout Itemize
+verhoging van het grondstoffen gebruik.
+\end_layout
+
+\begin_layout Itemize
+verhoging van het gebruik in hulpstoffen.
+ Dit kan zelfs zo ver gaan dat het gebruik van productiefactoren in de hulpproce
+ssen groter kan worden dan die voor het eigenlijke hoofdproces (zie ook
+ paragraaf 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:Een-sprong-naar-vandaag"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Op welke basis ook beslist wordt om te doen (wetgevend, economisch, technisch,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+), het belangrijkste blijft om hierbij rekening houden met de grenzen van
+ het natuurlijke systeem.
+ Als dat niet gebeurd, wordt de schade op lange termijn zo groot dat andere
+ overwegingen er niet meer toe doen.
+\end_layout
+
+\begin_layout Standard
+Oh ja, zoals het onze soort siert wordt enkel menselijke arbeid beschouwd.
+ Paarden en ossen worden onder kapitaal gecatalogeerd.
+\end_layout
+
+\begin_layout Subsection
+Een paar definities
+\end_layout
+
+\begin_layout Standard
+Om te zorgen dat we over hetzelfde praten, heeft Meino een aantal zaken
+ scherp gesteld.
+ Iets minder spannend om te lezen, maar toch belangrijk om de neuzen in
+ dezelfde richting te houden.
+\end_layout
+
+\begin_layout Subsubsection
+Landbouw
+\end_layout
+
+\begin_layout Quotation
+Landbouw is in technische zin het beïnvloeden van de plantaardige en dierlijke
+ productie door middel van bepaalde cultuurmaatregelen.
+\end_layout
+
+\begin_layout Quotation
+Landbouw is in economische zin het inzetten van arbeid en kapitaal in de
+ natuur met als doel de natuur er toe te brengen om meer voor de mens nuttige
+ planten en dieren voort te brengen dan de natuur zou doen als ze aan zichzelf
+ zou worden overgelaten
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 42"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Meino Smit laat niet-voedingsglastuinbouw buiten beschouwing.
+ Dit zijn teelten van bijvoorbeeld kamerplanten en sierbloemen.
+\end_layout
+
+\begin_layout Standard
+Visserij wordt klassiek buiten de landbouw gerekend.
+ Hier gebeurd dat ook.
+ Maar een kleine teaser: we zullen bij andere studies zien dat visserij
+ een sector is die energetisch nog veel minder efficiënt is dan veeteelt.
+\end_layout
+
+\begin_layout Subsubsection
+Duurzaamheid
+\end_layout
+
+\begin_layout Quotation
+Duurzaamheid is het voorzien in de behoeften van de huidige generatie zonder
+ dat dit ten koste gaat van het vermogen van toekomstige generaties om in
+ hun behoeften te voorzien.
+ (VN-commissie Brundtland)
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 41"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Bij Meino Smit wordt duurzaamheid bekeken met het oog op het produceren
+ van goederen en diensten met zo weinig mogelijk energie, grondstoffen en
+ landgebruik en het veroorzaken van zo weinig mogelijk negatieve effecten
+ op de omgeving.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Directe/indirecte productiefactoren
+\end_layout
+
+\begin_layout Standard
+Een belangrijke bijdrage van het werk van Meino Smit is het beschouwen van
+ indirecte productiefactoren.
+ We gaan die hier even kort aanhalen en later meer in detail op ingaan.
+\end_layout
+
+\begin_layout Standard
+Maar eerst de klassiek gekende directe productiefactoren.
+\end_layout
+
+\begin_layout Paragraph
+Directe productiefactoren
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Directe productiefactoren zijn diegenen die rechtstreeks in de Nederlandse
+ landbouw gebruikt worden.
+\end_layout
+
+\begin_layout Standard
+We kunnen bij de verschillende productiefactoren volgende directe delen
+ onderscheiden:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Grond direct landgebruik is het areaal landbouwgrond in Nederland zelf.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Arbeid directe arbeid is het aantal mensen dat rechtstreeks werkzaam is
+ op de Nederlandse land- en tuinbouwbedrijven.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Kapitaal direct energiegebruik zijn de fossiele brandstoffen die direct
+ in de landbouw gebruikt worden.
+\end_layout
+
+\begin_layout Paragraph
+Indirecte productiefactoren
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Indirecte productiefactoren zijn veel moeilijker te bepalen.
+ Ze zijn op een of andere manier nodig om landbouw te kunnen bedrijven,
+ maar zijn veel minder zichtbaar.
+ De indirecte productiefactoren kunnen zowel uit Nederland als uit het buitenlan
+d afkomstig zijn.
+ 
+\end_layout
+
+\begin_layout Standard
+We kunnen bij de verschillende productiefactoren volgende indirecte delen
+ onderscheiden:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Grond indirect landgebruik is land dat gebruik wordt voor de Nederlandse
+ landbouw maar niet direct gekoppeld is aan een perceel Nederlandse landbouwgron
+d.
+ Hmm, voorbeelden zijn hier wel op hun plaats:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Braziliaanse grond gebruikt om soja te telen.
+ Deze soja wordt dan gebruikt voor krachtvoer van een Nederlandse koe.
+\end_layout
+
+\begin_layout Itemize
+Deel van ijzermijn waarvan het ijzer wordt gebruikt om een tractor te maken
+ van een Nederlandse boer.
+\end_layout
+
+\begin_layout Itemize
+Deel van fabriek waar kunstmest gemaakt wordt die op een Nederlandse akker
+ uitgereden wordt.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Arbeid indirecte arbeid zijn de mensen werkzaam bij de input van de landbouw.
+ Dat zijn bij de voorbeelden van hierboven:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Braziliaanse boeren die de soja uit het vorige voorbeeld telen.
+\end_layout
+
+\begin_layout Itemize
+Een deel van de werknemers van de bovenstaande ijzermijn.
+\end_layout
+
+\begin_layout Itemize
+Een deel van de werknemers van de bovenstaande kunstmest fabriek.
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Kapitaal indirect energieverbruik is energie die nodig is om productiefactoren
+ die in de Nederlandse landbouw gebruikt worden te produceren, transporteren
+ en distribueren.
+ Dat is weeral een zeer zin, dus wat voorbeelden:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+brandstof die gebruikt wordt door bovenstaande Braziliaanse boeren.
+\end_layout
+
+\begin_layout Itemize
+een deel van de energie gebruikt in bovenstaande ijzermijn.
+\end_layout
+
+\begin_layout Itemize
+een deel van de energie en fossiele brandstoffen die gebruikt worden in
+ bovenstaande kunstmest fabriek.
+ De fossiele brandstoffen worden hier apart genomen want deze zijn nodig
+ als grondstof van kunstmest.
+ [TODO: NA TE KIJKEN]
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Uiteraard moet je voor Vlaanderen het 
+\begin_inset Quotes pld
+\end_inset
+
+Nederlandse
+\begin_inset Quotes prd
+\end_inset
+
+ hierboven vervangen door 
+\begin_inset Quotes pld
+\end_inset
+
+Vlaamse
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Zoals je merkt, moet de waarde van de indirecte productiefactoren berekend
+ worden aan de hand van welk deel van de productie in de Nederlandse landbouw
+ gebruikt wordt.
+ Dat maakt het niet eenvoudig om deze waarde op een eensluidende manier
+ te bepalen, waardoor die waarde voor verschillende mensen anders kan zijn.
+ Dat maakt de discussie er niet eenvoudiger op!
+\end_layout
+
+\begin_layout Subsubsection
+Hernieuwbaar/niet hernieuwbare productiefactoren
+\end_layout
+
+\begin_layout Standard
+Omdat we het over duurzaamheid hebben, is het ook belangrijk om te kijken
+ wat hernieuwbaar is en wat niet.
+ Kort gezegd kunnen hernieuwbare productiefactoren van nature terug aangemaakt
+ worden
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dit is een te eenvoudige definitie maar voldoende voor de rest van deze
+ bespreking.
+ Strikt genomen worden bijvoorbeeld fossiele brandstoffen ook van nature
+ aangevuld maar de tijdspanne waarop dit gebeurd is zo lang, dat we ze praktisch
+ als niet hernieuwbaar moeten beschouwen.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Bijzonder aan niet hernieuwbare productiefactoren is dat er een eindige
+ voorraad van is.
+ Ze kunnen dus op raken.
+\end_layout
+
+\begin_layout Standard
+Voor de duurzaamheid is het belangrijk dat je hernieuwbare productiefactoren
+ sneller terug aangevuld dan dat ze verbruikt worden.
+ Aangezien het verbruik niet enkel in de landbouw gebeurd, moet het volledige
+ wereldwijde verbruik over alle sectoren heen hiervoor bekeken worden.
+ Zo kan kastanjehout duurzaam zijn als er minder kastanjebomen gekapt worden
+ dan dat er aangeplant worden, zelfs al is het gebruik ervan in de landbouw
+ minimaal.
+ Als we echter te snel kastanjebomen kappen, dan is kastanjehout niet meer
+ duurzaam.
+\end_layout
+
+\begin_layout Section
+Doel van de thesis
+\end_layout
+
+\begin_layout Section
+Presentatie van de gegeven
+\end_layout
+
+\begin_layout Section
+Geïdentificeerde externe kosten
+\end_layout
+
+\begin_layout Subsection
+Vanuit de factor arbeid
+\end_layout
+
+\begin_layout Subsection
+Vanuit de factor energie
+\end_layout
+
+\begin_layout Subsection
+Vanuit de factor gewicht
+\end_layout
+
+\begin_layout Subsection
+Vanuit de factor landgebruik
+\end_layout
+
+\begin_layout Section
+Elektronica, hernieuwbare energie en duurzaamheid
+\end_layout
+
+\begin_layout Section
+Voorstel voor duurzame landbouw, rekening houdend met de externe kosten
+\end_layout
+
+\begin_layout Section
+Samenvatting
 \end_layout
 
 \begin_layout Chapter
@@ -1738,7 +2770,7 @@ Het is begonnen met een 'Hùh' moment tijdens het bekijken van de reportage
  want het koste 10 keer zoveel energie om die sandwich te maken dan wat
  ze eruit zou halen bij het eten.
  Dat getal heeft me gegrepen.
- Waar kwam die informatie vandaan ?
+ Waar kwam die informatie vandaan?
 \end_layout
 
 \begin_layout Standard
@@ -1852,19 +2884,11 @@ Lampkin
  hebben.
  Het gaat van een zeer energetisch voordelige landbouw (oud China) tot zeer
  energie verslindend (visserij).
- Hoe dit berekend wordt ? Nope, dit wordt hier niet gezegd want 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
-\end_layout
-
+ Hoe dit berekend wordt? Nope, dit wordt hier niet gezegd want
+\begin_inset space \thinspace{}
 \end_inset
 
+\SpecialChar ldots
  
 \noun on
 Lampkin
@@ -1896,7 +2920,7 @@ Leach
 \begin_layout Standard
 
 \emph on
-Wat deed dit met mij ?
+Wat deed dit met mij?
 \end_layout
 
 \begin_layout Standard
@@ -1932,7 +2956,7 @@ Tot slot geeft het ook aan dat het belangrijk is om in de landbouw een zicht
 \end_layout
 
 \begin_layout Standard
-Een positieve impact ? Wat is een positieve impact ? Je kunt in eerste instantie
+Een positieve impact? Wat is een positieve impact? Je kunt in eerste instantie
  zeggen dat je een positieve impact hebt als er minder impact is dan het
  huidige gangbare systeem.
  Maar dan kun je nog altijd een feitelijke negatieve impact hebben.
