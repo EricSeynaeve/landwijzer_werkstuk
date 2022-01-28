@@ -75,6 +75,7 @@ boxedfloat
 \biblio_style abbrvnat
 \biblatex_bibstyle alphabetic
 \biblatex_citestyle alphabetic
+\multibib part
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -123,7 +124,7 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Chapter
+\begin_layout Part
 Inleiding
 \end_layout
 
@@ -132,6 +133,22 @@ Hallo beste lezer.
  Bedankt om dit verdiepend werkstuk eens vast te nemen.
  Hopelijk kan het je genoeg boeien en kun je er interessante informatie
  uit vinden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{chapter}{1}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1604,8 +1621,24 @@ op een bepaald moment loop je het risico dat de maatschappelijke kosten
  
 \end_layout
 
-\begin_layout Chapter
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/permaculture"
+options "bibtotoc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
 De doctoraatsthesis van Meino Smit
+\end_layout
+
+\begin_layout Chapter
+Het waarom en de hoe
 \end_layout
 
 \begin_layout Standard
@@ -1642,9 +1675,11 @@ literal "false"
 .
  Hij heeft hiervoor een aantal factoren bekeken vanaf 1950, het moment dat
  de grote industrialisatie van de landbouw opmars begon te maken, tot 2015.
+ Dit brengt dan de invloed in kaart van de ontwikkeling van een vrij traditionel
+e vorm van landbouw tot de hedendaags gangbare landbouw.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Wie is Meino Smit?
 \end_layout
 
@@ -1657,7 +1692,7 @@ Hiervoor was hij werkzaam rond duurzaamheid in waterbeheer na in 1975 afgestuurd
  te zijn aan de Landbouwhogeschool Wageningen met een focus op hydrologie.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Waarom heeft ie dat doctoraat gedaan?
 \end_layout
 
@@ -1702,7 +1737,7 @@ Een belangrijke opmerking is wel dat Meino Smit de Nederlandse landbouw
  Dus alle cijfers gelden voor de landbouw in het algemeen.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Wat kan je verwachten van deze samenvatting?
 \end_layout
 
@@ -1799,7 +1834,7 @@ kort geef ik ook een overzicht van zijn voorstel rond een duurzame landbouw
 \begin_inset space ~
 \end_inset
 
-15.
+15 en 13.
 \end_layout
 
 \begin_layout Enumerate
@@ -1845,11 +1880,11 @@ eventuele foute interpretaties of overnames in cijfermateriaal zijn niet
  Mijn welgemeende verontschuldigingen aan Meino Smit hiervoor.
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Inleiding
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Achtergrond
 \end_layout
 
@@ -2181,7 +2216,7 @@ beschikbaarheid van schoon water.
 Laat dit net factoren zijn waar landbouw een belangrijke rol speelt.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Productiefactoren
 \end_layout
 
@@ -2208,7 +2243,7 @@ elten, minder arbeid door niet-kerende grondbewerkingen, minder kapitaal
 Laten we even kijken wat speciaal is aan deze productie factoren.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Grond
 \end_layout
 
@@ -2224,7 +2259,7 @@ De totale hoeveelheid grond kan je in een land niet veranderen.
  toe te kennen aan de landbouw of omgekeerd.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Kapitaal
 \end_layout
 
@@ -2340,7 +2375,7 @@ Tot slot neemt de bevolking toe samen met de ongelijkheid in verdeling van
 Hierdoor zitten we in een steeds versnellende cyclus van verbruik.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Arbeid
 \end_layout
 
@@ -2401,7 +2436,7 @@ Oh ja, zoals het onze soort siert wordt enkel menselijke arbeid beschouwd.
  Paarden en ossen worden onder kapitaal gecatalogeerd.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Een paar definities
 \end_layout
 
@@ -2412,7 +2447,13 @@ Om te zorgen dat we over hetzelfde praten, heeft Meino een aantal zaken
  dezelfde richting te houden.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Landbouw"
+
+\end_inset
+
 Landbouw
 \end_layout
 
@@ -2453,7 +2494,11 @@ Visserij wordt klassiek buiten de landbouw gerekend.
  een sector is die energetisch nog veel minder efficiënt is dan veeteelt.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
+Ook houdt Meino Smit geen rekening met bosbouw.
+\end_layout
+
+\begin_layout Subsection
 Duurzaamheid
 \end_layout
 
@@ -2482,11 +2527,114 @@ Bij Meino Smit wordt duurzaamheid bekeken met het oog op het produceren
  van goederen en diensten met zo weinig mogelijk energie, grondstoffen en
  landgebruik en het veroorzaken van zo weinig mogelijk negatieve effecten
  op de omgeving.
- 
+\end_layout
+
+\begin_layout Standard
+Om de duurzaamheid te berekenen gebruikt hij de volgende kengetallen:
+\end_layout
+
+\begin_layout Enumerate
+output van de landbouw, zowel in energetische waarde als gewicht
+\end_layout
+
+\begin_layout Enumerate
+input voor de landbouw, zowel in energetische waarde als gewicht
+\end_layout
+
+\begin_layout Enumerate
+landgebruik van de landbouw
+\end_layout
+
+\begin_layout Enumerate
+arbeid voor de landbouw
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Kengetallen"
+
+\end_inset
+
+Kengetallen
+\end_layout
+
+\begin_layout Standard
+Dit is een summier overzicht van de gebruikte kengetallen.
+ Meer details hierover zijn te vinden in hoofdstuk [TODO].
 \end_layout
 
 \begin_layout Subsubsection
-Directe/indirecte productiefactoren
+output
+\end_layout
+
+\begin_layout Standard
+De output van de landbouw is bepaald aan de hand van de geleverde landbouwproduc
+ten, tot aan de uitgang van de boerderij.
+ De verdere verwerking en distributie is niet in rekening gebracht.
+ De thesis gaat dus puur over de landbouw.
+ We zullen in andere delen van dit verdiepend werkstuk zien dat de landbouw
+ in de energie verbruik van de volledige voedingsketen (van grond tot mond)
+ maar een beperkt aandeel heeft.
+\end_layout
+
+\begin_layout Standard
+Voor de gewichtswaarde is het tonnage genomen.
+ De energiewaarde is bepaald aan de hand van de voedingswaarde van de producten.
+\end_layout
+
+\begin_layout Standard
+Output van de niet-voedingsglastuinbouw is niet meegerekend.
+\end_layout
+
+\begin_layout Subsubsection
+input
+\end_layout
+
+\begin_layout Standard
+De input in energie is bepaald aan de hand van de benodigde energie in het
+ volledige productieproces.
+ Hierbij is onderscheid gemaakt tussen directe en indirecte energetische
+ input.
+ Hierbij wordt gekeken naar het gebruik van fossiele brandstoffen en duurzame
+ energie.
+ De zonlicht die gebruikt wordt voor de fotosynthese en de energie inherent
+ aan menselijke arbeid worden hier niet beschouwd.
+\end_layout
+
+\begin_layout Standard
+Voor de input in gewicht is gekeken naar [TODO].
+ Hierbij is geen onderscheid gemaakt tussen directe en indirecte input.
+\end_layout
+
+\begin_layout Subsubsection
+arbeid
+\end_layout
+
+\begin_layout Standard
+Hierbij is gekeken naar het aantal voltijds equivalenten die tewerkgesteld
+ is voor de Nederlandse landbouw.
+ Dit is zowel een direct deel als een indirect deel.
+\end_layout
+
+\begin_layout Subsubsection
+landgebruik
+\end_layout
+
+\begin_layout Standard
+De hoeveelheid grond die nodig is voor Nederland om aan landbouw te kunnen
+ doen.
+ Ook dit bevat een direct deel en een indirect deel.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Direct/indirect"
+
+\end_inset
+
+Directe / indirecte productiefactoren
 \end_layout
 
 \begin_layout Standard
@@ -2496,10 +2644,10 @@ Een belangrijke bijdrage van het werk van Meino Smit is het beschouwen van
 \end_layout
 
 \begin_layout Standard
-Maar eerst de klassiek gekende directe productiefactoren.
+Maar eerst even ingaan op de directe productiefactoren.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection*
 Directe productiefactoren
 \begin_inset Newline newline
 \end_inset
@@ -2519,7 +2667,7 @@ We kunnen bij de verschillende productiefactoren volgende directe delen
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Grond direct landgebruik is het areaal landbouwgrond in Nederland zelf.
+Grond directe landgebruik is het areaal landbouwgrond in Nederland zelf.
 \end_layout
 
 \begin_layout Labeling
@@ -2530,11 +2678,11 @@ Arbeid directe arbeid is het aantal mensen dat rechtstreeks werkzaam is
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Kapitaal direct energiegebruik zijn de fossiele brandstoffen die direct
+Kapitaal directe energiegebruik zijn de fossiele brandstoffen die direct
  in de landbouw gebruikt worden.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection*
 Indirecte productiefactoren
 \begin_inset Newline newline
 \end_inset
@@ -2558,10 +2706,10 @@ We kunnen bij de verschillende productiefactoren volgende indirecte delen
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Grond indirect landgebruik is land dat gebruik wordt voor de Nederlandse
+Grond indirecte landgebruik is land dat gebruik wordt voor de Nederlandse
  landbouw maar niet direct gekoppeld is aan een perceel Nederlandse landbouwgron
 d.
- Hmm, voorbeelden zijn hier wel op hun plaats:
+ Hmm, om dat duidelijk te maken zijn voorbeelden hier wel op hun plaats:
 \end_layout
 
 \begin_deeper
@@ -2603,7 +2751,7 @@ Een deel van de werknemers van de bovenstaande kunstmest fabriek.
 \end_deeper
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Kapitaal indirect energieverbruik is energie die nodig is om productiefactoren
+Kapitaal indirecte energieverbruik is energie die nodig is om productiefactoren
  die in de Nederlandse landbouw gebruikt worden te produceren, transporteren
  en distribueren.
  Dat is weeral een zeer zin, dus wat voorbeelden:
@@ -2656,8 +2804,29 @@ Zoals je merkt, moet de waarde van de indirecte productiefactoren berekend
  Dat maakt de discussie er niet eenvoudiger op!
 \end_layout
 
-\begin_layout Subsubsection
-Hernieuwbaar/niet hernieuwbare productiefactoren
+\begin_layout Standard
+Een extra complicatie is dat het aandeel van de niet-voedingsglastuinbouw
+ afgesplitst moet worden van de gegevens.
+ Als dit niet direct kan, worden de waarden voor glastuinbouw opgedeeld
+ aan de hand van de verhouding in het oppervlakte tussen voedings- en niet-voedi
+ngsglastuinbouw
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+In 1950 was 90% van de oppervlakte glastuinbouw gebruikt voor voeding.
+ In 2015 is dat nog maar 50%.
+\end_layout
+
+\end_inset
+
+.
+ Dit is vooral belangrijk bij het energie gebruik omdat het aandeel van
+ glastuinbouw in directe energetische input ongeveer 80% is.
+\end_layout
+
+\begin_layout Subsection
+Hernieuwbare / niet hernieuwbare productiefactoren
 \end_layout
 
 \begin_layout Standard
@@ -2699,47 +2868,977 @@ Voor de duurzaamheid is het belangrijk dat je hernieuwbare productiefactoren
  duurzaam.
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Doel van de thesis
 \end_layout
 
 \begin_layout Section
-Presentatie van de gegeven
+Onderzoeksvragen
+\end_layout
+
+\begin_layout Standard
+In zijn thesis definieert Meino Smit volgende onderzoeksvragen:
+\end_layout
+
+\begin_layout Enumerate
+wat is duurzaamheid.
+\end_layout
+
+\begin_layout Enumerate
+op welke wijze kan duurzaamheid worden bepaald.
+\end_layout
+
+\begin_layout Enumerate
+hoe heeft de duurzaamheid van de landbouw zich ontwikkeld in de periode
+ 1950 t/m 2015, op basis van
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+de opbrengsten van de landbouw.
+\end_layout
+
+\begin_layout Enumerate
+het gebruik van energie en grondstoffen.
+\end_layout
+
+\begin_layout Enumerate
+het landgebruik.
+\end_layout
+
+\begin_layout Enumerate
+de ingezette arbeid.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+hoe groot zijn (indicatief) de maatschappelijke kosten van de landbouw,
+ ook in relatie tot de economische opbrengsten.
+\end_layout
+
+\begin_layout Enumerate
+hoeveel voeding is nodig voor de bevolking van Nederland en hoeveel landbouwgron
+d is daarvoor nodig, bij zo weinig mogelijk export en import.
+\end_layout
+
+\begin_layout Enumerate
+kan de Nederlandse landbouwgrond voldoende worden bemest met de reststromen
+ van organisch materiaal die in Nederland vrij komen.
+\end_layout
+
+\begin_layout Enumerate
+aan welke randvoorwaarden zal de landbouw in de periode 2016 t/m 2040 moeten
+ gaan voldoen (akkoord van Parijs).
+\end_layout
+
+\begin_layout Enumerate
+hoe zou de landbouw er dan (in 2040) uit kunnen zien.
+ 
+\end_layout
+
+\begin_layout Standard
+Ik zal hier, in het kaden van het bestuderen van externe kosten, vooral
+ focussen op vragen 1 t.e.m.
+ 4.
+ Vragen 5, 7 en 8 behandel ik summier in de samenvatting over zijn voorstel
+ van een landbouw van de toekomst.
+ Hoe interessant vraag 6 ook is, hij zal niet behandeld worden omdat dit
+ buiten het onderwerp van dit verdiepend werkstuk valt.
 \end_layout
 
 \begin_layout Section
-Geïdentificeerde externe kosten
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Gebruikte-bronnen"
+
+\end_inset
+
+Gebruikte bronnen
+\end_layout
+
+\begin_layout Standard
+Om tot de waarden te komen van de kengetallen van 1950 t.e.m.
+ 2015 werden openbare bronnen gebruikt.
+ Deze waren in het beste geval volledig beschikbaar voor die periode met
+ de gewenste gegevens.
+ Deze inventarisatie is voor elke 5 jaar gedaan.
+\end_layout
+
+\begin_layout Standard
+In andere gevallen waren de gegevens onvolledig, werd er in de loop van
+ de tijd van methodiek veranderd of waren de gegevens niet rechtstreeks
+ beschikbaar.
+\end_layout
+
+\begin_layout Standard
+In het geval dat de methodiek in de loop van de tijd veranderd is, werden
+ alle gegevens op dezelfde noemer herrekend.
+ Denk bijvoorbeeld aan de overgang naar de euro, toevoegen of weglaten van
+ bepaalde sectoren,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Als de gegevens onvolledig waren, is gepoogd om ze te reconstrueren.
+\end_layout
+
+\begin_layout Standard
+Meer details over dit proces vind je in hoofdstuk
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Presentatie-gegevens"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset Quotes pld
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Presentatie-gegevens"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Quotes prd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
-Vanuit de factor arbeid
+Algemene bronnen
+\end_layout
+
+\begin_layout Description
+CBS Dit zijn de gegevens van het Nederlandse Centraal Bureau voor de Statistiek.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Hiermee zijn volgende kengetallen bepaald:
+\end_layout
+
+\begin_layout Itemize
+output in gewicht (per sector)
+\end_layout
+
+\begin_layout Itemize
+directe landgebruik
+\end_layout
+
+\begin_layout Itemize
+directe arbeid
+\end_layout
+
+\begin_layout Itemize
+prijsindex om de prijzen te herberekenen
+\end_layout
+
+\begin_layout Itemize
+[TODO]
+\end_layout
+
+\end_deeper
+\begin_layout Description
+LEI Dit zijn de gegevens van het Nederlandse Landbouw Economisch Instituut
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Hiermee zijn volgende gegevens bepaald:
+\end_layout
+
+\begin_layout Itemize
+output in gewicht (per sector)
+\end_layout
+
+\begin_layout Itemize
+directe landgebruik
+\end_layout
+
+\begin_layout Itemize
+directe arbeid
+\end_layout
+
+\begin_layout Itemize
+[TODO]
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Energetische output
+\end_layout
+
+\begin_layout Standard
+Om de gewichten om te zetten in voedingswaarde is gebruikt gemaakt van cijfers
+ uit het Nederlands Voedingsstoffenbestand (NEVO) van het Rijksinstituut
+ voor Volksgezondheid en Milieu
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "voeding2016"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ook is rekening gehouden met de directe energetische output van de landbouw.
+ Dit is vooral via de warmte-krachtkoppeling in de glastuinbouw.
+ Dit is mee in rekening gebracht bij de energetische output.
+ Het aandeel aan biogas, zonne-energie en wind energie is binnen de landbouw
+ als relatief gering ingeschat en niet meegenomen.
 \end_layout
 
 \begin_layout Subsection
-Vanuit de factor energie
+Directe energetische input
+\end_layout
+
+\begin_layout Standard
+Hierbij wordt elektriciteit die in de glastuinbouw geproduceerd wordt en
+ intern afgenomen wordt ook in rekening gebracht.
 \end_layout
 
 \begin_layout Subsection
-Vanuit de factor gewicht
+Indirecte energetische input
+\end_layout
+
+\begin_layout Standard
+Hiervoor is gebruik gemaakt van verschillende databases zoals Ecoinvent,
+ de ICE Database, IPCC, verschillende andere bronnen en analyses van Meino
+ Smit.
+\end_layout
+
+\begin_layout Standard
+Het bepalen is van deze waarde is maar ten dele mogelijk omdat niet alles
+ over de inherente energie (kader
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "box:Inherente-energie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) van bijvoorbeeld een gebouw gekend is (hiervan kan momenteel maximaal
+ 75% van de inherente energie ingeschat worden).
+\end_layout
+
+\begin_layout Standard
+Het is dus zo dat de de gebruikte waarden eerder een onderschatting zijn
+ van de energetische input.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float boxfloat
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+Inherente energie van een product wordt ook 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Embodied Energy
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ genoemd.
+ Dit is alle energie die in een product is opgeslagen, dus inclusief alle
+ energie die nodig is geweest om het product te maken.
+ Simpelweg genomen bestaat deze uit:
+\end_layout
+
+\begin_layout Enumerate
+de verbrandingswaarde van het product.
+ Dit is de energie inhoud van het product zelf zoals de voedingswaarde van
+ een kilo wortelen of de energie die vrijkomt bij het verbranden van een
+ liter stookolie.
+\end_layout
+
+\begin_layout Enumerate
+de energie die nodig geweest is om het product te produceren, inclusief
+ de energie om de grondstoffen van het product te produceren.
+ Wat allemaal in kaart gebracht moet worden wordt bepaald door een 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Live Cycle Analysis
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(LCA).
+ Hiermee kan de 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Gros Energy Requirement
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(GER) bepaald worden, de hoeveelheid energie die nodig is voor de productie
+ van een bepaald product, materiaal of stof (inclusief de energie om de
+ grondstoffen te produceren), beginnend met de primaire energiedragers.
+ Zowel van de LCA als de GER bestaan er gegevens zodat je een eigen analyse
+ kunt maken.
+\begin_inset Newline newline
+\end_inset
+
+Dit omvat de energie die nodig is voor het winnen, transporteren en bewerken
+ van zowel de energie als de grondstoffen, het brandstof- en elektriciteitsgebru
+ik van het productieproces zelf en de energie die nodig is voor het maken
+ en onderhouden van de productiemiddelen.
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "box:Inherente-energie"
+
+\end_inset
+
+Inherente energie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Het indirecte energieverbruik van de Nederlandse landbouw bestaat uit de
+ inherente energie van de kapitaalgoederen (gebouwen, machines, infrastructuur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) en de hulpmiddelen (mest, gewasbeschermingsmiddelen, voer,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ In paragraaf 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:bekeken-sectoren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ wordt een opsomming gegeven van welke economische sectoren hier allemaal
+ een rol spelen.
+\end_layout
+
+\begin_layout Standard
+Voor producten die meerdere jaren gebruikt worden zoals tractoren, serres,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ is een lineaire afschrijvingsperiode gebruikt.
+ Hierbij is rekening gehouden met het vermelde feit dat investeringen minder
+ lang meegaan dan vroeger.
 \end_layout
 
 \begin_layout Subsection
-Vanuit de factor landgebruik
+Indirecte landgebruik
+\end_layout
+
+\begin_layout Standard
+Deze is gebaseerd op een groot aantal gegevens over fabrieksterreinen, infrastru
+ctuur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ aan hand waarvan een aandeel aan de Nederlandse landbouw is toegekend.
+\end_layout
+
+\begin_layout Subsection
+Indirecte arbeid
+\end_layout
+
+\begin_layout Standard
+Deze is gebaseerd op een groot aantal gegevens over aantallen werknemers,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ aan hand waarvan een aandeel aan de Nederlandse landbouw is toegekend.
 \end_layout
 
 \begin_layout Section
-Elektronica, hernieuwbare energie en duurzaamheid
+Efficiëntie van de landbouw
+\end_layout
+
+\begin_layout Standard
+Aan de hand van een aantal indicatoren is het de bedoeling om het verloop
+ van de duurzaamheid van de landbouw te kunnen beoordelen van 1950 tot 2015.
+ Klassiek gebruikt men de arbeidsproductiviteit en economische indicatoren.
+ Deze hebben echter een aantal problemen.
+ Meino Smit gebruikt eerder indicatoren die gebaseerd zijn op energie.
+\end_layout
+
+\begin_layout Subsection
+Problemen met het gebruik van arbeidsproductiviteit
+\end_layout
+
+\begin_layout Standard
+Klassiek wordt de efficiëntie van de landbouw gemeten in arbeidsproductiviteit:
+ het aantal ha dat 1 voltijds equivalent bewerkt of hoeveel ton 1 voltijds
+ equivalent oogst per jaar.
+ Op deze basis maakt men dan economische keuzes, zowel als boer maar ook
+ op beleidsniveau.
+ Er zijn echter een aantal problemen verbonden aan deze manier van werken:
+\end_layout
+
+\begin_layout Itemize
+een groot probleem is dat klassiek enkel gekeken wordt naar de directe productie
+factoren, zoals voorgesteld in figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeidsproductiviteit-klassiek"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Dit klopt echter niet.
+ Er is namelijk arbeid, grond en energie verschoven naar het buitenland
+ of andere sectoren.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../ondersteunende documenten/input_output_nederland.svg
+	height 4cm
+	groupId generic
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeidsproductiviteit-klassiek"
+
+\end_inset
+
+De klassieke manier om naar arbeidsproductiviteit te kijken: enkel directe
+ productiefactoren worden meegenomen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+enkel naar de directe productiefactoren kijken, geven dat een stijging van
+ arbeidsproductiviteit ook een stijging van de indirecte productiefactoren
+ meebrengt.
+\end_layout
+
+\begin_layout Itemize
+maatschappelijke kosten zoals vervuiling, uitputting van voorraden,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ worden niet bekeken in deze manier van meten.
+ Deze kosten worden ofwel op de volledige Nederlandse maatschappij afgewenteld
+ (bv.
+ vervuiling van grondwater, verminderen van de kwaliteit van de omgeving),
+ naar het buitenland verschoven (bv.
+ vervuiling bij mijnbouw) of naar de toekomst verschoven (bv.
+ herstel van bodemvruchtbaarheid).
+\end_layout
+
+\begin_layout Standard
+Dit geeft een vertekend beeld van de efficiëntie.
+ Op zijn minst moeten de indirecte productiefactoren meegenomen worden,
+ zoals voorgesteld in figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeidsproductiviteit-volledig"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Hierbij worden dus ook de arbeid, energie en het landgebruik meegenomen
+ die buiten de Nederlandse landbouwsector zitten.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../ondersteunende documenten/input_output_wereld.svg
+	height 4cm
+	groupId generic
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeidsproductiviteit-volledig"
+
+\end_inset
+
+Een meer volledig plaatje om de input van de Nederlandse landbouw te bepalen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maar zelfs dan geeft de arbeidsproductiviteit nog geen volledig beeld van
+ de prestaties van de landbouw.
+ Het is zelfs gevaarlijk om enkel hierop te focussen omdat een streven naar
+ hogere arbeidsproductiviteit leidt tot schaalvergroting om de druk op te
+ prijzen te compenseren.
+ Hierdoor wordt de verwevenheid van het landbouwbedrijf en de omgeving doorbroke
+n en wordt het ook moeilijker om een ecologische dimensie toe te voegen
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 28"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Problemen met een focus op de prijs
+\end_layout
+
+\begin_layout Standard
+Meino Smit ziet een aantal verstoringen die maken dat afwegingen op basis
+ van prijs niet optimaal zijn:
+\end_layout
+
+\begin_layout Itemize
+maatschappelijke kosten komen ten laste van de algemene middelen of worden
+ naar de toekomst verschoven.
+ Hierdoor bepaald de prijs de waarde van vandaag maar reflecteert het niet
+ de kosten van morgen.
+\end_layout
+
+\begin_layout Itemize
+overheidsmaatregelen zoals subsidies, importheffingen,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ beïnvloeden de afwegingen.
+\end_layout
+
+\begin_layout Itemize
+energie en grondstoffen worden in de toekomst moeilijker verkrijgbaar wat
+ nog niet meegenomen wordt in de afwegingen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Bij een schaarste stijgen de prijzen van grondstoffen en energie.
+ Enkel vertrouwen op dit marktmechanisme zorgt dat we echter te laat reageren
+ omdat een overschakeling naar andere grondstoffen, energiedragers of een
+ ander landbouwsysteem tijd vraagt.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+niet-energetische overwegingen zoals de kwaliteit van levensmiddelen, behoud
+ van culturele waarden,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ zijn moeilijk mee te nemen in de prijs.
+\end_layout
+
+\begin_layout Standard
+Een puur economische afweging zorgt ervoor dat arbeid vervangen wordt door
+ kapitaal.
+ Dit verhoogt de nood aan grondstoffen en energie.
+ Hierdoor is landbouw telkens meer afhankelijk geworden van fossiele energie.
+ Aangezien er meer energie verbruikt wordt dan er bijkomt, verminderd dit
+ de voedselzekerheid naar de toekomst toe.
+\end_layout
+
+\begin_layout Standard
+Deze afwegingen meenemen, impliceert dat er minder kapitaal gebruikt mag
+ worden in de landbouw.
+ Hierdoor zal kapitaal vervangen moeten worden door arbeid.
+ In het huidige systeem zal dat de directe kostprijs van de landbouw verhogen.
+\end_layout
+
+\begin_layout Standard
+Dit houdt echter geen rekening met de impact hiervan op de maatschappelijke
+ kosten.
+ Als deze aanzienlijk zouden dalen, is de maatschappij dan niet beter af?
+\end_layout
+
+\begin_layout Subsection
+Energie efficiëntie als maat van duurzaamheid
+\end_layout
+
+\begin_layout Standard
+Om de duurzaamheid van de landbouw te meten, stelt Meino Smit voor om de
+ zaken in energie uit te drukken.
+ Hoewel dit ook niet alles meeneemt, zou energie een betere indicator kunnen
+ zijn voor de maatschappelijke kosten van de landbouw dan geld omdat een
+ stijging (of daling) in het gebruik van energie meestal ook een stijging
+ (of daling) in de maatschappelijke kosten teweeg brengt.
+\end_layout
+
+\begin_layout Standard
+Zijn belangrijkste indicator is dan de energie efficiëntie:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\textrm{Energie efficiëntie}=\frac{\textrm{de nuttige output van het productieproces}}{\textrm{de energie input in dat proces}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hierbij neemt Meino Smit de nuttige output als de energetische voedingswaarde
+ van de geproduceerde landbouwproducten.
+\end_layout
+
+\begin_layout Standard
+Andere indicatoren worden opgebouwd met behulp van
+\end_layout
+
+\begin_layout Itemize
+de gewicht opbrengsten van de landbouw
+\end_layout
+
+\begin_layout Itemize
+de energetische opbrengsten van de landbouw
+\end_layout
+
+\begin_layout Itemize
+de totale gewicht input
+\end_layout
+
+\begin_layout Itemize
+de totale energetische input
+\end_layout
+
+\begin_layout Itemize
+het totale landgebruik
+\end_layout
+
+\begin_layout Itemize
+de hoeveelheid arbeid
+\end_layout
+
+\begin_layout Standard
+De totale input is de directe en indirecte input samen.
+\end_layout
+
+\begin_layout Standard
+Zoals aangegeven paragraaf 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Gebruikte-bronnen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset Quotes pld
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Gebruikte-bronnen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Quotes prd
+\end_inset
+
+ zijn er onzekerheden in de waarden door onvolledigheden van geregistreerde
+ data.
+ Het dus belangrijker te kijken naar trends over de jaren heen.
 \end_layout
 
 \begin_layout Section
-Voorstel voor duurzame landbouw, rekening houdend met de externe kosten
+De gebruikte grenzen
+\end_layout
+
+\begin_layout Standard
+Bij elke analyse is het nuttig om te kijken wat je grenzen zijn.
+ Hierdoor is het duidelijk wat wel en niet meegenomen wordt.
+\end_layout
+
+\begin_layout Standard
+De output bevat de Nederlandse landbouw.
+ Zoals aangegeven in paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Landbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, is dit zonder de niet-voedingsglastuinbouw, visserij en bosbouw.
+ Verder wordt enkel de keten tot aan de uitgang van de boerderij beschouwd.
+ Verdere verwerking en distributie van de voedingsmiddelen worden hier niet
+ meegenomen.
+\end_layout
+
+\begin_layout Standard
+Voor de input zijn geen geografische grenzen genomen (zie ook paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Direct/indirect"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+In de tijd wordt er elke 5 jaar een stand van zaken genomen tussen 1950
+ en 2015.
+\end_layout
+
+\begin_layout Standard
+Verdere gebruikte grenzen van de productiefactoren (output, input, arbeid
+ en landgebruik) kan je vinden in paragraaf 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kengetallen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Quotes pld
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "subsec:Kengetallen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Quotes prd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
-Samenvatting
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:bekeken-sectoren"
+
+\end_inset
+
+De bekeken sectoren bij de input
 \end_layout
 
 \begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Presentatie-gegevens"
+
+\end_inset
+
+Presentatie van de gegevens
+\end_layout
+
+\begin_layout Chapter
+Geïdentificeerde externe kosten
+\end_layout
+
+\begin_layout Section
+Vanuit de factor arbeid
+\end_layout
+
+\begin_layout Section
+Vanuit de factor energie
+\end_layout
+
+\begin_layout Section
+Vanuit de factor gewicht
+\end_layout
+
+\begin_layout Section
+Vanuit de factor landgebruik
+\end_layout
+
+\begin_layout Chapter
+Elektronica, hernieuwbare energie en duurzaamheid
+\end_layout
+
+\begin_layout Chapter
+Voorstel voor duurzame landbouw, rekening houdend met de externe kosten
+\end_layout
+
+\begin_layout Chapter
+Samenvatting
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/permaculture,/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/meino smit"
+options "bibtotoc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
 Leach - klad
 \end_layout
 
