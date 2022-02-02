@@ -474,7 +474,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 1a.jpg
+	filename ondersteunende documenten/figuren/externe kost 1a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -529,7 +529,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 1b.jpg
+	filename ondersteunende documenten/figuren/externe kost 1b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -593,7 +593,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 1c.jpg
+	filename ondersteunende documenten/figuren/externe kost 1c.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -705,7 +705,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 2a.jpg
+	filename ondersteunende documenten/figuren/externe kost 2a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -777,7 +777,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 2b.jpg
+	filename ondersteunende documenten/figuren/externe kost 2b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -887,7 +887,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 3a.jpg
+	filename ondersteunende documenten/figuren/externe kost 3a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -950,7 +950,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 3b.jpg
+	filename ondersteunende documenten/figuren/externe kost 3b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1070,7 +1070,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 4a.jpg
+	filename ondersteunende documenten/figuren/externe kost 4a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1133,7 +1133,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 4b.jpg
+	filename ondersteunende documenten/figuren/externe kost 4b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1265,7 +1265,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 5a.jpg
+	filename ondersteunende documenten/figuren/externe kost 5a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1387,7 +1387,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 5b.jpg
+	filename ondersteunende documenten/figuren/externe kost 5b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1431,7 +1431,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 5c.jpg
+	filename ondersteunende documenten/figuren/externe kost 5c.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1475,7 +1475,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 5d.jpg
+	filename ondersteunende documenten/figuren/externe kost 5d.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1573,7 +1573,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/externe kost 5e.jpg
+	filename ondersteunende documenten/figuren/externe kost 5e.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1625,7 +1625,7 @@ op een bepaald moment loop je het risico dat de maatschappelijke kosten
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/permaculture"
+bibfiles "ondersteunende documenten/permaculture"
 options "bibtotoc"
 
 \end_inset
@@ -3444,7 +3444,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/input_output_nederland.svg
+	filename ondersteunende documenten/figuren/input_output_nederland.svg
 	height 4cm
 	groupId generic
 
@@ -3524,7 +3524,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/input_output_wereld.svg
+	filename ondersteunende documenten/figuren/input_output_wereld.svg
 	height 4cm
 	groupId generic
 
@@ -4777,7 +4777,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../ondersteunende documenten/energy distribution.svg
+	filename ondersteunende documenten/figuren/energy distribution.svg
 	height 4cm
 	groupId generic
 
@@ -5022,7 +5022,7 @@ Dit was dan het einde van de rondleiding door het mooie huis van Meino Smit.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/permaculture,/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/meino smit"
+bibfiles "ondersteunende documenten/permaculture,ondersteunende documenten/meino smit"
 options "bibtotoc"
 
 \end_inset
@@ -5290,7 +5290,7 @@ Dit is allemaal een belangrijk aspect naar buiten toe.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "/home/eric/Nextcloud/Landwijzer/True cost of food/ondersteunende documenten/permaculture"
+bibfiles "ondersteunende documenten/permaculture"
 options "bibtotoc,abbrvnat"
 
 \end_inset
