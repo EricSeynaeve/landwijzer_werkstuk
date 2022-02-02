@@ -1449,7 +1449,7 @@ name "fig:Umbalio-in-tractor-ronde-2"
 \end_inset
 
 \SpecialChar ldots
- is meer dan je denkt!
+ is meer dan je denkt.
 \end_layout
 
 \end_inset
@@ -1897,7 +1897,7 @@ eventuele foute interpretaties of overnames in cijfermateriaal zijn niet
 \end_layout
 
 \begin_layout Chapter
-De inkomhal
+Start van de rondleiding
 \end_layout
 
 \begin_layout Section
@@ -2856,7 +2856,7 @@ Voor de duurzaamheid is het belangrijk dat je hernieuwbare productiefactoren
 \end_layout
 
 \begin_layout Chapter
-De fundamenten
+De fundamenten: wat en hoe
 \end_layout
 
 \begin_layout Standard
@@ -3425,7 +3425,7 @@ een groot probleem is dat klassiek enkel gekeken wordt naar de directe productie
 factoren, zoals voorgesteld in figuur 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:arbeidsproductiviteit-klassiek"
+reference "fig:arbeidsproductiviteit-schets-klassiek"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3439,7 +3439,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3456,7 +3456,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:arbeidsproductiviteit-klassiek"
+name "fig:arbeidsproductiviteit-schets-klassiek"
 
 \end_inset
 
@@ -3501,7 +3501,7 @@ Dit geeft een vertekend beeld van de efficiëntie.
  zoals voorgesteld in figuur 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:arbeidsproductiviteit-volledig"
+reference "fig:arbeidsproductiviteit-schets-volledig"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3515,11 +3515,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3536,7 +3532,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:arbeidsproductiviteit-volledig"
+name "fig:arbeidsproductiviteit-schets-volledig"
 
 \end_inset
 
@@ -4960,11 +4956,913 @@ name "chap:Presentatie-gegevens"
 
 \end_inset
 
-De keuken
+De goodies opgediend
+\end_layout
+
+\begin_layout Standard
+Welkom in de keuken, het hart van het huis.
+ Hier vind je de lekkere zaken klaargemaakt en opgediend.
+ Op het recept vandaag: kleurrijke grafieken overgoten met een (in)direct
+ sausje, begeleid door een bespreking van de chef.
+\end_layout
+
+\begin_layout Standard
+Smakelijk!
+\end_layout
+
+\begin_layout Section
+Arbeid
+\end_layout
+
+\begin_layout Subsection
+Directe arbeid
+\end_layout
+
+\begin_layout Standard
+Hoeveel volk werkt er in de Nederlandse landbouw ? Klassiek krijg je iets
+ te zien zoals in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeid-klassiek"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - arbeid - klassiek.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeid-klassiek"
+
+\end_inset
+
+Klassiek beeld van arbeid in de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Er is een sterke afname te zien tussen 1950 en 2015, te wijten aan de mechanisat
+ie en schaalvergroting van de landbouw.
+ Dit is de arbeid die direct tewerkgesteld is in de Nederlandse landbouw
+ (boeren, loonwerkers,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ In 2015 zijn er ongeveer vijf keer minder mensen rechtstreeks tewerkgesteld
+ in de landbouw vergeleken met 1950.
+ Het aandeel van landbouwers in de beroepsbevolking is navenant ook gedaald:
+ van 13,4% in 1950 tot 1,4% in 2015
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dit is geen vijfde omdat de beroepsbevolking is in diezelfde tijdsspanne
+ gestegen is van 3,9
+\begin_inset space ~
+\end_inset
+
+miljoen tot 8,3
+\begin_inset space ~
+\end_inset
+
+miljoen personen.
+\end_layout
+
+\end_inset
+
+.
+ In 1807 was dit zelfs nog een aandeel van 43,1%.
+\end_layout
+
+\begin_layout Standard
+Deze trend is al zeer lang geleden ingezet door de vervanging van menselijke
+ spierkracht.
+ Eerst door dierlijke spierkracht zoals runderen of paarden, daarna door
+ machines.
+\end_layout
+
+\begin_layout Subsection
+Indirecte arbeid
+\end_layout
+
+\begin_layout Standard
+Zoals Meino Smit laat zien, is de werkelijkheid genuanceerder.
+ Er is namelijk ook indirecte arbeid betrokken bij de landbouw.
+ Tellen we die mee, dan krijgen we figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeid-reëel"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - arbeid - alles - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeid-reëel"
+
+\end_inset
+
+Een meer reëel beeld van de arbeid in de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Er is nog altijd een duidelijke afname in het aantal arbeidskrachten.
+ Maar het is minder uitgesproken dan voorheen.
+ In de invoeging is te zien dat de verhouding tussen de directe en de indirecte
+ arbeid in de loop van de tijd omgedraaid is: waar er vroeger veel meer
+ mensen rechtstreeks in de landbouw tewerkgesteld waren, zijn er nu meer
+ mensen indirect in de landbouw tewerkgesteld.
+ In 2015 was er voor elke boer in Nederland nog 1,7 persoon indirect bezig.
+\end_layout
+
+\begin_layout Standard
+Wat moeten we ons bij die indirecte arbeid voorstellen ? Dat zijn bijvoorbeeld
+ Braziliaanse boeren die soja telen die in de Nederlandse veeteelt gebruikt
+ wordt.
+ Of arbeiders die grondstoffen mijn zoals fosfaat of ijzer.
+ Of adviseurs in de landbouw.
+ Of arbeiders in rubberfabrieken die tractorbanden maken.
+\end_layout
+
+\begin_layout Standard
+De belangrijkste sectoren die indirecte arbeid leveren aan de landbouw zijn
+ veevoer, mijnbouw en dienstverlening, samen goed voor meer dan driekwart
+ van de indirecte arbeid.
+\end_layout
+
+\begin_layout Standard
+Veevoer is het verbouwen van veevoer in het buitenland, de transport en
+ verwerking van veevoer zoals fouragebedrijven, sojacrushers en de veevoederindu
+strie zelf.
+ Deze laatsten zijn bevinden zich ook in Nederland zelf, maar worden klassiek
+ niet bij de landbouwbedrijven gerekend.
+\end_layout
+
+\begin_layout Standard
+Mijnbouw is het delven en raffineren van benodigde grondstoffen.
+ Dit zijn metalen zoals ijzer voor de staal industrie, mineralen voor micronutri
+ënten, kalk voor kalkbemesting,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Het mijnen van fosfaten en kali zou opgenomen geweest zijn bij de kunstmest,
+ maar hiervoor ontbraken gegevens.
+\end_layout
+
+\begin_layout Standard
+Dienstverlening zijn personen die verbonden zijn met de landbouw zoals adviseurs
+, boekhouders,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ maar ook een deel van de ambtenaren bij de respectievelijke ministeries.
+\end_layout
+
+\begin_layout Standard
+Meino Smit maakt nog een aantal interessante kanttekeningen bij de soorten
+ van gebruikt krachtbron:
+\end_layout
+
+\begin_layout Itemize
+een persoon kan niet altijd nuttig bezig zijn.
+ Ten eerste is er in de levensduur van een persoon maar een beperkte periode
+ waarin deze actief kan zijn (grofweg tussen 20 en 70 jaar oud), in deze
+ periode dan ook niet elk uur van het jaar (slapen, ontspanning, eten,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ Dus moet een uur arbeid instaan voor het onderhoud van ongeveer 7,7 uur
+ van het volledige leven.
+\end_layout
+
+\begin_layout Itemize
+er is altijd een afhankelijkheid van menselijke arbeid.
+ Deze kan zeer indirect zijn zoals de programmeur van een melkrobot zonder
+ dewelke die melkrobot totaal niet kan werken.
+\end_layout
+
+\begin_layout Itemize
+machines hebben geen energie nodig om ze aan de gang te houden als ze niet
+ gebruikt worden.
+\end_layout
+
+\begin_layout Itemize
+de mantra vandaag is het vervangen van arbeid door mechanisatie.
+ Hierdoor is er een uitstoot van arbeid, een stijging van de milieubelasting,
+ een versnelde uitputting van grondstoffen, vorming van grotere organisaties.
+\end_layout
+
+\begin_layout Itemize
+spenderen we onze tijd, energie en grondstoffen wel op een nuttige manier
+ ? Waarom moet er zoveel werk gestoken worden in een systeem van automatische
+ plantenherkenning als dat door een mens zoveel sneller kan aangeleerd worden?
+\end_layout
+
+\begin_layout Itemize
+de menselijke spierkracht kan veel efficiënter ingezet worden door inzet
+ van kennis.
+ Bijvoorbeeld door gebruik van simpele gereedschappen zoals een schoffel,
+ door spierkracht aangedreven machines (kan iemand een schoffelmachine op
+ een fiets uitvinden?) of hulpmiddelen zoals kogellagers.
+ Hij doet dan ook een oproep om onderzoek in die richting terug op te pakken.
+\end_layout
+
+\begin_layout Itemize
+is de vervanging van menselijke arbeid door machines wel gepaard gegaan
+ met een toename van arbeidsvreugde, gezondheid en zingeving van het werk
+ ?
+\end_layout
+
+\begin_layout Itemize
+de voeding die nodig is om menselijke (en dierlijke) arbeid te verrichten
+ is in onze huidige maatschappij indirect een gebruik van fossiele energie.
+\end_layout
+
+\begin_layout Standard
+Het is belangrijk om rekening te houden met het feit dat niet alle indirecte
+ arbeid opgenomen is in de gegeven cijfers.
+ Bijvoorbeeld voor elektronica zijn mensen die de grondstoffen ervoor delven
+ niet opgenomen.
+ Ook zijn personen die nodig geweest zijn voor inpoldering, onderzoeken
+ van voedselschandalen, landinrichting,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ niet opgenomen.
+ Tevens zijn er een aantal (conservatieve) schattingen gedaan in bijvoorbeeld
+ de mijnbouw.
+\end_layout
+
+\begin_layout Standard
+Het aantal personen dat indirect voor de Nederlandse landbouw tewerkgesteld
+ is, ligt dus naar alle waarschijnlijkheid nog hoger, maar het exacte aantal
+ is zeer moeilijk te bepalen.
+ Dit doet echter geen afbreuk aan de trends:
+\end_layout
+
+\begin_layout Itemize
+een afname van de arbeid, zowel directe arbeid als indirecte arbeid,
+\end_layout
+
+\begin_layout Itemize
+een verschuiving van het directe naar indirecte arbeid
+\end_layout
+
+\begin_layout Itemize
+het aantal personen dat indirect tewerkgesteld is in de Nederlandse arbeid
+ is groter geworden dan het aantal personen dat direct tewerkgesteld is.
+\end_layout
+
+\begin_layout Section
+Landgebruik
+\end_layout
+
+\begin_layout Subsection
+Direct landgebruik
+\end_layout
+
+\begin_layout Standard
+Voor de hoeveelheid land die gebruikt wordt in de landbouw hebben we een
+ analoge situatie als voor de ingezette arbeid.
+\end_layout
+
+\begin_layout Standard
+Klassiek bekijkt men enkel het rechtstreeks gebruikte land zoals in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-klassiek"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-klassiek"
+
+\end_inset
+
+Klassiek beeld van het landgebruik in de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Het areaal aan landbouwgebied in Nederland toont ook een dalende trend,
+ zij het minder uitgesproken dan bij de arbeid.
+\end_layout
+
+\begin_layout Standard
+Figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-klassiek-per-inwoner"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ geeft het areaal landbouwgrond dat een Nederlander tot beschikking heeft.
+ De gekleurde band geeft aan wat er nodig is per persoon om voeding te kunnen
+ voorzien.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek - nodig.svg
+	width 50text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-klassiek-per-inwoner"
+
+\end_inset
+
+Landbouwareaal per inwoner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Het is dus te zien dat met enkel het landbouwareaal dat in Nederland ter
+ beschikking is, de Nederlandse bevolking niet gevoed kan worden.
+\end_layout
+
+\begin_layout Subsection
+Indirect landgebruik
+\end_layout
+
+\begin_layout Standard
+We krijgen een totaal ander beeld als we ook de gronden die indirect gebruikt
+ worden meenemen.
+ Het absoluut aantal gebruikte grond is te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-totaal"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-totaal"
+
+\end_inset
+
+Totaal aan gebruikte grond voor de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+We zien nu dat het totaal landgebruik eigenlijk toegenomen is.
+ Deze toename is quasi uitsluitend te wijten aan de import van veevoeder.
+ Hiervan situeert zich het merendeel in de rest van Europa voor het telen
+ van granen (1,8
+\begin_inset space ~
+\end_inset
+
+miljoen hectare), gevolgd door Zuid- en Centraal Amerika voor sojateelt
+ (1,3
+\begin_inset space ~
+\end_inset
+
+miljoen hectare) en Azië (0,5
+\begin_inset space ~
+\end_inset
+
+miljoen hectare voor o.a.
+ palmolie).
+ Het is wel de vraag in hoeverre het indirecte aandeel van de mijnbouw zou
+ stijgen als hier rekening gehouden zou worden met de milieu impact van
+ mijnbouw.
+\end_layout
+
+\begin_layout Standard
+Bijna de helft van deze gronden is gebruikt voor export uit Nederland.
+\end_layout
+
+\begin_layout Standard
+Het is ook te zien dat de hoeveelheid indirect landgebruik eerst sterk is
+ gestegen ten opzicht van de direct gebruikte landbouwareaal.
+ Vanaf 1975 is dit gestabiliseerd rond een verhouding van 1,7.
+\end_layout
+
+\begin_layout Standard
+Figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-totaal-per-inwoner"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ geeft weer wat dit betekend voor de hoeveelheid landbouwgrond die een Nederland
+se inwoner gebruikt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles - nodig.svg
+	width 50text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-totaal-per-inwoner"
+
+\end_inset
+
+Totaal landbouwareaal per inwoner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We zien nu dat dank zij het indirect landgebruik de Nederlandse bevolking
+ gevoed kan worden.
+ Ter vergelijking, wereldwijd was dit in 2015 20
+\begin_inset space ~
+\end_inset
+
+are/persoon en wordt verwacht dat dit gaat zakken tot 16
+\begin_inset space ~
+\end_inset
+
+are/persoon in 2050.
+\end_layout
+
+\begin_layout Standard
+Wereldwijd is ongeveer 20% van het landoppervlak bruikbaar voor landbouw
+ (ongeveer 3.000
+\begin_inset space ~
+\end_inset
+
+miljoen ha).
+ De helft hiervan is al in gebruik, de andere helft zijn bossen.
+ Elke jaar gaat een deel grond echter verloren door slecht gebruik.
+ Ook wordt elk jaar een deel bos omgezet in landbouwgrond (6,5 tot 11
+\begin_inset space ~
+\end_inset
+
+miljoen ha), steden (1
+\begin_inset space ~
+\end_inset
+
+miljoen ha) of mijnen (0,5
+\begin_inset space ~
+\end_inset
+
+miljoen ha).
+\end_layout
+
+\begin_layout Subsection
+Arbeidsproductiviteit als ha/FTE
+\end_layout
+
+\begin_layout Standard
+Nu we zowel zicht hebben op het aantal mensen dat in de Nederlandse landbouw
+ tewerkgesteld is als het landgebruik is, kunnen we die zaken eens combineren.
+ Maar dit geeft ook aan dat je met statistieken alles kunt bewijzen, dus
+ je moet er heel voorzichtig mee zijn.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - arbeid+landgebruik - direct land.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeidsproductiviteit-Nederland"
+
+\end_inset
+
+Arbeidsproductiviteit in de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Een eerste combinatie zie je in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeidsproductiviteit-schets-klassiek"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Hierin is in het blauw de klassieke arbeidsproductiviteit berekend op basis
+ van directe arbeid en direct landgebruik.
+ Je ziet dat de arbeidsproductiviteit enorm is toegenomen over de jaren.
+ Een boer bewerkt in 2015 3,6
+\begin_inset space ~
+\end_inset
+
+keer zoveel grond per jaar dan in 1950.
+\end_layout
+
+\begin_layout Standard
+Voor elke Nederlandse boer weten we dat er in 2015 1,7
+\begin_inset space ~
+\end_inset
+
+personen extra nodig zijn om die boer te ondersteunen.
+ In 1950 was dat maar 0,2
+\begin_inset space ~
+\end_inset
+
+personen.
+ Hou je hier rekening mee, dan krijg je de bordeaux lijn van figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeidsproductiviteit-Nederland"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Nu is de toename in arbeidsproductiviteit 1,6, veel minder gunstig dus.
+\end_layout
+
+\begin_layout Standard
+Anderzijds gebruikt een Nederlandse boer ook indirect land.
+ Kijk je naar de totale grondoppervlakte die nodig is om de oogst van die
+ boer te verkrijgen, dan zien het er opeens heel anders uit.
+ In 2015 heeft een Nederlandse boer 44
+\begin_inset space ~
+\end_inset
+
+ha grond nodig voor zijn oogst! Dit is dus grond rechtstreeks op zijn erf
+ als indirect bij toeleveranciers.
+\end_layout
+
+\begin_layout Standard
+Houden we met beide factoren rekening, dan krijgen we een curve die vrij
+ gelijkaardig is als de blauwe curve.
+\end_layout
+
+\begin_layout Standard
+We weten dat de extra landbouwgrond quasi uitsluitend te wijten is aan veevoeder
+s.
+ Daarom is het interessant om de arbeidsproductiviteit van deze sector apart
+ te bekijken.
+ Hier zien we dat de arbeidsproductiviteit enorm hoog ligt.
+ Dit heeft er waarschijnlijk mee te maken dat het puur over akkerbouw gaat,
+ terwijl de andere cijfers ook tuinbouw en andere sectoren bevatten waar
+ er meer personen tewerkgesteld zijn op eenzelfde stuk grond.
+\end_layout
+
+\begin_layout Standard
+Dit is allemaal samengevat in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeidsproductiviteit-verschillende-manieren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - arbeid+landgebruik - totaal.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeidsproductiviteit-verschillende-manieren"
+
+\end_inset
+
+Arbeidsproductiviteit op verschillende manieren bekeken
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Welke manier nu de 
+\begin_inset Quotes pld
+\end_inset
+
+juiste
+\begin_inset Quotes prd
+\end_inset
+
+ is, zal afhangen van wat je wilt weten.
+ Kijk je naar hoeveel personen globaal nodig zijn om een hectare landbouwgrond
+ in Nederland te bewerken, dan is de bordeaux grafiek diegene die je wilt
+ bekijken.
+ Wil je weten hoeveel de globale arbeidsproductiviteit is voor de Nederlandse
+ landbouw, neem dan de gele.
+ Wil je weten hoeveel grond globaal nodig is voor een Nederlandse boer,
+ neem dan de oranje grafiek.
+ Voor ieder wat wils!
+\end_layout
+
+\begin_layout Section
+Energie
 \end_layout
 
 \begin_layout Chapter
-De werkkamer
+Externe kosten opsporen en bepalen
 \end_layout
 
 \begin_layout Section
@@ -5001,11 +5899,11 @@ name "chap:Elektronica-en-hernieuwbare-energie"
 
 \end_inset
 
-Het bureau
+Een bureau vol elektronica
 \end_layout
 
 \begin_layout Chapter
-De slaapkamer
+Dromen over de toekomst
 \end_layout
 
 \begin_layout Chapter
