@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="300mm"
-   height="150mm"
-   viewBox="0 0 30000 15000"
+   height="136.81319mm"
+   viewBox="0 0 30000 13681.319"
    version="1.1"
    stroke-width="28.222"
    stroke-linejoin="round"
@@ -40,10 +40,10 @@
    inkscape:document-units="mm"
    showgrid="false"
    inkscape:zoom="1.0433403"
-   inkscape:cx="732.74273"
-   inkscape:cy="260.70114"
-   inkscape:window-width="1876"
-   inkscape:window-height="1051"
+   inkscape:cx="543.92608"
+   inkscape:cy="210.86121"
+   inkscape:window-width="1920"
+   inkscape:window-height="1015"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
@@ -51,522 +51,524 @@
  <path
    fill="#ffffff"
    stroke="none"
-   d="M 15000,15000 H 0 V 0 h 30000 v 15000 z"
-   id="path2" />
+   d="M 15000,13681.319 H 0 V 0 h 30000 v 13681.319 z"
+   id="path2"
+   style="stroke-width:26.9529" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 13792,14203 H 2835 V 1882 h 21914 v 12321 z"
+   d="M 13792,12884.319 H 2835 V 563.3187 H 24749 V 12884.319 Z"
    id="path4" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,14202 H 2835"
+   d="M 24749,12883.319 H 2835"
    id="path6" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,12441 H 2835"
+   d="M 24749,11122.319 H 2835"
    id="path8" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,10681 H 2835"
+   d="M 24749,9362.3187 H 2835"
    id="path10" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,8921 H 2835"
+   d="M 24749,7602.3187 H 2835"
    id="path12" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,7161 H 2835"
+   d="M 24749,5842.3187 H 2835"
    id="path14" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,5401 H 2835"
+   d="M 24749,4082.3187 H 2835"
    id="path16" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,3641 H 2835"
+   d="M 24749,2322.3187 H 2835"
    id="path18" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 24749,1881 H 2835"
+   d="M 24749,562.3187 H 2835"
    id="path20" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 2835,14202 H 24749"
+   d="M 2835,12883.319 H 24749"
    id="path22" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,14202 h 150"
+   d="m 2685,12883.319 h 150"
    id="path24" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,14202 h 150"
+   d="m 2685,12883.319 h 150"
    id="path26" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,12441 h 150"
+   d="m 2685,11122.319 h 150"
    id="path28" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,12441 h 150"
+   d="m 2685,11122.319 h 150"
    id="path30" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,10681 h 150"
+   d="m 2685,9362.3187 h 150"
    id="path32" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,10681 h 150"
+   d="m 2685,9362.3187 h 150"
    id="path34" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,8921 h 150"
+   d="m 2685,7602.3187 h 150"
    id="path36" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,8921 h 150"
+   d="m 2685,7602.3187 h 150"
    id="path38" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,7161 h 150"
+   d="m 2685,5842.3187 h 150"
    id="path40" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,7161 h 150"
+   d="m 2685,5842.3187 h 150"
    id="path42" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,5401 h 150"
+   d="m 2685,4082.3187 h 150"
    id="path44" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,5401 h 150"
+   d="m 2685,4082.3187 h 150"
    id="path46" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,3641 h 150"
+   d="m 2685,2322.3187 h 150"
    id="path48" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,3641 h 150"
+   d="m 2685,2322.3187 h 150"
    id="path50" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,1881 h 150"
+   d="m 2685,562.3187 h 150"
    id="path52" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="m 2685,1881 h 150"
+   d="m 2685,562.3187 h 150"
    id="path54" />
  <path
    fill="none"
    stroke="#b3b3b3"
    stroke-linejoin="round"
-   d="M 2835,14202 V 1881"
+   d="M 2835,12883.319 V 562.3187"
    id="path56" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 23574,14202 h 783 v -1991 h -783 z"
+   d="m 23574,12883.319 h 783 v -1991 h -783 z"
    id="path58" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 22009,14202 h 783 v -2166 h -783 z"
+   d="m 22009,12883.319 h 783 v -2166 h -783 z"
    id="path60" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 20444,14202 h 782 v -2453 h -782 z"
+   d="m 20444,12883.319 h 782 v -2453 h -782 z"
    id="path62" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 18878,14202 h 783 v -2969 h -783 z"
+   d="m 18878,12883.319 h 783 V 9914.3187 h -783 z"
    id="path64" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 17313,14202 h 783 v -3092 h -783 z"
+   d="m 17313,12883.319 h 783 V 9791.3187 h -783 z"
    id="path66" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 15748,14202 h 782 v -3396 h -782 z"
+   d="m 15748,12883.319 h 782 V 9487.3187 h -782 z"
    id="path68" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 14183,14202 h 783 v -3613 h -783 z"
+   d="m 14183,12883.319 h 783 V 9270.3187 h -783 z"
    id="path70" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 12618,14202 h 783 v -3933 h -783 z"
+   d="m 12618,12883.319 h 783 V 8950.3187 h -783 z"
    id="path72" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 11053,14202 h 782 v -4181 h -782 z"
+   d="m 11053,12883.319 h 782 V 8702.3187 h -782 z"
    id="path74" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 9487,14202 h 783 V 9448 h -783 z"
+   d="m 9487,12883.319 h 783 V 8129.3187 h -783 z"
    id="path76" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 7922,14202 h 783 V 8175 h -783 z"
+   d="m 7922,12883.319 h 783 V 6856.3187 h -783 z"
    id="path78" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 6357,14202 h 782 V 6650 h -782 z"
+   d="m 6357,12883.319 h 782 V 5331.3187 h -782 z"
    id="path80" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 4791,14202 h 783 V 6272 h -783 z"
+   d="m 4791,12883.319 h 783 V 4953.3187 h -783 z"
    id="path82" />
  <path
    fill="#333333"
    stroke="none"
-   d="m 3226,14202 h 783 V 5042 h -783 z"
+   d="m 3226,12883.319 h 783 V 3723.3187 h -783 z"
    id="path84" />
  <path
    fill="#c5000b"
    stroke="none"
-   d="m 23574,12211 h 783 v -109 h -783 z"
+   d="m 23574,10892.319 h 783 v -109 h -783 z"
    id="path86" />
  <path
    fill="#c5000b"
    stroke="none"
-   d="m 22009,12036 h 783 v -75 h -783 z"
+   d="m 22009,10717.319 h 783 v -75 h -783 z"
    id="path88" />
  <path
    fill="#c5000b"
    stroke="none"
-   d="m 12618,10269 h 783 v -108 h -783 z"
+   d="m 12618,8950.3187 h 783 v -108 h -783 z"
    id="path90" />
  <path
    fill="#c5000b"
    stroke="none"
-   d="m 3226,5042 h 783 v -107 h -783 z"
+   d="m 3226,3723.3187 h 783 v -107 h -783 z"
    id="path92" />
  <path
    fill="#ff950e"
    stroke="none"
-   d="m 23574,12102 h 783 v -816 h -783 z"
+   d="m 23574,10783.319 h 783 v -816.0003 h -783 z"
    id="path94" />
  <path
    fill="#ff950e"
    stroke="none"
-   d="m 22009,11961 h 783 v -642 h -783 z"
+   d="m 22009,10642.319 h 783 v -642 h -783 z"
    id="path96" />
  <path
    fill="#ff950e"
    stroke="none"
-   d="m 12618,10161 h 783 v -437 h -783 z"
+   d="m 12618,8842.3187 h 783 v -437 h -783 z"
    id="path98" />
  <path
    fill="#ff950e"
    stroke="none"
-   d="m 3226,4935 h 783 v -192 h -783 z"
+   d="m 3226,3616.3187 h 783 v -192 h -783 z"
    id="path100" />
  <path
    fill="#4b1f6f"
    stroke="none"
-   d="m 23574,11286 h 783 v -171 h -783 z"
+   d="m 23574,9967.3187 h 783 v -171 h -783 z"
    id="path102" />
  <path
    fill="#4b1f6f"
    stroke="none"
-   d="m 22009,11319 h 783 v -174 h -783 z"
+   d="m 22009,10000.319 h 783 v -174.0003 h -783 z"
    id="path104" />
  <path
    fill="#4b1f6f"
    stroke="none"
-   d="m 12618,9724 h 783 v -144 h -783 z"
+   d="m 12618,8405.3187 h 783 v -144 h -783 z"
    id="path106" />
  <path
    fill="#4b1f6f"
    stroke="none"
-   d="m 3226,4743 h 783 v -68 h -783 z"
+   d="m 3226,3424.3187 h 783 v -68 h -783 z"
    id="path108" />
  <path
    fill="#aecf00"
    stroke="none"
-   d="m 23574,11115 h 783 v -95 h -783 z"
+   d="m 23574,9796.3187 h 783 v -95 h -783 z"
    id="path110" />
  <path
    fill="#aecf00"
    stroke="none"
-   d="m 22009,11145 h 783 v -84 h -783 z"
+   d="m 22009,9826.3187 h 783 v -84 h -783 z"
    id="path112" />
  <path
    fill="#aecf00"
    stroke="none"
-   d="m 12618,9580 h 783 v -61 h -783 z"
+   d="m 12618,8261.3187 h 783 v -61 h -783 z"
    id="path114" />
  <path
    fill="#aecf00"
    stroke="none"
-   d="m 3226,4675 h 783 v -29 h -783 z"
+   d="m 3226,3356.3187 h 783 v -29 h -783 z"
    id="path116" />
  <path
    fill="#314004"
    stroke="none"
-   d="m 23574,11020 h 783 V 9582 h -783 z"
+   d="m 23574,9701.3187 h 783 v -1438 h -783 z"
    id="path118" />
  <path
    fill="#314004"
    stroke="none"
-   d="m 22009,11061 h 783 V 9746 h -783 z"
+   d="m 22009,9742.3187 h 783 v -1315 h -783 z"
    id="path120" />
  <path
    fill="#314004"
    stroke="none"
-   d="m 12618,9519 h 783 V 7461 h -783 z"
+   d="m 12618,8200.3187 h 783 v -2058 h -783 z"
    id="path122" />
  <path
    fill="#314004"
    stroke="none"
-   d="m 3226,4646 h 783 v -663 h -783 z"
+   d="m 3226,3327.3187 h 783 v -663 h -783 z"
    id="path124" />
  <path
    fill="#83caff"
    stroke="none"
-   d="m 23574,9582 h 783 v -79 h -783 z"
+   d="m 23574,8263.3187 h 783 v -79 h -783 z"
    id="path126" />
  <path
    fill="#83caff"
    stroke="none"
-   d="m 22009,9746 h 783 v -57 h -783 z"
+   d="m 22009,8427.3187 h 783 v -57 h -783 z"
    id="path128" />
  <path
    fill="#83caff"
    stroke="none"
-   d="m 12618,7461 h 783 v -6 h -783 z"
+   d="m 12618,6142.3187 h 783 v -6 h -783 z"
    id="path130" />
  <path
    fill="#83caff"
    stroke="none"
-   d="m 3226,3983 h 783 v -2 h -783 z"
+   d="m 3226,2664.3187 h 783 v -2 h -783 z"
    id="path132" />
  <path
    fill="#7e0021"
    stroke="none"
-   d="m 23574,9503 h 783 v -7 h -783 z"
+   d="m 23574,8184.3187 h 783 v -7 h -783 z"
    id="path134" />
  <path
    fill="#7e0021"
    stroke="none"
-   d="m 22009,9689 h 783 v -7 h -783 z"
+   d="m 22009,8370.3187 h 783 v -7 h -783 z"
    id="path136" />
  <path
    fill="#7e0021"
    stroke="none"
-   d="m 12618,7455 h 783 v -16 h -783 z"
+   d="m 12618,6136.3187 h 783 v -16 h -783 z"
    id="path138" />
  <path
    fill="#7e0021"
    stroke="none"
-   d="m 3226,3981 h 783 v -9 h -783 z"
+   d="m 3226,2662.3187 h 783 v -9 h -783 z"
    id="path140" />
  <path
    fill="#579d1c"
    stroke="none"
-   d="m 23574,9496 h 783 v -68 h -783 z"
+   d="m 23574,8177.3187 h 783 v -68 h -783 z"
    id="path142" />
  <path
    fill="#579d1c"
    stroke="none"
-   d="m 22009,9682 h 783 v -69 h -783 z"
+   d="m 22009,8363.3187 h 783 v -69 h -783 z"
    id="path144" />
  <path
    fill="#579d1c"
    stroke="none"
-   d="m 12618,7439 h 783 v -152 h -783 z"
+   d="m 12618,6120.3187 h 783 v -152 h -783 z"
    id="path146" />
  <path
    fill="#579d1c"
    stroke="none"
-   d="m 3226,3972 h 783 v -77 h -783 z"
+   d="m 3226,2653.3187 h 783 v -77 h -783 z"
    id="path148" />
  <path
    fill="#ffd320"
    stroke="none"
-   d="m 23574,9428 h 783 v -212 h -783 z"
+   d="m 23574,8109.3187 h 783 v -212 h -783 z"
    id="path150" />
  <path
    fill="#ffd320"
    stroke="none"
-   d="m 22009,9613 h 783 v -180 h -783 z"
+   d="m 22009,8294.3187 h 783 v -180 h -783 z"
    id="path152" />
  <path
    fill="#ffd320"
    stroke="none"
-   d="m 12618,7287 h 783 v -35 h -783 z"
+   d="m 12618,5968.3187 h 783 v -35 h -783 z"
    id="path154" />
  <path
    fill="#ff420e"
    stroke="none"
-   d="m 23574,9216 h 783 v -297 h -783 z"
+   d="m 23574,7897.3187 h 783 v -297 h -783 z"
    id="path156" />
  <path
    fill="#ff420e"
    stroke="none"
-   d="m 22009,9433 h 783 v -379 h -783 z"
+   d="m 22009,8114.3187 h 783 v -379 h -783 z"
    id="path158" />
  <path
    fill="#ff420e"
    stroke="none"
-   d="m 12618,7252 h 783 v -336 h -783 z"
+   d="m 12618,5933.3187 h 783 v -336 h -783 z"
    id="path160" />
  <path
    fill="#ff420e"
    stroke="none"
-   d="m 3226,3895 h 783 v -352 h -783 z"
+   d="m 3226,2576.3187 h 783 v -352 h -783 z"
    id="path162" />
  <path
    fill="#004586"
    stroke="none"
-   d="m 23574,8919 h 783 v -25 h -783 z"
+   d="m 23574,7600.3187 h 783 v -25 h -783 z"
    id="path164" />
  <path
    fill="#004586"
    stroke="none"
-   d="m 22009,9054 h 783 v -24 h -783 z"
+   d="m 22009,7735.3187 h 783 v -24 h -783 z"
    id="path166" />
  <path
    fill="#004586"
    stroke="none"
-   d="m 12618,6916 h 783 v -33 h -783 z"
+   d="m 12618,5597.3187 h 783 v -33 h -783 z"
    id="path168" />
  <path
    fill="#004586"
    stroke="none"
-   d="m 3226,3543 h 783 v -14 h -783 z"
+   d="m 3226,2224.3187 h 783 v -14 h -783 z"
    id="path170" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 20444,11749 h 782 V 8764 h -782 z"
+   d="m 20444,10430.319 h 782 V 7445.3187 h -782 z"
    id="path172" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 18878,11233 h 783 V 8187 h -783 z"
+   d="m 18878,9914.3187 h 783 v -3046 h -783 z"
    id="path174" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 17313,11110 h 783 V 7877 h -783 z"
+   d="m 17313,9791.3187 h 783 v -3233 h -783 z"
    id="path176" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 15748,10806 h 782 V 7254 h -782 z"
+   d="m 15748,9487.3187 h 782 v -3552 h -782 z"
    id="path178" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 14183,10589 h 783 V 6847 h -783 z"
+   d="m 14183,9270.3187 h 783 v -3742 h -783 z"
    id="path180" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 11053,10021 h 782 V 6355 h -782 z"
+   d="m 11053,8702.3187 h 782 v -3666 h -782 z"
    id="path182" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 9487,9448 h 783 V 5701 h -783 z"
+   d="m 9487,8129.3187 h 783 v -3747 h -783 z"
    id="path184" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 7922,8175 h 783 V 4591 h -783 z"
+   d="m 7922,6856.3187 h 783 v -3584 h -783 z"
    id="path186" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 6357,6650 h 782 V 3350 h -782 z"
+   d="m 6357,5331.3187 h 782 v -3300 h -782 z"
    id="path188" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 4791,6272 h 783 V 3285 h -783 z"
+   d="m 4791,4953.3187 h 783 v -2987 h -783 z"
    id="path190" />
  <path
    fill="none"
    stroke="#99ccff"
    stroke-width="80"
    stroke-linejoin="round"
-   d="m 3617,3529 1566,-244 1565,65 1565,1241 1566,1110 1565,654 1565,528 1566,-36 1564,407 1565,623 1566,310 1565,577 1565,266 1566,-136"
+   d="m 3617,2210.3187 1566,-244 1565,65 1565,1241 1566,1110 1565,654 1565,528 1566,-36 1564,407 1565,623 1566,310 1565,577 1565,266 1566,-136"
    id="path192" />
  <path
    fill="none"
    stroke="#333333"
    stroke-width="80"
    stroke-linejoin="round"
-   d="m 3617,5042 1566,1230 1565,378 1565,1525 1566,1273 1565,573 1565,248 1566,320 1564,217 1565,304 1566,123 1565,516 1565,287 1566,175"
+   d="m 3617,3723.3187 1566,1230 1565,378 1565,1525 1566,1273 1565,573 1565,248 1566,320 1564,217 1565,304 1566,123 1565,516.0003 1565,287 1566,175"
    id="path194" />
  <text
    class="SVGTextShape"
-   id="text202"><tspan
+   id="text202"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -574,14 +576,15 @@
      id="tspan200"><tspan
        class="TextPosition"
        x="3246"
-       y="14620"
+       y="13301.318"
        id="tspan198"><tspan
          fill="#000000"
          stroke="none"
          id="tspan196">1950</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text210"><tspan
+   id="text210"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -589,14 +592,15 @@
      id="tspan208"><tspan
        class="TextPosition"
        x="4812"
-       y="14620"
+       y="13301.318"
        id="tspan206"><tspan
          fill="#000000"
          stroke="none"
          id="tspan204">1955</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text218"><tspan
+   id="text218"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -604,14 +608,15 @@
      id="tspan216"><tspan
        class="TextPosition"
        x="6377"
-       y="14620"
+       y="13301.318"
        id="tspan214"><tspan
          fill="#000000"
          stroke="none"
          id="tspan212">1960</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text226"><tspan
+   id="text226"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -619,14 +624,15 @@
      id="tspan224"><tspan
        class="TextPosition"
        x="7942"
-       y="14620"
+       y="13301.318"
        id="tspan222"><tspan
          fill="#000000"
          stroke="none"
          id="tspan220">1965</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text234"><tspan
+   id="text234"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -634,14 +640,15 @@
      id="tspan232"><tspan
        class="TextPosition"
        x="9508"
-       y="14620"
+       y="13301.318"
        id="tspan230"><tspan
          fill="#000000"
          stroke="none"
          id="tspan228">1970</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text242"><tspan
+   id="text242"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -649,14 +656,15 @@
      id="tspan240"><tspan
        class="TextPosition"
        x="11073"
-       y="14620"
+       y="13301.318"
        id="tspan238"><tspan
          fill="#000000"
          stroke="none"
          id="tspan236">1975</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text250"><tspan
+   id="text250"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -664,14 +672,15 @@
      id="tspan248"><tspan
        class="TextPosition"
        x="12638"
-       y="14620"
+       y="13301.318"
        id="tspan246"><tspan
          fill="#000000"
          stroke="none"
          id="tspan244">1980</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text258"><tspan
+   id="text258"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -679,14 +688,15 @@
      id="tspan256"><tspan
        class="TextPosition"
        x="14204"
-       y="14620"
+       y="13301.318"
        id="tspan254"><tspan
          fill="#000000"
          stroke="none"
          id="tspan252">1985</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text266"><tspan
+   id="text266"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -694,14 +704,15 @@
      id="tspan264"><tspan
        class="TextPosition"
        x="15769"
-       y="14620"
+       y="13301.318"
        id="tspan262"><tspan
          fill="#000000"
          stroke="none"
          id="tspan260">1990</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text274"><tspan
+   id="text274"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -709,14 +720,15 @@
      id="tspan272"><tspan
        class="TextPosition"
        x="17334"
-       y="14620"
+       y="13301.318"
        id="tspan270"><tspan
          fill="#000000"
          stroke="none"
          id="tspan268">1995</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text282"><tspan
+   id="text282"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -724,14 +736,15 @@
      id="tspan280"><tspan
        class="TextPosition"
        x="18900"
-       y="14620"
+       y="13301.318"
        id="tspan278"><tspan
          fill="#000000"
          stroke="none"
          id="tspan276">2000</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text290"><tspan
+   id="text290"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -739,14 +752,15 @@
      id="tspan288"><tspan
        class="TextPosition"
        x="20465"
-       y="14620"
+       y="13301.318"
        id="tspan286"><tspan
          fill="#000000"
          stroke="none"
          id="tspan284">2005</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text298"><tspan
+   id="text298"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -754,14 +768,15 @@
      id="tspan296"><tspan
        class="TextPosition"
        x="22030"
-       y="14620"
+       y="13301.318"
        id="tspan294"><tspan
          fill="#000000"
          stroke="none"
          id="tspan292">2010</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text306"><tspan
+   id="text306"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -769,14 +784,15 @@
      id="tspan304"><tspan
        class="TextPosition"
        x="23596"
-       y="14620"
+       y="13301.318"
        id="tspan302"><tspan
          fill="#000000"
          stroke="none"
          id="tspan300">2015</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text314"><tspan
+   id="text314"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -784,14 +800,15 @@
      id="tspan312"><tspan
        class="TextPosition"
        x="1632"
-       y="14323"
+       y="13004.318"
        id="tspan310"><tspan
          fill="#000000"
          stroke="none"
          id="tspan308">0 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text322"><tspan
+   id="text322"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -799,14 +816,15 @@
      id="tspan320"><tspan
        class="TextPosition"
        x="601"
-       y="12562"
+       y="11243.318"
        id="tspan318"><tspan
          fill="#000000"
          stroke="none"
          id="tspan316">100,000 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text330"><tspan
+   id="text330"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -814,14 +832,15 @@
      id="tspan328"><tspan
        class="TextPosition"
        x="601"
-       y="10802"
+       y="9483.3184"
        id="tspan326"><tspan
          fill="#000000"
          stroke="none"
          id="tspan324">200,000 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text338"><tspan
+   id="text338"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -829,14 +848,15 @@
      id="tspan336"><tspan
        class="TextPosition"
        x="601"
-       y="9042"
+       y="7723.3188"
        id="tspan334"><tspan
          fill="#000000"
          stroke="none"
          id="tspan332">300,000 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text346"><tspan
+   id="text346"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -844,14 +864,15 @@
      id="tspan344"><tspan
        class="TextPosition"
        x="601"
-       y="7281"
+       y="5962.3188"
        id="tspan342"><tspan
          fill="#000000"
          stroke="none"
          id="tspan340">400,000 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text354"><tspan
+   id="text354"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -859,14 +880,15 @@
      id="tspan352"><tspan
        class="TextPosition"
        x="601"
-       y="5521"
+       y="4202.3188"
        id="tspan350"><tspan
          fill="#000000"
          stroke="none"
          id="tspan348">500,000 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text362"><tspan
+   id="text362"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -874,14 +896,15 @@
      id="tspan360"><tspan
        class="TextPosition"
        x="601"
-       y="3761"
+       y="2442.3186"
        id="tspan358"><tspan
          fill="#000000"
          stroke="none"
          id="tspan356">600,000 FTE</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text370"><tspan
+   id="text370"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -889,94 +912,81 @@
      id="tspan368"><tspan
        class="TextPosition"
        x="601"
-       y="2001"
+       y="682.31873"
        id="tspan366"><tspan
          fill="#000000"
          stroke="none"
          id="tspan364">700,000 FTE</tspan></tspan></tspan></text>
- <text
-   class="SVGTextShape"
-   id="text378"><tspan
-     class="TextParagraph"
-     font-family="'Liberation Sans', sans-serif"
-     font-size="564px"
-     font-weight="400"
-     id="tspan376"><tspan
-       class="TextPosition"
-       x="8121"
-       y="1108"
-       id="tspan374"><tspan
-         fill="#000000"
-         stroke="none"
-         id="tspan372">Arbeid in de Nederlandse landbouw (direct en indirect)</tspan></tspan></tspan></text>
+ 
  <path
    fill="#333333"
    stroke="none"
-   d="m 25865,10592 h -400 v -211 h 800 v 211 z"
+   d="m 25865,9273.3187 h -400 v -211 h 800 v 211 z"
    id="path380" />
  <path
    fill="#c5000b"
    stroke="none"
-   d="m 25865,10094 h -400 v -211 h 800 v 211 z"
+   d="m 25865,8775.3187 h -400 v -211 h 800 v 211 z"
    id="path382" />
  <path
    fill="#ff950e"
    stroke="none"
-   d="m 25865,9596 h -400 v -211 h 800 v 211 z"
+   d="m 25865,8277.3187 h -400 v -211 h 800 v 211 z"
    id="path384" />
  <path
    fill="#4b1f6f"
    stroke="none"
-   d="m 25865,9098 h -400 v -211 h 800 v 211 z"
+   d="m 25865,7779.3187 h -400 v -211 h 800 v 211 z"
    id="path386" />
  <path
    fill="#aecf00"
    stroke="none"
-   d="m 25865,8600 h -400 v -211 h 800 v 211 z"
+   d="m 25865,7281.3187 h -400 v -211 h 800 v 211 z"
    id="path388" />
  <path
    fill="#314004"
    stroke="none"
-   d="m 25865,8102 h -400 v -211 h 800 v 211 z"
+   d="m 25865,6783.3187 h -400 v -211 h 800 v 211 z"
    id="path390" />
  <path
    fill="#83caff"
    stroke="none"
-   d="m 25865,7604 h -400 v -210 h 800 v 210 z"
+   d="m 25865,6285.3187 h -400 v -210 h 800 v 210 z"
    id="path392" />
  <path
    fill="#7e0021"
    stroke="none"
-   d="m 25865,7107 h -400 v -211 h 800 v 211 z"
+   d="m 25865,5788.3187 h -400 v -211 h 800 v 211 z"
    id="path394" />
  <path
    fill="#579d1c"
    stroke="none"
-   d="m 25865,6609 h -400 v -211 h 800 v 211 z"
+   d="m 25865,5290.3187 h -400 v -211 h 800 v 211 z"
    id="path396" />
  <path
    fill="#ffd320"
    stroke="none"
-   d="m 25865,6111 h -400 v -211 h 800 v 211 z"
+   d="m 25865,4792.3187 h -400 v -211 h 800 v 211 z"
    id="path398" />
  <path
    fill="#ff420e"
    stroke="none"
-   d="m 25865,5613 h -400 v -211 h 800 v 211 z"
+   d="m 25865,4294.3187 h -400 v -211 h 800 v 211 z"
    id="path400" />
  <path
    fill="#004586"
    stroke="none"
-   d="m 25865,5115 h -400 v -211 h 800 v 211 z"
+   d="m 25865,3796.3187 h -400 v -211 h 800 v 211 z"
    id="path402" />
  <path
    fill="#99ccff"
    stroke="none"
-   d="m 25865,4617 h -400 v -211 h 800 v 211 z"
+   d="m 25865,3298.3187 h -400 v -211 h 800 v 211 z"
    id="path404" />
  <text
    class="SVGTextShape"
-   id="text412"><tspan
+   id="text412"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -984,14 +994,15 @@
      id="tspan410"><tspan
        class="TextPosition"
        x="26365"
-       y="4631"
+       y="3312.3186"
        id="tspan408"><tspan
          fill="#000000"
          stroke="none"
          id="tspan406">indirecte arbeid</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text420"><tspan
+   id="text420"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -999,14 +1010,15 @@
      id="tspan418"><tspan
        class="TextPosition"
        x="26365"
-       y="5129"
+       y="3810.3186"
        id="tspan416"><tspan
          fill="#000000"
          stroke="none"
          id="tspan414">transport en infrastr.</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text428"><tspan
+   id="text428"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1014,14 +1026,15 @@
      id="tspan426"><tspan
        class="TextPosition"
        x="26365"
-       y="5627"
+       y="4308.3188"
        id="tspan424"><tspan
          fill="#000000"
          stroke="none"
          id="tspan422">dienstverlening</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text436"><tspan
+   id="text436"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1029,14 +1042,15 @@
      id="tspan434"><tspan
        class="TextPosition"
        x="26365"
-       y="6125"
+       y="4806.3188"
        id="tspan432"><tspan
          fill="#000000"
          stroke="none"
          id="tspan430">electronica</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text444"><tspan
+   id="text444"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1044,14 +1058,15 @@
      id="tspan442"><tspan
        class="TextPosition"
        x="26365"
-       y="6623"
+       y="5304.3188"
        id="tspan440"><tspan
          fill="#000000"
          stroke="none"
          id="tspan438">bestrijdingsmiddelen</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text452"><tspan
+   id="text452"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1059,14 +1074,15 @@
      id="tspan450"><tspan
        class="TextPosition"
        x="26365"
-       y="7121"
+       y="5802.3188"
        id="tspan448"><tspan
          fill="#000000"
          stroke="none"
          id="tspan446">kunstmest</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text460"><tspan
+   id="text460"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1074,14 +1090,15 @@
      id="tspan458"><tspan
        class="TextPosition"
        x="26365"
-       y="7618"
+       y="6299.3188"
        id="tspan456"><tspan
          fill="#000000"
          stroke="none"
          id="tspan454">dierlijke mest</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text468"><tspan
+   id="text468"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1089,14 +1106,15 @@
      id="tspan466"><tspan
        class="TextPosition"
        x="26365"
-       y="8116"
+       y="6797.3188"
        id="tspan464"><tspan
          fill="#000000"
          stroke="none"
          id="tspan462">veevoer</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text476"><tspan
+   id="text476"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1104,14 +1122,15 @@
      id="tspan474"><tspan
        class="TextPosition"
        x="26365"
-       y="8614"
+       y="7295.3188"
        id="tspan472"><tspan
          fill="#000000"
          stroke="none"
          id="tspan470">trekkers en machines</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text484"><tspan
+   id="text484"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1119,14 +1138,15 @@
      id="tspan482"><tspan
        class="TextPosition"
        x="26365"
-       y="9112"
+       y="7793.3188"
        id="tspan480"><tspan
          fill="#000000"
          stroke="none"
          id="tspan478">gebouwen</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text492"><tspan
+   id="text492"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1134,14 +1154,15 @@
      id="tspan490"><tspan
        class="TextPosition"
        x="26365"
-       y="9610"
+       y="8291.3184"
        id="tspan488"><tspan
          fill="#000000"
          stroke="none"
          id="tspan486">mijnbouw</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text500"><tspan
+   id="text500"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1149,14 +1170,15 @@
      id="tspan498"><tspan
        class="TextPosition"
        x="26365"
-       y="10108"
+       y="8789.3184"
        id="tspan496"><tspan
          fill="#000000"
          stroke="none"
          id="tspan494">energie toelevering</tspan></tspan></tspan></text>
  <text
    class="SVGTextShape"
-   id="text508"><tspan
+   id="text508"
+   y="-1318.6813"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="353px"
@@ -1164,7 +1186,7 @@
      id="tspan506"><tspan
        class="TextPosition"
        x="26365"
-       y="10606"
+       y="9287.3184"
        id="tspan504"><tspan
          fill="#000000"
          stroke="none"
@@ -1172,7 +1194,7 @@
 <g
    style="stroke-width:28.222;stroke-linejoin:round"
    id="g1798"
-   transform="translate(16197,1882)"><path
+   transform="translate(16197,563.3187)"><path
      fill="#ffffff"
      stroke="none"
      d="M 4276,4701 H 0 V 0 h 8552 v 4701 z"
