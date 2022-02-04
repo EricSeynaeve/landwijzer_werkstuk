@@ -87,6 +87,10 @@ boxedfloat
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -1470,10 +1474,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename ondersteunende documenten/figuren/externe kost 5d.jpg
 	lyxscale 10
@@ -1567,10 +1567,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/figuren/externe kost 5e.jpg
@@ -1618,7 +1614,6 @@ je systeem wordt kwetsbaarder aan storingen.
 op een bepaald moment loop je het risico dat de maatschappelijke kosten
  zwaarder gaan doorwegen dan de voordelen die de maatschappij uit de hoofdtaak
  haalt.
- 
 \end_layout
 
 \begin_layout Standard
@@ -1805,7 +1800,6 @@ n
 
 5 t.e.m.
  10.
- 
 \end_layout
 
 \begin_layout Enumerate
@@ -2825,7 +2819,6 @@ aan welke randvoorwaarden zal de landbouw in de periode 2016 t/m 2040 moeten
 
 \begin_layout Enumerate
 hoe zou de landbouw er dan (in 2040) uit kunnen zien.
- 
 \end_layout
 
 \begin_layout Standard
@@ -3118,7 +3111,6 @@ Voor het indirecte verbruik zijn de gegevens ofwel gedeeltelijk aanwezig
  Hierbij zijn voor de analyses telkens onderste waarden aangenomen.
  Dit geeft dat de werkelijke input groter zal zijn dan hier voorgesteld.
  Het is dus een beetje rooskleuriger voorgesteld.
- 
 \end_layout
 
 \begin_layout Standard
@@ -3270,7 +3262,7 @@ De klassieke manier om naar arbeidsproductiviteit te kijken: enkel directe
 
 \end_inset
 
- 
+
 \end_layout
 
 \begin_layout Itemize
@@ -3340,10 +3332,6 @@ Een meer volledig plaatje om de input van de Nederlandse landbouw te bepalen.
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3876,11 +3864,11 @@ Vroeger had een gebouw meerder functies zoals bewoning, stal, bewaring,
  Hierbij gaan er veel energie en grondstoffen verloren in de afbraak en
  terug opbouwen van het gebouw.
  Hierbij moet niet enkel de energie beschouwd worden bij de afbraak en opbouw
- zelf, maar ook de energie die opgeslagen zit in de materialen (zie kader
+ zelf, maar ook de energie die opgeslagen zit in de materialen (zie appendix
  
 \begin_inset CommandInset ref
 LatexCommand vref
-reference "box:Opgeslagen-energie"
+reference "appendix:opgeslagen-energie"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3943,7 +3931,6 @@ Voor kassen is er een evolutie geweest van meer en meer verwarmde kassen.
 
 \SpecialChar ldots
 ) met bijhorend gebruik van elektronica.
- 
 \end_layout
 
 \begin_layout Standard
@@ -4401,7 +4388,6 @@ Om de energetische waarde van die hoeveelheid ICT te berekenen zijn gegevens
 \begin_layout Standard
 Dit alles geeft een onderschatting omdat verborgen ICT zoals in trekkers
  niet meegenomen is.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -4623,10 +4609,6 @@ width "50col%"
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/figuren/energy distribution.svg
@@ -4650,10 +4632,6 @@ Verdeling van het aandeel mijnbouw voor de Nederlandse landbouw.
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4813,10 +4791,6 @@ noprefix "false"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -5148,10 +5122,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek.svg
@@ -5178,10 +5148,6 @@ Klassiek beeld van het landgebruik in de Nederlandse landbouw
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -5193,6 +5159,42 @@ Het areaal aan landbouwgebied in Nederland toont ook een dalende trend,
 \end_layout
 
 \begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek - nodig.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-klassiek-per-inwoner"
+
+\end_inset
+
+Landbouwareaal per inwoner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 Figuur
 \begin_inset space ~
 \end_inset
@@ -5223,52 +5225,6 @@ literal "false"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek - nodig.svg
-	width 45text%
-	groupId grafieken klein
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:land-klassiek-per-inwoner"
-
-\end_inset
-
-Landbouwareaal per inwoner
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -5369,29 +5325,12 @@ Er is in de inzet te zien dat de hoeveelheid indirect landgebruik eerst
 \end_layout
 
 \begin_layout Standard
-Figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:land-totaal-per-inwoner"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- geeft weer wat dit betekend voor de hoeveelheid landbouwgrond die een Nederland
-se inwoner ter beschikking heeft.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5420,13 +5359,24 @@ Totaal landbouwareaal per inwoner
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
 
-\end_layout
-
+Figuur
+\begin_inset space ~
 \end_inset
 
 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-totaal-per-inwoner"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ geeft weer wat dit betekend voor de hoeveelheid landbouwgrond die een Nederland
+se inwoner ter beschikking heeft.
 \end_layout
 
 \begin_layout Standard
@@ -5627,10 +5577,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - arbeid+landgebruik - totaal.svg
@@ -5704,6 +5650,12 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:e-out"
+
+\end_inset
+
 Energetische output
 \end_layout
 
@@ -5733,10 +5685,6 @@ noprefix "false"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -5892,6 +5840,12 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:e-in"
+
+\end_inset
+
 Energetische input
 \end_layout
 
@@ -5918,10 +5872,6 @@ noprefix "false"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -6040,10 +5990,6 @@ noprefix "false"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -6206,10 +6152,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - energie_ha - output.svg
@@ -6247,10 +6189,6 @@ Energetische output/ha
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -6292,10 +6230,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - energie_ha - verhouding.svg
@@ -6326,10 +6260,6 @@ Energetische efficiëntie/ha
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -6341,10 +6271,6 @@ Energetische waarde/ha, rekening houdend met het grondgebruik.
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6499,6 +6425,12 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:e-eff-gj_FTE"
+
+\end_inset
+
 Efficiëntie van energie t.o.v.
  arbeid
 \end_layout
@@ -6530,10 +6462,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - energie_fte - inset.svg
@@ -6557,10 +6485,6 @@ Energetische waarde/FTE
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6624,6 +6548,12 @@ Oef, dat was een goed hoofdgerecht.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:gewicht-out"
+
+\end_inset
+
 Gewicht aan geproduceerde landbouwproducten
 \end_layout
 
@@ -6657,10 +6587,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - gewicht - output.svg
@@ -6684,10 +6610,6 @@ Gewicht geproduceerde landbouwproducten
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6715,10 +6637,6 @@ width "50col%"
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren.svg
@@ -6742,10 +6660,6 @@ Verhouding van de sectoren volgens gewicht
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6806,10 +6720,6 @@ width "50col%"
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren - geschaald.svg
@@ -6836,10 +6746,6 @@ Output in gewicht, geschaald ten opzicht van de waarde in 1950.
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -6857,6 +6763,12 @@ ducten dan voorheen.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:opbrengst-ton_FTE"
+
+\end_inset
+
 Arbeidsproductiviteit als ton/FTE
 \end_layout
 
@@ -6886,10 +6798,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - gewicht_fte.svg
@@ -6916,10 +6824,6 @@ Arbeidsproductiviteit in ton/FTE
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -6934,6 +6838,12 @@ eit gestegen te zijn met een factor 11,2.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:opbrengst-ton_ha"
+
+\end_inset
+
 Opbrengsten in ton/ha
 \end_layout
 
@@ -6955,10 +6865,6 @@ Kijken we naar het gewicht producten per hectare (figuur
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -6984,10 +6890,6 @@ Opbrengsten per landoppervlak
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -7537,7 +7439,6 @@ noprefix "false"
 \end_inset
 
 ).
- 
 \end_layout
 
 \begin_layout Standard
@@ -7563,6 +7464,12 @@ Hoe je op een ethische en duurzame manier de bevolking kan doen afnemen,
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "par:welbevinden"
+
+\end_inset
+
 De angst die dit geeft dat er terug naar de middeleeuwen moet gekeerd worden
  is zeer begrijpelijk.
  Gelukkig wijzen studies uit dat er een verband is tussen het welbevinden
@@ -7597,10 +7504,6 @@ width "50col%"
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - energieverbruik per hoofd.svg
@@ -7624,10 +7527,6 @@ Energieverbruik per persoon en per jaar
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -7681,37 +7580,1658 @@ Dromen over de toekomst
 \end_layout
 
 \begin_layout Standard
-H13.5 
+Dromers maken de toekomst.
+ En vooral in de landbouw is het nodig om te dromen van een andere toekomst.
+\end_layout
+
+\begin_layout Section
+Een foute kosten/baten
+\end_layout
+
+\begin_layout Standard
+Laten we even samenvatten wat we gevonden hebben over de evolutie van de
+ landbouw in Nederland van 1950 tot 2015:
+\end_layout
+
+\begin_layout Itemize
+de absolute output is als volgt gestegen:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+in energie is er een stijging van 107% (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-out"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+in gewicht is er een stijging van 144% (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:gewicht-out"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Dit houdt echter nog geen rekening met de impact van externe kosten.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+de output per hectare is maar licht gestegen.
+ Zoals eerder gezien is het belangrijk om de impact van de externe kosten
+ mee te nemen, dus ook het indirect landgebruik.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gemeten in energie per totaal landoppervlak is er een verhoging van 13%
+ (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Gemeten in gewicht per totaal landoppervlak is er een verhoging van 32%
+ (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:opbrengst-ton_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+de output per persoon werkbaar in de landbouw kent een betere stijging.
+ Dit is voornamelijk door de grote mechanisatie.
+ Ook hier is het belangrijk om de externe kosten mee te nemen, dus ook de
+ indirecte arbeid.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gemeten in energie per werknemer is er een verhoging van 318% (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Gemeten in ton per werknemer is er een verhoging van 390% (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:opbrengst-ton_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+de input is sterk gestegen.
+ Hier moet rekening gehouden worden met de externe kosten, dus de indirecte
+ input.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+in absolute waarde is er een energie stijging van 467% (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+per hectare landbouwgrond in Nederland wordt er 620% meer energie gebruikt
+ (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+per Nederlandse boer wordt er 2500% meer energie gebruikt (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+de maatschappelijke kosten worden voor 2015 geschat tussen de €
+\begin_inset space ~
+\end_inset
+
+5 en €
+\begin_inset space ~
+\end_inset
+
+20
+\begin_inset space ~
+\end_inset
+
+miljard.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+netto waarde van de landbouw in de Nederlandse economie tussen €
+\begin_inset space ~
+\end_inset
+
+2 en -€
+\begin_inset space ~
+\end_inset
+
+13
+\begin_inset space ~
+\end_inset
+
+miljard.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Het is dus duidelijk dat de toename in efficiëntie niet gerechtvaardigd
+ wordt door de toename in benodigde energie.
+ Het is dus nodig om te durven dromen van een andere manier om aan landbouw
+ te doen.
+ Maar eerst even kijken hoe het zover is durven komen.
+\end_layout
+
+\begin_layout Section
+Waarom is dit zo scheef gegroeid?
+\end_layout
+
+\begin_layout Standard
+Een eerste factor is iets dat in de globale economische wereld geldt
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 151 en volgende"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Volgens Keynes hadden we nu in een utopische wereld moeten leven, waar iedereen
+ meer dan genoeg welvaart had en de werktijd gedaald was tot 15 uur per
+ week.
+ Hierdoor was er tijd vrij gekomen om te doen waar we ons goed bij zouden
+ voelen.
+ Dit is echter niet uitgekomen.
+ Een belangrijke factor is dat Keynes niet ingeschat heeft dat het moeilijk
+ is voor de mensheid om een verschil te maken tussen noodzakelijkheden en
+ wensen.
+ De eerste is eindig (zie bijvoorbeeld de beschrijving
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "par:welbevinden"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ waar boven een bepaalde grens het welbevinden niet meer toeneemt).
+ Het tweede is echter oneindig en puur psychologisch.
+ Hierdoor is er geen grens op het zoeken naar meer geluk.
+\end_layout
+
+\begin_layout Standard
+In het beleid is men dat geluk gaan zoeken in een verhoging van het Bruto
+ Nationaal Product (BNP) per capita.
+ Met andere woorden: hoeveel geld wordt in de economie geproduceerd.
+ Dit leidt tot een cultuur waar geen rekening gehouden wordt met de externe
+ kosten en andere belangrijke aspecten zoals inkomensgelijkheid, gezondheid,
+ kwaliteit van de leefomgeving,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Ook is er, net als bij het welbevinden, een grens waarboven de stijging
+ van het BNP niet leidt tot een stijging van geluk.
+ Daar zijn we in onze westerse wereld al lang over maar de focus op het
+ BNP is nog altijd aanwezig.
+\end_layout
+
+\begin_layout Standard
+Binnen deze cultuur is het niet abnormaal dat ook voor de landbouw gebruik
+ gemaakt wordt van kengetallen die de externe kosten niet in rekening brengen.
+\end_layout
+
+\begin_layout Standard
+Specifiek voor Nederland is er extra factor en dat is namelijk het gevoerde
+ landbouwbeleid
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smit2018,hollander2012"
+literal "false"
+
+\end_inset
+
+.
+ Er zijn grootschalige ruilverkavelingen gebeurd waarbij men meer oog had
+ kunnen hebben voor de natuur en landschap.
+ Ook heeft men zowel in de landbouw als in de natuurbescherming een scheiding
+ doorgevoerd waardoor de waarden van de ene niet doordrongen in het andere
+ domein.
+ Men heeft verder een sterke focus gehad op de meer technische en grootschalige
+ landbouw waarbij zeer lang kleinschalige en natuurlijke landbouw actief
+ tegengewerkt werden.
+ Zelfs publicaties zoals 
 \begin_inset Quotes pld
 \end_inset
 
-Hoe is het zover kunnen komen
+Silent Spring
+\begin_inset Quotes prd
+\end_inset
+
+, 
+\begin_inset Quotes pld
+\end_inset
+
+Grenzen aan de groei
+\begin_inset Quotes prd
+\end_inset
+
+, het Brundtland rapport en zaken zoals voedselschandalen en -fraudes hebben
+ geen direct effect gehad.
+\end_layout
+
+\begin_layout Standard
+Meino Smit maakt zich sterk dat als al in 1950 er een beleid was dat rekening
+ hield met alle factoren zoals externe kosten, we nu beter af waren geweest.
+ Door een innovatie die meer gericht was op een betere arbeidsomstandigheden
+ met minder inzet van energie en grondstoffen, bijvoorbeeld door verbeterde
+ handwerktuigen en gelijkaardige veredelingen zou dezelfde stijging output
+ kunnen bewerkstelligd zijn.
+ De veredeling die nu al gebeurd is, heeft op zichzelf een output stijging
+ van 20 tot 25% teweeggebracht.
+ Tegelijkertijd zou de landbouw robuuster geweest zijn en er zouden meer
+ boeren en een groter maatschappelijk draagvlak zijn.
+\end_layout
+
+\begin_layout Section
+Het kan anders
+\end_layout
+
+\begin_layout Standard
+Meino Smit droomt van een landbouw in 2040 die wél rekening houdt met de
+ externe kosten.
+ Dit heeft grote implicaties op allerhande vlakken.
+\end_layout
+
+\begin_layout Standard
+Aan landbouwzijde moet er gegaan worden naar een integratie van landbouw
+ en natuurbeheer.
+ Hierdoor krijg je kleinere boerderijen die stabieler zijn.
+ Ook komt er minder specialisatie en worden kringlopen beter gesloten.
+ Het gebruik van warme kassen en de niet-voedingsglastuinbouw moet gebannen
+ worden want het is energetisch niet houdbaar (80% van de directe energie
+ in de landbouw gaat naar verwarmde kassen).
+ Hand- en dierenkracht moet terug in ere hersteld worden waardoor er ook
+ meer boeren moeten komen.
+ De oogst moet in de eerste plaats naar de eigen bevolking gaan.
+\end_layout
+
+\begin_layout Standard
+Ook maatschappelijk zijn er veranderingen nodig.
+ Er moeten meer plantaardige producten gegeten worden en minder dierlijke
+ (tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "tab:2040-voeding"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Onderzoek moet zich richten op technologie die energie en grondstoffen
+ spaart.
+ Belasting moet verschuiven van arbeid naar kapitaal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="4">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waarde in 2015
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waarde in 2040
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verschil
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aantal inwoners
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.900.726
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.000.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Groenten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.399 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.321 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+70%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fruit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.770 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+141.828 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+640%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Granen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Momenteel worden veel granen ingevoerd.
+ Het is de bedoeling om dit terug in Nederland te telen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+196.817 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+516.481 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+160%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aardappelen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Er zouden geen poot- en zetmeelaardappelen meer geteeld worden.
+ Hierdoor komt 83.000 ha landbouwgrond vrij.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71.736 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.457 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Noten
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Volgens advies van de 
+\begin_inset Quotes pld
+\end_inset
+
+Schijf van Vijf
 \begin_inset Quotes prd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
-inleiding om te durven dromen van een betere wereld
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-correlatie energieverbruik en welzijn (tabel4 + p35)
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78.200 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++1300%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Peulvruchten
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Vervangen van dierlijk eiwitten door plantaardige eiwitten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.506 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.868 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zonnebloemen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Voornamelijk-schroot"
+
+\end_inset
+
+Voornamelijk schroot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+660 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+310.250 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Koolzaad
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsuperscript{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Voornamelijk-schroot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+124.100 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suikerbieten
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Minder suiker en niet meer als veevoer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58.436 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bloembollen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Focus op voeding
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28.842 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oppervlakte voor paarden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40.000 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paarden
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+De hobbypaarden die er nu zijn, worden vervangen door werkpaarden.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+300%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rundvee
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.133.854
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+845.302
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Varkens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.602.888
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+401.194
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-97%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Schapen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+523.103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+250.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pluimvee
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103.038.539
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.017.938
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:2040-voeding"
+
+\end_inset
+
+Verschuivingen nodig in voeding
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-XXX Wat is nodig als je de externe kosten wilt minimaliseren om tot een
- positieve balans te komen: andere manier van eten
+Dit heeft een impact op de productiefactoren.
+ In figuren
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeid-2040"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ t.e.m.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eff-2040"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ worden de belangrijkste grafieken van hoofdstuk
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Presentatie-gegevens"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ aangevuld met de waarden voor 2040.
 \end_layout
 
 \begin_layout Standard
-XXX grafieken met waarden voor 2040
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - arbeid - alles 2040 - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeid-2040"
+
+\end_inset
+
+Arbeid
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles 2040 - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Landgebruik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren 2040.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Output in gewicht
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie - volledig 2040 - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie_ha 2040 - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energie/hectare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie_fte 2040 - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energie/FTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-eff-2040"
+
+\end_inset
+
+Energetische verhouding, rekening houdend met landgebruik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-XXX H15, p 173: andere focus gehad, nu andere situatie met waarschijnlijk
- gelijkaardige stijging getallen
+Het valt op dat er veel meer mensen in de landbouw tewerkgesteld worden
+ en dat de indirecte kosten sterk dalen.
+ De belangrijkste kengetallen komen ook in het groen.
+ Opvallend is dat er duidelijk meer energie uit de landbouw gehaald wordt
+ dan erin gestoken wordt.
+ Energetisch hebben we terug een positieve situatie.
+\end_layout
+
+\begin_layout Standard
+Een grote uitzondering is de totale hoeveelheid landbouwgrond per inwoner.
+ Waar die nu rond 30 are/inwoner schommelt, zal die in voorgesteld scenario
+ zakken tot 12 are/inwoner, onder de minimum grens van 14 are/inwoner.
+\end_layout
+
+\begin_layout Standard
+Kijken we naar de economische aspecten, dan is bij de bovengrens van de
+ maatschappelijke kosten de balans nog altijd in het rood.
+ Weliswaar met een reductie van 15% ten opzichte van 2015.
+ Het grote verschil is wel dat dit in dit model er veel meer voedselzekerheid
+ is en de landbouw veel duurzamer geworden is en met betere arbeidsomstandighede
+n.
+\end_layout
+
+\begin_layout Standard
+De innovatie naar meer duurzame manieren om de efficiëntie van landbouw
+ te verbeteren zullen onder dit stramien aangezwengeld worden, zeker onder
+ impuls van een nieuwe instroom van boeren met nieuwe ideeën.
 \end_layout
 
 \begin_layout Chapter
@@ -8276,10 +9796,6 @@ placement o
 overhang 0col%
 width "50col%"
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
