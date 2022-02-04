@@ -271,7 +271,7 @@ A Farm for the Future
 
  
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset CommandInset href
@@ -1750,10 +1750,20 @@ Wat kan je verwachten van deze samenvatting?
 
 \begin_layout Standard
 Aangezien de insteek van Meino's doctoraatsthesis en dit verdiepend werkstuk
- anders is, is dit geen letterlijke samenvatting van zijn werk.
- Ik heb geprobeerd zo dicht mogelijk bij zijn werk te blijven zonder teveel
- af te wijken van mijn onderwerp.
- Om dit vorm te geven, is het werk van Meino Smit ander opgedeeld.
+ anders is, is dit geen samenvatting van zijn werk.
+ De focus is hier meer op het opsporen van de externe kosten die hij bespreekt,
+ in welke bronnen hiervoor waarden gevonden kunnen worden en welke impact
+ het in rekening brengen van de kosten kunnen hebben.
+\end_layout
+
+\begin_layout Standard
+Ook is de diepgang verschillende doordat we een ander doelpubliek voor ogen
+ hebben.
+ Meino Smit heeft geschreven voor een academisch publiek.
+ Ik probeer een meer populair werk te schrijven waardoor een andere stijl
+ gehanteerd wordt, maar ook worden er veel achtergronden, punten en komma's
+ niet vermeld.
+ Diegenen die hunkeren naar meer details, verwijs ik naar het werk zelf.
 \end_layout
 
 \begin_layout Standard
@@ -1788,14 +1798,14 @@ daarna kijken we naar de fundamenten waarop zijn werk gefundeerd is.
 \begin_layout Enumerate
 nu zijn we klaar om naar het hart van het huis te gaan: de keuken (de presentati
 e van de gegevens).
- Hierin vind je de resultaten van hoofdstukken
+ Hier wordt een vier gangen menu voorgeschoteld met ingrediënten uit hoofdstukke
+n
 \begin_inset space ~
 \end_inset
 
 5 t.e.m.
  10.
- Hier wordt gebruik gemaakt van de ingrediënten arbeid, energie, gewicht
- en landgebruik.
+ 
 \end_layout
 
 \begin_layout Enumerate
@@ -1936,6 +1946,12 @@ We merken echter dat deze grenzen overschreden zijn, zowel in opname als
 status collapsed
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:energiebalans-wereldwijd"
+
+\end_inset
+
 Het gaat bijvoorbeeld over een oogst van 13 miljard ton aan biomassa (240
 \begin_inset space \thinspace{}
 \end_inset
@@ -1976,10 +1992,10 @@ verlies aan diversiteit.
 
 \begin_layout Itemize
 verhoging van de negatieve milieueffecten.
- Een goed voorbeeld zijn broeikasgassen (zie ook kader 
+ Een goed voorbeeld zijn broeikasgassen (zie ook appendix 
 \begin_inset CommandInset ref
-LatexCommand nameref
-reference "box:broeikasgassen"
+LatexCommand ref
+reference "appendix:broeikasgassen"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2011,129 +2027,6 @@ vervangen van een gevoel van schaarste van energie en grondstoffen door
  een gevoel aan overvloed van energie en grondstoffen.
  Deze situatie is echter maar kortstondig en enkel mogelijk door het verbruiken
  van fossiele brandstoffen.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float boxfloat
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-We kennen natuurlijk allemaal het broeikaseffect en weten dat 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
- een broeikasgas is.
- Maar wist je ook het volgende ?
-\end_layout
-
-\begin_layout Itemize
-Broeikasgassen komen niet enkel vrij bij verbranding.
- Ook veeteelt en het gebruik van kunstmest dragen bij aan het broeikaseffect.
-\end_layout
-
-\begin_layout Itemize
-Niet alleen 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
- is een broeikasgas.
- Er zijn er nog anderen zoals
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "broeikasgassen2019"
-literal "false"
-
-\end_inset
-
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-methaan (
-\begin_inset Formula $\ce{NH4}$
-\end_inset
-
-).
- Deze is 25 keer krachtiger dan 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
- en veroorzaakt 20% van het broeikaseffect.
- Methaan onder andere wordt uitgestoten in de veeteelt.
-\end_layout
-
-\begin_layout Itemize
-lachgas (
-\begin_inset Formula $\ce{N2O}$
-\end_inset
-
-).
- Deze is 289 keer krachtiger dan 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
- en veroorzaakt 6% van het broeikaseffect.
- Lachgas wordt in de landbouw aangemaakt bij overdadig gebruik van drijfmest
- en kunstmest.
-\end_layout
-
-\begin_layout Itemize
-andere natuurlijke broeikasgassen zijn water (
-\begin_inset Formula $\ce{H2O}$
-\end_inset
-
-) en ozon (
-\begin_inset Formula $\ce{O3}$
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Quotes pld
-\end_inset
-
-industriële
-\begin_inset Quotes prd
-\end_inset
-
- broeikasgassen zijn meestal veel krachtiger dan deze hierboven (1.300 tot
- 23.900 keer zo krachtig als 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
-).
-\end_layout
-
-\end_deeper
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "box:broeikasgassen"
-
-\end_inset
-
-Broeikasgassen
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2683,7 +2576,11 @@ Indirecte productiefactoren zijn veel moeilijker te bepalen.
  maar zijn veel minder zichtbaar.
  De indirecte productiefactoren kunnen zowel uit Nederland als uit het buitenlan
 d afkomstig zijn.
- 
+\end_layout
+
+\begin_layout Standard
+Indirecte productiefactoren zijn een resultaat van externe kosten die er
+ in de landbouw zitten.
 \end_layout
 
 \begin_layout Standard
@@ -3159,14 +3056,14 @@ Hiervoor is gebruik gemaakt van verschillende databases zoals Ecoinvent,
 
 \begin_layout Standard
 Het bepalen is van deze waarde is maar ten dele mogelijk omdat niet alles
- over de opgeslagen energie (kader
+ over de opgeslagen energie (appendix
 \begin_inset space ~
 \end_inset
 
 
 \begin_inset CommandInset ref
-LatexCommand nameref
-reference "box:Opgeslagen-energie"
+LatexCommand ref
+reference "appendix:opgeslagen-energie"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3175,110 +3072,6 @@ noprefix "false"
 
 ) van bijvoorbeeld een gebouw gekend is (hiervan kan momenteel maximaal
  75% van de inherente energie ingeschat worden).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float boxfloat
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-Opgeslagen energie is een vertaling van de term 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Embodied Energy
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
-.
- Dit is alle energie die nodig is om een product aan te maken.
- Het is als het ware 
-\begin_inset Quotes pld
-\end_inset
-
-opgeslagen
-\begin_inset Quotes prd
-\end_inset
-
- in het product maar niet meer bruikbaar.
- Het is de energie die nodig geweest is om het product te produceren, inclusief
- de energie om de grondstoffen van het product te produceren.
- Dit omvat de energie die nodig is voor het winnen, transporteren en bewerken
- van zowel de energie als de grondstoffen, het brandstof- en elektriciteitsgebru
-ik van het productieproces zelf en de energie die nodig is voor het maken
- en onderhouden van de productiemiddelen.
- Ook transport moet hierbij gerekend worden.
-\end_layout
-
-\begin_layout Plain Layout
-Wat allemaal in kaart gebracht moet worden wordt bepaald door een 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Live Cycle Analysis
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-(LCA).
- Hiermee kan de 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Gros Energy Requirement
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-(GER) bepaald worden, de hoeveelheid energie die nodig is voor de productie
- van een bepaald product, materiaal of stof (inclusief de energie om de
- grondstoffen te produceren), beginnend met de primaire energiedragers.
- Zowel van de LCA als de GER bestaan er gegevens zodat je een eigen analyse
- kunt maken.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "box:Opgeslagen-energie"
-
-\end_inset
-
-Opgeslagen energie
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3396,6 +3189,12 @@ ies, aannames en berekeningen in kaart gebracht.
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:efficiëntie-landbouw"
+
+\end_inset
+
 Efficiëntie van de landbouw
 \end_layout
 
@@ -3439,7 +3238,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -3515,7 +3314,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4025,7 +3824,11 @@ Voor het vlees werden de gewichten genomen van vlees met been.
 \end_inset
 
 \SpecialChar ldots
- Over het algemeen zal er dus een lichte overschatting zijn van de waarden.
+
+\end_layout
+
+\begin_layout Standard
+Over het algemeen zal er dus een lichte overschatting zijn van de waarden.
 \end_layout
 
 \begin_layout Subsection
@@ -4076,17 +3879,7 @@ Vroeger had een gebouw meerder functies zoals bewoning, stal, bewaring,
  zelf, maar ook de energie die opgeslagen zit in de materialen (zie kader
  
 \begin_inset CommandInset ref
-LatexCommand ref
-reference "box:Opgeslagen-energie"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- 
-\begin_inset CommandInset ref
-LatexCommand vpageref
+LatexCommand vref
 reference "box:Opgeslagen-energie"
 plural "false"
 caps "false"
@@ -4471,6 +4264,12 @@ Voor de input zijn ze niet apart meegeteld.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Elektronica"
+
+\end_inset
+
 Elektronica
 \end_layout
 
@@ -4625,6 +4424,12 @@ Ook binnen de dienstverlening zijn er mensen expliciet bezig voor de landbouw.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Mijnbouw"
+
+\end_inset
+
 Mijnbouw
 \end_layout
 
@@ -4736,14 +4541,63 @@ literal "false"
 .
  Aangezien de ertsgehalten in 1950 hoger waren dan in 2015 is het aandeel
  energieverbruik berekend op 4% in 1950, oplopend tot 9% in 2015.
- Het wereldwijde energieverbruik van Nederland is over de hele beschouwde
- periode ongeveer gelijk gebleven op 1%.
- Dus wordt ingeschat dat bijvoorbeeld in 2015, van de die 9% wereldwijde
- energieverbruik van mijnbouw, 1% ervan voor Nederlandse grondstoffen geld.
- Dit wordt dan geschaald naar het aandeel in de Nederlandse landbouw aan
- de hand van het aandeel van de landbouw in het directe energieverbruik
- van Nederland.
- Dit is schematisch voorgesteld in figuur
+\end_layout
+
+\begin_layout Standard
+Vervolgens wordt gekeken naar het aandeel van Nederland in het wereldwijde
+ energieverbruik.
+ China is de grootste verbruiker met meer dan 25%, daarna de Verenigde Staten
+ van Amerika met ongeveer 15%, India met ongeveer 6%, Rusland ongeveer 5%,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BP2021"
+literal "false"
+
+\end_inset
+
+.
+ Nederland heeft een aandeel van een kleine 1%, net iets meer dan België.
+ Daarmee wordt 1% van het wereldwijde energieverbruik van de mijnbouw toegekend
+ aan Nederland.
+\end_layout
+
+\begin_layout Standard
+Vervolgens is dit aandeel voor Nederland dan weer opgesplitst naar sector.
+ Industrie verbruikt ongeveer 44% van de Nederlandse energie, huishoudens
+ en verkeer tussen 10 en 15%,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "clo2021"
+literal "false"
+
+\end_inset
+
+.
+ Landbouw verbruikt zo'n 6% van de Nederlandse energie.
+ De landbouw krijgt daardoor 6% van de energie die voor het Nederlandse
+ aandeel in de mijnbouw bepaald is.
+\end_layout
+
+\begin_layout Standard
+Dit is schematisch voorgesteld in figuur
 \begin_inset space ~
 \end_inset
 
@@ -4761,10 +4615,12 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
 
 \begin_layout Plain Layout
 
@@ -4790,55 +4646,6 @@ name "fig:mijnbouw-nederland"
 \end_inset
 
 Verdeling van het aandeel mijnbouw voor de Nederlandse landbouw.
-\begin_inset Newline newline
-\end_inset
-
-Eerst wordt het aandeel bepaald aan de hand van het aandeel van Nederland
- in het wereldwijde energieverbruik.
- China is de grootste verbruiker met meer dan 25%, daarna de Verenigde Staten
- van Amerika met ongeveer 15%, India met ongeveer 6%, Rusland ongeveer 5%,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
- 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "BP2021"
-literal "false"
-
-\end_inset
-
-.
- Nederland heeft een aandeel van een kleine 1%, net iets meer dan België.
-\begin_inset Newline newline
-\end_inset
-
-Vervolgens is dit aandeel voor Nederland dan weer opgesplitst naar sector.
- Industrie verbruikt ongeveer 44% van de Nederlandse energie, huishoudens
- en verkeer tussen 10 en 15%,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "clo2021"
-literal "false"
-
-\end_inset
-
-.
- Landbouw verbruikt zo'n 6% van de Nederlandse energie.
 \end_layout
 
 \end_inset
@@ -4956,7 +4763,7 @@ name "chap:Presentatie-gegevens"
 
 \end_inset
 
-De goodies opgediend
+Een vier gangen menu
 \end_layout
 
 \begin_layout Standard
@@ -4971,7 +4778,11 @@ Smakelijk!
 \end_layout
 
 \begin_layout Section
-Arbeid
+Het aperitief: arbeid
+\end_layout
+
+\begin_layout Standard
+Als aperitief beginnen we aan de Noeste Arbeid In De Landbouw.
 \end_layout
 
 \begin_layout Subsection
@@ -4979,7 +4790,7 @@ Directe arbeid
 \end_layout
 
 \begin_layout Standard
-Hoeveel volk werkt er in de Nederlandse landbouw ? Klassiek krijg je iets
+Hoeveel volk werkt er in de Nederlandse landbouw ? Standaard krijg je iets
  te zien zoals in figuur
 \begin_inset space ~
 \end_inset
@@ -5068,14 +4879,14 @@ miljoen personen.
 \end_inset
 
 .
- In 1807 was dit zelfs nog een aandeel van 43,1%.
+ In 1807 was dat aandeel nog 43,1%.
 \end_layout
 
 \begin_layout Standard
 Deze trend is al zeer lang geleden ingezet door de vervanging van menselijke
  spierkracht.
- Eerst door dierlijke spierkracht zoals runderen of paarden, daarna door
- machines.
+ Eerst door dierlijke spierkracht zoals runderen of paarden, maar vooral
+ bij de introductie van machines is het zeer snel gegaan.
 \end_layout
 
 \begin_layout Subsection
@@ -5083,7 +4894,7 @@ Indirecte arbeid
 \end_layout
 
 \begin_layout Standard
-Zoals Meino Smit laat zien, is de werkelijkheid genuanceerder.
+Zoals Meino Smit laat zien, is de werkelijkheid wel genuanceerder.
  Er is namelijk ook indirecte arbeid betrokken bij de landbouw.
  Tellen we die mee, dan krijgen we figuur
 \begin_inset space ~
@@ -5143,7 +4954,7 @@ Er is nog altijd een duidelijke afname in het aantal arbeidskrachten.
  arbeid in de loop van de tijd omgedraaid is: waar er vroeger veel meer
  mensen rechtstreeks in de landbouw tewerkgesteld waren, zijn er nu meer
  mensen indirect in de landbouw tewerkgesteld.
- In 2015 was er voor elke boer in Nederland nog 1,7 persoon indirect bezig.
+ In 2015 was er voor elke Nederlandse boer nog 1,7 persoon indirect bezig.
 \end_layout
 
 \begin_layout Standard
@@ -5282,11 +5093,11 @@ Het aantal personen dat indirect voor de Nederlandse landbouw tewerkgesteld
 \end_layout
 
 \begin_layout Itemize
-een afname van de arbeid, zowel directe arbeid als indirecte arbeid,
+een afname van de arbeid, zowel directe arbeid als indirecte arbeid.
 \end_layout
 
 \begin_layout Itemize
-een verschuiving van het directe naar indirecte arbeid
+een verschuiving van het directe naar indirecte arbeid.
 \end_layout
 
 \begin_layout Itemize
@@ -5295,7 +5106,12 @@ het aantal personen dat indirect tewerkgesteld is in de Nederlandse arbeid
 \end_layout
 
 \begin_layout Section
-Landgebruik
+Voorgerecht: landgebruik
+\end_layout
+
+\begin_layout Standard
+Nu we warm geworden zijn en de spijsvertering goed op gang gekomen is, tijd
+ voor het voorgerecht.
 \end_layout
 
 \begin_layout Subsection
@@ -5391,9 +5207,22 @@ noprefix "false"
 
 \end_inset
 
- geeft het areaal landbouwgrond dat een Nederlander tot beschikking heeft.
- De gekleurde band geeft aan wat er nodig is per persoon om voeding te kunnen
- voorzien.
+ geeft het areaal landbouwgrond dat een Nederlander ter beschikking heeft.
+ De gekleurde band geeft aan wat er per persoon nodig is om voeding te kunnen
+ voorzien
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 63"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -5410,7 +5239,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek - nodig.svg
-	width 50text%
+	width 45text%
 	groupId grafieken klein
 
 \end_inset
@@ -5445,6 +5274,8 @@ Landbouwareaal per inwoner
 \begin_layout Standard
 Het is dus te zien dat met enkel het landbouwareaal dat in Nederland ter
  beschikking is, de Nederlandse bevolking niet gevoed kan worden.
+ Maar toch is er meer dan genoeg eten ter beschikking, zelfs teveel.
+ Hoe kan dat?
 \end_layout
 
 \begin_layout Subsection
@@ -5454,7 +5285,7 @@ Indirect landgebruik
 \begin_layout Standard
 We krijgen een totaal ander beeld als we ook de gronden die indirect gebruikt
  worden meenemen.
- Het absoluut aantal gebruikte grond is te zien in figuur
+ Het totaal aan gebruikte grond is te zien in figuur
 \begin_inset space ~
 \end_inset
 
@@ -5476,10 +5307,6 @@ noprefix "false"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -5534,13 +5361,11 @@ miljoen hectare voor o.a.
 \end_layout
 
 \begin_layout Standard
-Bijna de helft van deze gronden is gebruikt voor export uit Nederland.
-\end_layout
-
-\begin_layout Standard
-Het is ook te zien dat de hoeveelheid indirect landgebruik eerst sterk is
- gestegen ten opzicht van de direct gebruikte landbouwareaal.
+Er is in de inzet te zien dat de hoeveelheid indirect landgebruik eerst
+ sterk is gestegen ten opzicht van de direct gebruikte landbouwareaal.
  Vanaf 1975 is dit gestabiliseerd rond een verhouding van 1,7.
+ Met andere woorden: gemiddeld heeft elke hectare landbouwgrond in Nederland
+ nog 1,7 hectare grond nodig elders.
 \end_layout
 
 \begin_layout Standard
@@ -5559,7 +5384,7 @@ noprefix "false"
 \end_inset
 
  geeft weer wat dit betekend voor de hoeveelheid landbouwgrond die een Nederland
-se inwoner gebruikt.
+se inwoner ter beschikking heeft.
 \end_layout
 
 \begin_layout Standard
@@ -5569,14 +5394,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles - nodig.svg
-	width 50text%
+	width 45text%
 	groupId grafieken klein
 
 \end_inset
@@ -5858,11 +5679,1421 @@ juiste
 \end_layout
 
 \begin_layout Section
-Energie
+De hoofdschotel: energie
+\end_layout
+
+\begin_layout Standard
+Zo, even een rustpauze vooraleer de hoofdschotel opgediend wordt.
+ Bij energie gaan we zowel de energetische waarde van de oogst bepalen (output,
+ zie paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kengetallen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) als de energie die nodig is om de Nederlandse landbouw in gang te houden.
+ Dit laatste heeft zowel een direct als een indirect deel.
+\end_layout
+
+\begin_layout Subsection
+Energetische output
+\end_layout
+
+\begin_layout Standard
+De output is in 3 sectoren opgedeeld: akkerbouw, veehouderij en tuinbouw
+ (fruit en groenten) zoals te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-out"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Deze opdeling is maar in 4 jaartallen terug te vinden in het werk, vandaar
+ dat de andere jaren enkel de totale output tonen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie - output.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-out"
+
+\end_inset
+
+Energetische output van de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Voor de akkerbouw zijn de verschillen aan een aantal factoren te wijten:
+ weersinvloeden, verschuiving van akkerbouw naar grasland en omgekeerd en
+ het feit dat er nu meer akkerbouwmatig groenten geteeld worden.
+ Voor de laatste een voorbeeld: vroeger werden spruiten in de tuinbouw geteeld
+ waarbij handmatig geoogst werd.
+ Sinds de uitvinding van een spruitenoogst machine kan dit nu akkerbouwmatig.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie - output - aandeel sectoren.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-out-verhouding"
+
+\end_inset
+
+Verhouding van de sectoren in de energetische output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Bekijken we de evolutie van het aandeel van de verschillende sectoren in
+ de output (figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-out-verhouding"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), dan zien we dat het aandeel in de akkerbouw gedaald is terwijl de tuinbouw
+ een stijging gekend heeft.
+ De akkerbouw en de veehouderij hebben nu ongeveer een gelijkaardig aandeel
+ in de energie dit uit de Nederlandse landbouw komt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie - output - sectoren geschaald.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-out-geschaald"
+
+\end_inset
+
+Output per sector, geschaald ten opzicht van de waarde in 1950.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Dit is vooral zichtbaar in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-out-geschaald"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ waar de output bekeken wordt ten opzicht van de waarde in 1950.
+ Voor de volledige Nederlandse landbouwsector is er eerst een toename geweest
+ maar vanaf 1990 is een stagnatie opgetreden.
+ Het is echter duidelijk dat de energetische output van de tuinbouw en vooral
+ de akkerbouw in de bekeken periode sterk gestegen.
+\end_layout
+
+\begin_layout Subsection
+Energetische input
+\end_layout
+
+\begin_layout Standard
+De energetische input, zowel direct als indirect, is weergegeven in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie - input - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-in"
+
+\end_inset
+
+Input voor de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+We zien dat de input blijft stijgen.
+ De verhouding tussen de directe en indirecte input is eerst gedaald, maar
+ sinds 1970 is deze gestaag gestegen.
+ Vandaag is er 1,2 keer zoveel indirecte als directe input nodig voor de
+ Nederlandse landbouw.
+ De indirecte input is waarschijnlijk nog een onderschatting omdat een de
+ input van een aantal sectoren onvolledig is of moeilijk te bepalen.
+\end_layout
+
+\begin_layout Standard
+Willen we deze getallen in perspectief plaatsen, moeten we beseffen dat
+ het volledig verbruik aan elektriciteit in België per jaar rond de 80
+\begin_inset space ~
+\end_inset
+
+TWh oftewel 288
+\begin_inset space ~
+\end_inset
+
+PJ bedraagt
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.febeg.be/statistieken-elektriciteit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Met andere woorden, de Nederlandse landbouw verbruikt evenveel energie
+ als het volledige elektrisch verbruik van België.
+\end_layout
+
+\begin_layout Standard
+Relevantie voor dit verdiepend werkstuk, is dat de indirecte energie een
+ gevolg is van externe kosten.
+ Deze opmerking hadden we al kunnen maken bij de vorige twee delen over
+ arbeid en landgebruik, maar een energetische kost is eenvoudiger om te
+ bevatten.
+ Met de door Meino Smit geïdentificeerde energetische waarden voor die externe
+ kosten, zien we dat deze zwaarder beginnen door te wegen dan de directe
+ kosten.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:absolute-e-vergelijken"
+
+\end_inset
+
+Vergelijken van energetische output en input
+\end_layout
+
+\begin_layout Standard
+Figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "fig:e-totaal"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ combineert beide voorgaande figuren.
+ De input is als 'negatieve' energie beschouwd omdat dit energie is die
+ je in de landbouw moet steken.
+ Op die manier kan ook een energiebalans opgemaakt worden van de Nederlandse
+ landbouw.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie - volledig - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-totaal"
+
+\end_inset
+
+Totaalplaatje van energie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Het eerste dat opvalt is dat de energiebalans van de Nederlandse landbouw
+ negatief geworden is.
+ Dit houdt in dat er meer energie in gestoken moet worden dan dat je eruit
+ haalt, wat we ook al zagen wereldwijd optreden (voetnoot
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fn:energiebalans-wereldwijd"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Deze negatieve energiebalans treedt verrassend vroeg op in de beschouwde
+ periode.
+\end_layout
+
+\begin_layout Standard
+Als er alleen gekeken wordt naar de directe input, zou de energiebalans
+ eerst negatief geworden zijn rond 1965 om dan vanaf 1970 terug te stijgen.
+ Vanaf 1980 zou die balans dan rond 0 geschommeld hebben.
+\end_layout
+
+\begin_layout Standard
+Ook zien we in de inzet dat er momenteel twee keer zoveel energie gepompt
+ wordt in de landbouw dan dat eruit gehaald wordt.
+ Dus voor elke joule voedingswaarde die de uitgang van de fabriek passeert,
+ moet je er twee joule niet menselijke of dierlijke energie in steken
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Onrechtstreeks is deze energie wel mee genomen want om die menselijke energie
+ te verkrijgen, moet er gegeten worden.
+ En het meeste gangbare eten kan niet bestaan zonder een input van fossiele
+ energie.
+\end_layout
+
+\end_inset
+
+.
+ In 1950 was er net iets meer output dan input.
+ Daarna is een stijging te zien tot 1970 tot de verhouding 2, waarna die
+ stabiel is gebleven.
+ Eten is nodig dus mag wel wat kosten, maar het is uiteraard de vraag of
+ dit niet beter kan.
+ Het is door deze berekening wel duidelijk dat deze manier van landbouw
+ op lange termijn niet houdbaar is.
+\end_layout
+
+\begin_layout Standard
+Dit is al een eerste indicatie dat het meerekenen van de externe kosten
+ het beeld dat we moeten hebben rond de landbouw sterk kan veranderen.
+ Met enkel de directe input zouden we een energetisch neutrale balans zien
+ na een dieptepunt in 1970.
+ Rekening houdend met de externe kosten, is het duidelijk dat de balans
+ al zeer lang negatief is en alleen maar verslechtert.
+\end_layout
+
+\begin_layout Subsection
+Energie efficiëntie
+\end_layout
+
+\begin_layout Standard
+Zoals uitgelegd is in paragraaf 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:efficiëntie-landbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset Quotes pld
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:efficiëntie-landbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Quotes prd
+\end_inset
+
+, gebruikt Meino Smit liever een maat van efficiëntie (en duurzaamheid)
+ gebaseerd op energie efficiëntie in plaats van arbeidsproductiviteit (zoals
+ hierboven) of economische indicatoren.
+\end_layout
+
+\begin_layout Standard
+Een maat van energie efficiëntie gebaseerd op energie output is hierboven
+ al besproken.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:e-eff-gj_ha"
+
+\end_inset
+
+Efficiëntie van energie t.o.v.
+ grondgebruik
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie_ha - output.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e_ha-out"
+
+\end_inset
+
+Energetische output/ha
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie_ha - input.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e_ha-in"
+
+\end_inset
+
+Energetische input/ha
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie_ha - verhouding.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e_ha-verhouding"
+
+\end_inset
+
+Energetische efficiëntie/ha
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energetische waarde/ha, rekening houdend met het grondgebruik.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Output per hectare
+\end_layout
+
+\begin_layout Standard
+Kijken we naar de output per hectare, moeten we kijken naar het grondgebruik.
+ Hoeveel grond is er nodig om deze output te verkrijgen.
+\end_layout
+
+\begin_layout Standard
+Het moet ondertussen duidelijk zijn dat niet alleen de landbouwgrond in
+ Nederland nodig is, maar ook het indirecte landgebruik.
+ Zonder bijvoorbeeld het indirecte landgebruik voor veevoeder of grondstoffen
+ zou het niet mogelijk zijn om deze output te bereiken.
+\end_layout
+
+\begin_layout Standard
+Figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e_ha-out"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ houdt hier dus rekening mee.
+ We zien dat de output per hectare over de hele periode eerst gedaald is,
+ om dan terug langzaam te stijgen tot iets boven het niveau van 1950.
+ Volgens dit kengetal, is de Nederlandse landbouw over die hele periode
+ niet zoveel efficiënter geworden ondanks alle mechanisatie en technologische
+ vooruitgang.
+\end_layout
+
+\begin_layout Standard
+Hadden we hier geen rekening mee gehouden, dan zouden we gedacht kunnen
+ hebben dat we goed bezig waren want de output per hectare zou dan schijnbaar
+ 2,6 keer beter zijn in 2015 ten opzichte van 1950.
+ Maar dan waren we wel vergeten om het de externe kosten mee te bekijken.
+\end_layout
+
+\begin_layout Subparagraph
+Input nodig per hectare
+\end_layout
+
+\begin_layout Standard
+Kijken we naar hoeveel input nodig is per ha landbouwgrond, dan moeten we
+ ook hier vastleggen wat we willen zien.
+ Het is belangrijk om rekening te houden met het grondgebruik.
+\end_layout
+
+\begin_layout Standard
+Voor de input betekent dit dat we het landgebruik in Nederland zelf nemen
+ (direct landgebruik).
+ De input zelf is de volledige input, dus inclusief de externe kosten want
+ dat is wat de energie die effectief nodig om de gewassen te telen.
+ Dit resultaat is te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e_ha-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Er is duidelijk een sterke stijging in de hoeveelheid energie die per hectare
+ Nederlandse landbouwgrond nodig is.
+ In 2015 is 7,2 zoveel energie per hectare nodig dan in 1950.
+\end_layout
+
+\begin_layout Standard
+Hadden we enkel gekeken naar de directe energie, dan was deze stijging minder
+ geweest (6,3 keer).
+ De absolute waarde voor 2015 was minder dan de helft geweest.
+ Dit geeft opnieuw aan hoe belangrijk het is om de indirecte energie, die
+ gekoppeld is aan externe kosten, mee te nemen.
+\end_layout
+
+\begin_layout Subparagraph
+Efficiëntie
+\end_layout
+
+\begin_layout Standard
+Als we deze twee waarden delen, krijgen we hoe efficiënt de energie ingezet
+ wordt in de Nederlandse landbouw, rekening houdend met het grondgebruik.
+ Omdat, zoals je al kunt vermoeden, deze efficiëntie dramatisch is, is in
+ figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e_ha-verhouding"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ een omgekeerde verticale schaal gebruikt om de evolutie beter te kunnen
+ zien.
+ In 1950 was er een neutrale efficiëntie (evenveel energie nodig als geproduceer
+d), maar nu is de Nederlandse landbouw 7 keer minder efficiënt bezig zijn
+ dan toen.
+ Dat dit meer is dan de factor 2 in paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes pld
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "subsec:absolute-e-vergelijken"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Quotes prd
+\end_inset
+
+ komt omdat daar de absolute waarde van de energie genomen is terwijl hier
+ de energie gebruikt versus geproduceerd per hectare bekeken is.
+\end_layout
+
+\begin_layout Subsubsection
+Efficiëntie van energie t.o.v.
+ arbeid
+\end_layout
+
+\begin_layout Standard
+Een gelijkaardige waarde kunnen we bepalen op de totale energetische waarde
+ nodig per Nederlandse boer of energetische output per arbeid in de Nederlandse
+ landbouw (figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energie_fte - inset.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e_FTE"
+
+\end_inset
+
+Energetische waarde/FTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De totale energie die de gemiddelde Nederlandse boer verbruikt stijgt over
+ de bekeken periode met een factor
+\begin_inset space ~
+\end_inset
+
+26! De output geleverd door een werknemer in de Nederlandse landbouw is
+ echter maar met een factor
+\begin_inset space ~
+\end_inset
+
+4,2 gestegen.
+ We zien terug opnieuw dat verhouding hiervan een factor
+\begin_inset space ~
+\end_inset
+
+6 verslechtering oplevert.
+\end_layout
+
+\begin_layout Subsubsection
+Wat wil dit kengetal zeggen ?
+\end_layout
+
+\begin_layout Standard
+Deze manier van efficiëntie bekijken heeft zeker een meerwaarde.
+ Naar mijn mening biedt het de meest kritische parameter op de grootte van
+ externe kosten.
+ Enerzijds verhoogt de in rekening gebrachte externe kost (globale energetische
+ input per Nederlandse arbeid of landgebruik) de input zijde.
+ Anderzijds doet de in rekening gebrachte externe kost (energetische output
+ per globale arbeid of landgebruik) de output zijde dalen.
+ Hoe groter de externe kost is (zowel in energie als in arbeid of landgebruik),
+ hoe meer de verkregen waarde in de rode zone zal liggen.
+\end_layout
+
+\begin_layout Standard
+Bij een waarde van 1 zal er evenwicht zijn, daarboven en daaronder ben je
+ ofwel goed bezig ofwel heb je te veel externe kosten.
+\end_layout
+
+\begin_layout Standard
+Meer kan ik er op dit moment niet achter vinden.
+ Dat is voor betere geesten om dat uit te klaren.
+\end_layout
+
+\begin_layout Section
+Gewicht dessert
+\end_layout
+
+\begin_layout Standard
+Oef, dat was een goed hoofdgerecht.
+ Nu het dessert om af te ronden.
+\end_layout
+
+\begin_layout Subsection
+Gewicht aan geproduceerde landbouwproducten
+\end_layout
+
+\begin_layout Standard
+In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:gewicht-out"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ staat het gewicht aan geproduceerde landbouwproducten, opgesplitst per
+ sector.
+ Een sterke toename tot de jaren 90 is gevolgd door een plateau waar de
+ output niet echt meer gestegen is.
+ Vergeleken met 1950, is er in 2015 2,4 keer zoveel gewicht aan landbouwproducte
+n geproduceerd geweest.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - gewicht - output.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:gewicht-out"
+
+\end_inset
+
+Gewicht geproduceerde landbouwproducten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Er is terug te zien dat de output van akkerbouw eerst steeg om vervolgens
+ af te nemen.
+ Dit heeft te maken met dezelfde factoren als bij de energetische output:
+ het weer, verschuiving akkerbouw naar grasland en omgekeerd en verhoging
+ van het aantal akkerbouwmatig geteelde groenten.
+ Ook is duidelijk te zien dat de tuinbouw en veehouderij beiden in gewicht
+ zijn toegenomen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:gewicht-out-verhouding"
+
+\end_inset
+
+Verhouding van de sectoren volgens gewicht
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Als we kijken naar het aandeel van de verschillende sectoren in de totale
+ output, heeft de veehouderij de koppositie overgenomen van de akkerbouw.
+ De tuinbouw is licht aan het stijgen.
+ Vergelijken we dit met het aandeel in de energetische output (figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-out-verhouding"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), dan valt op de het aandeel van de tuinbouw in gewicht veel groter is.
+ Dat heeft ermee te maken dat hier het aandeel groenten redelijk groot is,
+ maar deze hebben een laag energetische voedingswaarde.
+\end_layout
+
+\begin_layout Standard
+De groei van de verschillende sectoren vanaf 1950 is weergegeven in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:gewicht-out-geschaald"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ De tuinbouw is het sterkste toegenomen en blijft recent nog stijgen.
+ Voor de akkerbouw en veehouderij is er vanaf 1990 een plateau bereikt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren - geschaald.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:gewicht-out-geschaald"
+
+\end_inset
+
+Output in gewicht, geschaald ten opzicht van de waarde in 1950.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dit heeft ook gevolgen voor de totale energetische output van de Nederlandse
+ landbouw.
+ Door de toenamen aan tuinbouw, die een lagere energetische voedingswaarde
+ heeft dan akkerbouw en veehouderij, is de totale energetische waarde van
+ de landbouw ook gezakt: er zit minder energie in een gemiddelde ton landbouwpro
+ducten dan voorheen.
+ Omdat dit komt doordat er meer groenten geteeld (en hopelijk ook gegeten)
+ worden, lig ik daar persoonlijk niet van wakker.
+\end_layout
+
+\begin_layout Subsection
+Arbeidsproductiviteit als ton/FTE
+\end_layout
+
+\begin_layout Standard
+In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeidsproductiviteit-ton_fte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ vergelijken we, zoals gewoonlijk, de invloed van externe kosten op de arbeidspr
+oductiviteit in ton/FTE.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - gewicht_fte.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeidsproductiviteit-ton_fte"
+
+\end_inset
+
+Arbeidsproductiviteit in ton/FTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Door enkel rekening te houden met de directe arbeid, lijkt de arbeidsproductivit
+eit gestegen te zijn met een factor 11,2.
+ Als we echter de totale arbeid in rekening brengen, is er een stijging
+ met een factor 4,9 keer.
+ Nog altijd een mooie stijging, dat wel, maar minder sterk.
+\end_layout
+
+\begin_layout Subsection
+Opbrengsten in ton/ha
+\end_layout
+
+\begin_layout Standard
+Kijken we naar het gewicht producten per hectare (figuur
+\begin_inset space ~
+\end_inset
+
+), dan is er, zonder rekening te houden met het indirecte landgebruik, een
+ stijging met een factor 3,1.
+ Omwille van externe kosten, is echter meer land nodig geweest om deze output
+ te bewerkstelligen.
+ Wordt hier dan rekening mee gehouden, is de stijging maar een factor 1,3
+ meer.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - gewicht_ha.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:opbrengsten-ton_ha"
+
+\end_inset
+
+Opbrengsten per landoppervlak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dit spiegelt ook de tendens die we gezien hebben in paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:e-eff-gj_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Rekening houdend met de indirecte landgebruik is de Nederlandse landbouw,
+ ondanks de 
+\begin_inset Quotes pld
+\end_inset
+
+groene revolutie
+\begin_inset Quotes prd
+\end_inset
+
+ maar marginaal beter geworden in het produceren van producten per hectare.
+ Aangezien het indirecte landgebruik quasi volledig ter rekening van de
+ veehouderij gesteld kan worden, is het de vraag of de investeringen en
+ nadelen hiervan de baten dragen.
+\end_layout
+
+\begin_layout Section
+Een uitsmijter: vergelijken met andere studies
+\end_layout
+
+\begin_layout Standard
+Kom, nog een afzakkertje
+\end_layout
+
+\begin_layout Standard
+Meino Smit heeft de resultaten van zijn studie met andere studies die ook
+ de benodigde energie en/of energie efficiëntie voor landbouw berekend
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 167 en volgende"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ De cijfers zelf zijn moeilijk te vergelijken omdat er andere definities
+ gehanteerd werden en ook indirecte factoren niet altijd meegenomen werden.
+ Vandaar dat enkel de tendensen kunnen vergeleken worden.
+ Deze komen redelijk overeen met zijn resultaten.
+\end_layout
+
+\begin_layout Standard
+Ook haalt Meino Smit regelmatig aan dat de output een overschatting kan
+ zijn en de indirecte factoren eerder een onderschatting.
+ Dit is een gezond principe als je met onzekerheden werkt: wees conservatief
+ dus stel het wat rooskleuriger voor.
+ Dan blijven je conclusies op zijn minst stand houden in de tijd of worden
+ ze misschien versterkt als betere gegevens beschikbaar komen.
 \end_layout
 
 \begin_layout Chapter
 Externe kosten opsporen en bepalen
+\end_layout
+
+\begin_layout Standard
+Algemeen overzicht van hoe te bepalen (rechtstreeks, afleiden, gemiddelde
+ nemen, pro rata volgens een bepaalde factor (bv.
+ grondstoffen bouw volgen opp.
+ / mijnbouw volgens energieverbruik) vanuit globalere gegevens)
+\end_layout
+
+\begin_layout Standard
+rechtstreeks: bronnen
+\end_layout
+
+\begin_layout Standard
+opsomming in tabel van kengetal en sector || bron || grond || kapitaal (energie
+ en grondstof) || arbeid || berekenmethode (|| opmerkingen) ??
+\end_layout
+
+\begin_layout Standard
+belangrijk om bepaalde toekomstige tekorten nu al beleid op te maken.
+ te laat als de markt in werking treedt want het is dan te duur geworden
+ + je hebt tijd nodig om over te schakelen
+\end_layout
+
+\begin_layout Standard
+H12.2 oplijsting van kosten + voorbeelden uit studies.
 \end_layout
 
 \begin_layout Section
@@ -5885,11 +7116,26 @@ Vanuit de factor landgebruik
 Impact van de externe kosten op de kost van de landbouw
 \end_layout
 
+\begin_layout Enumerate
+al aangegeven in bij de grafieken
+\end_layout
+
+\begin_layout Enumerate
+maatschappelijke kosten (H12 met voorbeeld 12.3 & 13.5 
+\begin_inset Quotes pld
+\end_inset
+
+Impact maatschappelijke kosten
+\begin_inset Quotes prd
+\end_inset
+
+ resultaat)
+\end_layout
+
 \begin_layout Standard
 H15: Voor het berekenen van de maatschappelijke kosten bestaat nog geen
  algemeen aanvaarde standaard.
  Derhalve zijn in dit proefschrift verschillende waardes weergegeven.
- 
 \end_layout
 
 \begin_layout Chapter
@@ -5902,12 +7148,609 @@ name "chap:Elektronica-en-hernieuwbare-energie"
 Een bureau vol elektronica
 \end_layout
 
+\begin_layout Standard
+Welkom op het bureau.
+ Hier wordt wel wat elektronica gebruikt, maar gelukkig hebben we groene
+ energie.
+ Zoals wakkere mensen betaamd, is het goed om eens na te kijken wat daar
+ externe kosten van zijn.
+\end_layout
+
+\begin_layout Section
+Externe kosten van elektronica
+\end_layout
+
+\begin_layout Standard
+Elektronica is iets raars.
+ We kunnen ons nu geen leven meer voorstellen zonder en die afhankelijkheid
+ is vreselijk snel in ons leven geslopen.
+ Ook in de landbouw heeft elektronica op korte tijd een prominente plaats
+ gekregen.
+ Drones om plantgoed te planten, vertical farming, sensoren te kust en te
+ keur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Je kan het zo gek niet bedenken of elektronica heeft hier een voet in de
+ deur of zelfs meer.
+\end_layout
+
+\begin_layout Standard
+In paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Elektronica"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ hebben we al beschouwd dat vooral de productie van elektronica belastend
+ is.
+ Tijdens die productie is meer kapitaal nodig dan tijdens het gebruik.
+ Het is ook daar waar het meeste afval gegenereerd wordt en niet na het
+ afdanken van de toestellen.
+ Dit geeft aan dat recyclage van elektronische apparatuur nuttig is, maar
+ de voetafdruk ervan niet sterk zal doen dalen.
+\end_layout
+
+\begin_layout Standard
+Tijdens het gebruik is er meestal ook een verscheidenheid van elektronica
+ nodig om de gegevens te transporteren (data communicatie netwerken zoals
+ 4G, Wifi, glasvezel,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+), te verwerken (reken centra) en op te slaan (storage centra).
+ Dit doet de kosten nog extra stijgen.
+\end_layout
+
+\begin_layout Standard
+Kijken we naar de externe kosten, dan zijn er volgende factoren:
+\end_layout
+
+\begin_layout Itemize
+het grote energieverbruik bij productie,
+\end_layout
+
+\begin_layout Itemize
+de gebruikte grondstoffen:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+de winning en extractie van verschillende cruciale grondstoffen is belastend,
+ zowel in energie als in menselijke kosten (bloedmetalen),
+\end_layout
+
+\begin_layout Itemize
+sommige benodigde metalen komen enkel vrij als 
+\begin_inset Quotes pld
+\end_inset
+
+bijwinning
+\begin_inset Quotes prd
+\end_inset
+
+ van andere grondstoffen,
+\end_layout
+
+\begin_layout Itemize
+de grote afhankelijkheid van zeldzame aardmetalen met ronkende namen zoals
+ neodymium, dysprosium of europium, heeft ook geopolitieke gevolgen.
+ 85% van de zeldzame aardmetalen komen uit China! Dat geeft één land een
+ enorme controle over de wereldwijde toevoer ervan,
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+productie van de chips zelf is een toxisch proces waarbij ultra zuiver water
+ nodig is,
+\end_layout
+
+\begin_layout Itemize
+verwerken van de afval,
+\end_layout
+
+\begin_layout Itemize
+het gebruik van een elektronisch apparaat heeft, zoals hierboven al aangehaald,
+ een hoeveelheid aan andere elektronica nodig.
+\end_layout
+
+\begin_layout Standard
+Nog meer dan bij mijnbouw, zijn de kosten en de baten van elektronica onevenredi
+g verdeeld.
+ Diegenen die plezier hebben van elektronica worden totaal niet geconfronteerd
+ met de kosten ervan op het gebied van sociale uitbuiting, toxisch afval,
+ landverlies,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Er zijn continue verbetering in de efficiëntie van de productie en van de
+ apparatuur zelf.
+ Maar dit wordt meestal teniet gedaan door het alsmaar stijgende gebruik.
+\end_layout
+
+\begin_layout Standard
+De hoge externe kosten die aan elektronica hangen zijn nog niet doorgedrongen
+ in onze maatschappij.
+\end_layout
+
+\begin_layout Standard
+Het is niet de bedoeling om elektronica te verketteren.
+ Dat zou hypocriet zijn gezien mijn achtergrond als ICT'er.
+ Maar het is wel belangrijk om er bewust mee om te gaan.
+ Wat houdt dan in ?
+\end_layout
+
+\begin_layout Enumerate
+Denk eerst goed na of je de elektronica wel effectief nodig hebt.
+ De marketing is zeer goed in het aanpraten van een nieuw of complexer toestel
+ omwille van features die je eigenlijk niet nodig hebt.
+ Is het zo belangrijk dat je koelkast automatisch melk besteld?
+\end_layout
+
+\begin_layout Enumerate
+Als je koopt, kijk eerst of er een valabel toestel is op de tweedehands
+ markt.
+ Dit vermijdt het belastende productieproces en afval.
+\end_layout
+
+\begin_layout Enumerate
+Laat je elektronica zo lang mogelijk meegaan.
+ Elektronische apparatuur kent een zeer korte levenscyclus.
+ Aangezien veel externe kosten in de productie zitten, is een langere levenscycl
+us een goede manier om de voetafdruk ervan te verlagen.
+ Dit houdt ook in dat de aankoop van een zuiniger toestel best niet gedaan
+ wordt want dit is in de meeste gevallen belastender dan het oude toestel
+ te blijven gebruiken.
+\end_layout
+
+\begin_layout Enumerate
+Waar mogelijk, maak gebruik van draden.
+ Wifi, GSM en andere draadloze communicatie is belastender dan 
+\begin_inset Quotes pld
+\end_inset
+
+goede oude
+\begin_inset Quotes prd
+\end_inset
+
+ netwerkkabels of vaste telefoons.
+\end_layout
+
+\begin_layout Enumerate
+Koop elektronische toestellen die je kunt repareren.
+ Meestal wordt deze apparatuur gerepareerd door volledige printplaten te
+ vervangen.
+ Hoe kleiner de printplaten zijn die vervangen worden, hoe minder belastend
+ de reparatie is.
+\end_layout
+
+\begin_layout Section
+Hernieuwbare energie
+\end_layout
+
+\begin_layout Standard
+Je merkt bij het lezen van de doctoraatsthesis van Meino Smit dat er niet
+ van overtuigd is dat de huidige evolutie van energiegebruik het mogelijk
+ maakt om fossiele brandstoffen uit te faseren ten gunste van hernieuwbare
+ energie.
+ Dit heeft niet zozeer te maken met de technologie zelf, maar eerder uit
+ de inschatting van de hoeveelheid grondstoffen hiervoor nodig zijn en hoe
+ snel deze beschikbaar moeten zijn.
+\end_layout
+
+\begin_layout Standard
+Dit is niet zozeer een onderwerp rond externe kosten, maar toch belangrijk
+ om mee te nemen als, na een inschatting van de externe kosten, gekeken
+ wordt hoe deze duurzaam gemaakt kunnen worden.
+\end_layout
+
+\begin_layout Standard
+De reden dat dit onderwerp gekoppeld is aan elektronica, is dat ook bij
+ hernieuwbare energie zeldzame aardmetalen een belangrijke rol spelen.
+ Niet enkel door de gebruikt elektronica, maar ook omdat deze metalen bijvoorbee
+ld de efficiëntie van magneten sterk verhogen of nodig zijn in zonnecellen.
+\end_layout
+
+\begin_layout Standard
+Ten eerste is er de observatie dat de meeste vormen van duurzame energie
+ minder efficiënt zijn dan fossiele brandstoffen.
+ In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:eroei-energiebronnen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ vind je de EROEI (appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "appendix:EROEI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) terug van een aantal energiebronnen.
+ Aangezien eerst de eenvoudiger te delven fossiele brandstoffen op zijn,
+ moet er meer energie gebruikt worden om dezelfde hoeveelheid energie te
+ extraheren.
+ In het begin was voor aardgas de EROEI 100:1.
+ Nu is deze echter gezakt naar 10:1.
+ Gelijkaardig voor aardolie, zoals je ziet in het verschil tussen olie en
+ leisteenolie in de figuur.
+\end_layout
+
+\begin_layout Standard
+Een bijkomende factor is dat de EROEI nu bepaald is op basis van het gebruik
+ van fossiele energie met een bepaalde EROEI
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Momenteel wordt 85% van onze energiebehoefte gedekt door het verbranden
+ van brandstoffen.
+\end_layout
+
+\end_inset
+
+.
+ Als de EROEI van fossiele brandstoffen daalt, zal de EROEI van duurzame
+ brandstoffen dus ook dalen.
+ Er wordt aangenomen dat een EROEI van 3:1 tot 5:1 nodig is om een energiebron
+ een positieve energiebalans te laten hebben.
+ Dit omdat de opslag, omvorming, transport en distributie zelf ook nog heel
+ wat energie vergt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - eroei.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:eroei-energiebronnen"
+
+\end_inset
+
+De EROEI van een aantal energiebronnen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 32 naar Hall, 2008"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Verder moet er nog veel infrastructuur, opslag en transport aangemaakt worden
+ voor duurzame energie.
+ Dit vraag niet alleen energie maar ook grondstoffen.
+ Meino Smit geeft aan dat er niet genoeg capaciteit is om deze grondstoffen
+ aan bijvoorbeeld aardmetalen op een aanzienlijke tijd te delven
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "par. 6.4"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Deze capaciteit kan maar langzaam opgeschaald worden omdat enerzijds het
+ creëren van een nieuwe grondstoffenstroom jaren duurt, maar anderzijds
+ ook omdat vele aardmetalen als 
+\begin_inset Quotes pld
+\end_inset
+
+bijwinst
+\begin_inset Quotes prd
+\end_inset
+
+ bij het mijnen van een andere grondstof vrijkomen
+\begin_inset space ~
+\end_inset
+
+(zie ook paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Mijnbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+De enige manier om over te schakelen naar een duurzame toekomst is het energiege
+bruik in te perken.
+ De meest duurzame kilojoule is diegene die niet nodig is.
+\end_layout
+
+\begin_layout Standard
+Dit kan door enerzijds minder energie te verbruiken per persoon, maar ook
+ door een afname van de bevolking te bewerkstelligen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Hoe je op een ethische en duurzame manier de bevolking kan doen afnemen,
+ lijkt me een belangrijke maar zeer moeilijke vraag.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+De angst die dit geeft dat er terug naar de middeleeuwen moet gekeerd worden
+ is zeer begrijpelijk.
+ Gelukkig wijzen studies uit dat er een verband is tussen het welbevinden
+ en de hoeveelheid energie die gebruikt wordt
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "smil2005"
+literal "false"
+
+\end_inset
+
+.
+ Vanaf een energiegebruik van 50 tot 70
+\begin_inset space ~
+\end_inset
+
+GJ per persoon en per jaar, is er een gevoel van voldoende welbevinden.
+ Vanaf een waarde van 100
+\begin_inset space ~
+\end_inset
+
+GJ per persoon en per jaar neemt het welbevinden niet meer toe!
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit - energieverbruik per hoofd.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:energieverbruik-per-persoon"
+
+\end_inset
+
+Energieverbruik per persoon en per jaar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:energieverbruik-per-persoon"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is de situatie weergegeven voor een aantal landen, wereldwijd tezamen met
+ de vermelde grenzen.
+ We zien dat bij een halvering van het energieverbruik per Nederlander niet
+ veel invloed zal hebben op het welbevinden.
+\end_layout
+
+\begin_layout Standard
+Ook is het zo dat deze verlaging niet door iedereen gedragen moet worden.
+ Het is namelijk zo dat hoe rijker je bent, hoe meer energie je verbruikt
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "leeds2020"
+literal "false"
+
+\end_inset
+
+.
+ Het is dus niet meer dan normaal dat de meest verbruikende mensen de grootste
+ inspanning zouden leveren.
+\end_layout
+
 \begin_layout Chapter
 Dromen over de toekomst
 \end_layout
 
+\begin_layout Standard
+H13.5 
+\begin_inset Quotes pld
+\end_inset
+
+Hoe is het zover kunnen komen
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+inleiding om te durven dromen van een betere wereld
+\end_layout
+
+\begin_layout Itemize
+correlatie energieverbruik en welzijn (tabel4 + p35)
+\end_layout
+
+\begin_layout Standard
+XXX Wat is nodig als je de externe kosten wilt minimaliseren om tot een
+ positieve balans te komen: andere manier van eten
+\end_layout
+
+\begin_layout Standard
+XXX grafieken met waarden voor 2040
+\end_layout
+
+\begin_layout Standard
+XXX H15, p 173: andere focus gehad, nu andere situatie met waarschijnlijk
+ gelijkaardige stijging getallen
+\end_layout
+
 \begin_layout Chapter
 De achtertuin
+\end_layout
+
+\begin_layout Standard
+XXX Ik zou graag de kengetallen willen bestuderen per landbouwsector maar
+ deze opsplitsing is spijtig genoeg niet gedaan, als die al mogelijk is.
+ Dit vooral om de invloed van de veehouderij af te kunnen splitsen.
+\end_layout
+
+\begin_layout Standard
+XXX Hoe overschakelen ?
+\end_layout
+
+\begin_layout Itemize
+manier dat overheid kan stimuleren (verwezen studie - subsidies, niet verbieden)
+\end_layout
+
+\begin_layout Itemize
+verschuiven belasting van arbeid naar kapitaal
+\end_layout
+
+\begin_layout Itemize
+eigen: in kaart brengen van externe kosten - transparantie voor gebruik
+ - vliegschaamte hiervoor introduceren
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+-
 \end_layout
 
 \begin_layout Standard
@@ -6194,6 +8037,289 @@ options "bibtotoc,abbrvnat"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Part
+Appendices
+\end_layout
+
+\begin_layout Chapter
+\start_of_appendix
+Een aantal technische begrippen
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "appendix:broeikasgassen"
+
+\end_inset
+
+Broeikasgassen
+\end_layout
+
+\begin_layout Standard
+We kennen natuurlijk allemaal het broeikaseffect en weten dat 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ een broeikasgas is.
+ Maar wist je ook het volgende ?
+\end_layout
+
+\begin_layout Itemize
+Broeikasgassen komen niet enkel vrij bij verbranding.
+ Ook veeteelt en het gebruik van kunstmest dragen bij aan het broeikaseffect.
+\end_layout
+
+\begin_layout Itemize
+Niet alleen 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ is een broeikasgas.
+ Er zijn er nog anderen zoals
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "broeikasgassen2019"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+methaan (
+\begin_inset Formula $\ce{NH4}$
+\end_inset
+
+).
+ Deze is 25 keer krachtiger dan 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ en veroorzaakt 20% van het broeikaseffect.
+ Methaan onder andere wordt uitgestoten in de veeteelt.
+\end_layout
+
+\begin_layout Itemize
+lachgas (
+\begin_inset Formula $\ce{N2O}$
+\end_inset
+
+).
+ Deze is 289 keer krachtiger dan 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ en veroorzaakt 6% van het broeikaseffect.
+ Lachgas wordt in de landbouw aangemaakt bij overdadig gebruik van drijfmest
+ en kunstmest.
+\end_layout
+
+\begin_layout Itemize
+andere natuurlijke broeikasgassen zijn water (
+\begin_inset Formula $\ce{H2O}$
+\end_inset
+
+) en ozon (
+\begin_inset Formula $\ce{O3}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes pld
+\end_inset
+
+industriële
+\begin_inset Quotes prd
+\end_inset
+
+ broeikasgassen zijn meestal veel krachtiger dan deze hierboven (1.300 tot
+ 23.900 keer zo krachtig als 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "appendix:opgeslagen-energie"
+
+\end_inset
+
+Opgeslagen energie
+\end_layout
+
+\begin_layout Standard
+Opgeslagen energie is een vertaling van de term 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Embodied Energy
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Dit is alle energie die nodig is om een product aan te maken.
+ Het is als het ware 
+\begin_inset Quotes pld
+\end_inset
+
+opgeslagen
+\begin_inset Quotes prd
+\end_inset
+
+ in het product maar niet meer bruikbaar.
+ Het is de energie die nodig geweest is om het product te produceren, inclusief
+ de energie om de grondstoffen van het product te produceren.
+ Dit omvat de energie die nodig is voor het winnen, transporteren en bewerken
+ van zowel de energie als de grondstoffen, het brandstof- en elektriciteitsgebru
+ik van het productieproces zelf en de energie die nodig is voor het maken
+ en onderhouden van de productiemiddelen.
+ Ook transport moet hierbij gerekend worden.
+\end_layout
+
+\begin_layout Standard
+Wat allemaal in kaart gebracht moet worden wordt bepaald door een 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Live Cycle Analysis
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(LCA).
+ Hiermee kan de 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Gros Energy Requirement
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(GER) bepaald worden, de hoeveelheid energie die nodig is voor de productie
+ van een bepaald product, materiaal of stof (inclusief de energie om de
+ grondstoffen te produceren), beginnend met de primaire energiedragers.
+ Zowel van de LCA als de GER bestaan er gegevens zodat je een eigen analyse
+ kunt maken.
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "appendix:EROEI"
+
+\end_inset
+
+EROEI
+\end_layout
+
+\begin_layout Standard
+EROEI (
+\lang english
+Energy Return On Energy Invested
+\lang dutch
+) is de verhouding tussen de hoeveelheid nuttige energie verkregen met de
+ hoeveelheid energie die nodig was om de te produceren.
+ Als de EROEI kleiner is dan 1, dan is er meer energie verbruikt dan er
+ gewonnen wordt.
+\end_layout
+
+\begin_layout Standard
+Aangezien er niet enkel energie nodig is bij het winnen van een brandstof,
+ maar ook bij bijvoorbeeld raffinage, transport,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ zijn er verschillende plaatsen in het proces waar je de benodigde energie
+ kunt bepalen.
+ Deze geven een andere waarde van de EROEI die aanzienlijk kan verschillen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende documenten/grafieken/meino smit tabel 2.svg
+	width 45text%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schema van energieverlies in de productie van olie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In het bovenstaande figuur verschilt de EROEI van 10:1 wanneer enkel de
+ energie voor de winning van olie bekeken wordt, tot 1,3:1 als alle energie
+ bekeken wordt.
+ Meestal wordt enkel de energie nodig voor de winning genomen.
+ In dat geval is minimaal een EROEI groter dan 3:1 tot 5:1 nodig om toch
+ nuttige energie over te houden.
+\end_layout
+
+\begin_layout Standard
+De EROEI is belangrijk in het kader van dit verdiepend werkstuk omdat hiermee
+ gevat wordt dat er nog externe energetische kosten zijn aan een bepaalde
+ brandstof.
 \end_layout
 
 \end_body
