@@ -18,10 +18,26 @@
 \hyphenation{ver-die-pend}
 \hyphenation{broei-kas-gas-sen}
 \hyphenation{ver-oor-zaakt}
+\hyphenation{land-bouw-me-cha-ni-sa-tie}
+\hyphenation{mest-ver-wer-kings-in-stal-la-ties}
+\hyphenation{Kunst-mest-in-dus-trie}
+\hyphenation{Be-strij-dings-mid-de-len}
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
 \end_preamble
 \use_default_options false
 \begin_modules
 boxedfloat
+longtablepage
 \end_modules
 \maintain_unincluded_children false
 \language dutch
@@ -2134,6 +2150,12 @@ De totale hoeveelheid grond kan je in een land niet veranderen.
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Kapitaal"
+
+\end_inset
+
 Kapitaal
 \end_layout
 
@@ -2834,355 +2856,6 @@ Ik zal hier, in het kaden van het bestuderen van externe kosten, vooral
 \begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
-name "sec:Gebruikte-bronnen"
-
-\end_inset
-
-Gebruikte bronnen
-\end_layout
-
-\begin_layout Standard
-Om tot de waarden te komen van de kengetallen van 1950 t.e.m.
- 2015 werden openbare bronnen gebruikt.
- Deze waren in het beste geval volledig beschikbaar voor die periode met
- de gewenste gegevens.
- Deze inventarisatie is voor elke 5 jaar gedaan.
-\end_layout
-
-\begin_layout Standard
-In andere gevallen waren de gegevens onvolledig, werd er in de loop van
- de tijd van methodiek veranderd of waren de gegevens niet rechtstreeks
- beschikbaar.
-\end_layout
-
-\begin_layout Standard
-In het geval dat de methodiek in de loop van de tijd veranderd is, werden
- alle gegevens op dezelfde noemer herrekend.
- Denk bijvoorbeeld aan de overgang naar de euro, toevoegen of weglaten van
- bepaalde sectoren,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Als de gegevens onvolledig waren, is gepoogd om ze te reconstrueren.
-\end_layout
-
-\begin_layout Standard
-Meer details over dit proces vind je in hoofdstuk
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:Presentatie-gegevens"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- 
-\begin_inset Quotes pld
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:Presentatie-gegevens"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\begin_inset Quotes prd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Algemene-bronnen"
-
-\end_inset
-
-Algemene bronnen
-\end_layout
-
-\begin_layout Description
-CBS Dit zijn de gegevens van het Nederlandse Centraal Bureau voor de Statistiek.
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-Hiermee zijn volgende kengetallen bepaald:
-\end_layout
-
-\begin_layout Itemize
-output in gewicht (per sector)
-\end_layout
-
-\begin_layout Itemize
-directe landgebruik
-\end_layout
-
-\begin_layout Itemize
-directe arbeid
-\end_layout
-
-\begin_layout Itemize
-prijsindex om de prijzen te herberekenen
-\end_layout
-
-\begin_layout Itemize
-[TODO]
-\end_layout
-
-\end_deeper
-\begin_layout Description
-LEI Dit zijn de gegevens van het Nederlandse Landbouw Economisch Instituut
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-Hiermee zijn volgende gegevens bepaald:
-\end_layout
-
-\begin_layout Itemize
-output in gewicht (per sector)
-\end_layout
-
-\begin_layout Itemize
-directe landgebruik
-\end_layout
-
-\begin_layout Itemize
-directe arbeid
-\end_layout
-
-\begin_layout Itemize
-[TODO]
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
-Bronnen gebruikt voor specifieke kengetallen
-\end_layout
-
-\begin_layout Subsubsection
-Energetische en gewicht output
-\end_layout
-
-\begin_layout Standard
-Om de gewichten om te zetten in voedingswaarde is gebruikt gemaakt van cijfers
- uit het Nederlands Voedingsstoffenbestand (NEVO) van het Rijksinstituut
- voor Volksgezondheid en Milieu
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "voeding2016"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Ook is rekening gehouden met de directe energetische output van de landbouw.
- Dit is vooral via de warmte-krachtkoppeling in de glastuinbouw.
- Dit is mee in rekening gebracht bij de energetische output.
- Het aandeel aan biogas, zonne-energie en wind energie is binnen de landbouw
- als relatief gering ingeschat en niet meegenomen.
-\end_layout
-
-\begin_layout Standard
-Meino schat de waarde van de output als 
-\begin_inset Quotes pld
-\end_inset
-
-redelijk goed in beeld gebracht
-\begin_inset Quotes prd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsubsection
-Directe energetische input
-\end_layout
-
-\begin_layout Standard
-Hierbij wordt elektriciteit die in de glastuinbouw geproduceerd wordt en
- intern afgenomen wordt ook in rekening gebracht.
-\end_layout
-
-\begin_layout Standard
-Deze waarde is specifiek voor de landbouw fragmentarisch geregistreerd en
- verder afgeleid.
-\end_layout
-
-\begin_layout Subsubsection
-Indirecte energetische input
-\end_layout
-
-\begin_layout Standard
-Hiervoor is gebruik gemaakt van verschillende databases zoals Ecoinvent,
- de ICE Database, IPCC, verschillende andere bronnen en analyses van Meino
- Smit.
-\end_layout
-
-\begin_layout Standard
-Het bepalen is van deze waarde is maar ten dele mogelijk omdat niet alles
- over de opgeslagen energie (appendix
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "appendix:opgeslagen-energie"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) van bijvoorbeeld een gebouw gekend is (hiervan kan momenteel maximaal
- 75% van de inherente energie ingeschat worden).
-\end_layout
-
-\begin_layout Standard
-Het indirecte energieverbruik van de Nederlandse landbouw bestaat uit de
- inherente energie van de kapitaalgoederen (gebouwen, machines, infrastructuur,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-) en de hulpmiddelen (mest, gewasbeschermingsmiddelen, voer,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-).
- In paragraaf 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:bekeken-sectoren"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- wordt een opsomming gegeven van welke economische sectoren hier allemaal
- een rol spelen.
-\end_layout
-
-\begin_layout Standard
-Voor producten die meerdere jaren gebruikt worden zoals tractoren, serres,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
- is een lineaire afschrijvingsperiode gebruikt.
- Hierbij is rekening gehouden met het vermelde feit dat investeringen minder
- lang meegaan dan vroeger.
-\end_layout
-
-\begin_layout Standard
-Voor het indirecte verbruik zijn de gegevens ofwel gedeeltelijk aanwezig
- ofwel fragmentarisch geregistreerd of bestaan ze niet.
- Hierbij zijn voor de analyses telkens onderste waarden aangenomen.
- Dit geeft dat de werkelijke input groter zal zijn dan hier voorgesteld.
- Het is dus een beetje rooskleuriger voorgesteld.
-\end_layout
-
-\begin_layout Standard
-Is dit erg ? Wel voor diegenen die de getallen op zich als 
-\begin_inset Quotes pld
-\end_inset
-
-dé waarheid
-\begin_inset Quotes prd
-\end_inset
-
- willen beschouwen.
- Maar aangezien over de volledige periode dezelfde methode is gehanteerd,
- zullen de algemene conclusies op basis van de trends wel gelijkaardig blijven.
-\end_layout
-
-\begin_layout Subsubsection
-Directe landgebruik
-\end_layout
-
-\begin_layout Standard
-Hiervan zijn de gegevens geregistreerd.
- Deze waarden zullen dus redelijk goed in beeld gebracht zijn.
-\end_layout
-
-\begin_layout Subsubsection
-Indirecte landgebruik
-\end_layout
-
-\begin_layout Standard
-Deze is gebaseerd op een groot aantal gegevens over fabrieksterreinen, infrastru
-ctuur,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
- aan hand waarvan een aandeel aan de Nederlandse landbouw is toegekend.
-\end_layout
-
-\begin_layout Standard
-Deze gegevens zijn niet geregistreerd.
- De ontbrekende gegevens zijn via andere informatiebronnen en eigen inventarisat
-ies, aannames en berekeningen in kaart gebracht.
-\end_layout
-
-\begin_layout Subsubsection
-Direct arbeid
-\end_layout
-
-\begin_layout Standard
-Hiervan zijn de gegevens geregistreerd.
- Deze waarden zullen dus redelijk goed in beeld gebracht zijn.
-\end_layout
-
-\begin_layout Subsubsection
-Indirecte arbeid
-\end_layout
-
-\begin_layout Standard
-Deze is gebaseerd op een groot aantal gegevens over aantallen werknemers,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
- aan hand waarvan een aandeel aan de Nederlandse landbouw is toegekend.
- De ontbrekende gegevens zijn via andere informatiebronnen en eigen inventarisat
-ies, aannames en berekeningen in kaart gebracht.
-\end_layout
-
-\begin_layout Section
-\begin_inset CommandInset label
-LatexCommand label
 name "sec:efficiëntie-landbouw"
 
 \end_inset
@@ -3230,7 +2903,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3501,10 +3174,10 @@ De totale input is de directe en indirecte input samen.
 \end_layout
 
 \begin_layout Standard
-Zoals aangegeven paragraaf 
+Zoals aangegeven hoofdstuk 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "sec:Gebruikte-bronnen"
+reference "chap:externe-kosten"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3518,7 +3191,7 @@ noprefix "false"
 
 \begin_inset CommandInset ref
 LatexCommand nameref
-reference "sec:Gebruikte-bronnen"
+reference "chap:externe-kosten"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3701,7 +3374,7 @@ Diergeneesmiddelen
 \end_layout
 
 \begin_layout Itemize
-Zaaizaad en poot- en plantgoed
+Zaaizaad, poot- en plantgoed
 \end_layout
 
 \begin_layout Itemize
@@ -3714,40 +3387,6 @@ Dienstverlening
 
 \begin_layout Itemize
 Transport en infrastructuur
-\end_layout
-
-\begin_layout Standard
-We gaan hier kort in op elke sector en bespreken wat algemene gegevens en
- gebruikt bronnen, in zover dat deze niet de algemene bronnen zijn zoals
- aangehaald in paragraaf 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Algemene-bronnen"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- 
-\begin_inset Quotes pld
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "subsec:Algemene-bronnen"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\begin_inset Quotes prd
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
@@ -4239,7 +3878,7 @@ Enkel rond het gebruik van antibiotica zijn er geregistreerde gegevens.
 \end_layout
 
 \begin_layout Subsection
-Zaaizaad en poot- en plantgoed
+Zaaizaad, poot- en plantgoed
 \end_layout
 
 \begin_layout Standard
@@ -5080,6 +4719,12 @@ het aantal personen dat indirect tewerkgesteld is in de Nederlandse arbeid
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:landgebruik"
+
+\end_inset
+
 Voorgerecht: landgebruik
 \end_layout
 
@@ -5330,7 +4975,7 @@ lines 0
 placement o
 overhang 0col%
 width "50col%"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -5418,6 +5063,12 @@ miljoen ha).
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:arbeidsproductiviteit-ha_FTE"
+
+\end_inset
+
 Arbeidsproductiviteit als ha/FTE
 \end_layout
 
@@ -6512,6 +6163,19 @@ De totale energie die de gemiddelde Nederlandse boer verbruikt stijgt over
 6 verslechtering oplevert.
 \end_layout
 
+\begin_layout Standard
+Voor de volledigheid de stijgingen zonder rekening te houden met de indirecte
+ factoren: de input zou 23
+\begin_inset space ~
+\end_inset
+
+keer gestegen zijn en de output 9,6
+\begin_inset space ~
+\end_inset
+
+keer (verhouding van 2,4).
+\end_layout
+
 \begin_layout Subsubsection
 Wat wil dit kengetal zeggen ?
 \end_layout
@@ -6765,7 +6429,7 @@ ducten dan voorheen.
 \begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
-name "subsec:opbrengst-ton_FTE"
+name "subsec:arbeidsproductieviteit-ton_FTE"
 
 \end_inset
 
@@ -6850,6 +6514,16 @@ Opbrengsten in ton/ha
 \begin_layout Standard
 Kijken we naar het gewicht producten per hectare (figuur
 \begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:opbrengsten-ton_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
 ), dan is er, zonder rekening te houden met het indirecte landgebruik, een
@@ -6969,75 +6643,2702 @@ Ook haalt Meino Smit regelmatig aan dat de output een overschatting kan
 \end_layout
 
 \begin_layout Chapter
-Externe kosten opsporen en bepalen
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:externe-kosten"
+
+\end_inset
+
+Werken voor je externe kost
 \end_layout
 
 \begin_layout Standard
-Algemeen overzicht van hoe te bepalen (rechtstreeks, afleiden, gemiddelde
- nemen, pro rata volgens een bepaalde factor (bv.
- grondstoffen bouw volgen opp.
- / mijnbouw volgens energieverbruik) vanuit globalere gegevens)
+Heeft het goed gemaakt? Oh, het was wat veel.
+ Ja, dat beseffen we.
+ Maagtabletten kan je vinden in de kast daar links.
 \end_layout
 
 \begin_layout Standard
-rechtstreeks: bronnen
+Na een half uurtje pauze om te verteren, gaan we verder.
 \end_layout
 
 \begin_layout Standard
-opsomming in tabel van kengetal en sector || bron || grond || kapitaal (energie
- en grondstof) || arbeid || berekenmethode (|| opmerkingen) ??
+\SpecialChar ldots
+\SpecialChar ldots
+\SpecialChar ldots
+
 \end_layout
 
 \begin_layout Standard
-belangrijk om bepaalde toekomstige tekorten nu al beleid op te maken.
- te laat als de markt in werking treedt want het is dan te duur geworden
- + je hebt tijd nodig om over te schakelen
-\end_layout
-
-\begin_layout Standard
-H12.2 oplijsting van kosten + voorbeelden uit studies.
+Iedereen wat bijgekomen? Tijd om eens te werken voor onze kost.
+ Hoe kun je externe kosten vinden en de waarde ervan bepalen.
+ Dit proces wordt gedaan in de werkkamer, de eerste deur rechts.
 \end_layout
 
 \begin_layout Section
-Vanuit de factor arbeid
+Kosten geïdentificeerd in het werk
+\end_layout
+
+\begin_layout Standard
+Wil je zicht hebben op externe kosten moeten ze uiteraard eerst geïdentificeerd
+ worden.
+ We gaan eens kijken welke Meino Smit aangehaald heeft in zijn werk.
+\end_layout
+
+\begin_layout Subsection
+Externe kosten van de bekeken sectoren en bronnen ervan
+\end_layout
+
+\begin_layout Standard
+Ten eerste zijn er de externe kosten die door hem gebruikt zijn in de gegevens
+ rond de kengetallen output, input, arbeid en landgebruik.
+ Dit zowel voor de directe als de indirecte waarden.
+\end_layout
+
+\begin_layout Standard
+In het algemeen zijn er twee instituten die veel terugkomen om gegevens
+ op te halen:
+\end_layout
+
+\begin_layout Itemize
+het Nederlandse Centraal Bureau voor de Statistiek (CBS)
+\end_layout
+
+\begin_layout Itemize
+het Nederlandse Landbouw Economisch Instituut (LEI)
+\end_layout
+
+\begin_layout Standard
+Met behulp van gegevens van deze instituten zoals Landbouwcijfers en Tuinbouwcij
+fers
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI-ldbcijfers"
+literal "false"
+
+\end_inset
+
+ of Nationale Rekeningen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS-nat-rek"
+literal "false"
+
+\end_inset
+
+, kunnen waarden voor directe kengetallen zoals landgebruik, arbeid, directe
+ energie en output in gewicht bepaald worden.
+ De prijsindex van het CBS is gebruikt om prijzen en andere economische
+ waarden te herberekend worden over de tijdslijn heen.
+\end_layout
+
+\begin_layout Standard
+In tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:bronnen-kengetallen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ vind je een overzicht terug van andere gebruikte bronnen voor de kengetallen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Longlandscapetable
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features booktabs="true" islongtable="true" headBottomDL="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="20line%">
+<column alignment="center" valignment="top" width="35line%">
+<column alignment="center" valignment="top" width="35line%">
+<column alignment="center" valignment="top">
+<row endhead="true" endfirsthead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kengetal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bronnen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Opmerkingen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energetische output
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Omgezet vanuit de gewichten met behulp van het Nederlands Voedingsstoffenbestand
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "voeding2016"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Glastuinbouw levert door gebruik van warmte-krachtkoppeling ook netto energie
+ die meegerekend is (fragmentarische registratie).
+\end_layout
+
+\begin_layout Plain Layout
+Deze waarde is redelijk in beeld gebracht.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Directe energetische input
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energetische waarden uit de energiebalans van Nederland
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS2016"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Grootste landgebruik door aanvoer, opslag, overslag.
+ Speciaal voor olie nog raffinage.
+ Speciaal voor elektriciteit nog transport en omvorming.
+\end_layout
+
+\begin_layout Plain Layout
+Arbeid is bepaald aan de hand van de arbeid in de energiesector in Nederland.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waarden van finaal energieverbruik zijn met een factor 1,29 verhoogd om
+ de primaire energie te verkrijgen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 74"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indirecte energetische input
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bepalen van opgeslagen energie (zie appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "appendix:opgeslagen-energie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) met behulp van databases zoals Ecoinvent, ICE Database, IPCC,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset Newline newline
+\end_inset
+
+Specifieke bronnen voor sectoren in tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:externe-kosten-sectoren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Opgesloten energie kan niet altijd volledige bepaald worden, dus je krijgt
+ een onderschatting.
+\begin_inset Newline newline
+\end_inset
+
+Lineaire afschrijving gebruikt voor producten die meerdere jaren bestaan
+ (bv.
+ tractor of serre).
+\begin_inset Newline newline
+\end_inset
+
+Door gebrekkige gegevens, conservatief ingeschat dus eerder een onderschatting
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Is dit erg ? Wel voor diegenen die de getallen op zich als 
+\begin_inset Quotes pld
+\end_inset
+
+dé waarheid
+\begin_inset Quotes prd
+\end_inset
+
+ willen beschouwen.
+ Maar aangezien over de volledige periode dezelfde methode is gehanteerd,
+ zullen de algemene conclusies op basis van de trends wel gelijkaardig blijven.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indirect landgebruik
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zie tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:externe-kosten-sectoren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Meestal bepaald op een groter systeem (bv.
+ heel Nederland) en dan geschaald naar de Nederlandse Landbouw.
+\begin_inset Newline newline
+\end_inset
+
+Door gebrekkige gegevens, conservatief ingeschat dus eerder een onderschatting.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indirecte arbeid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zie tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:externe-kosten-sectoren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Meestal bepaald op een groter systeem (bv.
+ heel Nederland) en dan geschaald naar de Nederlandse Landbouw.
+\begin_inset Newline newline
+\end_inset
+
+Door gebrekkige gegevens, conservatief ingeschat dus eerder een onderschatting.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:bronnen-kengetallen"
+
+\end_inset
+
+Algemene bronnen van kengetallen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:externe-kosten-sectoren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ vind je de gebruikte bronnen per sector samengevat, tezamen met welke externe
+ kosten beschouwd werden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Longlandscapetable
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="16" columns="6">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="10line%">
+<column alignment="left" valignment="top" width="15line%">
+<column alignment="left" valignment="top" width="15line%">
+<column alignment="center" valignment="top" width="15line%">
+<column alignment="left" valignment="top" width="15line%">
+<column alignment="left" valignment="top" width="15line%">
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sector
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bronnen
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Productiefactoren
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Opmerkingen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grond
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" usebox="none" width="20line%">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arbeid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gebouwen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI-ldbcijfers"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS-nat-rek"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grootte gebouwen zelf
+\begin_inset Newline newline
+\end_inset
+
+Industrie (hout, staal, beton,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+)
+\begin_inset Newline newline
+\end_inset
+
+Mijnbouw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ingesloten energie door materiaalcalculatie
+\begin_inset Newline newline
+\end_inset
+
+Energie aanvoer bouwmaterialen
+\begin_inset Newline newline
+\end_inset
+
+Energie vervoer hulpmateriaal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bouwen zelf
+\begin_inset Newline newline
+\end_inset
+
+Industrie
+\begin_inset Newline newline
+\end_inset
+
+Mijnbouw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trekkers en machines
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LandbouwMechanisatie (maandblad),
+\end_layout
+
+\begin_layout Plain Layout
+Fedecom,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI-ldbcijfers"
+literal "false"
+
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS-nat-rek"
+literal "false"
+
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+diverse rapporten,
+\end_layout
+
+\begin_layout Plain Layout
+gegevens leveranciers,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Industrie (hoogovens, staal, banden, trekkers en machines)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ingesloten energie van staal op basis gewicht
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Industrie (hoogovens, staal, banden, trekkers en machines)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rubber en elektronica niet beschouwd
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Veevoer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI-ldbcijfers"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS-nat-rek"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS"
+literal "false"
+
+\end_inset
+
+, privé communicatie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verbouwen veevoer in buitenland
+\begin_inset Newline newline
+\end_inset
+
+Industrie (veevoer, sojacrushers)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energie inhoud veevoedergrondstoffen 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "brand1993,bos2006,CEdelft2007"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verbouwen veevoer in buitenland
+\begin_inset Newline newline
+\end_inset
+
+Industrie (veevoer, sojacrushers, fourage)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dierlijke mest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RVO"
+literal "false"
+
+\end_inset
+
+, privé communicatie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mestverwerkingsinstallaties
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mestopslag
+\begin_inset Newline newline
+\end_inset
+
+Mesttransport
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intermediairs
+\begin_inset Newline newline
+\end_inset
+
+Chauffeurs
+\begin_inset Newline newline
+\end_inset
+
+Mestverwerkingsinrichtingen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kunstmest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI-ldbcijfers"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kunstmestindustrie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energie-inhoud kunstmest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kunstmestindustrie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ontbrekende gegevens fosfaat en kali mijnen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Micronutriënten en sporenelementen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gewonnen via mijnbouw
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bestrijdingsmiddelen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LEI-ldbcijfers"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lange1974"
+literal "false"
+
+\end_inset
+
+, Nefyto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inschatting
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enkel hoeveelheden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inschatting
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diergeneesmiddelen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Te weinig gegevens
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zaaizaad, poot- en plantgoed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Niet apart meegeteld
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Elektronica
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CLO2012"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fabricage, handel en datacentra
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eigen berekening
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Op basis van werkgelegenheid in ICT 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mijnbouw niet aparte bekeken
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dienstverlening
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CBS-nat-rek"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Op basis van terreincoëfficiënt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kantoorruimtes
+\begin_inset Newline newline
+\end_inset
+
+Woon- en werkverkeer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Op basis van toeleveringen in de landbouw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mijnbouw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diverse bronnen (zie 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "par. 6.3"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inschatting op basis van wereldwijde gegevens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inschatting op basis van wereldwijde gegevens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inschatting op basis van wereldwijde gegevens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transport en infrastructuur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Goederenvervoer
+\begin_inset Newline newline
+\end_inset
+
+Wegenverkeersterreinen
+\begin_inset Newline newline
+\end_inset
+
+Wegverhardingen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wegverhardingen
+\begin_inset Newline newline
+\end_inset
+
+Wegtransport
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vrachtwagenchauffeurs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enkel vrachtwagen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:externe-kosten-sectoren"
+
+\end_inset
+
+Externe kosten van de bekeken sectoren
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Andere aangehaalde externe kosten
+\end_layout
+
+\begin_layout Standard
+In hoofdstuk
+\begin_inset space ~
+\end_inset
+
+12.2 haalt Meino Smit nog een aantal andere studies aan waarbij er ook externe
+ kosten geïdentificeerd worden.
+ Ook wordt er hiervoor een waarde gegeven, zie ook verder.
+\end_layout
+
+\begin_layout Standard
+Voor een aantal studies zijn volgende externe kosten opgesomd:
+\end_layout
+
+\begin_layout Itemize
+effecten bestrijdingsmiddelen
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+extra kosten gezondheidszorg en arbeidsproductiviteit door emissies naar
+ de lucht
+\end_layout
+
+\begin_layout Itemize
+extra kosten waterzuivering door emissies naar grondwater
+\end_layout
+
+\begin_layout Itemize
+achteruitgang ecologische kwaliteit door emissies naar oppervlaktewater
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+kosten melkveehouderij
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+broeikasgassen
+\end_layout
+
+\begin_layout Itemize
+verlies biodiversiteit
+\end_layout
+
+\begin_layout Itemize
+impact op menselijke gezondheid
+\end_layout
+
+\begin_layout Itemize
+dierziekten
+\end_layout
+
+\begin_layout Itemize
+bodemdaling
+\end_layout
+
+\begin_layout Itemize
+subsidies van de overheid
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Wil je inspiratie, hier een bloemlezing uit de mogelijke kosten:
+\end_layout
+
+\begin_layout Itemize
+(tijdelijke) subsidieregelingen
+\end_layout
+
+\begin_layout Itemize
+kosten overheid bij ziekte uitbraken
+\end_layout
+
+\begin_layout Itemize
+kosten overheid bij voedselschandalen
+\end_layout
+
+\begin_layout Itemize
+verkeersveiligheid
+\end_layout
+
+\begin_layout Itemize
+verkeerscongestie
+\end_layout
+
+\begin_layout Itemize
+geluidsoverlast
+\end_layout
+
+\begin_layout Itemize
+luchtvervuiling
+\end_layout
+
+\begin_layout Itemize
+watervervuiling
+\end_layout
+
+\begin_layout Itemize
+geurhinder
+\end_layout
+
+\begin_layout Itemize
+verlies van bodemvruchtbaarheid
+\end_layout
+
+\begin_layout Itemize
+voedselverspilling
+\end_layout
+
+\begin_layout Itemize
+bodemerosie
+\end_layout
+
+\begin_layout Itemize
+waterschaarste
+\end_layout
+
+\begin_layout Itemize
+schade aan de gezondheid
+\end_layout
+
+\begin_layout Itemize
+schade aan de natuur
+\end_layout
+
+\begin_layout Itemize
+schade aan de biodiversiteit
+\end_layout
+
+\begin_layout Itemize
+schade aan vastgoed
+\end_layout
+
+\begin_layout Itemize
+schade aan landbouwopbrengsten
+\end_layout
+
+\begin_layout Itemize
+schade aan de economie ten gevolge van klimaatverandering
+\end_layout
+
+\begin_layout Itemize
+maatschappelijke kosten op sociaal gebied
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+kinderarbeid
+\end_layout
+
+\begin_layout Itemize
+slechte werkomstandigheden
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Dit zelf doen
+\end_layout
+
+\begin_layout Standard
+En wat als je zelf die externe kosten wilt identificeren? Hoe ga je dan
+ te werk?
+\end_layout
+
+\begin_layout Standard
+Ten eerste kan je bestaande studies uitpluizen en kijken welke externe kosten
+ daarin gebruikt worden.
+ Dat is net wat we hierboven gedaan hebben!
+\end_layout
+
+\begin_layout Standard
+Wil je verder gaan, dan werk je je best in in de materie.
+ Hierdoor krijg je zicht op de nodige input.
+ Door op het proces van de input de focussen, krijgen je dan weer meer zicht
+ op de externe kosten daarvan.
+ Zo kan je dan verder gaan.
+\end_layout
+
+\begin_layout Standard
+Het beste is natuurlijk gaan praten met experten van het veld want zij zullen
+ hier al zicht op hebben.
+ Ook kunnen zij inzichten geven en je waarschuwen voor voetangels.
 \end_layout
 
 \begin_layout Section
-Vanuit de factor energie
+De waarde van een externe kosten bepalen
 \end_layout
 
-\begin_layout Section
-Vanuit de factor gewicht
+\begin_layout Standard
+Goed, we weten nu een aantal categorieën van externe kosten.
+ Hoe kunnen we hier nu waardes op plakken?
 \end_layout
 
-\begin_layout Section
-Vanuit de factor landgebruik
+\begin_layout Standard
+Er zijn verschillende manieren om de waarde van een externe kost te bepalen.
+ Bij ze allemaal geld wel dat, in mijn ogen, doorzetting en rigoureus werken
+ noodzakelijk zijn.
+ Vandaar ook mijn respect voor wat Meino Smit gedaan heeft.
+\end_layout
+
+\begin_layout Standard
+De eenvoudigste manier is als die gegevens rechtstreeks beschikbaar zijn
+ in tabellen.
+ Dit is bijvoorbeeld het geval bij gegevens over de fabrieksgrootte en tewerkste
+lling bij zoiets als mestverwerkingsbedrijven.
+ Het is uiteraard de zaak om de juiste bronnen te vinden en eventueel gegevens
+ van verschillende bronnen met elkaar te vergelijken om te controleren of
+ ze overeen komen.
+\end_layout
+
+\begin_layout Standard
+Verder kunnen de gegevens er wel zijn, maar niet in de meest bruikbare vorm.
+ Bijvoorbeeld waren er voor grootvee gegevens beschikbaar voor vlees met
+ been
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 56"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Dan moet je ofwel kunnen doorrekenen naar de bruikbare vorm, bijvoorbeeld
+ door gebruik te maken van het slachtrendement, ofwel wordt die over- of
+ onderschatting gecompenseerd door een andere inschatting, bijvoorbeeld
+ door de energetische waarde van been en huid niet mee te rekenen, ofwel
+ hou je het bij die over- of onderschatting.
+ Wat je ook kiest, het is belangrijk dit duidelijk te vermelden en ook conservat
+ief te zijn.
+ Bijvoorbeeld willen we hier de output zo hoog mogelijk zien.
+ Dan kies je best voor een (lichte) onderschatting omdat je conclusies dan
+ meer kans hebben recht te blijven staan bij latere ontdekkingen of kritiek.
+\end_layout
+
+\begin_layout Standard
+Een complexiteit hierbij is als de gegevens wel over de jaren heen of over
+ de bronnen heen niet in dezelfde waarde genoteerd zijn.
+ Dit was te zien bij de registratie van de productie aan eieren.
+ In sommige jaren waren het aantal eieren geregistreerd, in andere jaren
+ de gewichten
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 56"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Dan moet er een manier gezocht worden om die gegevens op dezelfde basis
+ te brengen.
+\end_layout
+
+\begin_layout Standard
+Een volgende stap op de ladder van complex detectivewerk, is als de gegevens
+ beschikbaar zijn maar uit verschillende bronnen moeten gecombineerd worden.
+ Dat is bijvoorbeeld gedaan om van de gewichten aan geproduceerde landbouwgewass
+en de energetische waarde te bepalen.
+ Hiervoor zijn de gegevens van het CBS en LEI rond gewichten van oogsten
+ gecombineerd met het Nederlands Voedingsstoffenbestand
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 55"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Iets minder eenvoudig wordt het als de gegevens maar fragmentarisch ter
+ beschikking zijn.
+ Dan moeten de lacunes opgevuld worden door aannames te doen.
+ Dit is bijvoorbeeld het geval voor de grootte agrarische gebouwen.
+ Hiervoor zijn op basis van wel aanwezige bronnen en eigen berekeningen
+ de omvang van de agrarische bebouwing bepaald
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 79"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Bij het bepalen van de energetische waarde van bijvoorbeeld gebouwen of
+ machines is gebruik gemaakt van de opgeslagen energie.
+ Hiervoor zijn een aantal aannames gedaan, bijvoorbeeld door bij machines
+ te kijken naar het gewicht en dat te schalen naar hoeveelheid staal
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 87"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+, of is er voor een paar voorbeelden doorgerekend waarna deze waarden geëxtrapol
+eerd werden zoals voor bedrijfsgebouwen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 84"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Het is helemaal voer voor experten als je voelt dat de waarden wel belangrijk
+ zijn, maar helemaal niet rechtstreeks beschikbaar zijn.
+\end_layout
+
+\begin_layout Standard
+Dat was bijvoorbeeld het geval voor de mijnbouw.
+ De indirecte kosten daarvan zijn totaal niet beschikbaar.
+ Je moet ze dus afleiden uit andere gegevens.
+ Je kunt dit ofwel proberen zeer rigoureus te doen door bijvoorbeeld de
+ import van kali en fosfaten op te zoeken, het aandeel daarvan de bepalen
+ in de wereldwijde handel en dan vanuit wereldwijde kengetallen in kali
+ en fosfaatmijnen terug te rekenen.
+ Dat is zeer veel werk en zoals Meino Smit opmerkt zijn die wereldwijde
+ kengetallen niet altijd beschikbaar.
+ Of je kunt een benadering doen zoals uitgelegd in paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Mijnbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ waarbij de wereldwijde kengetallen voor de totale mijnindustrie berekend
+ worden en dan op basis van het aandeel in het energieverbruik teruggerekend
+ worden.
+ Hierbij ga je ervan uit dat er een evenredigheid is tussen gebruik van
+ energie en grondstoffen en dat deze evenredigheid gelijk blijft over de
+ verschillende maatschappelijke sectoren heen.
+ Dat eerste lijkt zeker wel te kloppen zoals uitgelegd in paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:Kapitaal"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Bij dat laatste moet je ervan uit gaan dat je eenzelfde verhouding zal
+ hebben tussen energie en grondstoffen gebruik in landbouw als in de bouwsector
+ (hoewel dit heel andere grondstoffen zijn), de elektronica (weer andere
+ grondstoffen),
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Dat is veel minder zeker wat dan ook een grote onzekerheidsmarge zal geven.
+ Die grote onzekerheidsmarge voor mijnbouw geeft Meino Smit ook aan.
+\end_layout
+
+\begin_layout Standard
+Een ander voorbeeld is het bepalen van de indirecte energie van elektronica.
+ Er zijn geen gegevens van de hoeveelheid aangekochte elektronica in Nederland,
+ laat staan het aandeel van de landbouw hierin.
+ Maar er zijn wel gegevens beschikbaar van de hoeveelheid afval aan elektrische
+ en elektronische apparatuur (EEA) per persoon.
+ Dan heeft Meino Smit eerst gekeken wat de verhouding is tussen aangekochte
+ en afgedankte EEA op basis van gegevens van 2010 (bijna 90%, dus quasi
+ gelijk).
+ Daarna heeft hij op basis van de gegevens rond afval EEA per persoon en
+ per jaar de totale hoeveelheden EEA bepaald van 1980 t.e.m.
+ 2015.
+ Europees is gevonden dan 15% van de EEA komt van ICT materiaal.
+ Daaruit is dan de opgeslagen energie berekent die dan vervolgens is geschaald
+ naar de landbouw op basis van het aandeel van de landbouw in het directe
+ Nederlandse energieverbruik.
+ Zie hiervoor
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 105"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Je merkt dus dat er via een omweg in eer en geweten toch een waarde is bekomen.
+ Uiteraard is het eenvoudig om aan te geven waar het 
+\begin_inset Quotes pld
+\end_inset
+
+fout
+\begin_inset Quotes prd
+\end_inset
+
+ zou zitten, maar zoals ze zeggen: 
+\begin_inset Quotes pld
+\end_inset
+
+Beter een foute schatting dan helemaal niets rekenen
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Zij die betere gegevens hebben, gelieve op te staan.
+\end_layout
+
+\begin_layout Standard
+Opnieuw dek je je het beste in door conservatieve aannames te doen.
+\end_layout
+
+\begin_layout Standard
+Soms moet je zelfs de handdoek in de ring gooien.
+ Bijvoorbeeld bij dierengeneesmiddelen waren er te weinig gegevens ter beschikki
+ng om deze sector op te nemen.
+\end_layout
+
+\begin_layout Standard
+Uit dit alles blijkt dat het meestal eenvoudiger is om de externe kosten
+ te bepalen van een groot systeem zoals de Nederlandse landbouw dan voor
+ een individuele situatie zoals je eigen voetafdruk.
+ Bij een groter systeem zullen enerzijds de over- en onderschattingen elkaar
+ deels compenseren en zijn er ook gewoon meer gegevens beschikbaar.
 \end_layout
 
 \begin_layout Section
 Impact van de externe kosten op de kost van de landbouw
 \end_layout
 
-\begin_layout Enumerate
-al aangegeven in bij de grafieken
-\end_layout
-
-\begin_layout Enumerate
-maatschappelijke kosten (H12 met voorbeeld 12.3 & 13.5 
-\begin_inset Quotes pld
-\end_inset
-
-Impact maatschappelijke kosten
-\begin_inset Quotes prd
-\end_inset
-
- resultaat)
+\begin_layout Subsection
+Impact besproken bij kengetallen
 \end_layout
 
 \begin_layout Standard
-H15: Voor het berekenen van de maatschappelijke kosten bestaat nog geen
- algemeen aanvaarde standaard.
- Derhalve zijn in dit proefschrift verschillende waardes weergegeven.
+In hoofdstuk
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Presentatie-gegevens"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ werd al aangegeven wat de impact is als we de externe kosten meenemen.
+ We gaan deze hier even samenvatten:
+\end_layout
+
+\begin_layout Itemize
+de arbeidsproductiviteit in ha/FTE is over de periode met een factor 1,6
+ verhoogd in plaats van het gangbare getal van 3,6 keer (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:arbeidsproductiviteit-ha_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+de arbeidsproductiviteit in ton/FTE is over de periode met een factor 4,9
+ verhoogd in plaats van het gangbare getal van 11,2 keer (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:arbeidsproductieviteit-ton_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+de indirecte energetische input is 1,25 keer zo groot geworden dan de directe
+ energetische input (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) en beiden zijn groter dan de energetische output waardoor er een negatieve
+ energetische balans is (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:absolute-e-vergelijken"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+de energetische output per hectare is maar met een factor 1,12 verhoogd
+ in plaats van het gangbare getal van 2,6 keer (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+de energetische input per hectare is met een factor 7,2 gestegen in plaats
+ van het gangbare getal van 6,3 keer (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+de energetische output per FTE is met een factor 4,2 verhoogd in plaats
+ van het gangbare getal van 9,6 keer (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+de energetische input per FTE is met een factor 26 gestegen in plaats van
+ het gangbare getal van 23 keer (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:e-eff-gj_FTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+het gewicht output per hectare is met een factor 1,3 verhoogd in plaats
+ van het gangbare getal van 3,1 (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:opbrengst-ton_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+het is maar dank zij het indirecte landgebruik dat er genoeg landbouwareaal
+ per inwoner (paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:landgebruik"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+De tendens is dus duidelijk: de output is minder gestegen dan gangbaar gedacht
+ wordt terwijl de verhoging input de verhoging van de output overschaduwd.
+\end_layout
+
+\begin_layout Subsection
+De economische impact van externe kosten
+\end_layout
+
+\begin_layout Standard
+De studies die hierboven aangehaald zijn, plakken ook getallen op de impact
+ van de externe kosten.
+\end_layout
+
+\begin_layout Standard
+Maar eerst fundamentele vraag: bepaald je de economische waarde aan de hand
+ van de maatregelen die moeten gebeuren om schade door de externe kost te
+ voorkomen (preventie kost) of aan de hand van de moeite die het kost om
+ de schade van de externe kost weg te werken (schade kost).
+ Meestal wordt volgens mijn gevoeld de schade kost bepaald.
+ Het is in mijn ogen echter slimmer om aan preventie te doen.
+ Dat kost meestal heel wat minder.
+\end_layout
+
+\begin_layout Standard
+Als voorbeelden, de geldelijke kosten die vermeld zijn:
+\end_layout
+
+\begin_layout Itemize
+Bureau Berenschot berekende in 1989 de milieuschade van gangbare Nederlandse
+ landbouw op €
+\begin_inset space ~
+\end_inset
+
+2,77
+\begin_inset space ~
+\end_inset
+
+miljard par jaar.
+\end_layout
+
+\begin_layout Itemize
+CE Delft schat de externe kosten van de Nederlandse veehouderij in 2002
+ op minstens €
+\begin_inset space ~
+\end_inset
+
+2,1
+\begin_inset space ~
+\end_inset
+
+miljard.
+\end_layout
+
+\begin_layout Itemize
+Het LEI becijfert in 2008 de extern kost van bestrijdingsmiddelen op ruim
+ €
+\begin_inset space ~
+\end_inset
+
+91
+\begin_inset space ~
+\end_inset
+
+miljoen per jaar.
+\end_layout
+
+\begin_layout Itemize
+Het Louis Bolk Instituut geeft in 2017 aan dat de Nederlandse melkveestapel
+ moet slinken van 1,6
+\begin_inset space ~
+\end_inset
+
+miljoen koeien tot 1,1
+\begin_inset space ~
+\end_inset
+
+miljoen koeien omwille van ammoniak- en klimaatdoelstellingen.
+ Dit zou de externe kosten doen dalen met €
+\begin_inset space ~
+\end_inset
+
+800
+\begin_inset space ~
+\end_inset
+
+miljoen.
+ Ze schatten de huidige externe kost dus op €
+\begin_inset space ~
+\end_inset
+
+2,6
+\begin_inset space ~
+\end_inset
+
+miljard per jaar.
+\end_layout
+
+\begin_layout Itemize
+In subsidies geeft de Nederlandse overheid €
+\begin_inset space ~
+\end_inset
+
+1
+\begin_inset space ~
+\end_inset
+
+miljard uit in het kader van het GLB.
+\end_layout
+
+\begin_layout Standard
+Dit zijn bedragen waar je even stil van wordt.
+ Zeker omdat Meino Smit ons voorrekent dat het agrarisch inkomen (netto
+ toegevoegde waarde tegen factorkosten) voor de Nederlands landbouw in 2015
+ €
+\begin_inset space ~
+\end_inset
+
+6,9
+\begin_inset space ~
+\end_inset
+
+miljard bedraagt (tabel
+\begin_inset space ~
+\end_inset
+
+59 op p.
+\begin_inset space ~
+\end_inset
+
+150).
+\end_layout
+
+\begin_layout Standard
+En dan nog is hij niet te houden.
+ Hij schat in paragraaf
+\begin_inset space ~
+\end_inset
+
+12.3 de maatschappelijke kosten van de Nederlandse landbouw tussen de €
+\begin_inset space ~
+\end_inset
+
+5 en €
+\begin_inset space ~
+\end_inset
+
+20
+\begin_inset space ~
+\end_inset
+
+miljard per jaar in.
+ Dit heeft hij gedaan door de kostprijs van de 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+uitstoot te berekenen aan de hand van de 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+handel (
+\lang english
+Emission Trade System
+\lang dutch
+)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Zelf vind ik het pervers dat je de kosten in geld enkel kunt bepalen als
+ er een handel voor die externe kosten bestaat.
+ Het is juist dat neo-kapitalistisch systeem dat de externe kosten zo zwaar
+ in de hand gewerkt heeft.
+\end_layout
+
+\end_inset
+
+.
+ Uit een studie van het FOA haalt hij dat de kosten van broeikasgassen een
+ kwart is van de de totale externe kosten.
+ Op die manier komt hij op de bovenstaande waarden.
+\end_layout
+
+\begin_layout Standard
+Het voelt allemaal wel aan als natte vingerwerk.
+ Er is spijtig genoeg geen standaard voor het berekenen van die externe
+ kost.
+ Dat zorgt dat de verschillende studies alle kanten uit gaan.
+\end_layout
+
+\begin_layout Standard
+Alles bij elkaar, is het dus duidelijk dat het huidige landbouwsysteem indirect
+ zeer veel kost.
+ Dat wordt niet altijd meegenomen als andere landbouwsystemen beoordeeld
+ worden.
+\end_layout
+
+\begin_layout Standard
+Als afsluiter vooraleer we de werkkamer gaan verlaten.
+ Zelfs al reken je de externe kosten door in de prijs van producten, dan
+ kunnen er op termijn problemen optreden.
+ Dat is omdat voor bepaalde problemen moet ingegrepen worden vooraleer de
+ problemen zichtbaar worden.
+\end_layout
+
+\begin_layout Standard
+Bijvoorbeeld de eindigheid van grondstoffen moet in een vroeg stadium aangepakt.
+ Het vraagt nu eenmaal tijd om alternatieven te ontwikkelen, recyclage te
+ optimaliseren en vooral om een wijziging in consumptiepatronen te bewerkstellig
+en.
+ Als je dit niet op tijd aanpakt, dan schiet je pas in actie als de tekorten
+ zichtbaar worden.
+ Hierdoor gaan de prijzen pijlsnel de hoogte in gaan.
+ Pas op dat moment in actie treden betekent dat én de hogere prijzen betaald
+ worden én op veel kortere termijn geïnvesteerd moet worden in de omschakeling.
 \end_layout
 
 \begin_layout Chapter
@@ -7137,6 +9438,16 @@ de winning en extractie van verschillende cruciale grondstoffen is belastend,
  zowel in energie als in menselijke kosten (bloedmetalen),
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+gebruik van fracking
+\end_layout
+
+\begin_layout Itemize
+giftig en radioactief afval
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 sommige benodigde metalen komen enkel vrij als 
 \begin_inset Quotes pld
@@ -7146,7 +9457,8 @@ bijwinning
 \begin_inset Quotes prd
 \end_inset
 
- van andere grondstoffen,
+ van andere grondstoffen waardoor niet snel gereageerd kan worden op schommeling
+en in de vraag,
 \end_layout
 
 \begin_layout Itemize
@@ -7719,7 +10031,7 @@ Gemeten in ton per werknemer is er een verhoging van 390% (paragraaf
 
 \begin_inset CommandInset ref
 LatexCommand vref
-reference "subsec:opbrengst-ton_FTE"
+reference "subsec:arbeidsproductieviteit-ton_FTE"
 plural "false"
 caps "false"
 noprefix "false"
@@ -7811,19 +10123,16 @@ miljard.
 
 \begin_deeper
 \begin_layout Itemize
-netto waarde van de landbouw in de Nederlandse economie tussen €
+uitgezet tegen de nationaal agrarisch inkomen van €
 \begin_inset space ~
 \end_inset
 
-2 en -€
+7
 \begin_inset space ~
 \end_inset
 
-13
-\begin_inset space ~
-\end_inset
-
-miljard.
+miljard, blijkt landbouw naar alle waarschijnlijkheid de maatschappij meer
+ te kosten dan het opbrengt.
 \end_layout
 
 \end_deeper
@@ -9242,6 +11551,16 @@ De achtertuin
 XXX Ik zou graag de kengetallen willen bestuderen per landbouwsector maar
  deze opsplitsing is spijtig genoeg niet gedaan, als die al mogelijk is.
  Dit vooral om de invloed van de veehouderij af te kunnen splitsen.
+\end_layout
+
+\begin_layout Standard
+XXX geleerd: indirecte kosten en hun impact, hoe berekenen, impact veeteelt
+ op indirecte kosten, mijnbouw, elektronica en duurzame energie, geen duurzame
+ kosten zonder drastische veranderingen (voedselpatroon, belasting, ...), moeilijkh
+eid om maatschappelijke kosten in te schatten (je hebt kapitalistische manier
+ van werken nodig om te kosten ervan in te schatten - maar gaf dit niet
+ juist het probleem?), beperking van elke manier van kijken (arbeid, kapitaal,
+ grond -> geen sociale gelijkheid, economisch, milieu, ...)
 \end_layout
 
 \begin_layout Standard
