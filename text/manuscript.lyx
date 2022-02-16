@@ -491,7 +491,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 1a.jpg
+	filename ondersteunende_documenten/figuren/externe kost 1a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -546,7 +546,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 1b.jpg
+	filename ondersteunende_documenten/figuren/externe kost 1b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -610,7 +610,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 1c.jpg
+	filename ondersteunende_documenten/figuren/externe kost 1c.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -722,7 +722,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 2a.jpg
+	filename ondersteunende_documenten/figuren/externe kost 2a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -794,7 +794,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 2b.jpg
+	filename ondersteunende_documenten/figuren/externe kost 2b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -904,7 +904,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 3a.jpg
+	filename ondersteunende_documenten/figuren/externe kost 3a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -967,7 +967,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 3b.jpg
+	filename ondersteunende_documenten/figuren/externe kost 3b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1087,7 +1087,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 4a.jpg
+	filename ondersteunende_documenten/figuren/externe kost 4a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1150,7 +1150,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 4b.jpg
+	filename ondersteunende_documenten/figuren/externe kost 4b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1282,7 +1282,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 5a.jpg
+	filename ondersteunende_documenten/figuren/externe kost 5a.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1404,7 +1404,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 5b.jpg
+	filename ondersteunende_documenten/figuren/externe kost 5b.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1448,7 +1448,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 5c.jpg
+	filename ondersteunende_documenten/figuren/externe kost 5c.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1488,7 +1488,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 5d.jpg
+	filename ondersteunende_documenten/figuren/externe kost 5d.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1582,7 +1582,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/externe kost 5e.jpg
+	filename ondersteunende_documenten/figuren/externe kost 5e.jpg
 	lyxscale 10
 	height 4cm
 	groupId Umbalio
@@ -1633,7 +1633,7 @@ op een bepaald moment loop je het risico dat de maatschappelijke kosten
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "ondersteunende documenten/permaculture"
+bibfiles "ondersteunende_documenten/permaculture"
 options "bibtotoc"
 
 \end_inset
@@ -2905,7 +2905,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/input_output_nederland.svg
+	filename ondersteunende_documenten/figuren/input_output_nederland.svg
 	height 4cm
 	groupId generic
 
@@ -2981,7 +2981,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/input_output_wereld.svg
+	filename ondersteunende_documenten/figuren/input_output_wereld.svg
 	height 4cm
 	groupId generic
 
@@ -4060,7 +4060,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/figuren/energy distribution.svg
+	filename ondersteunende_documenten/figuren/energy distribution.svg
 	height 4cm
 	groupId generic
 
@@ -4242,7 +4242,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - arbeid - klassiek.svg
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid - klassiek.svg
 	width 100col%
 	groupId grafieken
 
@@ -4343,7 +4343,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - arbeid - alles - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid - alles - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -4577,7 +4577,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek.svg
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - klassiek.svg
 	width 100col%
 	groupId grafieken
 
@@ -4622,7 +4622,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - landgebruik - klassiek - nodig.svg
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - klassiek - nodig.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -4720,7 +4720,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - alles - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -4788,7 +4788,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles - nodig.svg
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - alles - nodig.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -4896,7 +4896,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - arbeid+landgebruik - direct land.svg
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid+landgebruik - direct land.svg
 	width 100col%
 	groupId grafieken
 
@@ -5038,7 +5038,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - arbeid+landgebruik - totaal.svg
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid+landgebruik - totaal.svg
 	width 100col%
 	groupId grafieken
 
@@ -5148,7 +5148,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie - output.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie - output.svg
 	width 100col%
 	groupId grafieken
 
@@ -5193,7 +5193,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie - output - aandeel sectoren.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie - output - aandeel sectoren.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -5251,7 +5251,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie - output - sectoren geschaald.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie - output - sectoren geschaald.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -5335,7 +5335,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie - input - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie - input - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -5453,7 +5453,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie - volledig - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie - volledig - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -5613,7 +5613,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie_ha - output.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - output.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -5652,7 +5652,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie_ha - input.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - input.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -5691,7 +5691,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie_ha - verhouding.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - verhouding.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -5923,7 +5923,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie_fte - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie_fte - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -6061,7 +6061,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - gewicht - output.svg
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht - output.svg
 	width 100col%
 	groupId grafieken
 
@@ -6111,7 +6111,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren.svg
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht - output - sectoren.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -6194,7 +6194,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren - geschaald.svg
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht - output - sectoren - geschaald.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -6272,7 +6272,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - gewicht_fte.svg
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht_fte.svg
 	width 100col%
 	groupId grafieken
 
@@ -6351,7 +6351,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - gewicht_ha.svg
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht_ha.svg
 	width 100col%
 	groupId grafieken
 
@@ -9667,7 +9667,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - eroei.svg
+	filename ondersteunende_documenten/grafieken/meino smit - eroei.svg
 	width 100col%
 	groupId grafieken
 
@@ -9824,7 +9824,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energieverbruik per hoofd.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energieverbruik per hoofd.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -11322,7 +11322,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - arbeid - alles 2040 - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid - alles 2040 - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -11364,7 +11364,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - landgebruik - alles 2040 - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - alles 2040 - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -11396,7 +11396,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - gewicht - output - sectoren 2040.svg
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht - output - sectoren 2040.svg
 	width 100col%
 	groupId grafieken
 
@@ -11428,7 +11428,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie - volledig 2040 - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie - volledig 2040 - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -11467,7 +11467,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie_ha 2040 - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha 2040 - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -11500,7 +11500,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit - energie_fte 2040 - inset.svg
+	filename ondersteunende_documenten/grafieken/meino smit - energie_fte 2040 - inset.svg
 	width 100col%
 	groupId grafieken
 
@@ -11717,7 +11717,7 @@ Dit was dan het einde van de rondleiding door het mooie huis van Meino Smit.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "ondersteunende documenten/permaculture,ondersteunende documenten/meino smit"
+bibfiles "ondersteunende_documenten/permaculture,ondersteunende_documenten/meino_smit"
 options "bibtotoc"
 
 \end_inset
@@ -11985,7 +11985,7 @@ Dit is allemaal een belangrijk aspect naar buiten toe.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "ondersteunende documenten/permaculture"
+bibfiles "ondersteunende_documenten/permaculture"
 options "bibtotoc,abbrvnat"
 
 \end_inset
@@ -12234,7 +12234,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende documenten/grafieken/meino smit tabel 2.svg
+	filename ondersteunende_documenten/grafieken/meino smit tabel 2.svg
 	width 45col%
 	groupId grafieken klein
 
@@ -12276,7 +12276,7 @@ De EROEI is belangrijk in het kader van dit verdiepend werkstuk omdat hiermee
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "ondersteunende documenten/permaculture,ondersteunende documenten/meino smit"
+bibfiles "ondersteunende_documenten/permaculture,ondersteunende_documenten/meino_smit"
 options "bibtotoc"
 
 \end_inset
