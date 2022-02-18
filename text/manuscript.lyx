@@ -11,6 +11,8 @@
 \let\oldquotation\quotation
 \renewcommand\quotation{\small\oldquotation}
 
+\usepackage[nottoc]{tocbibind}
+
 \lefthyphenmin=2
 %\hyphenation{ge-groe-peerd}
 %\hyphenation{ge-pro-beerd}
@@ -90,7 +92,6 @@ longtablepage
 \biblio_style abbrv
 \biblatex_bibstyle alphabetic
 \biblatex_citestyle alphabetic
-\multibib part
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -123,6 +124,22 @@ longtablepage
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Title
 De échte kost van voedsel
@@ -176,12 +193,60 @@ Dankwoord
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Dankwoord}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Nog een woordje van dank.
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
 
 \end_inset
 
@@ -1674,18 +1739,6 @@ je systeem wordt kwetsbaarder aan storingen.
 op een bepaald moment loop je het risico dat de maatschappelijke kosten
  zwaarder gaan doorwegen dan de voordelen die de maatschappij uit de hoofdtaak
  haalt.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "ondersteunende_documenten/permaculture"
-options "bibtotoc"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Part
@@ -11760,18 +11813,6 @@ Dit was dan het einde van de rondleiding door het mooie huis van Meino Smit.
  Vergeet ook niet om de gids te belonen (grapje!).
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "ondersteunende_documenten/permaculture,ondersteunende_documenten/meino_smit"
-options "bibtotoc"
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Part
 Leach - klad
 \end_layout
@@ -12026,18 +12067,6 @@ Dit is allemaal een belangrijk aspect naar buiten toe.
  Je kunt verantwoorden waarom je een bepaalde prijs vraagt en waarom die
  hoger is dan van het gangbare model.
  Er zijn namelijk bepaalde kosten die je wel in rekening brengt.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "ondersteunende_documenten/permaculture"
-options "bibtotoc,abbrvnat"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Part
