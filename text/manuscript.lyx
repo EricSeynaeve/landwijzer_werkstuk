@@ -114,7 +114,7 @@ longtablepage
 \quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -398,23 +398,19 @@ A Farm for the Future
 \begin_inset Quotes prd
 \end_inset
 
- 
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://vimeo.com/136857929"
-
+ van Rebecca Hosking
+\begin_inset space ~
 \end_inset
 
 
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hosking2009"
+literal "false"
 
 \end_inset
 
- van Rebecca Hosking.
+.
  Hierin vermeld ze, na een sandwich uit zijn plastieken doodskist gehaald
  te hebben, dat er om 1 calorie van de sandwich op je bord te kunnen plaatsen,
  er in het totaal 10 calorieën nodig zijn.
@@ -11814,41 +11810,44 @@ Dit was dan het einde van de rondleiding door het mooie huis van Meino Smit.
 \end_layout
 
 \begin_layout Part
-Leach - klad
+1 calorie op het bord, 10 calorieën olie?
 \end_layout
 
 \begin_layout Standard
--
+Zoals vermeld in de inleiding, is de documentaire 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+A farm for the future
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ van Rebecca Hosking
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hosking2009"
+literal "false"
+
+\end_inset
+
+ een belangrijk zaadje geweest voor dit verdiepend werkstuk.
+ Hierin stelt ze dat er 10 calorieën aan olie nodig zijn om 1 calorie op
+ je bord te krijgen.
+ Deze stelling komt regelmatig terug in de Transitie en Permacultuur bewegingen.
+ Maar waar komt dit vandaan? Mijn wetenschappelijke geest was niet tevreden
+ om de stelling zomaar te accepteren.
 \end_layout
 
 \begin_layout Standard
--
-\end_layout
-
-\begin_layout Standard
--
-\end_layout
-
-\begin_layout Standard
--
-\end_layout
-
-\begin_layout Standard
--
-\end_layout
-
-\begin_layout Standard
-Het is begonnen met een 'Hùh' moment tijdens het bekijken van de reportage
- XXX.
- Daar werd erin verteld dat de sandwich die ze opengedaan had droop in olie
- want het koste 10 keer zoveel energie om die sandwich te maken dan wat
- ze eruit zou halen bij het eten.
- Dat getal heeft me gegrepen.
- Waar kwam die informatie vandaan?
-\end_layout
-
-\begin_layout Standard
-Maar het was pas toen ik 
+Het is pas bij het lezen van 
 \begin_inset Quotes pld
 \end_inset
 
@@ -11860,42 +11859,26 @@ Permaculture: Guérir la terre, nourrir les hommes
 \begin_inset Quotes prd
 \end_inset
 
- van 
-\noun on
-Charles Hervé-Gruyer
-\noun default
- las 
+ van Charles Hervé-Gruyer
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand cite
+after "p. 25"
 key "Herve2017"
 literal "false"
 
 \end_inset
 
 , dat de zoektocht verder kon gaan.
- Hij verwees namelijk naar 
-\noun on
-Patrick Whitefield
-\noun default
-.
- Op naar iemand die dat werk had (dank je 
-\noun on
-Bert
-\noun default
-).
- Oh nee, 
-\noun on
-Patrick
-\noun default
- verwijst naar werken van 
-\noun on
-Lampkin
-\noun default
- en 
-\noun on
-Jackson
-\noun default
- 
+ Hij verwijst namelijk naar Patrick Whitefield.
+ Dus op naar iemand die dat werk heeft (bedankt Bert).
+\end_layout
+
+\begin_layout Standard
+Oh nee, Whitefield verwijst naar het werk van Nicolas Lampkin 
 \begin_inset CommandInset citation
 LatexCommand cite
 after "p. 31"
@@ -11905,12 +11888,170 @@ literal "false"
 \end_inset
 
 .
- Hmm, verder zoeken dus.
- Een eerste hint dat de werkelijkheid niet zo eenvoudig is als de oneliner
- liet uitschijnen, is dat Patrick schrijft 
+ Hmm, verder zoeken dus!
+\end_layout
+
+\begin_layout Standard
+Wel belangrijk om aan te halen dat Whitefield schrijft (
 \begin_inset CommandInset citation
 LatexCommand cite
 after "p. 9"
+key "Whitefield2011"
+literal "false"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+Most of the ecological impact of food is generated in transport, processing
+ and retailing, not on the farm.
+\end_layout
+
+\begin_layout Standard
+Dus een eerste hint dat de 
+\begin_inset Quotes pld
+\end_inset
+
+10 calorieën olie voor 1 calorie voedsel
+\begin_inset Quotes prd
+\end_inset
+
+ in de juiste context moet gezien worden.
+ Het gaat namelijk over het volledige voedselsysteem, niet enkel de landbouw.
+\end_layout
+
+\begin_layout Standard
+In het boek van Lampkin staat de mooie grafiek uit figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:E_r-Lampkin"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "45text%"
+status collapsed
+
+\begin_layout Plain Layout
+\align right
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Lampkin E_r samenvatting uit Leach.jpg
+	lyxscale 10
+	width 45col%
+	groupId leach
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:E_r-Lampkin"
+
+\end_inset
+
+Input/output verhoudingen van verschillende landbouw systemen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 5.10 p. 585"
+key "Lampkin1990"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Input/output verhoudingen van verschillende landbouw systemen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+die laat zien dat de informatie 
+\begin_inset Quotes pld
+\end_inset
+
+10 eenheden energie voor 1 eenheid voedsel
+\begin_inset Quotes prd
+\end_inset
+
+ een veralgemening is.
+ Maar ook hier kunnen we duidelijk zien dat verschillende landbouw systemen
+ op verschillende momenten in de tijd een heel andere ecologische impact
+ hebben.
+ Het gaat van een zeer energetisch voordelige landbouw (oud China) tot zeer
+ energie verslindend (visserij).
+ Hoe dit berekend wordt? Nope, dit wordt hier niet gezegd want \SpecialChar ldots
+ Lampkin
+ verwijst naar het werk van Gerald Leach 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 585"
+key "Lampkin1990"
+literal "false"
+
+\end_inset
+
+.
+ Op zoek naar het volgende werk
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Gelukkig hebben zet dit werk in de (universiteit) bibliotheek.
+ Met Leach kan ik zien dat de oorspronkelijke auteur gevonden is.
+ Oef, eindelijk.
+\end_layout
+
+\begin_layout Standard
+In dit deel zal ik het werk van Gerald Leach summier behandelen.
+ Hoewel het onderzoek van 50 jaar oud is, blijven de algemene conclusies
+ nog zeer relevant.
+ Zoals Whitefield het beschrijft 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "noot 22 p. 424"
 key "Whitefield2011"
 literal "false"
 
@@ -11922,61 +12063,73 @@ literal "false"
 \begin_layout Quote
 
 \lang english
-Most of the ecological impact of food is generated in transport, processing
- and retailing, not on the farm.
-\end_layout
-
-\begin_layout Standard
-Dus al een eerste hint dat de 
 \begin_inset Quotes pld
 \end_inset
 
-10 eenheden energie voor 1 eenheid arbeid
+[\SpecialChar ldots
+] it's safe to assume that the general picture remains the same.
+ Any increase in mechanical efficiency will have been swallowed up by increases
+ in mechanization, and especially in long-distance transport.
 \begin_inset Quotes prd
 \end_inset
 
- in de juiste context moet gezien worden.
- Het gaat namelijk over het volledige voedselsysteem, niet enkel de landbouw.
+
 \end_layout
 
 \begin_layout Standard
-In het boek van 
-\noun on
-Lampkin
-\noun default
- stond volgende mooie grafiek die liet zien dat de informatie 
-\begin_inset Quotes pld
-\end_inset
+Eerst leggen we een link met het vorige deel.
+ Net zoals bij Meino Smit, heeft Leach ook de indirecte kosten van de landbouw
+ bekeken.
+ We gaan deze eens naast elkaar bekijken.
+\end_layout
 
-10 eenheden energie voor 1 eenheid voedsel
-\begin_inset Quotes prd
-\end_inset
+\begin_layout Standard
+Vervolgens wordt kort uitgelegd welke bronnen en methodes Leach gebruikt
+ heeft.
+ Dit is anders dan bij Meino Smit, wat niet enkel te maken heeft met het
+ verschil tussen Nederland en het Verenigd Koninkrijk.
+\end_layout
 
- een zware veralgemening is.
- Maar ook hier kunnen we duidelijk zien dat verschillende landbouw systemen
- op verschillende momenten in de tijd een heel andere ecologische impact
- hebben.
- Het gaat van een zeer energetisch voordelige landbouw (oud China) tot zeer
- energie verslindend (visserij).
- Hoe dit berekend wordt? Nope, dit wordt hier niet gezegd want
+\begin_layout Standard
+Een van de twee interessante zaken bij het werk van Leach, is dat verschillende
+ types van landbouw vergeleken worden met elkaar.
+ Dit gaat van de !Kung als jager/verzamelaars over akkerbouw tot visserij.
+\end_layout
+
+\begin_layout Standard
+De tweede zaak is het plaatsen van het aandeel van de landbouw in de totale
+ voedselketen.
+ Dat kan ontnuchterend zijn voor sommige mensen
 \begin_inset space \thinspace{}
 \end_inset
 
-\SpecialChar ldots
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+In De Standaard van 8 februari 2022 zegt een vertegenwoordiger van Lidl
  
-\noun on
-Lampkin
-\noun default
- verwijst naar het werk van 
-\noun on
-Leach
-\noun default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 585"
-key "Lampkin1990"
+\begin_inset Quotes pld
+\end_inset
+
+Een groot deel van de klimaatimpact van de producten die we verkopen, zit
+ aan de bron.
+ Bij de boeren, dus
+\begin_inset Quotes prd
+\end_inset
+
+ [
+\begin_inset CommandInset href
+LatexCommand href
+name "https://www.standaard.be/cnt/dmf20220208_98037223"
 literal "false"
+
+\end_inset
+
+].
+ Men zit de balk in eigen ogen niet, dus.
+\end_layout
 
 \end_inset
 
@@ -11984,17 +12137,11 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Met 
-\noun on
-Leach
-\noun default
- kon ik dan eindelijk zien dat de oorspronkelijke auteur gevonden is.
+Deze twee zaken worden apart toegelicht.
 \end_layout
 
-\begin_layout Standard
-
-\emph on
-Wat deed dit met mij?
+\begin_layout Subsection*
+Wat deed deze zoektocht met mij?
 \end_layout
 
 \begin_layout Standard
@@ -12003,7 +12150,7 @@ Het prikkelde me wel.
 
 \begin_layout Standard
 Ten eerste is het leuk om dit soort informatie tot op de bron uit te vlooien.
- Leuk voor de 
+ Het betere 
 \begin_inset Quotes pld
 \end_inset
 
@@ -12011,64 +12158,970 @@ Sherlock
 \begin_inset Quotes prd
 \end_inset
 
- in de mens.
+ werk.
 \end_layout
 
 \begin_layout Standard
-Ten tweede is het ook interessant om te zien met welke nuances je rekening
- moet houden als je boutades hoort.
+Ten tweede is het ook belangrijk om te leren met welke nuances er rekening
+ gehouden moet worden bij boutades.
+ Dat doet beseffen dat de wereld veel genuanceerder en rijker is dan de
+ boutade doet uitschijnen.
+ Voor mij is dat een positieve meerwaarde.
 \end_layout
 
 \begin_layout Standard
-Tot slot geeft het ook aan dat het belangrijk is om in de landbouw een zicht
- te hebben op wat er eigenlijk allemaal nodig is om een product tot stand
- te brengen.
- Het is duidelijk dat je niet zomaar mag uitgaan van de meest simpele informatie
-, maar dat er verschillende verborgen kosten zijn.
- Dat is belangrijk om te weten als je een positieve impact wilt hebben op
- de wereld.
+Tot slot geeft het ook aan dat het belangrijk is, ook in de landbouw, om
+ een zicht te hebben op wat er eigenlijk allemaal nodig is om een product
+ tot stand te brengen.
+ Er mag niet zomaar vanuit gegaan worden van de meest eenvoudige benadering.
+ Er zijn nog verschillende verborgen kosten.
+ Dat is belangrijk om inzicht in te krijgen als het doel is om een positieve
+ impact te hebben op de wereld.
 \end_layout
 
 \begin_layout Standard
-Een positieve impact? Wat is een positieve impact? Je kunt in eerste instantie
- zeggen dat je een positieve impact hebt als er minder impact is dan het
- huidige gangbare systeem.
- Maar dan kun je nog altijd een feitelijke negatieve impact hebben.
- Het is dus belangrijk om zicht te hebben met welke domeinen je allemaal
- rekening moet houden om te zien of je werkelijk een positieve impact hebt.
- Uiteraard moet je ook niet te fanatiek hierin worden.
- Het kan ook genoeg zijn om te zeggen dat je op een bepaald domein (bijvoorbeeld
- methaan uitstoot) nog negatief zit.
- Toch doe je het beter dan het merendeel van de mensen omdat je
+Een positieve impact? Wat is een positieve impact? Is er een positieve impact
+ hebt als er minder impact is dan het huidige systeem? Maar dan is er in
+ absolute waarden nog altijd een feitelijke negatieve impact.
+ Of moet je streven naar een absolute positieve impact?
+\end_layout
+
+\begin_layout Standard
+Voor mij is het niet zo scherp.
+ Het is zeer belangrijk om zicht te hebben op het totale plaatje.
+ Maar je moet ook pragmatisch kunnen zijn.
+ Het kan zijn dat je op een bepaald domein negatief zit (bijvoorbeeld methaan
+ uitstoot van een composthoop).
+ Zolang je maar
 \end_layout
 
 \begin_layout Enumerate
-er een zicht op hebt.
+een zicht houdt op het globale plaatje,
 \end_layout
 
 \begin_layout Enumerate
-je erover nagedacht hebt hoe je je impact kan verkleinen.
+serieus nagedacht hebt hoe je je impact kan verkleinen en
 \end_layout
 
 \begin_layout Enumerate
-je niet ziet hoe je, in je huidige context, beter kunt doen.
+na lang nadenken niet inziet hoe je, in de huidige context, beter kunt doen.
 \end_layout
 
 \begin_layout Standard
-Uiteraard moet je open staan voor input om op elk van die drie factoren
- een aanpassing te kunnen doen.
- Ofwel krijg je extra inzichten (factor 1), ofwel komen er nieuwe ideeën
- hoe je je impact kunt verkleinen (factor 2 en 3) ofwel verandert je context
- (factor 3).
+Uiteraard moet je blijven open staan voor nieuwe factoren op elk van die
+ drie punten.
+\end_layout
+
+\begin_layout Chapter
+Landbouw in de jaren '70 (VK)
+\end_layout
+
+\begin_layout Section
+Energiebalans
 \end_layout
 
 \begin_layout Standard
-Dit is allemaal een belangrijk aspect naar buiten toe.
- Je kunt verantwoorden waarom je een bepaalde prijs vraagt en waarom die
- hoger is dan van het gangbare model.
- Er zijn namelijk bepaalde kosten die je wel in rekening brengt.
+Zoals gezegd, is het werk van Leach gepubliceerd begin jaren '70 van vorige
+ eeuw, ongeveer 50 jaar geleden.
+ Belangrijk om te onthouden, is dat iets daarvoor de energiecrisis geweest
+ was, waar de prijzen van olie op korte termijn enorm gestegen waren.
+ Dit kan een verklaring zijn dat de focus van zijn werk zo sterk ligt op
+ de verhouding tussen energetische input tegen energetische output geschikt
+ voor menselijke consumptie (EROEI, zie paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "appendix:EROEI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, bij Leach de energie ratio 
+\begin_inset Formula $E_{r}$
+\end_inset
+
+ genoemd).
 \end_layout
 
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "45col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Leach figuur 6.png
+	lyxscale 10
+	width 45col%
+	groupId leach
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:energie-VK-landbouw"
+
+\end_inset
+
+Totale energieconsumptie landbouw in VK (1950-1972).
+ Gebaseerd op 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 6 p. 22"
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+, gekleurd volgens legende van figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Totale energieconsumptie landbouw in VK (1950-1972).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Zoals te zien in figuur
+\begin_inset space ~
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:energie-VK-landbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is de directe energie van de landbouw in het Verenigd Koninkrijk (VK) in
+ 1968 108
+\begin_inset space ~
+\end_inset
+
+PJ.
+ Hierboven komt dan nog 82
+\begin_inset space ~
+\end_inset
+
+PJ voor kunstmest, 104
+\begin_inset space ~
+\end_inset
+
+PJ voor veevoer en 84
+\begin_inset space ~
+\end_inset
+
+PJ voor de rest (machines, gebouwen, sproeistoffen,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ De totale input is dan 378
+\begin_inset space ~
+\end_inset
+
+PJ waarvan de directe energie 29% uitmaakt.
+\end_layout
+
+\begin_layout Standard
+De energetische output van de landbouw is in datzelfde jaar 130
+\begin_inset space ~
+\end_inset
+
+PJ.
+\end_layout
+
+\begin_layout Standard
+Interessant is dat Leach de parallel trekt met de zware industrie.
+ Afhankelijk van hoeveel mensen je toekent aan de landbouw (directe en indirect
+ arbeidskrachten), wordt er per persoon tussen de 150 en 330
+\begin_inset space ~
+\end_inset
+
+GJ/jaar aan energie gebruikt.
+ Dat is overeenkomstig met de zware industrie die tussen de 170 en 300
+\begin_inset space ~
+\end_inset
+
+GJ/jaar gebruikt per persoon.
+ Dit is, zoals te zien, voornamelijk door het gebruik van kunstmest en veevoeder
+s.
+ Deze laatsten zijn ofwel geïmporteerd ofwel schroot uit de voedingsindustrie
+ wat de energetische kosten de hoogte in jaagt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Leach figuur 5.jpg
+	lyxscale 10
+	width 45col%
+	groupId leach
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:kunstmest-output-VK"
+
+\end_inset
+
+Gebruik van kunstmest en verhoging van de output, relatief ten opzichte
+ van 1900 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 5 p. 18"
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Gebruik van kunstmest en verhoging van de output.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Kijken we naar de verhoging in de output, dan zien we dat dit totaal niet
+ in lijn is met de verhoging van het gebruik van kunstmest.
+ Zoals te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:kunstmest-output-VK"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is de output in gewicht tussen 1900 en 1970 ongeveer 2x hoger geworden.
+ Het gebruik van de hoeveelheid kunstmest in gewicht is in die tijd veel
+ harder gestegen: 30x voor fosfor en kalium, 8x voor stikstof.
+ Aangezien kunstmest veel energie vraagt om aan te maken
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Zoals Leach het uitrekent: 80
+\begin_inset space \thinspace{}
+\end_inset
+
+GJ/ton voor stikstof, 14
+\begin_inset space ~
+\end_inset
+
+GJ/ton voor fosfaten en 9
+\begin_inset space ~
+\end_inset
+
+GJ/ton voor kali
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "appendix 6"
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, zullen de energetische verhoudingen nog verder uit elkaar liggen.
+\end_layout
+
+\begin_layout Standard
+Als Leach kijkt in de loop van de tijd, is de EROEI gezakt van 0,45 in 1952
+ tot 0,34 in 1968.
+ Met andere woorden, in 1968 zijn er 3 calorieën nodig om 1 calorie voedsel
+ te produceren.
+ Dat is nog niet de 10:1 verhouding zoals gegeven in Whitefield.
+ Daar gaan we later nog verder op in.
+\end_layout
+
+\begin_layout Standard
+Leach haalt als reden van de lage EROEI de volgende factoren aan dat veel
+ geproduceerde plantaardige output wordt gebruikt als veevoer.
+ Bekijk je tabel
+\begin_inset space ~
+\end_inset
+
+6 in zijn werk, dan zie je dat er in 1968 in totaal 1
+\begin_inset space \thinspace{}
+\end_inset
+
+116
+\begin_inset space ~
+\end_inset
+
+PJ aan plantaardige producten van het veld gehaald werden.
+ Hiervan is er maar 65
+\begin_inset space ~
+\end_inset
+
+PJ voor directe menselijke consumptie.
+ De rest wordt aan de dieren gegeven die dan uiteindelijk ook zo'n 65
+\begin_inset space ~
+\end_inset
+
+PJ aan energie leveren voor menselijke consumptie.
+ Dat is dus een enorme vermindering aan output.
+ Dit is ook te zien in het landgebruik: maar 8,3% van het landbouwareaal
+ produceert rechtstreeks voedsel dat bruikbaar is voor de mens (aardappelen,
+ granen, groenten, fruit,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ De rest zijn gebruikt als weilanden en voor veevoer (gras, hooi, luzerne,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ Om de efficiëntie te verhogen, is het dus belangrijk om minder vlees te
+ eten.
+\end_layout
+
+\begin_layout Standard
+Is het echter erg dat er zoveel naar dieren gaat? Leach geeft aan dat dieren
+ nuttig zijn:
+\end_layout
+
+\begin_layout Itemize
+ze leveren essentiële nutriënten,
+\end_layout
+
+\begin_layout Itemize
+ze verwerken landbouwproducten die mensen niet kunnen verteren (gras, hooi,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+),
+\end_layout
+
+\begin_layout Itemize
+ze helpen om de bodemvruchtbaarheid op peil te houden en
+\end_layout
+
+\begin_layout Itemize
+ze kunnen ingezet worden op gronden die anders niet bruikbaar zijn (te nat,
+ te stijl,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ Dat gaat over 1/3 van het landbouwareaal in het VK.
+\end_layout
+
+\begin_layout Standard
+Het is eerder de vraag wanneer genoeg vlees, genoeg is.
+ Een halvering van vleesconsumptie zou het VK zelfvoorzienend maken en de
+ EROEI verhogen tot 0,7.
+ Dat is dan nog los van de gezondheidsvoordelen die zouden optreden.
+\end_layout
+
+\begin_layout Section
+Berekenen van het energie verbruik door Leach
+\end_layout
+
+\begin_layout Standard
+Bij het werk van Leach, merk je dat hij gelijkaardige factoren in kaart
+ gebracht heeft als Meino Smit.
+ Uiteraard zonder elektronica en met minder gebruik van elektriciteit omdat
+ er in de jaren '70 eenmaal bijna geen elektronica gebruikt werd en energie
+ nog meer rechtstreeks geleverd werd door fossiele brandstoffen (zie maar
+ de onderverdelingen van energie in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:energie-VK-landbouw"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Een groot verschil tussen de twee werken, is dat Meino Smit gebruik maakt
+ van verschillende inputs om de energetische bijdragen van de verschillenden
+ sectoren te bepalen.
+ Leach baseert zich daarentegen sterk op het werk van Chapman
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chapman1975"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Berekenen van de output
+\end_layout
+
+\begin_layout Standard
+Er kunnen vele soorten van output bekeken worden.
+ Deze kunnen positief zijn (geproduceerde voeding, gezelligheid van een
+ goede maaltijd,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) maar ook negatief (verlies bodemvruchtbaarheid, verdwijnen van culturele
+ waarden,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ Hier is enkel gekeken naar de output die geschikt is voor menselijke consumptie.
+\end_layout
+
+\begin_layout Standard
+Net zoals bij Meino Smit vertrekt Leach van de officiële statistieken rond
+ gewicht output van de landbouw.
+ Voor de omzetting van gewicht in energetische waarde worden een aantal
+ tabellen gebruikt.
+\end_layout
+
+\begin_layout Standard
+Verliezen worden hierbij ook in rekening gebracht.
+ Hierbij maakt hij onderscheid tussen verschillende categorieën:
+\end_layout
+
+\begin_layout Enumerate
+verliezen inherent aan het proces.
+ Dit zijn bijvoorbeeld oogstverliezen.
+\end_layout
+
+\begin_layout Enumerate
+verliezen die onvermijdbaar zijn.
+ Bijvoorbeeld het gewicht van eieren is inclusief de eischaal die echter
+ niet gebruikt kan worden.
+\end_layout
+
+\begin_layout Enumerate
+verliezen die typisch zijn.
+ Dit zijn bijvoorbeeld de schillen van groenten die niet gebruikt worden.
+\end_layout
+
+\begin_layout Enumerate
+verliezen door achteloosheid.
+ Dit zijn bijvoorbeeld weggegooide maaltijden.
+\end_layout
+
+\begin_layout Standard
+De eerste categorie wordt automatisch meegenomen in de statistieken.
+ Voor de tweede en derde categorie gebruikt Leach factoren om deze mee te
+ nemen.
+\end_layout
+
+\begin_layout Standard
+De laatste categorie wordt niet in rekening gebracht.
+ Ten eerste is dit verlies niet veroorzaakt door het systeem want kan eenvoudig
+ vermeden worden door betere planning en oplettendheid.
+ Verder is het moeilijk om hier een waarde aan te geven.
+ Leach geeft een ruwe schatting van 25% verlies aan maar gebruikt dit niet
+ verder.
+\end_layout
+
+\begin_layout Subsection
+Berekenen van de input
+\end_layout
+
+\begin_layout Standard
+Energie is in zijn werk genomen als de waarde van warmte energie (enthalpie).
+ Hierdoor is het niet nodig om te berekenen hoeveel fossiele brandstof nodig
+ is om dezelfde energie te verkrijgen (
+\begin_inset Quotes pld
+\end_inset
+
+spookolie
+\begin_inset Quotes prd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+De berekening van die energie is, waar mogelijk, gedaan via de 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Gross Energy Requirement
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ (GER), zie ook paragraaf 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "appendix:opgeslagen-energie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Hij vergelijkt dit met het bepalen van de economische kost van een product
+ maar met een waarde in energie in plaats van in geld.
+ Dit heeft een meerwaarde omdat beide elkaar aanvullen.
+ Energie is namelijk rechtstreeks te koppelen aan een waarde in de fysische
+ werkelijkheid.
+ Verder kan je via de energie analyse zicht krijgen op de energiestromen
+ in de keten.
+ Dit geeft aan waar mogelijke knelpunten kunnen optreden.
+ Tot slot kijkt economie naar de schaarste die er vandaag is.
+ Kijken in functie van energie geeft echter een koppeling met de fysische
+ werkelijkheid waardoor tekorten sneller op de radar komen.
+\end_layout
+
+\begin_layout Subsubsection
+Brandstoffen
+\end_layout
+
+\begin_layout Standard
+De energie van brandstoffen is redelijk goed in kaart gebracht.
+ Eerst werd de efficiëntie bepaald van verschillende brandstoffen met behulp
+ van voorgaande studies.
+ Hierbij wordt alle energie bekeken die nodig is om een bepaalde hoeveelheid
+ energie te produceren tot aan het gebruik van de primaire brandstoffen.
+ Dit houdt de energie voor extractie, transport, omzetting, infrastructuur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ in.
+ De nuttige energie uit het energetische systeem wordt gepaald bij de eerste
+ verbruiker van de energie buiten het energiesysteem.
+ Dus energie die gebruikt wordt voor administratie, gebouwen,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ van de energiesector zelf wordt niet meegenomen.
+\end_layout
+
+\begin_layout Standard
+Hierbij krijgen fossiele brandstoffen een efficiëntie gaande van 70% (gas)
+ tot 95% (steenkool).
+ Elektriciteit heeft echter maar een efficiëntie van 25%.
+ Het vraagt dus drie keer zoveel energie aan fossiele brandstoffen om een
+ kWh aan elektriciteit te produceren en bij de klant te krijgen.
+\end_layout
+
+\begin_layout Standard
+Uiteraard zijn dit allemaal gemiddelden.
+ Dus in specifieke situaties kan de efficiëntie hoger of lager uitvallen.
+\end_layout
+
+\begin_layout Subsubsection
+Algemene methode
+\end_layout
+
+\begin_layout Standard
+Om de energie te bepalen van een goed of een dienst, lijst Leach een aantal
+ methoden op:
+\end_layout
+
+\begin_layout Enumerate
+totale BNP delen door het totale energie verbruik.
+\end_layout
+
+\begin_layout Enumerate
+doorgedreven proces analyse uitvoeren tot aan de primaire energie.
+\end_layout
+
+\begin_layout Enumerate
+gebruik maken van input/output tabellen die aangeven hoeveel elke industrie
+ van een andere industrie heeft afgenomen.
+\end_layout
+
+\begin_layout Standard
+De eerste methode geeft een zeer grof gemiddelde.
+ Hoewel dat voor een aantal sectoren redelijk goed klopt, zijn er toch verschill
+ende sectoren die hiervan afwijken.
+ Deze methode is dan wel eenvoudig, hij is voor een serieuze analyse te
+ grof.
+\end_layout
+
+\begin_layout Standard
+De tweede methode zou het meest juiste resultaat geven.
+ Dit is echter zo'n complexe berekening dat dit, toch begin jaren '70, niet
+ uitgevoerd was.
+\end_layout
+
+\begin_layout Standard
+De derde methode is een redelijke middenweg.
+ Hiervoor worden tabellen gebruikt die verzameld worden door de regering
+ in het Verenigd Koninkrijk, bijvoorbeeld
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cso1973"
+literal "false"
+
+\end_inset
+
+.
+ Aangezien de energie sector apart opgenomen is, kan je de directe energie
+ aankopen van bijvoorbeeld de landbouw aflezen.
+ Ook is het mogelijk om indirecte energie hieruit af te leiden door bijvoorbeeld
+ te kijken hoeveel landbouw besteed heeft aan tractoren en dan van die industrie
+ de afnamen van energie te bepalen.
+ Dit kan een aantal iteraties doorgaan totdat je bij primaire energiebronnen
+ komt.
+ Dit geeft dan aan hoeveel ₤ de landbouw rechtstreeks of onrechtstreeks
+ verbruikt heeft aan fossiele brandstoffen.
+ Als je dan de energetische waarde kent van een ₤ brandstof voor dat jaar
+ (bijvoorbeeld door de gemiddelde prijs per liter), dan kun je de totale
+ energetische waarde bepalen die de landbouw gebruikt heeft.
+\end_layout
+
+\begin_layout Standard
+Leach vermeld een aantal problemen hierbij:
+\end_layout
+
+\begin_layout Itemize
+de sectoren zijn samengevoegd waardoor er niet genoeg detail kan bepaald
+ worden.
+\end_layout
+
+\begin_layout Itemize
+investeringen in kapitaal zijn niet volledig.
+\end_layout
+
+\begin_layout Itemize
+de waarden lopen een aantal jaren achter.
+\end_layout
+
+\begin_layout Standard
+Het hierboven aangehaalde rapport van Chapman heft een heel aantal van deze
+ nadelen op.
+ Hiervoor is vertrokken van de data waarvan de input/output tabellen zijn
+ opgemaakt (de census tabellen zoals
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dti1971"
+literal "false"
+
+\end_inset
+
+).
+ Via een rigoureuze analyse kan je dan komen tot een waarde van energie
+ input per ₤ output.
+\end_layout
+
+\begin_layout Standard
+Deze waarden worden dan gebruikt om vanuit de geregistreerde opbrengsten
+ de waarde van de energetische input te bepalen (bijvoorbeeld: aanmaak van
+ een tractor in 1968 kost is 0,217
+\begin_inset space ~
+\end_inset
+
+GJ/₤ dus een tractor van 2
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+₤ vraagt 432
+\begin_inset space ~
+\end_inset
+
+GJ).
+\end_layout
+
+\begin_layout Standard
+Aangezien de geldelijke waarden uit hetzelfde jaar komen, speelt de inflatie
+ een veel minder grote rol.
+\end_layout
+
+\begin_layout Standard
+Willen we dit vandaag doen, dan kan bij Eurostat de input/output tabellen
+ opgevraagd worden (
+\begin_inset CommandInset href
+LatexCommand href
+target "https://ec.europa.eu/eurostat/web/esa-supply-use-input-tables"
+
+\end_inset
+
+).
+ Veel plezier ermee!
+\end_layout
+
+\begin_layout Subsubsection
+Opvallende getallen
+\end_layout
+
+\begin_layout Standard
+Als we door appendices 2 t.e.m.
+ 11 gaan in Leach, dan zijn een aantal zaken mij opgevallen.
+\end_layout
+
+\begin_layout Standard
+Ten eerste is dat tractoren langer gebruiken energetisch niet zo voordelig
+ is.
+ Dat is omdat de jaarlijkse energetische kosten van een tractor zoals benzine,
+ reparaties, olie veel zwaarder doorwegen dan de energetische kost van het
+ maken van de tractor, verspreid over een normale levensloop.
+ Dit laatste is ongeveer 15% van het energetische budget.
+ De tractor langer gebruiken zal deze 15% verlagen maar dit heeft niet zoveel
+ impact als je eerst zou denken.
+ Vooral als de reparaties meer energie gaan beginnen te vergen door de ouderdom
+ van de tractor.
+\end_layout
+
+\begin_layout Standard
+Verder vermeld Leach dat samengesteld veevoer ongeveer 4 keer zoveel energie
+ vraagt als enkelvoudig veevoer.
+ Bij het maken van veevoer op de boerderij zelf, is er ook een belangrijke
+ energetische input voor machine gebruik, drogen, stockage,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Drogen van graan, hooi en gras vraagt zeer veel energie.
+ Hoewel dit 
+\begin_inset Quotes pld
+\end_inset
+
+gratis
+\begin_inset Quotes prd
+\end_inset
+
+ kan gebeuren door de zon, wordt er toch een belangrijk deel mechanisch
+ gedroogd omwille van de volumes.
+ Hierdoor wordt niet alleen werk op het veld uitgespaard, maar verlies je
+ minder nutriënten en verminderd het risico op slecht weer.
+ Daartegenover staat dan wel dat graan ongeveer 0,5
+\begin_inset space ~
+\end_inset
+
+GJ/ton vraagt om te drogen, hooi in het slechtste geval 2,5
+\begin_inset space ~
+\end_inset
+
+GJ/ton (van 40% tot 20% vochtgehalte; gemiddeld echter 0,1
+\begin_inset space ~
+\end_inset
+
+GJ/ton) en gras 14
+\begin_inset space ~
+\end_inset
+
+GJ/ton (van 80% tot 10% vochtgehalte).
+\end_layout
+
+\begin_layout Standard
+Voor transport zijn er een aantal opmerkingen:
+\end_layout
+
+\begin_layout Itemize
+het toekennen van de energie voor wegen, lichten, parkings,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ is niet eenvoudig.
+ Je moet verdelen over gebruik van de weg voor landbouw, voedingsindustrie
+ en de rest.
+ Ook moet het gebruik van verlichting verdeel worden tussen voertuigen en
+ andere weggebruikers zoals bijvoorbeeld fietsers en voetgangers.
+\end_layout
+
+\begin_layout Itemize
+door gebruik aan betrouwbare gegevens van levensduur en totale afgelegde
+ afstand van voertuigen, was het niet mogelijk om de fabricatiekosten precies
+ in rekening te brengen.
+ Leach heeft dus een schatting gemaakt.
+\end_layout
+
+\begin_layout Itemize
+Er zijn nogal grote verschillen tussen de energetische kosten van transport
+ middelen.
+ De waarden hieronder is de energie die het kost om 1
+\begin_inset space ~
+\end_inset
+
+ton vracht over 1
+\begin_inset space ~
+\end_inset
+
+km te vervoeren.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Een schip op volle capaciteit vraagt ongeveer 0,05
+\begin_inset space ~
+\end_inset
+
+MJ per ton.km aan energie.
+ Dit vooral omdat een schip een zeer grote lading kan vervoeren.
+\end_layout
+
+\begin_layout Itemize
+Een goederentrein op volle capaciteit vraagt ongeveer 0,36
+\begin_inset space ~
+\end_inset
+
+MJ per ton.km aan energie.
+\end_layout
+
+\begin_layout Itemize
+Een twintig tonner op volle capaciteit vraagt tussen de 0,75
+\begin_inset space ~
+\end_inset
+
+MJ per ton.km en de 1,3
+\begin_inset space ~
+\end_inset
+
+MJ per ton.km aan energie.
+\end_layout
+
+\begin_layout Itemize
+Een gevulde camionette vraagt tussen de 12
+\begin_inset space ~
+\end_inset
+
+MJ per ton.km en de 18,5
+\begin_inset space ~
+\end_inset
+
+MJ per ton.km aan energie.
+\end_layout
+
+\begin_layout Standard
+Dit zijn waarden voor 1972.
+ Verbeteringen in technologie kan ervoor zorgen dat dit vandaag anders is.
+\end_layout
+
+\end_deeper
 \begin_layout Part
 Appendices
 \end_layout
@@ -12352,7 +13405,7 @@ De EROEI is belangrijk in het kader van dit verdiepend werkstuk omdat hiermee
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
-bibfiles "ondersteunende_documenten/permaculture,ondersteunende_documenten/meino_smit"
+bibfiles "ondersteunende_documenten/permaculture,ondersteunende_documenten/meino_smit,ondersteunende_documenten/leach"
 options "bibtotoc"
 
 \end_inset
