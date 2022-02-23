@@ -11,7 +11,7 @@
    xml:space="preserve"
    id="svg281"
    sodipodi:docname="meino smit tabel 2.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,10 +26,10 @@
    inkscape:pagecheckerboard="0"
    inkscape:document-units="mm"
    showgrid="false"
-   inkscape:snap-global="true"
+   inkscape:snap-global="false"
    inkscape:zoom="1.1066295"
-   inkscape:cx="264.76793"
-   inkscape:cy="289.16634"
+   inkscape:cx="374.10895"
+   inkscape:cy="385.85633"
    inkscape:window-width="1876"
    inkscape:window-height="1051"
    inkscape:window-x="0"
@@ -390,7 +390,8 @@
       </g>
       <g
    class="com.sun.star.drawing.CustomShape"
-   id="g142">
+   id="g142"
+   transform="translate(2141,3749)">
        <g
    id="id6">
         <rect
@@ -416,7 +417,8 @@
       </g>
       <g
    class="com.sun.star.drawing.CustomShape"
-   id="g151">
+   id="g151"
+   transform="translate(-1916,-498)">
        <g
    id="id7">
         <rect
@@ -505,7 +507,8 @@
       </g>
       <g
    class="com.sun.star.drawing.LineShape"
-   id="g179">
+   id="g179"
+   transform="translate(85,3250)">
        <g
    id="id11">
         <rect
@@ -667,7 +670,7 @@
       <g
    class="TextShape"
    id="g245"
-   transform="rotate(-30,9284.9298,6315.2701)">
+   transform="rotate(-30,17350.762,3985.9821)">
        <g
    id="id17">
         <rect
@@ -699,7 +702,7 @@
       <g
    class="TextShape"
    id="g258"
-   transform="rotate(-30,7853.9174,7654.725)">
+   transform="rotate(-30,5989.3442,10896.284)">
        <g
    id="id18">
         <rect
@@ -731,7 +734,7 @@
       <g
    class="TextShape"
    id="g271"
-   transform="translate(-1284.869,-16.906171)">
+   transform="translate(-2838.9498,30.9117)">
        <g
    id="id19">
         <rect
