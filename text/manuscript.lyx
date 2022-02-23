@@ -11966,15 +11966,14 @@ noprefix "false"
 lines 0
 placement O
 overhang 0in
-width "45text%"
-status collapsed
+width "95text%"
+status open
 
 \begin_layout Plain Layout
-\align right
+\align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/Lampkin E_r samenvatting uit Leach.jpg
 	lyxscale 10
-	width 45col%
 	groupId leach
 
 \end_inset
@@ -11996,7 +11995,7 @@ Input/output verhoudingen van verschillende landbouw systemen
 
 \begin_inset CommandInset citation
 LatexCommand cite
-after "fig. 5.10 p. 585"
+after "fig. 5.10"
 key "Lampkin1990"
 literal "false"
 
@@ -12357,7 +12356,6 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/Leach figuur 6.png
 	lyxscale 10
-	width 45col%
 	groupId leach
 
 \end_inset
@@ -12373,16 +12371,19 @@ name "fig:energie-VK-landbouw"
 \end_inset
 
 Totale energieconsumptie landbouw in VK (1950-1972).
- Gebaseerd op 
+\begin_inset Newline newline
+\end_inset
+
+Gebaseerd op 
 \begin_inset CommandInset citation
 LatexCommand cite
-after "fig. 6 p. 22"
+after "fig. 6"
 key "Leach1976"
 literal "false"
 
 \end_inset
 
-, gekleurd volgens legende van figuur
+ en gekleurd volgens legende van figuur
 \begin_inset space ~
 \end_inset
 
@@ -12521,7 +12522,6 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/Leach figuur 5.jpg
 	lyxscale 10
-	width 45col%
 	groupId leach
 
 \end_inset
@@ -12540,7 +12540,7 @@ Gebruik van kunstmest en verhoging van de output, relatief ten opzichte
  van 1900 
 \begin_inset CommandInset citation
 LatexCommand cite
-after "fig. 5 p. 18"
+after "fig. 5"
 key "Leach1976"
 literal "false"
 
@@ -14010,11 +14010,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -14040,7 +14036,7 @@ Gebruik van spierkracht vs.
 \begin_inset Newline newline
 \end_inset
 
-De data hiervoor gebruikt komen uit het werk van Leach.
+Data komen uit het werk van Leach.
 \begin_inset Argument 1
 status collapsed
 
@@ -14329,7 +14325,7 @@ GJ wordt er genoeg energie geleverd om 1 persoon gedurende 1 jaar te voeden.
 \begin_inset Newline newline
 \end_inset
 
-Ook hier komen data data uit het werk van Leach.
+Ook hier komen data uit het werk van Leach.
 \begin_inset Argument 1
 status collapsed
 
@@ -14801,7 +14797,7 @@ Tja, wat kan ik zeggen.
 \end_layout
 
 \begin_layout Subsection
-kilo, mega, giga, oh nee
+Kilo, mega, giga, oh nee
 \end_layout
 
 \begin_layout Standard
@@ -14826,10 +14822,11 @@ We gebruiken in dit werk nog andere voorvoegsels die waarschijnlijk minder
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="4">
+<lyxtabular version="3" rows="7" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
+<column alignment="right" valignment="top" width="0pt">
 <column alignment="right" valignment="top" width="0pt">
 <column alignment="decimal" decimal_point="." valignment="top" width="0pt">
 <row>
@@ -14856,6 +14853,15 @@ symbool
 
 \begin_layout Plain Layout
 vermenigvuldig met
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nederlands telwoord
 \end_layout
 
 \end_inset
@@ -14898,6 +14904,15 @@ k
 \end_inset
 
 000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+duizend
 \end_layout
 
 \end_inset
@@ -14948,6 +14963,15 @@ M
 \end_inset
 
 000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+miljoen
 \end_layout
 
 \end_inset
@@ -15006,6 +15030,15 @@ G
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+miljard
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -15021,25 +15054,25 @@ GJ
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-peta
+tera
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-P
+T
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15064,7 +15097,87 @@ P
 
 \end_inset
 </cell>
-<cell alignment="decimal" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+biljoen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\begin_inset space ~
+\end_inset
+
+TJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+P
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+biljard
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15073,6 +15186,81 @@ P
 \end_inset
 
 PJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+exa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+triljoen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\begin_inset space ~
+\end_inset
+
+EJ
 \end_layout
 
 \end_inset
