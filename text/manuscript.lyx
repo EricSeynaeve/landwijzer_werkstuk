@@ -45,11 +45,11 @@ longtablepage
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "palatino" "default"
+\font_roman "lmodern" "default"
 \font_sans "helvet" "default"
 \font_typewriter "courier" "default"
 \font_math "auto" "auto"
-\font_default_family default
+\font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -223,14 +223,6 @@ LatexCommand tableofcontents
 
 \begin_layout Standard
 \begin_inset FloatList figure
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FloatList table
 
 \end_inset
 
@@ -3935,6 +3927,12 @@ er is een nieuwe afhankelijkheid ontstaan tussen de landbouw en bedrijven
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Dienstverlening"
+
+\end_inset
+
 Dienstverlening
 \end_layout
 
@@ -11962,18 +11960,24 @@ noprefix "false"
 \end_inset
 
  
-\begin_inset Wrap figure
-lines 0
-placement O
-overhang 0in
-width "95text%"
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/Lampkin E_r samenvatting uit Leach.jpg
 	lyxscale 10
+	width 70col%
 	groupId leach
 
 \end_inset
@@ -12016,6 +12020,10 @@ Input/output verhoudingen van verschillende landbouw systemen.
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -12356,7 +12364,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/Leach figuur 6.png
 	lyxscale 10
-	groupId leach
+	width 45col%
 
 \end_inset
 
@@ -12522,6 +12530,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/Leach figuur 5.jpg
 	lyxscale 10
+	width 70col%
 	groupId leach
 
 \end_inset
@@ -13449,6 +13458,166 @@ Ook hier zien we weer een belangrijk aandeel in het drogen.
 \end_layout
 
 \begin_layout Standard
+Steinhart en Steinart komen met een licht ander resultaat.
+ Ook laten ze het verbruik zien in de loop van de tijd (figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:VSA-landbouw-1940_1970"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ De machines en tractoren zijn enkel de nieuwe aankopen.
+ Het is te zien dat de het energetische aandeel van nieuwe tractoren gelijk
+ blijft, maar dan van machines stijgt sterk.
+ Eveneens is de energie die via kunstmest en brandstof in het boerderijen
+ gebruikt worden sterk gestegen.
+ Irrigatie is licht gestegen.
+\end_layout
+
+\begin_layout Standard
+In relatieve waarden is het vooral het aandeel in kunstmest dat sterk stijgt.
+ De andere factoren zijn gelijk gebleven of gedaald in relatief aandeel.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/steinhart agriculture absolute.svg
+	width 100col%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Energieverbruik in absolute termen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/steinhart agriculture relative.svg
+	width 100col%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Relatieve bijdrage van de onderdelen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VSA-landbouw-1940_1970"
+
+\end_inset
+
+Opdeling van energieverbruik van de landbouw (VSA 1940-1970 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "steinhart1974"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Opdeling van energieverbruik van de landbouw (VSA 1940-1970).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Lovins 
 \emph on
 et al.
@@ -13696,6 +13865,95 @@ Ecologist
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+Steinhart en Steinhart gaan ook in op de factoren die ze in rekening gebracht
+ hebben:
+\end_layout
+
+\begin_layout Itemize
+imports en exports werden niet in rekening gebracht.
+ Dit is pas een factor sinds de begin jaren 60.
+ De exports zijn voornamelijk primaire landbouwgoederen zoals granen en
+ bloem.
+ Imports zijn eerder verwerkte producten.
+\end_layout
+
+\begin_layout Itemize
+Verlies van brandstoffen tot aan de eindgebruiker zijn niet in rekening
+ gebracht.
+ Dit is iets wat typisch niet gedaan wordt, maar wel 10% verschil uitmaken.
+\end_layout
+
+\begin_layout Itemize
+Transport via trein of schip zijn ecologischer maar hun bijdrage in de energetis
+che balans is klein ten opzicht van het transport via vrachtwagens.
+\end_layout
+
+\begin_layout Itemize
+Niet-vracht transport is niet in rekening gebracht omdat dit een zeer onzekere
+ factor is.
+\end_layout
+
+\begin_layout Itemize
+Afvalverwerking is niet in rekening gebracht omdat ze het niet als deel
+ zien van het voedselsysteem zelf.
+ Dat zou een 2% verschil maken.
+\end_layout
+
+\begin_layout Itemize
+Het koken en bewaren van voeding thuis (zie later) vraagt extra infrastructuur
+ (keuken, frigo, keukenrobot, bergruimte,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ Ook het transport van en naar de winkel moet hierbij gerekend worden.
+ Volgens hun inschatting zou dat nog een 20 tot 25% extra aan de totale
+ energiebalans toevoegen.
+\end_layout
+
+\begin_layout Itemize
+Extra diensten zoals ministeries, landbouwscholen en universiteiten, onderzoeksc
+entra, consultants,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ zijn er niet bij gerekend.
+ Dit omdat ze niet zien hoe dit eenvoudig ingeschat kan worden.
+ Meino Smit heeft dit wel proberen in te schatten als 
+\begin_inset Quotes pld
+\end_inset
+
+dienstensector
+\begin_inset Quotes prd
+\end_inset
+
+, zie paragraaf
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:Dienstverlening"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Hij komt op een waarde van 0,2%.
+\end_layout
+
+\begin_layout Standard
+Moest dit allemaal in rekening gebracht worden, dan schatten ze in dat er
+ nog 30 to 35% extra energieverbruik zou zijn.
+ Nog eens 10% extra als brandstofverliezen wel in rekening gebracht worden.
 \end_layout
 
 \begin_layout Chapter
@@ -14015,7 +14273,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende_documenten/grafieken/leach - mussle vs eroei.svg
+	filename ondersteunende_documenten/grafieken/leach - EROEI vs spier - prepared.svg
 	width 100col%
 	groupId grafieken
 
@@ -14033,10 +14291,15 @@ name "fig:eroei-spierkracht"
 
 Gebruik van spierkracht vs.
  EROEI in verschillende landbouwsystemen.
-\begin_inset Newline newline
+ Gebaseerd op 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Leach1976"
+literal "false"
+
 \end_inset
 
-Data komen uit het werk van Leach.
+.
 \begin_inset Argument 1
 status collapsed
 
@@ -14092,7 +14355,7 @@ aar wat te zien is doordat het merendeel van de datapunten aan de 0% grens
 
 Kijken we naar de data zelf, dan valt het op dat buiten suikerbiet enkel
  gras als ruwvoer een EROEI hoger dan 4 haalt.
- Tussen een EROEI van 1,7 en 4 zitten ook enkel grassen (gras, hooi, silage)
+ Tussen een EROEI van 1,7 en 4 zitten enkel grassen (gras, hooi, silage)
  en granen (inclusief mais).
 \begin_inset Newline newline
 \end_inset
@@ -14116,19 +14379,90 @@ rechts zitten dan de pre-industriële landbouwsystemen.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement O
-overhang 0in
-width "45col%"
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/leach - EROEI vs spier rijst mais.svg
+	width 100col%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:eroei-rijst_mais"
+
+\end_inset
+
+Gebruik van spierkracht vs.
+ EROEI voor rijst en mais.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voor twee soorten gewassen (mais en rijst) kunnen we de systemen eens afzonderen
+ (figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:eroei-rijst_mais"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Hierin is duidelijk te zien dat binnen de teelt er een verlies aan energetische
+ efficiëntie is naarmate het aandeel aan spierkracht afneemt.
+\end_layout
+
+\begin_layout Standard
+Waarom is het intensieve systeem zo inefficiënt,vraagt Leach zich af? Hij
+ ziet hiervoor een aantal factoren:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/grafieken/leach - EROEI vs aandeel dieren.svg
-	width 45col%
-	groupId grafieken klein
+	width 100col%
+	groupId grafieken
 
 \end_inset
 
@@ -14143,10 +14477,16 @@ name "fig:EROEI-aandeel-dieren"
 \end_inset
 
 Efficiëntie van een gemend bedrijf in functie van het aandeel dieren.
-\begin_inset Newline newline
+ Naar analogie met 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 11"
+key "Leach1976"
+literal "false"
+
 \end_inset
 
-Data komen uit het werk van Leach.
+.
 \begin_inset Argument 1
 status collapsed
 
@@ -14166,8 +14506,7 @@ Efficiëntie van een gemend bedrijf in functie van het aandeel dieren.
 
 \end_inset
 
-Waarom is het intensieve systeem zo inefficiënt,vraagt Leach zich af? Hij
- ziet hiervoor een aantal factoren:
+
 \end_layout
 
 \begin_layout Itemize
@@ -14288,6 +14627,24 @@ GJ/ha (net geen 4 personen).
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+begin{landscape}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -14313,19 +14670,29 @@ name "fig:eroei-input-ouput-landbouwsystemen"
 \end_inset
 
 Input versus output van verschillende landbouwsystemen.
+ Naar analogie met 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 2"
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
-De verhouding hiervan geeft de efficiëntie van het systeem.
- Bij een output van 4
+De plaats op de grafiek geeft ook de efficiëntie van het systeem aan (EROEI).
+ Een aantal EROEI lijnen zijn aangegeven.
+\begin_inset Newline newline
+\end_inset
+
+Een output van 4
 \begin_inset space ~
 \end_inset
 
-GJ wordt er genoeg energie geleverd om 1 persoon gedurende 1 jaar te voeden.
-\begin_inset Newline newline
-\end_inset
-
-Ook hier komen data uit het werk van Leach.
+GJ is voldoende om 1 persoon gedurende 1 jaar te voeden.
 \begin_inset Argument 1
 status collapsed
 
@@ -14345,6 +14712,26 @@ Input versus output van verschillende landbouwsystemen.
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{landscape}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 De verschillende systemen zijn uitgezet in figuur
 \begin_inset space ~
 \end_inset
@@ -14544,8 +14931,8 @@ status collapsed
 Uiteraard is dit wat bij de haren gegrepen.
  Niemand gaat een jaar rond enkel schapenvlees eten.
  Dat is dan weer iets dat gemengde (en oudere) landbouwsystemen voor hebben
- op de gespecialiseerde landbouw: ze zijn veel vollediger in hun aanbod
- van producten.
+ op de gespecialiseerde industriële landbouw: ze zijn veel vollediger in
+ hun aanbod van producten.
 \end_layout
 
 \end_inset
@@ -14650,7 +15037,7 @@ noprefix "false"
 
 \end_inset
 
-), moet je gemiddeld 13
+ waar dit het Nederlandse gemiddelde is), moet je 13
 \begin_inset space ~
 \end_inset
 
@@ -14676,11 +15063,8 @@ noprefix "false"
  Van de industriële landbouwsystemen blijven enkel een paar graanteelten
  en suikerbieten over.
  Verrassend genoeg zijn het vooral de oudere landbouwsystemen en uiteraard
- de Chinese tuinbouw die met 0,3
-\begin_inset space ~
-\end_inset
-
-ha landbouwgrond per persoon voldoende voeding kunnen verzekeren.
+ de Chinese tuinbouw die Nederland kunnen voeden.
+ Niet zozeer de o zo gepromote industriële landbouw, biologisch of niet.
 \end_layout
 
 \begin_layout Standard
@@ -14818,17 +15202,18 @@ Om zaken korter te kunnen opschrijven, worden een aantal voorvoegsels gebruikt.
 We gebruiken in dit werk nog andere voorvoegsels die waarschijnlijk minder
  gekend zijn.
  Dus een klein overzicht:
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="right" valignment="top" width="0pt">
-<column alignment="decimal" decimal_point="." valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -14866,7 +15251,7 @@ Nederlands telwoord
 
 \end_inset
 </cell>
-<cell alignment="decimal" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14917,7 +15302,7 @@ duizend
 
 \end_inset
 </cell>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -14976,7 +15361,7 @@ miljoen
 
 \end_inset
 </cell>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15039,7 +15424,7 @@ miljard
 
 \end_inset
 </cell>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15106,7 +15491,7 @@ biljoen
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15177,7 +15562,7 @@ biljard
 
 \end_inset
 </cell>
-<cell alignment="decimal" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15252,7 +15637,7 @@ triljoen
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -15274,13 +15659,20 @@ EJ
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace medskip
+\begin_inset VSpace bigskip
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 En waarom kon ik dit niet laten? Tja, na een licentiaat in de fysica is
  dat vermoedelijk een misvorming.
 \end_layout
