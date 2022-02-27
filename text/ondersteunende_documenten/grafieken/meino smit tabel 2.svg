@@ -11,7 +11,7 @@
    xml:space="preserve"
    id="svg281"
    sodipodi:docname="meino smit tabel 2.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,16 +26,16 @@
    inkscape:pagecheckerboard="0"
    inkscape:document-units="mm"
    showgrid="false"
-   inkscape:snap-global="true"
+   inkscape:snap-global="false"
    inkscape:zoom="1.1066295"
-   inkscape:cx="264.76793"
-   inkscape:cy="289.16634"
+   inkscape:cx="374.10895"
+   inkscape:cy="385.85633"
    inkscape:window-width="1876"
    inkscape:window-height="1051"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g273" />
+   inkscape:current-layer="id18" />
  <defs
    class="ClipPathGroup"
    id="defs8">
@@ -390,7 +390,8 @@
       </g>
       <g
    class="com.sun.star.drawing.CustomShape"
-   id="g142">
+   id="g142"
+   transform="translate(2141,3749)">
        <g
    id="id6">
         <rect
@@ -416,7 +417,8 @@
       </g>
       <g
    class="com.sun.star.drawing.CustomShape"
-   id="g151">
+   id="g151"
+   transform="translate(-1916,-498)">
        <g
    id="id7">
         <rect
@@ -505,7 +507,8 @@
       </g>
       <g
    class="com.sun.star.drawing.LineShape"
-   id="g179">
+   id="g179"
+   transform="translate(85,3250)">
        <g
    id="id11">
         <rect
@@ -585,19 +588,24 @@
    id="rect195" />
         <text
    class="SVGTextShape"
-   id="text203"><tspan
+   id="text203"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   y="-23.908936"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="635px"
      font-weight="400"
-     id="tspan201"><tspan
+     id="tspan201"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        class="TextPosition"
        x="1569"
-       y="12103"
-       id="tspan199"><tspan
+       y="12079.091"
+       id="tspan199"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          fill="#000000"
          stroke="none"
-         id="tspan197">Energie in de olie</tspan></tspan></tspan></text>
+         id="tspan197"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Energie in de olie</tspan></tspan></tspan></text>
        </g>
       </g>
       <g
@@ -617,19 +625,23 @@
    id="rect208" />
         <text
    class="SVGTextShape"
-   id="text216"><tspan
+   id="text216"
+   style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="635px"
      font-weight="400"
-     id="tspan214"><tspan
+     id="tspan214"
+     style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        class="TextPosition"
        x="4820"
        y="2004"
-       id="tspan212"><tspan
+       id="tspan212"
+       style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          fill="#000000"
          stroke="none"
-         id="tspan210">Winning</tspan></tspan></tspan></text>
+         id="tspan210"
+         style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Winning</tspan></tspan></tspan></text>
        </g>
       </g>
       <g
@@ -649,25 +661,29 @@
    id="rect221" />
         <text
    class="SVGTextShape"
-   id="text229"><tspan
+   id="text229"
+   style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="635px"
      font-weight="400"
-     id="tspan227"><tspan
+     id="tspan227"
+     style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        class="TextPosition"
        x="6844"
        y="4373"
-       id="tspan225"><tspan
+       id="tspan225"
+       style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          fill="#000000"
          stroke="none"
-         id="tspan223">Raffinage</tspan></tspan></tspan></text>
+         id="tspan223"
+         style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Raffinage</tspan></tspan></tspan></text>
        </g>
       </g>
       <g
    class="TextShape"
    id="g245"
-   transform="rotate(-30,9284.9298,6315.2701)">
+   transform="rotate(-30,17350.762,3985.9821)">
        <g
    id="id17">
         <rect
@@ -681,25 +697,31 @@
    id="rect234" />
         <text
    class="SVGTextShape"
-   id="text242"><tspan
+   id="text242"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="-74.071701"
+   y="-15.157658"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="635px"
      font-weight="400"
-     id="tspan240"><tspan
+     id="tspan240"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        class="TextPosition"
-       x="8840"
-       y="6203"
-       id="tspan238"><tspan
+       x="8765.9287"
+       y="6187.8423"
+       id="tspan238"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          fill="#000000"
          stroke="none"
-         id="tspan236">Transport naar eindgebruiker</tspan></tspan></tspan></text>
+         id="tspan236"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:635px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Transport naar eindgebruiker</tspan></tspan></tspan></text>
        </g>
       </g>
       <g
    class="TextShape"
    id="g258"
-   transform="rotate(-30,7853.9174,7654.725)">
+   transform="rotate(-30,5989.3442,10896.284)">
        <g
    id="id18">
         <rect
@@ -713,25 +735,29 @@
    id="rect247" />
         <text
    class="SVGTextShape"
-   id="text255"><tspan
+   id="text255"
+   style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="635px"
      font-weight="400"
-     id="tspan253"><tspan
+     id="tspan253"
+     style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        class="TextPosition"
        x="10827"
        y="8598"
-       id="tspan251"><tspan
+       id="tspan251"
+       style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          fill="#000000"
          stroke="none"
-         id="tspan249">Infrastructuur en transport</tspan></tspan></tspan></text>
+         id="tspan249"
+         style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Infrastructuur en transport</tspan></tspan></tspan></text>
        </g>
       </g>
       <g
    class="TextShape"
    id="g271"
-   transform="translate(-1284.869,-16.906171)">
+   transform="translate(-2838.9498,30.9117)">
        <g
    id="id19">
         <rect
@@ -745,19 +771,23 @@
    id="rect260" />
         <text
    class="SVGTextShape"
-   id="text268"><tspan
+   id="text268"
+   style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
      class="TextParagraph"
      font-family="'Liberation Sans', sans-serif"
      font-size="635px"
      font-weight="400"
-     id="tspan266"><tspan
+     id="tspan266"
+     style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        class="TextPosition"
        x="11954"
        y="10991"
-       id="tspan264"><tspan
+       id="tspan264"
+       style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          fill="#000000"
          stroke="none"
-         id="tspan262">Netto over</tspan></tspan></tspan></text>
+         id="tspan262"
+         style="-inkscape-font-specification:'Latin Modern Roman, Normal';font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:635.00000248px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Netto over</tspan></tspan></tspan></text>
        </g>
       </g>
      </g>
