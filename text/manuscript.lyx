@@ -12,6 +12,7 @@
 \renewcommand\quotation{\small\oldquotation}
 
 \usepackage[nottoc]{tocbibind}
+\usepackage{qrcode}
 
 \lefthyphenmin=2
 %\hyphenation{ge-groe-peerd}
@@ -205,6 +206,13 @@ Aangemaakt met \SpecialChar LyX
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 Grafieken gemaakt met LibreOffice
 \begin_inset space ~
 \end_inset
@@ -214,12 +222,78 @@ Grafieken gemaakt met LibreOffice
 \end_inset
 
 1.1.
+ Figuren zijn gemaakt met Gimp
+\begin_inset space ~
+\end_inset
+
+2.10.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Gebruikte font is 
+\emph on
+Latin Modern Roman
+\emph default
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 Waar gegevens uit grafieken gehaald moesten worden, is gebruik gemaakt van
- .
+ WebPlotDigitizer (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://automeris.io/WebPlotDigitizer/}
 \end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
 
 \begin_layout Plain Layout
 Dit document is vrijgegeven onder CC
@@ -243,21 +317,201 @@ BY-SA
 
 .
  Een kopij van de licentie is te vinden op 
-\begin_inset CommandInset href
-LatexCommand href
-target "https://creativecommons.org/licenses/by-sa/4.0/legalcode.nl"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://creativecommons.org/licenses/by-sa/4.0/legalcode.nl}
+\end_layout
 
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Plain Layout
-De pdf is te vinden op .
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
-De broncode is te vinden op .
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+qrcode{https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/main/text/manuscri
+pt.pdf}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+De pdf is te vinden op 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/main/text/manuscript.p
+df}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+qrcode{https://github.com/EricSeynaeve/landwijzer_werkstuk}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+De broncode is te vinden op 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://github.com/EricSeynaeve/landwijzer_werkstuk}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
