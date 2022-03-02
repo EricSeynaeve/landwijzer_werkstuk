@@ -11,22 +11,12 @@
 \let\oldquotation\quotation
 \renewcommand\quotation{\small\oldquotation}
 
-\usepackage[nottoc]{tocbibind}
+\usepackage{tocbibind}
 \usepackage{qrcode}
 \usepackage{afterpage}
 \usepackage{lscape}
 
 \lefthyphenmin=2
-%\hyphenation{ge-groe-peerd}
-%\hyphenation{ge-pro-beerd}
-%\hyphenation{cij-fers}
-%\hyphenation{ver-die-pend}
-%\hyphenation{broei-kas-gas-sen}
-%\hyphenation{ver-oor-zaakt}
-%\hyphenation{land-bouw-me-cha-ni-sa-tie}
-%\hyphenation{mest-ver-wer-kings-in-stal-la-ties}
-%\hyphenation{Kunst-mest-in-dus-trie}
-%\hyphenation{Be-strij-dings-mid-de-len}
 
 \newenvironment{changemargin}[2]{%
 \begin{list}{}{%
@@ -204,7 +194,11 @@ Aangemaakt met \SpecialChar LyX
 \begin_inset space ~
 \end_inset
 
-2.3.
+2.3 en TeX Live
+\begin_inset space ~
+\end_inset
+
+2021.
 \end_layout
 
 \begin_layout Plain Layout
@@ -348,10 +342,10 @@ url{https://creativecommons.org/licenses/by-sa/4.0/legalcode.nl}
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
-position "b"
+position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "b"
+inner_pos "c"
 use_parbox 0
 use_makebox 0
 width "100col%"
@@ -385,10 +379,10 @@ pt.pdf}
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "t"
+inner_pos "c"
 use_parbox 1
 use_makebox 0
 width "100col%"
@@ -400,9 +394,21 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushleft}
+\end_layout
+
+\end_inset
+
 De pdf is te vinden op 
 \begin_inset ERT
 status open
@@ -418,6 +424,22 @@ df}
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -436,10 +458,10 @@ df}
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "t"
+inner_pos "c"
 use_parbox 0
 use_makebox 0
 width "100col%"
@@ -472,10 +494,10 @@ qrcode{https://github.com/EricSeynaeve/landwijzer_werkstuk}
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "t"
+inner_pos "c"
 use_parbox 1
 use_makebox 0
 width "100col%"
@@ -487,9 +509,21 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushleft}
+\end_layout
+
+\end_inset
+
 De broncode is te vinden op 
 \begin_inset ERT
 status open
@@ -504,6 +538,22 @@ url{https://github.com/EricSeynaeve/landwijzer_werkstuk}
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -17929,6 +17979,64 @@ De EROEI is belangrijk in het kader van dit verdiepend werkstuk omdat hiermee
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Zorg dat de bibliografie in de TOC op dezelfde hoogte staat als een 'part'
+ maar niet het titelblad krijgt van de 'part'.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Hiervoor definieren we de stijl als 'chapter'
+\end_layout
+
+\begin_layout Plain Layout
+
+% en vervolgens voegen we het toe in de TOC als 'part'.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Dit is vooral interessant in de PDF want dan staat de bibliografie naast
+ het laatste deel in plaats van eronder.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Inspiratie van https://tex.stackexchange.com/a/573058
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+defbibheading{bibintoc}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+chapter*{
+\backslash
+bibname}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{part}{
+\backslash
+bibname}}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
