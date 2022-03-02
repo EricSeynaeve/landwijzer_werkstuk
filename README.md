@@ -10,8 +10,15 @@ Er zijn twee **voorlopige** PDF files van dit document:
 Wil je de broncode zelf aanpassen, heb je [LyX](https://www.lyx.org) nodig. Zie daar voor de instructies om het te installeren.
 Daarna moet je nog volgende LaTeX pakketten installeren:
 
-- qrcode
-- nederlandse spelling & afbreekregels
+* Nederlandse spelling & afbreekregels
+* Franse spelling
+* tocbibind
+* qrcode
+* prettyref
+
+Ook gebruikt het document volgende LyX module:
+
+* longtablepage
 
 (als ik er een aantal gemist heb omdat die bij mij standaard geïnstalleerd zijn, laat het maar weten in de issues op github.)
 
