@@ -99,7 +99,7 @@ longtablepage
 \topmargin 2cm
 \bottommargin 2cm
 \secnumdepth 3
-\tocdepth 3
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
@@ -697,8 +697,8 @@ Inleiding
 \begin_layout Standard
 Hallo beste lezer.
  Bedankt om dit verdiepend werkstuk eens vast te nemen.
- Hopelijk kan het je genoeg boeien en kun je er interessante informatie
- uit vinden.
+ Laat het je meenemen op een ontdekkingsreis over wat allemaal nodig is
+ om aan landbouw te doen en inspireren voor een rechtvaardiging van je prijs.
 \end_layout
 
 \begin_layout Standard
@@ -723,20 +723,28 @@ De conceptie van dit werkstuk
 
 \begin_layout Standard
 Dit werkstuk is een kind van Landwijzer opleiding tot biodynamische landbouwer.
- Wat was de drijfveer om eerst met die opleiding te beginnen en dan vervolgens
- dit thema te kiezen?
+ Wat was de drijfveer om die opleiding te beginnen en vervolgens dit thema
+ te kiezen?
 \end_layout
 
 \begin_layout Standard
 De reden om die opleiding te starten was vanuit een bezorgdheid rond de
  stand van zaken met onze Aarde.
- Noem het een mid-live crisis, maar ik wou zo rond mijn 45e echt iets goed
- realiseren.
+ Noem het een mid-live crisis, maar ik wou zo rond mijn 45
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+
+ echt iets goed realiseren.
  Zoiets waarvan je kunt zeggen: 
 \begin_inset Quotes pld
 \end_inset
 
-de wereld is beter achtergelaten ten opzicht van hou hij hem gekregen heeft
+de wereld is er nu een beetje beter aan toe
 \begin_inset Quotes prd
 \end_inset
 
@@ -744,7 +752,8 @@ de wereld is beter achtergelaten ten opzicht van hou hij hem gekregen heeft
 \end_layout
 
 \begin_layout Standard
-Maar waarom landbouw? Dat is een proces dat al een tijd aan de gang is.
+Maar waarom landbouw terwijl ik helemaal met informatica bezig was? Dat
+ is een proces dat al een tijd aan de gang is.
 \end_layout
 
 \begin_layout Standard
@@ -753,11 +762,15 @@ Het is allemaal begonnen nadat ik in aanraking gekomen ben met de Transitie
 status collapsed
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
-\lang english
-\begin_inset CommandInset href
-LatexCommand href
-target "https://transitionnetwork.org/"
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://transitionnetwork.org/}
+\end_layout
 
 \end_inset
 
@@ -774,9 +787,15 @@ target "https://transitionnetwork.org/"
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset CommandInset href
-LatexCommand href
-target "https://www.fermedubec.com/"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.fermedubec.com/}
+\end_layout
 
 \end_inset
 
@@ -785,14 +804,14 @@ target "https://www.fermedubec.com/"
 
 \end_inset
 
- heeft me geïnspireerd: een project met schoonheid, permacultuur, verbetering
- van de natuur en ook nog eens commercieel leefbaar.
+ inspireert: een project met schoonheid, permacultuur, verbetering van de
+ natuur en ook nog eens commercieel leefbaar.
 \end_layout
 
 \begin_layout Standard
-Ook is landbouw natuurlijk super belangrijk.
- Een smartphone kunnen we allemaal eigenlijk wel missen, maar voeding nooit.
- Lees maar een 
+Landbouw is natuurlijk super belangrijk.
+ Een smartphone kunnen we eigenlijk allemaal wel missen, maar voeding nooit.
+ Lees maar eens 
 \begin_inset Quotes pld
 \end_inset
 
@@ -801,7 +820,7 @@ Collapse
 \end_inset
 
  van Jared Diamond.
- Daarin stelt ie dat een maatschappij niet kan blijven bestaan als de natuur
+ Daarin stelt hij dat een maatschappij niet kan blijven bestaan als de natuur
  vernietigd wordt.
  En gezien het nauwe verband tussen natuur en landbouw
 \begin_inset space \thinspace{}
@@ -809,12 +828,24 @@ Collapse
 
 \SpecialChar ldots
 
+\begin_inset space \thinspace{}
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Dus kunnen we met behulp van landbouw de toegediende schade niet genezen
+Velen proberen de impact van de landbouw op de wereld te beperken.
+ Maar kunnen we met behulp van landbouw de toegediende schade niet genezen
  in plaats van gelukkig te zijn minder schade te berokkenen? Dat is mijn
  missie geworden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -849,10 +880,9 @@ literal "false"
 
 .
  Hierin vermeld ze, na een sandwich uit zijn plastieken doodskist gehaald
- te hebben, dat er om 1 MJ van de sandwich op je bord te kunnen plaatsen,
- er in het totaal 10 MJ nodig zijn.
- Dat is een stelling die verschillende mensen in de permacultuur wereld
- regelmatig aanhalen.
+ te hebben, dat er om 1 calorie van de sandwich in je mond te kunnen steken,
+ er in het totaal 10 calorieën olie nodig zijn.
+ Dat is een stelling die regelmatig terugkomt bij de permacultuur.
 \end_layout
 
 \begin_layout Standard
@@ -867,7 +897,11 @@ name "15000_l_water"
 
 \end_inset
 
-15.000 l water nodig voor 1 kg rundvlees
+15
+\begin_inset space \thinspace{}
+\end_inset
+
+000 l water nodig voor 1 kg rundvlees
 \begin_inset Quotes prd
 \end_inset
 
@@ -875,7 +909,11 @@ name "15000_l_water"
 \begin_inset Quotes pld
 \end_inset
 
-2.700 l water nodig voor 1 T-shirt
+2
+\begin_inset space \thinspace{}
+\end_inset
+
+700 l water nodig voor 1 T-shirt
 \begin_inset Quotes prd
 \end_inset
 
@@ -888,7 +926,7 @@ Met mijn wetenschappelijke achtergrond ben ik dan geprikkeld.
 \end_layout
 
 \begin_layout Standard
-Anderzijds groeide in de zoektocht ook het besef dat biologische voeding
+Anderzijds groeide in deze zoektocht ook het besef dat biologische voeding
  niet duur is.
  Het is de huidige gangbare voeding die gewoon te goedkoop is.
  Waarom? Omdat er veel kosten zijn die niet doorgerekend worden (bv.
@@ -898,13 +936,13 @@ Anderzijds groeide in de zoektocht ook het besef dat biologische voeding
 
 \SpecialChar ldots
 ).
- Dat noemt men de externe of ook maatschappelijke kosten.
 \end_layout
 
 \begin_layout Standard
-Maar welke externe kosten zijn er in de landbouw (gangbaar én biologisch)?
- Hoe worden die berekend? Hebben ze een grote impact of niet? De wetenschapper
- in mij wilt dit weten, vandaar dat ik een nood had aan meer cijfermateriaal.
+Maar welke kosten zijn er eigenlijk allemaal in de landbouw (gangbaar én
+ biologisch)? Hoe worden die berekend? Hebben ze een grote impact of niet?
+ De wetenschapper in mij wilt dit weten, vandaar dat ik een drang voelde
+ hier eens in te duiken.
 \end_layout
 
 \begin_layout Standard
@@ -926,8 +964,8 @@ Mijn hoop is dat je, als je dit werkstuk doorgenomen hebt, het volgende
 \end_layout
 
 \begin_layout Itemize
-een verwondering over de externe kosten die meespelen in de landbouw.
- Ik weet dat er bij mij van tijd tot tijd lampjes gingen branden.
+een verwondering over de kosten die meespelen in de landbouw.
+ Bij mij gingen er in ieder geval lampjes van verwondering branden.
 \end_layout
 
 \begin_layout Itemize
@@ -939,33 +977,60 @@ dat er niet één manier is om zaken te vergelijken.
 
 \SpecialChar ldots
 .
- Het zal nooit volledig zijn, maar elke andere kijk leidt tot andere verrassinge
-n.
+ Het zal nooit volledig zijn, maar elke andere kijk leidt tot andere inzichten.
 \end_layout
 
 \begin_layout Itemize
 dat achter de échte kost komen geen eenvoudige materie is.
- Er is niet één methode die alles omvat.
+ Er is niet één methode die alles omvat
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Je kunt de titel gerust 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+click-bait
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ noemen want het doet uitschijnen dat je nu eens alle kosten gaat zien.
+ Niets is echter minder waar.
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
-een samenkomen van de puzzelstukjes aan de hand van een aantal voorbeelden
- van het bepalen van externe kosten.
+een samenkomen van puzzelstukjes waardoor je een vollediger inzicht krijgt
+ in de al dan niet verborgen kosten.
+\end_layout
+
+\begin_layout Itemize
+inzicht in de veranderingen die nodig zijn als alle kosten in rekening gebracht
+ worden.
 \end_layout
 
 \begin_layout Standard
 Dit zal gebeuren aan de hand van een literatuurstudie.
- Dat klinkt als een inleiding tot een werkstuk dat een prima alternatief
- is voor het tellen van schapen.
+ Dat klinkt een prima alternatief is voor het tellen van schapen op een
+ slapeloze nacht.
  Hopelijk is het gelukt om de stijl luchtig te houden.
 \end_layout
 
 \begin_layout Standard
-Door te tijd die aan dit werkstuk besteed kan worden zal het zeker niet
- volledig zijn.
+Door de beperkte tijd die aan dit werkstuk besteed kan worden, zal hij zeker
+ niet volledig zijn.
  Een aantal geselecteerde werken zullen besproken worden.
  Deze zullen een goed beeld schetsen van verschillende invalshoeken in het
- bepalen van de externe kosten van de landbouw.
+ bepalen van de kosten van de landbouw.
 \end_layout
 
 \begin_layout Standard
@@ -983,45 +1048,91 @@ Voorstelling van de problematiek
 \end_layout
 
 \begin_layout Standard
-Wat is dat eigenlijk, een externe kost? In het kort gezegd is dat een kost
- die niet meegerekend wordt bij de kost van een product, of dit nu in tijd,
- euro's, milieuschade,
+Elke menselijke activiteit heeft impact, of het nu in de landbouw is, het
+ onderwijs of een andere sector.
+ Deze impact kan het verbruik van energie, investering van tijd, bewerken
+ van land, consumptie van water,
 \begin_inset space \thinspace{}
 \end_inset
 
 \SpecialChar ldots
- uitgedrukt wordt.
- Sommige van deze kosten worden meegenomen waardoor ze geïnternaliseerd
- worden.
- Maar de meeste externe kosten blijven extern.
+ zijn.
+ Je kunt aan die impact een kost toekennen in energie (joules), tijd (uren),
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Een voorbeeld maakt dit veel duidelijker.
+De kost is ofwel rechtstreeks aan de activiteit toe te kennen, een directe
+ kost, ofwel is die kost via afhankelijkheden nodig voor de activiteit,
+ een indirecte kost.
+ Bijvoorbeeld moeten voor de aanmaak van machines grondstoffen gedolven
+ worden, wordt water gebruikt,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Maatschappelijke kosten zijn kosten die door de maatschappij gedragen worden.
+ Denk bijvoorbeeld aan milieuvervuiling.
+\end_layout
+
+\begin_layout Standard
+Sommige kosten die gemaakt worden, worden niet in de prijs van een product
+ of dienst doorgerekend.
+ Dat zijn externe kosten.
+ Deze kunnen geïnternaliseerd worden door ze ofwel rechtstreeks door te
+ rekenen ofwel opgelegd te krijgen via heffingen.
+\end_layout
+
+\begin_layout Standard
+Een voorbeeld maakt deze droge uitleg veel duidelijker.
 \end_layout
 
 \begin_layout Standard
 Laten we Umbalio introduceren.
- Umbalio is een boerin die ons gaat helpen door in verschillende tijdperken
- te boeren en zo het concept van externe en interne kosten duidelijk te
- maken.
-\end_layout
+ Umbalio is een boerin die ons gaat helpen het concept van kosten duidelijk
+ te maken
+\begin_inset Foot
+status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Voor de geschiedkundigen en andere geleerden onder ons: dit is een volledig
  fictief verhaal waarbij een aantal geschiedkundige, geologische en andere
  feiten compleet genegeerd worden.
  Gelieve dit even door de vingers te zien.
- Andere delen van dit werkstuk gaan dichter bij werkelijke feiten liggen.
+ De rest van dit werkstuk zal minder fantasierijk zijn.
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
-De types relaties die we gaan beschouwen
+De blik verruimen
 \end_layout
 
 \begin_layout Standard
-Als eerste tijdperk vinden we Umbalio in de prehistorie.
- Voorlopig is zij nog geen boerin, zoals je ziet in figuur 
+We ontmoeten Umbalio in figuur 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-alleen"
@@ -1060,7 +1171,7 @@ name "fig:Umbalio-alleen"
 
 \end_inset
 
-Umbalio op haar eentje
+Ontmoet Umbalio
 \end_layout
 
 \end_inset
@@ -1076,7 +1187,7 @@ Umbalio op haar eentje
 \begin_layout Standard
 Je ziet dat zij een beetje op zichzelf staat.
  Maar dat klopt natuurlijk niet.
- Zij heeft zelf ook relaties met haar omgeving (Figuur 
+ Zij heeft relaties met haar omgeving (figuur 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-omgeving"
@@ -1129,18 +1240,18 @@ Umbalio in haar omgeving
 \end_layout
 
 \begin_layout Standard
-Hier is Umbalio al iets meer verbonden.
- Zij geniet van het zonlicht en de regen.
+Hier is het plaatje al wat vollediger.
+ Umbalio geniet van het zonlicht en de regen.
  Zij ademt zuurstof in en koolstofdioxide en waterdamp uit.
- Ze eet planten en dieren waardoor ze ook de omgeving voedt met urine en
- uitwerpselen.
- Zo kunnen we natuurlijk nog een heel aantal verbindingen met de omgeving
+ Ze eet bladeren en vlees.
+ Ze voedt haar omgeving met urine en uitwerpselen.
+ Zo kunnen we natuurlijk nog een heel aantal direct relaties met de omgeving
  bedenken.
 \end_layout
 
 \begin_layout Standard
-Je kunt ook een stap verder gaan en kijken wat de verbindingen zijn van
- de zaken die Umbalio consumeert (Figuur 
+Je kunt een stap verder gaan en kijken wat de relaties zijn van de zaken
+ die Umbalio consumeert en produceert (figuur 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-omgeving-2e-orde"
@@ -1198,7 +1309,7 @@ De bladeren komen van een boom.
 \end_layout
 
 \begin_layout Standard
-De uitwerpselen worden door een mestkever gebruikt voor larven.
+De uitwerpselen worden door een mestkever gebruikt voor haar larven.
  Door de urine groeien de planten op die plaats een beetje beter.
 \end_layout
 
@@ -1215,9 +1326,10 @@ Zo kun je blijven verder gaan en merken dat alles met alles verbonden is.
 \end_layout
 
 \begin_layout Standard
-Dit gaat natuurlijk te ver want we zouden ons verliezen in teveel details.
- Deze zijn interessant voor een ecoloog maar we zoeken nu eerder naar verborgen
- (lees: door mensen veroorzaakte) effecten.
+Dit gaat natuurlijk te ver.
+ We zullen dan verdrinken in de hoeveelheid relaties.
+ Deze zijn interessant voor een ecoloog maar we zoeken nu enkel relaties
+ waar we als mens invloed op uitoefenen.
  Vandaar dat we alle 
 \begin_inset Quotes pld
 \end_inset
@@ -1235,12 +1347,12 @@ We hebben dus het volgende geleerd:
 
 \begin_layout Itemize
 een organisme (bv.
- een persoon) is verbonden met veel natuurlijke organismen en processen.
+ een persoon) is verbonden met andere organismen en processen.
 \end_layout
 
 \begin_layout Itemize
-deze natuurlijke relaties nemen we niet mee bij het bekijken van interne
- en externe kosten.
+deze zijn op hun beurt weer verbonden met nog andere organismen en processen.
+ Zo kunnen we onze blik blijven verruimen.
 \end_layout
 
 \begin_layout Subsection
@@ -1250,9 +1362,14 @@ Gebruik van een natuurlijk hulpmiddel
 \begin_layout Standard
 Umbalio wilt natuurlijk iets doen.
  Voedsel verbouwen.
+ Oh ja, nog vergeten te zeggen: Umbalio leeft in de prehistorie.
  Om de grond klaar te maken gebruikt ze een stok die ze in het bos gevonden
  heeft.
- Laten we dit even schetsen in figuur 
+ Laten we dit even schetsen in figuur
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-met-stok"
@@ -1306,11 +1423,14 @@ Umbalio is de grond aan het klaarmaken met een stok
 
 \begin_layout Standard
 Nu gebruikt Umbalio iets dat niet van haar eigen lichaam is: de stok.
- Hierdoor maakt ze grond klaar om planten te telen.
- Deze eet ze dan voor een deel zelf op, voor een deel deelt ze die met haar
+ Hiermee maakt ze grond klaar om planten te telen.
+\end_layout
+
+\begin_layout Standard
+Deze eet ze dan voor een deel zelf op, voor een deel deelt ze die met haar
  clan.
  Het gedeelte dat ze zelf op eet moeten we niet meerekenen want dat is interne
- keuken van het proces 
+ keuken van de activiteit 
 \begin_inset Quotes pld
 \end_inset
 
@@ -1319,7 +1439,7 @@ landbouw
 \end_inset
 
 .
- Het gedeelte dat ze met anderen van haar clan deelt, is de eigenlijke oogst.
+ Het gedeelte dat ze haar clan deelt, is de eigenlijke oogst.
 \end_layout
 
 \begin_layout Standard
@@ -1363,7 +1483,8 @@ name "fig:Umbalio-met-stok-en-boom"
 
 \end_inset
 
-Umbalio, de stok en de boom
+En aan de boom daar hing een tak \SpecialChar ldots
+
 \end_layout
 
 \end_inset
@@ -1377,26 +1498,17 @@ Umbalio, de stok en de boom
 \end_layout
 
 \begin_layout Standard
-Dit hoeft niet omdat dit terug een 
-\begin_inset Quotes pld
-\end_inset
-
-eenvoudige
-\begin_inset Quotes prd
-\end_inset
-
- natuurlijke relatie is.
- De stok moeten we wel blijven beschouwen want dit is een hulpmiddel die
- buiten het lichaam van Umbalio bestaat.
+Dit hoeft niet omdat voor de groei van de boom geen menselijke tussenkomst
+ was, enkel een goddelijke.
 \end_layout
 
 \begin_layout Standard
 De tijd die Umbalio in het produceren van het eten moet steken is niet enkel
- te tijd die ze op het land spendeert.
+ de tijd die ze op het land spendeert.
  Je moet ook de tijd meerekenen die ze steekt in het zoeken van een juiste
  stok.
- Deze laatste tijd moet dan over de teelten gespreid waarvoor de stok gebruikt
- wordt.
+ Deze tijd moet over de teelten waarvoor de stok gebruikt wordt, gespreid
+ worden.
 \end_layout
 
 \begin_layout Standard
@@ -1410,10 +1522,6 @@ een deel van de oogst kan gebruikt worden voor eigen behoefte.
 \end_layout
 
 \begin_layout Itemize
-hulpmiddelen moeten geïnventariseerd worden.
-\end_layout
-
-\begin_layout Itemize
 de tijd die nodig is om een oogst te hebben is niet enkel de tijd doorgebracht
  op het land, maar ook in het voorbereiden van de hulpmiddelen.
 \end_layout
@@ -1424,7 +1532,7 @@ de tijd doorgebracht in het voorbereiden van de hulpmiddelen moet je spreiden
 \end_layout
 
 \begin_layout Subsection
-Gebruik van een werktuig die gemaakt wordt door iemand anders
+Indirecte kosten
 \end_layout
 
 \begin_layout Standard
@@ -1433,8 +1541,12 @@ We zijn een aantal jaren verder en Umbalio heeft een uitvinding gedaan:
  Hierdoor kan ze zowel de grond sneller klaar maken als onkruid sneller
  weg halen en hij gaat ook nog eens langer mee.
  Dat zorgt ervoor dat ze meer kan telen en er dus meer voedsel beschikbaar
- komt door haar werk.
- Dat is weergegeven in figuur 
+ komt.
+ Dat is weergegeven in figuur
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-met-hak"
@@ -1473,7 +1585,7 @@ name "fig:Umbalio-met-hak"
 
 \end_inset
 
-Umbalio met een hak
+Umbalio vindt een hak uit
 \end_layout
 
 \end_inset
@@ -1492,12 +1604,15 @@ Je ziet dat door de grotere oogst, het deel dat Umbalio zelf gebruikt relatief
 \end_layout
 
 \begin_layout Standard
-De hak is gemaakt van een stok en een stuk silex (we zitten nog in de prehistori
-e!).
+De hak is gemaakt van een stok en een stuk silex (we zitten nog altijd in
+ de prehistorie!).
  Om de silex in de juiste vorm te krijgen, heeft Umbalio hulp nodig van
- Gornan, de stenen expert van haar clan.
+ Gornan, de expert silex kappen van haar clan.
  Dit is een extra relatie die we in rekening moeten brengen zoals in figuur
- 
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-hak-Gornex"
@@ -1536,7 +1651,7 @@ name "fig:Umbalio-hak-Gornex"
 
 \end_inset
 
-Umbalio met een hak en Gornan die de kop aan het klaarmaken is
+Umbalio heeft Gornan nodig om een hak te maken
 \end_layout
 
 \end_inset
@@ -1550,7 +1665,7 @@ Umbalio met een hak en Gornan die de kop aan het klaarmaken is
 \end_layout
 
 \begin_layout Standard
-Net zoals voorheen moeten we de een deel van tijd die Umbalio gestoken heeft
+Net zoals voorheen moeten we een deel van tijd die Umbalio gestoken heeft
  in het maken van de hak meenemen om het aantal uren werk voor de oogst
  in kaart te brengen.
 \end_layout
@@ -1570,7 +1685,7 @@ Zolang deze indirecte kost niet opgemerkt én in rekening gebracht wordt,
 We zien nog iets speciaals.
  Gornan eet een deel van de oogst van Umbalio zodat hij energie heeft om
  de hak te maken! Dit deel moet van de oogst afgetrokken worden omdat het
- enkel gebruikt wordt door Gornan om de kop van haar hak te maken.
+ enkel gebruikt wordt door Gornan om de kop te maken.
  In dit voorbeeld kunnen we er wel van uitgaan dat dit aandeel verwaarloosbaar
  is, maar dat is niet altijd zo.
 \end_layout
@@ -1580,43 +1695,39 @@ Weer hebben we nieuwe dingen geleerd:
 \end_layout
 
 \begin_layout Itemize
-van de oogst kunnen er delen afgenomen worden om extern zaken te maken die
- nodig zijn voor het telen.
-\end_layout
-
-\begin_layout Itemize
-de indirecte tijd (of grondstoffen of energie) die extern nodig is om hulpmiddel
-en te vervaardigen moet je in rekening brengen.
- Dit inclusief een deel van de tijd (of grondstoffen of energie) nodig om
- zover te komen dat die hulpmiddelen gemaakt kunnen worden.
+de indirecte kost (tijd of voedsel) die nodig is om hulpmiddelen te vervaardigen
+ moet je in rekening brengen.
 \end_layout
 
 \begin_layout Subsection
-Gebruik van een grondstof die zelf verwerkt moet worden
+Maatschappelijke kosten
 \end_layout
 
 \begin_layout Standard
 We nemen nu een sprong in de tijd tot het bronzen tijdperk.
- Een klein-klein-klein dochter van Umbalio (die toevallig ook Umbalio noemt)
+ Een achter-achter-kleindochter van Umbalio (die toevallig ook Umbalio noemt)
  gebruikt een verbeterde hak met bronzen kop.
- Deze is klaargemaakt door Borjan, een klein-klein-klein zoon van Gornan.
+ Deze is klaargemaakt door Borjan, een achter-achter-kleinzoon van Gornan.
 \end_layout
 
 \begin_layout Standard
 Om brons te maken, heeft Borjan nood aan koper en tin ertsen die gedolven
- worden door Kalian en Mapran in een dagmijn (bovengrondse mijn).
- Ook heeft hij nood aan klei om een oven en een vorm te maken en hout om
- te stoken.
+ worden door Kalian en Mapran in een bovengrondse mijn.
+ Ook heeft hij nood aan klei om een oven te maken en hout om te stoken.
 \end_layout
 
 \begin_layout Standard
-Kalian en Mapran hebben op hun beurt nood aan koperen scheppen en houwelen.
+Kalian en Mapran hebben op hun beurt nood aan scheppen en houwelen.
  Voor het transport van de ertsen naar Borjan gebruiken ze een draagsysteem
  gemaakt uit twijgen manden en hout.
 \end_layout
 
 \begin_layout Standard
-Een klassieke manier om ernaar te kijken zie je in figuur 
+Een klassieke manier om ernaar te kijken zie je in figuur
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-met-koperen-hak"
@@ -1656,7 +1767,7 @@ name "fig:Umbalio-met-koperen-hak"
 
 \end_inset
 
-Umbalio met koperen hak en alles errond
+Meer technologie vraagt meer input
 \end_layout
 
 \end_inset
@@ -1670,17 +1781,19 @@ Umbalio met koperen hak en alles errond
 \end_layout
 
 \begin_layout Standard
-Hiermee kan je dan zien dat de indirecte kosten voor het verbouwen van het
- voedsel toegenomen zijn.
+Hiermee kan je zien dat de indirecte kosten voor het verbouwen van het voedsel
+ toegenomen zijn.
  Er zijn meer mensen bezig met het maken van werktuigen.
- Natuurlijk wordt die tijd ook gebruikt om andere zaken te maken, dus niet
- de volledige tijd moet doorgerekend worden.
 \end_layout
 
 \begin_layout Standard
 Maar niet alles is zo rooskleurig.
  Zelfs in de prehistorie was er al impact op het milieu.
- Dus in werkelijkheid is het eerder als in figuur 
+ Dus in werkelijkheid is het eerder als in figuur
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Umbalio-met-koperen-hak-en-impact"
@@ -1719,7 +1832,7 @@ name "fig:Umbalio-met-koperen-hak-en-impact"
 
 \end_inset
 
-Umbalio met koperen hak en milieu impact.
+De start van milieuvervuiling
 \end_layout
 
 \end_inset
@@ -1747,25 +1860,18 @@ De metallurgie van Borjan zorgt voor vervuiling door roet,
 \end_inset
 
 .
- We gaan ervan uit dat het hout dat hij verstookt natuurlijk terug aangevuld
- kan worden.
+ Hij verbruikt hout waardoor de bossen in de buurt uitgedund worden.
 \end_layout
 
 \begin_layout Standard
-De dagmijn van Kalian en Mapran zorgt voor kaalslag op de omgeving en steenafval.
- Dit kan genezen maar zal maar zeer langzaam gaan omdat de vruchtbaarheid
- terug opgebouwd moet worden.
+De mijn van Kalian en Mapran zorgt voor kaalslag op de omgeving en steenafval.
+ De natuur zal deze schade uiteindelijk herstellen maar dat zal zeer langzaam
+ gaan omdat de vruchtbaarheid terug opgebouwd moet worden.
 \end_layout
 
 \begin_layout Standard
-We hebben ook nog niet vermeld dat Mapran eigenlijk Kalian aan het uitbuiten
- is en dat Kalian mank loopt door een werkongeval.
-\end_layout
-
-\begin_layout Standard
-Dit zijn externe kosten die de hele clan benadelen.
- Deze kosten moet voor een deel doorgerekend worden aan het werk van Umbalio
- waardoor die maatschappelijke kosten geïnternaliseerd worden.
+Dit zijn kosten die de hele clan benadelen en dus door allen, de maatschappij,
+ gedragen worden.
 \end_layout
 
 \begin_layout Standard
@@ -1782,9 +1888,7 @@ transportlijnen vragen meestal ook technologie.
 \end_layout
 
 \begin_layout Itemize
-we beginnen nu duidelijk externe kosten te zien die door de maatschappij
- gedragen moeten worden.
- Deze kunnen wel of niet in rekening gebracht worden.
+we beginnen kosten te ontmoeten die door de maatschappij gedragen worden.
 \end_layout
 
 \begin_layout Subsection
@@ -1799,7 +1903,7 @@ Een sprong naar vandaag
 
 \begin_layout Standard
 Ken je dansles video's? Eerst tonen ze de basis danspassen, dan opeens,
- boem, worden ingewikkelde figuren aangeleerd.
+ boem, worden ingewikkelde figuren aangeleerd waar je mond van openvalt.
  Wel, we doen nu ook zo'n reuzensprong door naar de situatie van vandaag
  te kijken.
 \end_layout
@@ -1808,7 +1912,7 @@ Ken je dansles video's? Eerst tonen ze de basis danspassen, dan opeens,
 Umbalio (ja, ja, de achter-achter-achter-\SpecialChar ldots
 -achter-kleindochter van) rijdt
  nu rond in een tractor om het land te bewerken (figuur
-\begin_inset space \thinspace{}
+\begin_inset space ~
 \end_inset
 
 
@@ -1822,7 +1926,7 @@ noprefix "false"
 \end_inset
 
 ).
- Gezellig, niet? Ze doet ook aan de bij ons gangbare landbouw.
+ Gezellig, niet? Ze doet aan de bij ons gangbare landbouw.
 \end_layout
 
 \begin_layout Standard
@@ -1851,7 +1955,7 @@ name "fig:Umbalio-in-tractor"
 
 \end_inset
 
-Umbalio in tractor
+Umbalio als moderne boerin
 \end_layout
 
 \end_inset
@@ -1865,8 +1969,9 @@ Umbalio in tractor
 \end_layout
 
 \begin_layout Standard
-Maar om zo aan landbouw te kunnen doen, heeft ze wel wat nodig (figuur
-\begin_inset space \thinspace{}
+Maar om zo aan landbouw te kunnen doen, heeft ze wel wat nodig zoals brandstof,
+ kunstmest, bestrijdingsmiddelen (figuur
+\begin_inset space ~
 \end_inset
 
 
@@ -1880,14 +1985,13 @@ noprefix "false"
 \end_inset
 
 ).
- Zoals brandstof, kunstmest, bestrijdingsmiddelen.
- De tractor en eg zijn ook in een fabriek gemaakt, dus die relatie moet
- er ook bij.
+ De tractor en eg zijn in een fabriek gemaakt, dus die relatie moet er ook
+ bij.
 \end_layout
 
 \begin_layout Standard
 Oh, maar nog een stap verder (figuur
-\begin_inset space \thinspace{}
+\begin_inset space ~
 \end_inset
 
 
@@ -1909,7 +2013,7 @@ noprefix "false"
 
 \begin_layout Standard
 Maar dit allemaal ontstaat ook niet op een natuurlijke manier (figuur
-\begin_inset space \thinspace{}
+\begin_inset space ~
 \end_inset
 
 
@@ -1924,22 +2028,22 @@ noprefix "false"
 
 ).
  Je hebt olievelden en boorplatformen nodig.
- Raffinagerijen moeten ruwe olie bruikbaar maken.
+ Raffinaderijen moeten ruwe olie bruikbaar maken.
  Mijnen zorgen voor grondstoffen.
  Zo goed als alles heeft fossiele brandstoffen nodig.
- En om de kringen helemaal te sluiten hebben de olievelden en boorplatformen
- ook nog fabrieken en grondstoffen nodig.
+ En om de kring te sluiten zijn er voor de bouw en onderhoud van de olievelden
+ en boorplatformen ook nog eens fabrieken en grondstoffen nodig.
 \end_layout
 
 \begin_layout Standard
-Vergeet ook niet dat er nog eens veel transport nodig is van grondstoffen
- en brandstoffen.
- Er zijn veel mensen die werken om dit allemaal gedaan te krijgen.
+Bij veel relaties komt transport kijken.
+ Overal zijn er mensen bezig om de relatie mogelijk te maken.
 \end_layout
 
 \begin_layout Standard
 Het wordt dus een heel kluwen aan afhankelijkheden die ervoor zorgen dat
  Umbalio eten kan produceren.
+ Als er ergens iets hapert, rammelt het langs alle kanten.
 \end_layout
 
 \begin_layout Standard
@@ -2089,7 +2193,21 @@ De complexiteit van de landbouw groeit
 \end_layout
 
 \begin_layout Standard
-In heel dit kluwen hebben we ook duidelijke maatschappelijke kosten (figuur
+In heel dit kluwen hebben we ook duidelijke maatschappelijke kosten zoals
+ vervuild water, 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+, 
+\begin_inset Formula $\ce{NO_{x}}$
+\end_inset
+
+,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ (figuur
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -2103,26 +2221,10 @@ noprefix "false"
 
 \end_inset
 
-) zoals vervuild water, 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
-, 
-\begin_inset Formula $\ce{NO_{x}}$
-\end_inset
-
-,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
- Er zijn ook medische kosten en afval.
- En we vergeten nog heel wat factoren.
+).
+ Er zijn medische kosten.
+ Er is afval.
+ En dan vergeten we nog heel wat factoren.
 \end_layout
 
 \begin_layout Standard
@@ -2151,7 +2253,7 @@ name "fig:Umalio-in-tractor-volledig"
 
 \end_inset
 
-Het volledige, vervuilde, plaatje
+Het onvolledige, vervuilde, plaatje
 \end_layout
 
 \end_inset
@@ -2161,10 +2263,13 @@ Het volledige, vervuilde, plaatje
 
 \end_inset
 
-We zijn duidelijk wat we al eerder opgemerkt hebben.
+We zien duidelijk wat we al eerder opgemerkt hebben.
  Hoe technologischer je oplossing wordt, hoe meer je nodig hebt om je hoofdtaak
  (bij ons: het verbouwen van voedsel) uit te kunnen voeren.
- Je kunt je dan ook af vragen of het allemaal wel een vooruitgang is want:
+\end_layout
+
+\begin_layout Standard
+Je kunt je dan ook af vragen of het allemaal wel een vooruitgang is want:
 \end_layout
 
 \begin_layout Itemize
@@ -13075,10 +13180,10 @@ noprefix "false"
 
 .
 \begin_inset Argument 1
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Totale energieconsumptie landbouw (VK 1950-1972)
+Totale energieconsumptie landbouw
 \end_layout
 
 \end_inset
@@ -14278,7 +14383,7 @@ literal "false"
 status collapsed
 
 \begin_layout Plain Layout
-Opdeling van energieverbruik landbouw (VSA 1940-1970)
+Opdeling van energieverbruik landbouw
 \end_layout
 
 \end_inset
@@ -17292,12 +17397,12 @@ name "fig:output-arbeid_vs_input-VSA"
 
 \end_inset
 
-Verloop van boerderij output en werkuren in functie van input (VSA 1920-1970).
+Verloop van boerderij output en werkuren in functie van input (VSA 1920-1970)
 \begin_inset Argument 1
 status collapsed
 
 \begin_layout Plain Layout
-Verloop van boerderij output en werkuren in functie van input (VSA 1920-1970).
+Verloop van boerderij output en werkuren in functie van input
 \end_layout
 
 \end_inset
