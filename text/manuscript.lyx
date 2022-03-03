@@ -3462,7 +3462,17 @@ name "fig:arbeidsproductiviteit-schets-klassiek"
 \end_inset
 
 De klassieke manier om naar arbeidsproductiviteit te kijken: enkel directe
- productiefactoren worden meegenomen.
+ productiefactoren worden meegenomen
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+De klassieke manier om naar arbeidsproductiviteit te kijken
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3538,6 +3548,16 @@ name "fig:arbeidsproductiviteit-schets-volledig"
 \end_inset
 
 Een meer volledig plaatje om de input van de Nederlandse landbouw te bepalen.
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Een meer volledig plaatje om de input te bepalen
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4622,7 +4642,17 @@ name "fig:mijnbouw-nederland"
 
 \end_inset
 
-Verdeling van het aandeel mijnbouw voor de Nederlandse landbouw.
+Verdeling van het aandeel mijnbouw voor de Nederlandse landbouw
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Verdeling van het aandeel mijnbouw
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4811,6 +4841,16 @@ name "fig:arbeid-klassiek"
 \end_inset
 
 Klassiek beeld van arbeid in de Nederlandse landbouw
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Klassiek beeld van arbeid
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4912,6 +4952,16 @@ name "fig:arbeid-reëel"
 \end_inset
 
 Een meer reëel beeld van de arbeid in de Nederlandse landbouw
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Een meer reëel beeld van de arbeid
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5144,7 +5194,17 @@ name "fig:land-klassiek"
 
 \end_inset
 
-Klassiek beeld van het landgebruik in de Nederlandse landbouw
+Klassiek beeld van landgebruik in de Nederlandse landbouw
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Klassiek beeld van landgebruik
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5288,6 +5348,16 @@ name "fig:land-totaal"
 \end_inset
 
 Totaal aan gebruikte grond voor de Nederlandse landbouw
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Totaal aan gebruikte grond
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5464,6 +5534,16 @@ name "fig:arbeidsproductiviteit-Nederland"
 \end_inset
 
 Arbeidsproductiviteit in de Nederlandse landbouw
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Arbeidsproductiviteit
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5716,6 +5796,16 @@ name "fig:e-out"
 \end_inset
 
 Energetische output van de Nederlandse landbouw
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Energetische output
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5797,7 +5887,7 @@ lines 0
 placement o
 overhang 0col%
 width "50col%"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -5818,7 +5908,17 @@ name "fig:e-out-geschaald"
 
 \end_inset
 
-Output per sector, geschaald ten opzicht van de waarde in 1950.
+Output per sector, geschaald ten opzicht van de waarde in 1950
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Output per sector
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5903,6 +6003,16 @@ name "fig:e-in"
 \end_inset
 
 Input voor de Nederlandse landbouw
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Input
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6280,7 +6390,17 @@ efficiëntie/ha
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Energetische waarde/ha, rekening houdend met het grondgebruik.
+Energetische waarde/ha, rekening houdend met het grondgebruik
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Energetische waarde/ha
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -6545,7 +6665,7 @@ keer (verhouding van 2,4).
 \end_layout
 
 \begin_layout Subsubsection
-Wat wil dit kengetal zeggen ?
+Wat wil dit kengetal zeggen?
 \end_layout
 
 \begin_layout Standard
@@ -6770,7 +6890,17 @@ name "fig:gewicht-out-geschaald"
 
 \end_inset
 
-Output in gewicht, geschaald ten opzicht van de waarde in 1950.
+Output in gewicht, geschaald ten opzicht van de waarde in 1950
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Output in gewicht
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12158,7 +12288,17 @@ name "fig:e-eff-2040"
 
 \end_inset
 
-Energetische verhouding, rekening houdend met landgebruik
+Gedroomde energetische verhouding, rekening houdend met landgebruik
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Gedroomde energetische verhouding
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12906,7 +13046,7 @@ name "fig:energie-VK-landbouw"
 
 \end_inset
 
-Totale energieconsumptie landbouw in VK (1950-1972).
+Totale energieconsumptie landbouw (VK 1950-1972)
 \begin_inset Newline newline
 \end_inset
 
@@ -12935,10 +13075,10 @@ noprefix "false"
 
 .
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Totale energieconsumptie landbouw in VK (1950-1972).
+Totale energieconsumptie landbouw (VK 1950-1972)
 \end_layout
 
 \end_inset
@@ -14041,10 +14181,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Float figure
 wide false
@@ -14142,7 +14278,7 @@ literal "false"
 status collapsed
 
 \begin_layout Plain Layout
-Opdeling van energieverbruik van de landbouw (VSA 1940-1970).
+Opdeling van energieverbruik landbouw (VSA 1940-1970)
 \end_layout
 
 \end_inset
@@ -14646,7 +14782,11 @@ literal "false"
 status collapsed
 
 \begin_layout Plain Layout
-Vergelijking van energie efficiëntie van verschillende landbouwsystemen.
+Vergelijking van energie 
+\emph on
+in
+\emph default
+efficiëntie landbouwsystemen
 \end_layout
 
 \end_inset
@@ -14854,8 +14994,11 @@ name "fig:eroei-spierkracht"
 \end_inset
 
 Gebruik van spierkracht vs.
- EROEI in verschillende landbouwsystemen.
- Gebaseerd op 
+ EROEI in verschillende landbouwsystemen
+\begin_inset Newline newline
+\end_inset
+
+Gebaseerd op 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Leach1976"
@@ -14863,13 +15006,13 @@ literal "false"
 
 \end_inset
 
-.
+
 \begin_inset Argument 1
 status collapsed
 
 \begin_layout Plain Layout
-Gebruik van spierkracht vs.
- EROEI in verschillende landbouwsystemen.
+Spierkracht t.o.v.
+ energetische efficiëntie
 \end_layout
 
 \end_inset
@@ -14972,7 +15115,18 @@ name "fig:eroei-rijst_mais"
 \end_inset
 
 Gebruik van spierkracht vs.
- EROEI voor rijst en mais.
+ EROEI voor rijst en mais
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Spierkracht t.o.v.
+ energetische efficiëntie voor rijst en mais
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -16001,12 +16155,12 @@ literal "false"
 
 \end_inset
 
-.
+
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Energiestromen in het voedselsysteem (VK, 1968).
+Energiestromen in het voedselsysteem
 \end_layout
 
 \end_inset
@@ -16353,7 +16507,8 @@ name "fig:e-voedselsysteem-usa"
 
 \end_inset
 
-Energiestromen in het voedselsysteem (VSA 1940-1970, 
+Energetische aandeel van sectoren in het voedselsysteem (VSA 1940-1970,
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "steinhart1974"
@@ -16361,12 +16516,12 @@ literal "false"
 
 \end_inset
 
-).
+)
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Energiestromen in het voedselsysteem (VSA, 1940-1970).
+Energetisch aandeel van sectoren in het voedselsysteem
 \end_layout
 
 \end_inset
@@ -16873,8 +17028,8 @@ name "fig:e-in-out-VSA"
 
 \end_inset
 
-Verloop van input en output van het voedselsysteem in de VSA (1940-1970,
- 
+Verloop van de energetische input en output van het voedselsysteem (VSA
+ 1940-1970, 
 \begin_inset CommandInset citation
 LatexCommand cite
 after "fig. 1"
@@ -16888,7 +17043,7 @@ literal "false"
 status collapsed
 
 \begin_layout Plain Layout
-Verloop van input en output van het voedselsysteem in de VSA (1940-1970).
+Verloop van de energetische input en output van het voedselsysteem
 \end_layout
 
 \end_inset
@@ -20745,10 +20900,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/grafieken/eosta - blauw-grijs watervoetafdruk.svg
@@ -20767,7 +20918,17 @@ name "fig:Blauwe-en-grijze-watervoetafdruk"
 
 \end_inset
 
-Blauwe en grijze watervoetafdruk voor verschillende landbouwproducten.
+Blauwe versus grijze watervoetafdruk voor verschillende landbouwproducten
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Blauwe versus grijze watervoetafdruk
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
