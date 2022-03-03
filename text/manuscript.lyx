@@ -194,7 +194,8 @@ Aangemaakt met \SpecialChar LyX
 \begin_inset space ~
 \end_inset
 
-2.3 en TeX Live
+2.3 en \SpecialChar TeX
+ Live
 \begin_inset space ~
 \end_inset
 
@@ -618,7 +619,23 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
-Hier de quote of zo
+
+\shape italic
+Dit werk is opgedragen aan Marc Laga (1930 - 2021).
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+Een fijne, integere man en schoonvader met wie ik graag over dit onderwerp
+ had gediscuteerd.
 \end_layout
 
 \end_inset
@@ -654,7 +671,37 @@ addcontentsline{toc}{chapter}{Dankwoord}
 \end_layout
 
 \begin_layout Standard
-Nog een woordje van dank.
+Een werk kan je niet doen zonder hulp van anderen.
+\end_layout
+
+\begin_layout Standard
+Bedankt lieve Anne om me de ruimte te geven mijn hart te volgen.
+ Bedankt ook om meer op te nemen terwijl ik bezig ben.
+\end_layout
+
+\begin_layout Standard
+Ik dank ook de kinderen voor hun geduld tijdens het schrijven.
+ Ze moesten hun vader teveel missen achter die computer.
+\end_layout
+
+\begin_layout Standard
+Mijn ouders verdienen hier zeker een plaats.
+ Ze hebben me zelfvertrouwen en een goede start meegegeven.
+\end_layout
+
+\begin_layout Standard
+Bedankt aan aan iedereen bij Landwijzer om me te begeleiden in dit traject.
+\end_layout
+
+\begin_layout Standard
+Je kunt enkel groeien door het werk van de reuzen die vooraf zijn gegaan.
+ Rob Hopkins en Charles & Perrine Hervé-Gruyer zijn inspirerende voorbeelden
+ geweest die mijn pad hebben verlicht.
+\end_layout
+
+\begin_layout Standard
+Tot slot dank ik ook Colruyt om me de mogelijkheid te geven om tijd te kunnen
+ maken voor het Landwijzer traject.
 \end_layout
 
 \begin_layout Standard
