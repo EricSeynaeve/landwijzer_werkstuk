@@ -32,7 +32,7 @@
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="layer1" />
+   inkscape:current-layer="layer2" />
  
  
  
@@ -3104,7 +3104,7 @@
            id="tspan2789">0,001</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2803"
-     x="-402.86896"
+     x="-120.87006"
      y="614.81421"><tspan
        class="TextParagraph"
        font-family="'Latin Modern Roman'"
@@ -3112,15 +3112,15 @@
        font-weight="400"
        id="tspan2801"><tspan
          class="TextPosition"
-         x="1294.1311"
+         x="1576.13"
          y="10928.814"
          id="tspan2799"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2797">0,010</tspan></tspan></tspan></text><text
+           id="tspan2797">0,01</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2811"
-     x="-402.86896"
+     x="161.12888"
      y="614.81421"><tspan
        class="TextParagraph"
        font-family="'Latin Modern Roman'"
@@ -3128,15 +3128,15 @@
        font-weight="400"
        id="tspan2809"><tspan
          class="TextPosition"
-         x="1294.1311"
+         x="1858.1289"
          y="8551.8145"
          id="tspan2807"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2805">0,100</tspan></tspan></tspan></text><text
+           id="tspan2805">0,1</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2819"
-     x="-402.86896"
+     x="599.91974"
      y="614.81421"><tspan
        class="TextParagraph"
        font-family="'Latin Modern Roman'"
@@ -3144,15 +3144,15 @@
        font-weight="400"
        id="tspan2817"><tspan
          class="TextPosition"
-         x="1294.1311"
+         x="2296.9199"
          y="6176.8145"
          id="tspan2815"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2813">1,000</tspan></tspan></tspan></text><text
+           id="tspan2813">1</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2827"
-     x="-402.86896"
+     x="585.79694"
      y="614.81421"><tspan
        class="TextParagraph"
        font-family="'Latin Modern Roman'"
@@ -3160,15 +3160,15 @@
        font-weight="400"
        id="tspan2825"><tspan
          class="TextPosition"
-         x="1003.131"
+         x="1991.7969"
          y="3799.8142"
          id="tspan2823"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2821">10,000</tspan></tspan></tspan></text><text
+           id="tspan2821">10</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2835"
-     x="-402.86896"
+     x="594.79791"
      y="614.81421"><tspan
        class="TextParagraph"
        font-family="'Latin Modern Roman'"
@@ -3176,12 +3176,12 @@
        font-weight="400"
        id="tspan2833"><tspan
          class="TextPosition"
-         x="712.13104"
+         x="1709.798"
          y="1423.8142"
          id="tspan2831"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2829">100,000</tspan></tspan></tspan></text><text
+           id="tspan2829">100</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2857"
      x="-402.86896"
@@ -3202,7 +3202,7 @@
      transform="rotate(-90)"
      id="text2865"
      x="-9322.8145"
-     y="-6854.8691"><tspan
+     y="-6271.6064"><tspan
        class="TextParagraph"
        font-family="'Latin Modern Roman'"
        font-size="706px"
@@ -3210,7 +3210,7 @@
        id="tspan2863"><tspan
          class="TextPosition"
          x="-8194.8145"
-         y="725.13104"
+         y="1308.3939"
          id="tspan2861"><tspan
            fill="#000000"
            stroke="none"

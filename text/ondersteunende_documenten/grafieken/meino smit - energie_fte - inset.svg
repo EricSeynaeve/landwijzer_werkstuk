@@ -1007,7 +1007,7 @@
          id="tspan2007"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2005">0 GJ/FTE</tspan></tspan></tspan></text><text
+           id="tspan2005">0 GJ/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2019"
      x="-8626.374"
@@ -1023,7 +1023,7 @@
          id="tspan2015"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2013">500 GJ/FTE</tspan></tspan></tspan></text><text
+           id="tspan2013">500 GJ/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2027"
      x="-8626.374"
@@ -1039,7 +1039,7 @@
          id="tspan2023"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2021">1000 GJ/FTE</tspan></tspan></tspan></text><text
+           id="tspan2021">1000 GJ/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2035"
      x="-8626.374"
@@ -1055,7 +1055,7 @@
          id="tspan2031"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2029">1500 GJ/FTE</tspan></tspan></tspan></text><text
+           id="tspan2029">1500 GJ/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2043"
      x="-8626.374"
@@ -1071,7 +1071,7 @@
          id="tspan2039"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2037">2000 GJ/FTE</tspan></tspan></tspan></text><text
+           id="tspan2037">2000 GJ/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2051"
      x="-8626.374"
@@ -1087,7 +1087,7 @@
          id="tspan2047"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2045">2500 GJ/FTE</tspan></tspan></tspan></text><text
+           id="tspan2045">2500 GJ/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2059"
      x="-8626.374"
@@ -1103,7 +1103,7 @@
          id="tspan2055"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2053">3000 GJ/FTE</tspan></tspan></tspan></text><path
+           id="tspan2053">3000 GJ/VTE</tspan></tspan></tspan></text><path
      fill="none"
      stroke="#ff420e"
      stroke-width="50"
@@ -1149,7 +1149,7 @@
          id="tspan2075"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2073">input/FTE</tspan></tspan></tspan></text><text
+           id="tspan2073">input/VTE</tspan></tspan></tspan></text><text
      class="SVGTextShape"
      id="text2087"
      x="-8626.374"
@@ -1165,7 +1165,7 @@
          id="tspan2083"><tspan
            fill="#000000"
            stroke="none"
-           id="tspan2081">output/FTE</tspan></tspan></tspan></text></g><g
+           id="tspan2081">output/VTE</tspan></tspan></tspan></text></g><g
    inkscape:groupmode="layer"
    id="layer2"
    inkscape:label="inzet"
