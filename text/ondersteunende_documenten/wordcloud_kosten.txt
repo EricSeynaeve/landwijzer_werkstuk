@@ -1,0 +1,30 @@
+2 energie
+4 water
+3 landgebruik
+5 arbeid
+1 tonnage
+4 bodem
+10 kosten overheid 
+8 verlies bodemvruchtbaarheid
+8 biodiversiteit
+5 klimaatverandering
+5 watervervuiling
+5 luchtvervuiling
+3 geurhinder
+3 bodemerosie
+3 waterschaarste
+8 gezondheid
+ziekte uitbraken
+voedselschandalen
+verkeersveiligheid
+verkeerscongestie
+geluidsoverlast
+(tijdelijke) subsidieregelingen
+voedselverspilling
+gezondheid
+natuur
+vastgoed
+landbouwopbrengsten
+maatschappelijke kosten op sociaal gebied
+kinderarbeid
+slechte werkomstandigheden
