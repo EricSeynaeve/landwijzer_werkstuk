@@ -1187,8 +1187,8 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 1a.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	height 5cm
+	groupId Umbalio_klein
 
 \end_inset
 
@@ -1242,8 +1242,8 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 1b.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	height 5cm
+	groupId Umbalio_klein
 
 \end_inset
 
@@ -1306,8 +1306,8 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 1c.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	height 5cm
+	groupId Umbalio_klein
 
 \end_inset
 
@@ -1424,7 +1424,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 2a.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
@@ -1499,7 +1499,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 2b.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
@@ -1601,7 +1601,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 3a.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
@@ -1667,7 +1667,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 3b.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
@@ -1783,7 +1783,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 4a.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
@@ -1848,7 +1848,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 4b.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
@@ -1971,8 +1971,8 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 5a.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	height 5cm
+	groupId Umbalio_klein
 
 \end_inset
 
@@ -2090,11 +2090,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 5b.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	width 45text%
+	groupId Umbalio_groep
 
 \end_inset
 
@@ -2134,11 +2135,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 5c.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	width 45text%
+	groupId Umbalio_groep
 
 \end_inset
 
@@ -2174,11 +2176,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 5d.jpg
 	lyxscale 10
-	height 4cm
-	groupId Umbalio
+	width 45text%
+	groupId Umbalio_groep
 
 \end_inset
 
@@ -2269,7 +2272,7 @@ status open
 \begin_inset Graphics
 	filename ondersteunende_documenten/figuren/externe kost 5e.jpg
 	lyxscale 10
-	height 4cm
+	width 70text%
 	groupId Umbalio
 
 \end_inset
