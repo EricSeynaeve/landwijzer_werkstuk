@@ -1118,7 +1118,7 @@ Nu we een idee hebben waar het over gaat, geef ik jou, beste lezer, de keuze.
 \end_layout
 
 \begin_layout Itemize
-Als eerst is er een focus rond een vollediger plaatje van energieverbruik.
+Als eerste is er een focus rond een vollediger plaatje van energieverbruik.
  Dat is belangrijk omdat energieverbruik heel nauw samen hangt met het broeikase
 ffect.
 \begin_inset Newline newline
@@ -1175,8 +1175,57 @@ Groene Revolutie
 
 \end_deeper
 \begin_layout Itemize
-Naast energie zijn er natuurlijk andere factoren die meespelen zoals landgebruik
-, arbeid, water,
+De titel van het werkstuk gaat over de 
+\emph on
+kosten
+\emph default
+ van de landbouw, niet de energie.
+ Veel mensen zullen bij kosten aan geld denken.
+ Er zijn 
+\lang english
+science fiction
+\lang dutch
+ verhalen waar de maatschappij in energie betaald, maar dit is geen werk
+ van 
+\lang english
+science fiction
+\lang dutch
+ en gaat er dus verder gekeken worden dan enkel energie.
+\begin_inset Newline newline
+\end_inset
+
+In het leven zijn vele kosten mogelijk.
+ Denk bijvoorbeeld aan de uitspraak dat iemand een rijk innerlijk leven
+ heeft.
+ Je kunt ook iemand in tijd betalen zoals bij LETS
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Local Exchange Trading System 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://nl.wikipedia.org/wiki/Lokale_ruileconomie#LETS}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ systemen.
+\begin_inset Newline newline
+\end_inset
+
+Een aantal factoren zijn duidelijk beïnvloed door de landbouw zoals landgebruik,
+ arbeid, water, biodiversiteit, cultuur,
 \begin_inset space ~
 \end_inset
 
@@ -1187,8 +1236,11 @@ Naast energie zijn er natuurlijk andere factoren die meespelen zoals landgebruik
 
 .
  Deze worden overlopen.
- Ook wordt de vraag gesteld of de impact van die factoren in 1 kengetal
- samengevat kan worden.
+\begin_inset Newline newline
+\end_inset
+
+Ook wordt de vraag gesteld of de impact van die factoren in 1 kengetal samengeva
+t kan worden.
 \end_layout
 
 \begin_layout Itemize
@@ -1218,8 +1270,7 @@ Kunnen we hieruit een zicht krijgen over hoe we beter met de natuurlijke
 \begin_layout Standard
 In dit verdiepend werkstuk wordt dit alles conceptueel behandeld.
  Het is mogelijk zeer veel grafieken, statistieken en tabellen te gebruiken.
- In dit werkstuk gaan we dat tot een minimum beperken om de boodschap behapbaard
-er te maken.
+ Laten we dat tot een minimum beperken om de boodschap behapbaarder te maken.
 \end_layout
 
 \begin_layout Standard
@@ -4316,24 +4367,864 @@ Natuurlijk bestaat het leven niet enkel uit energie.
 Het leven is meer dan energie alleen
 \end_layout
 
+\begin_layout Chapter
+Water
+\end_layout
+
+\begin_layout Standard
+Water.
+ Het is een wonderlijk middel.
+ In de scheikunde neemt het een prominente rol in.
+ Bij de zoektocht naar leven wordt het beschouwd als een onmisbaar element
+ voor het leven
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Het zou me echter niet verbazen moesten er ooit levensvormen ontdekt worden
+ die geen water nodig hebben.
+ Het leven is zoveel vindingrijker dan ons verstand kan bedenken!
+\end_layout
+
+\end_inset
+
+.
+ Ook buiten de harde wetenschap wordt het beschouwd als een wonderlijke
+ substantie zoals bij homeopathische verdunningen of de ijskristallen van
+ Emoto.
+ En toch gaan we zo onachtzaam mee om.
+\end_layout
+
+\begin_layout Standard
+Binnen de landbouw is het duidelijk dat de nood aan water op het veld juist
+ moet zijn.
+ Maar hoeveel wordt er ook rekening gehouden met de impact van de landbouw
+ buiten het veld? Bijvoorbeeld de vervuiling van waterlopen of het zakken
+ van het grondwaterniveau kan veroorzaakt worden door een teveel gebruik
+ binnen de landbouw.
+\end_layout
+
+\begin_layout Standard
+De water kosten worden eerder bekeken vanuit een standpunt van schaarste
+ van landbouw.
+ Een teveel aan water kan ook problemen veroorzaken zoals erosie.
+ Deze worden echter als andere kosten beschouwd.
+\end_layout
+
+\begin_layout Section
+Water in alle kleuren van de regenboog
+\end_layout
+
+\begin_layout Standard
+Blauw water, groen water? Grijs water, zwart water? Zwaar water, licht water?
+ Wat is dat allemaal?
+\end_layout
+
+\begin_layout Standard
+De helft hiervan zijn concepten die gebruikt worden bij het bekijken van
+ de watervoetafdruk.
+ De watervoetafdruk is een concept analoog aan de ecologische voetafdruk,
+ de koolstof voetafdruk,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 15"
+key "hoekstra2002"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Nu is niet elk soort water dat gebruikt wordt gelijkwaardig.
+ Het is belangrijk hier onderscheid in te maken om enerzijds een volledig
+ beeld te krijgen op de impact van de mensheid op de watercyclus en anderzijds
+ omdat je anders absurde getallen krijgt.
+\end_layout
+
+\begin_layout Standard
+Blauw water en groen water zijn in 1995 geïntroduceerd door Malin Falkenmark
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "falkenmark1995"
+literal "false"
+
+\end_inset
+
+.
+ Grijs water is later als concept geïntroduceerd door Chapagain in 2006,
+ toen nog verdunningswater genoemd
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chapagain2006"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Een goede introductie vind je in paragraaf 3.1 van 
+\begin_inset Quotes pld
+\end_inset
+
+The Water Footprint Manual
+\begin_inset Quotes prd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hoekstra2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Blauw water
+\end_layout
+
+\begin_layout Standard
+Blauw water is simpel gezegd stromend water.
+ Het is het vloeibare water in rivieren en onder de grond (aquifer).
+\end_layout
+
+\begin_layout Standard
+De blauwe watervoetafdruk is het gebruik hiervan door de mens.
+ Denk hierbij aan drinkwater, douches, irrigatie,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Het verbruik van blauw water was recentelijk nog de voornaamste focus rond
+ de water verbruik.
+\end_layout
+
+\begin_layout Subsection
+Groen water
+\end_layout
+
+\begin_layout Standard
+Het is pas eind jaren '90, begin deze eeuw dat men ook is beginnen realiseren
+ dat het water in de onverzadigde laag van de bodem, dat door planten gebruikt
+ kan worden, ook een belangrijke factor kan spelen in de totale waterhuishouding.
+ Dit water wordt groen water genoemd.
+ 
+\end_layout
+
+\begin_layout Standard
+De groene watervoetafdruk is het deel van het groene water dat gebruikt
+ wordt.
+ Het merendeel verdampt via transpiratie van de planten of evaporatie van
+ de bodem (tezamen ook evapotranspiratie genoemd).
+ Een klein deel ervan wordt gebruikt door de plant om te groeien en te bloeien.
+\end_layout
+
+\begin_layout Subsection
+De watercyclus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/watercyclus.gif
+	lyxscale 10
+	width 70col%
+	groupId leach
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:watercyclus"
+
+\end_inset
+
+Een deel van de watercyclus (uit
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rockstorm1999"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Deel van de watercyclus.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:watercyclus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is een deel van de watercyclus schematisch weergegeven.
+ Er komt water een systeem binnen via regen en oppervlaktewater (bv.
+ afvloeiing of stroompjes).
+ Dit water gaat ofwel verder via afvloeiing (blauw water) ofwel verdampt
+ het direct (groen water) ofwel dringt het in de bodem.
+\end_layout
+
+\begin_layout Standard
+Het water in de bodem kan opgenomen worden door planten en verdampen (groen
+ water).
+ Het kan ook dieper doordringen om zo het vloeibare grondwater (blauw water)
+ aan te vullen.
+\end_layout
+
+\begin_layout Standard
+Zeker in droge klimaten is er een uitwisseling tussen het groene en het
+ blauwe water.
+ Als er meer water verdampt door bijvoorbeeld transpiratie van planten,
+ dan is er minder water dat kan doordringen tot de aquifer.
+ Het is inderdaad al een aantal keer voorgekomen dat door het planten van
+ een bos, er stroomafwaarts minder water beschikbaar was.
+\end_layout
+
+\begin_layout Standard
+Omgekeerd is het ook zo dat door de verdamping van water, windafwaarts meer
+ neerslag kan ontstaan wat het blauwe water juist kan aanvullen.
+ Denk bijvoorbeeld aan de successen die John D.
+ Liu gefilmd heeft of het werk van Geoff Lawton.
+\end_layout
+
+\begin_layout Standard
+Bij irrigatie (blauw water) verdampt een deel van het water en 
+\begin_inset Quotes pld
+\end_inset
+
+wordt
+\begin_inset Quotes prd
+\end_inset
+
+ het groen water.
+\end_layout
+
+\begin_layout Standard
+Je merkt het dus, het is allemaal niet zo eenduidig.
+\end_layout
+
+\begin_layout Subsection
+Grijs water
+\end_layout
+
+\begin_layout Standard
+Grijs water is bedoeld om de mate van vervuiling aan te geven.
+ Het komt niet direct overeen met fysisch water in tegenstelling tot blauw
+ en groen water.
+\end_layout
+
+\begin_layout Standard
+Laten we de definitie ervan zo eenvoudig mogelijk houden: grijs water is
+ de hoeveelheid water die nodig is om vervuiling onder de aanvaardbare norm
+ te krijgen.
+\end_layout
+
+\begin_layout Standard
+Een voorbeeld.
+ Stel 5 liter water voor.
+ Hierin zit 2% van een giftige stof.
+ De aanvaardbare norm is echter maar 0,2% van die stof.
+ Om de verdunning dan 10 keer kleiner te krijgen, moet het totaal volume
+ aan water 50 liter worden.
+ We zouden dus 45 liter water moeten toevoegen om de vervuiling onder de
+ norm te krijgen.
+ Die 45 virtuele liters is de waarde van het grijs water.
+\end_layout
+
+\begin_layout Subsection
+Zwart water, zwaar water en licht water
+\end_layout
+
+\begin_layout Standard
+Deze termen hebben niets met waterhuishouding te maken.
+ Ze klinken wel goed, niet?
+\end_layout
+
+\begin_layout Standard
+Voor de liefhebbers:
+\end_layout
+
 \begin_layout Itemize
-water
+zwart water is water vervuild met ontlasting uit toiletten.
+\end_layout
+
+\begin_layout Itemize
+zwaar water en licht water zijn termen uit de kernfysica.
+\end_layout
+
+\begin_layout Standard
+Weet je nog dat op pagina
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "15000_l_water"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ de stelling geponeerd was dat er 15.000
+\begin_inset space ~
+\end_inset
+
+l water nodig is voor 1 kg rundvlees? Dat kun je bijvoorbeeld terugvinden
+ op vlees.nl
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.vlees.nl/themas/milieu-techniek/footprint-water/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Voor een tweejarige koe komt dat neer op zo'n 10
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+l per dag.
+ Een koe drinkt toch lang niet zoveel
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dat is ook de grote teneur van mensen die de watervoetafdruk beschouwen
+ als volksverlakkerij om een ecologische dictatuur door ons strot te duwen.
+\end_layout
+
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+Nu blijkt dat hiervan het overgrote merendeel groen water is omdat koe
+\begin_inset space ~
+\end_inset
+
+42 lange tijd blij op de wei mag grazen.
+ Zolang zij dat doet, wordt de transpiratie van het gras meegerekend bij
+ de groene watervoetafdruk.
+\end_layout
+
+\begin_layout Standard
+Je kunt je dan afvragen of die groene watervoetafdruk erg is.
+ Dat is een zeer goede vraag.
+ Zolang er genoeg regenval is, lijkt me de groene watervoetafdruk niet belangrij
+k.
+ Het is maar als er te weinig neerslag is, dat ofwel oogsten gaan mislukken
+ ofwel er een veel grotere vraag komt op beschikbaar water.
+ Dan wordt de verdamping en evaporatie van water wel belangrijk.
+\end_layout
+
+\begin_layout Standard
+Voor blauw en grijs water is er meer consensus dat de watervoetafdruk een
+ rol speelt in de duurzaamheid.
+\end_layout
+
+\begin_layout Subsection
+\SpecialChar ldots
+ en noten hebben een probleem
+\end_layout
+
+\begin_layout Standard
+Nemen we de waarden gevonden op vlees.nl en zetten we voor de verschillende
+ producten de blauwe en grijze watervoetafdruk uit (figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Blauwe-en-grijze-watervoetafdruk"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), dan krijgen we een verrassend resultaat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/eosta - blauw-grijs watervoetafdruk.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Blauwe-en-grijze-watervoetafdruk"
+
+\end_inset
+
+Blauwe versus grijze watervoetafdruk voor verschillende landbouwproducten
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Blauwe versus grijze watervoetafdruk
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Je merkt dat, zonder rekening te houden met de groene watervoetafdruk, dierlijke
+ producten over het algemeen minder goed scoren dan plantaardige.
+\end_layout
+
+\begin_layout Standard
+De grote verrassing zijn echter noten.
+ Je ziet ze daar helemaal rechtsboven (de 
+\begin_inset Quotes pld
+\end_inset
+
+slechte
+\begin_inset Quotes prd
+\end_inset
+
+ hoek) staan.
+ Dit komt vooral door irrigatie en gewasbeschermingsmiddelen.
+ Men beweert dat 1
+\begin_inset space ~
+\end_inset
+
+amandelnoot overeen komt met 10
+\begin_inset space ~
+\end_inset
+
+liter water! En dat blijkt in onderzoek niet ver van de waarheid te zijn,
+ vooral bij droge jaren in Californië (waar een belangrijk deel van de amandelno
+ten geteeld worden).
+\end_layout
+
+\begin_layout Section
+Mijn probleem met al die kleuren aan water
+\end_layout
+
+\begin_layout Standard
+Op het eerste zicht is de opsplitsing in verschillende vormen van watergebruik
+ een goede zaak.
+ Het geeft meer nuance in het debat.
+ Maar ik heb toch een aantal problemen met de manier waarmee hier omgegaan
+ wordt
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ook binnen de wetenschappelijke is er kritiek op deze benadering.
+ Een deel van deze kritiek en het weerleggen ervan kan je terugvinden op
+ de website van het 
+\lang english
+Water Foodprint Network
+\lang dutch
+ en in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haie2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+De watervoetafdruk is te simplistisch
+\end_layout
+
+\begin_layout Standard
+Dit is omdat je één getal neemt waar alles gelijkwaardig opgeteld wordt.
+ Een liter blauw water wordt dus gelijk gesteld aan een liter grijs water.
+ Net zoals de voorstanders van de watervoetafdruk ben ik voorstander om
+ de verschillende kleuren water altijd expliciet te benoemen.
+ Het is echter menselijk om dit te willen samenvoegen onder één waarde,
+ waarbij de (belangrijke) nuance verloren gaat.
+\end_layout
+
+\begin_layout Standard
+Waarom doen zelfs de voorstanders van de watervoetafdruk dus ook? Hoewel
+ ze niet zeggen waarom ze opeens de nuance achter zich laten, rechtvaardigen
+ ze de 1-op-1 optelling door te stellen dat het werken met gewichten een
+ subjectieve beoordeling geeft van de kleuren aan water.
+ Dit vind ik een rare redenering want impliciet gebruiken ze een subjectieve
+ beoordeling waarbij alle vormen van watergebruik gelijk beschouwd worden.
+\end_layout
+
+\begin_layout Subsection
+Grijs water heeft geen werkelijke waarde
+\end_layout
+
+\begin_layout Standard
+Zoals je bij de definitie van grijs water gezien hebt, hangt deze waarde
+ af van de wettelijke normen.
+ Deze normen veranderen in de tijd (van geen normen tot meer of minder strenge
+ normen).
+ Dus meen verandering van de wet, zal het waterverbruik van voedingstoffen
+ zogezegd verhogen of verlagen.
+\end_layout
+
+\begin_layout Standard
+Dat wil dus zeggen dat bijvoorbeeld de noten van hierboven, waar de grijze
+ watervoetafdruk relatief hoog is, opeens een andere watervoetafdruk kunnen
+ hebben afhankelijk van de wetgeving.
+ Dat zonder dat de werkelijkheid of de reële impact anders is!
+\end_layout
+
+\begin_layout Subsection
+Een hoge groene watervoetafdruk is niet altijd slecht
+\end_layout
+
+\begin_layout Standard
+In de watercyclus is de grote watercyclus goed bekend.
+ Dit is de cyclus waarbij er water verdampt in de zee, als wolken over het
+ land gaat, neerslaat en dan terug naar de zee stroomt.
+\end_layout
+
+\begin_layout Standard
+Tijdens de loop van het leertraject hebben we ook geleerd over de kleine
+ watercyclus.
+ Hierbij verdampen bossen water wat ervoor zorgt dat er verder weg terug
+ water kan neerslaan.
+ Als je deze kleine watercyclus doorbreekt, dan is er een verhoogde kans
+ op woestijnvorming landinwaarts.
+\end_layout
+
+\begin_layout Standard
+Het is het herstellen va de kleine watercyclus die de successen verklaart
+ op verschillende plaatsen in de wereld waar met terug bomen aangeplant
+ heeft wat geleid heeft tot het herstel van rivieren en stroompjes.
+\end_layout
+
+\begin_layout Standard
+Hier in Vlaanderen kent men ook het gebruik van bomen om velden droger te
+ maken.
+ Dit is iets wat we in de toekomst waarschijnlijk anders moeten aanpakken.
+\end_layout
+
+\begin_layout Standard
+In beide voorbeelden is er een hoge groen watervoetafdruk.
+ In het ene geval wordt de watervoorraad op een indirecte manier aangevuld.
+ In het andere wordt de grondwaterstand verlaagd.
+ Het is dus duidelijk dat de gevolgen van een hoge groene watervoetafdruk
+ niet eenduidig zijn.
+\end_layout
+
+\begin_layout Subsection
+Focussen op de watervoetafdruk kan onnatuurlijke systemen promoten
+\end_layout
+
+\begin_layout Standard
+Bij het vergelijken van de watervoetafdruk van verschillende landbouwsystemen
+ in de veehouderij, viel het op dat voor runderen industriële systemen een
+ lagere watervoetafdruk hebben dan systemen waar de koeien vrij mogen grazen.
+\end_layout
+
+\begin_layout Standard
+Dit heeft te maken met volgende factoren
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gerbens2013"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+koeien zijn nogal inefficiënt in het omzetten van voeding in vlees.
+\end_layout
+
+\begin_layout Itemize
+in een industrieel systeem wordt voeding efficiënter omgezet in vlees.
+ Dit door volgende factoren:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-grijs - groen - blauw
+de dieren zijn geselecteerd op een efficiënte omzetting van voeding in vlees.
 \end_layout
 
 \begin_layout Itemize
-koe
+de dieren hebben minder beweging waardoor ze sneller groeien bij een gelijke
+ hoeveelheid voeding.
 \end_layout
 
 \begin_layout Itemize
-amandel
+de dieren worden bijgevolg op jongere leeftijd geslacht waardoor ze minder
+ lang voeding nodig hebben.
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+in een industrieel systeem wordt meer krachtvoer gebruikt.
+ Krachtvoer vraag per kg droog gewicht wel meer water.
+ Dit kan verminderen door gebruik van schroot en andere reststromen.
+\end_layout
+
+\begin_layout Standard
+Als je alle factoren in rekening brengt, komen industriële systemen er beter
+ uit dan vrije begrazing.
+ Dat leidt er dus toe dat de watervoetafdruk van industriële veehouderij
+ beter is.
+\end_layout
+
+\begin_layout Standard
+Bij groenteteelt kunnen we gelijkaardige berekeningen maken en zien dat
+ een systeem zoals 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Vertical Farming
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ weinig extern water nodig heeft omdat er veel gerecycleerd wordt.
+\end_layout
+
+\begin_layout Standard
+Je merkt dus dat hoe verder van natuurlijke processen gegaan wordt, hoe
+ beter de watervoetafdruk lijkt te worden.
+ In hoeverre wordt de impact van het systeem zelf (bijvoorbeeld beton, aanmaak
+ van recyclagezouten, productie van elektronica,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) echter meegenomen? Als dit niet gedaan wordt, dan wordt de vergelijking
+ scheef getrokken!
+\end_layout
+
+\begin_layout Section
+Wat zou een betere manier zijn om de kosten rond water in rekening te brengen?
+\end_layout
+
+\begin_layout Standard
+Het systeem om het verschillende gebruik van water zichtbaar te maken, is
+ volgens mij een goede zaak.
+ Om de hierboven aangehaalde problemen te verminderen, kunnen een aantal
+ aanpassingen gedaan worden.
+ Deze zijn zeker niet volledig maar kunnen een aanzet geven tot verbeteringen.
+\end_layout
+
+\begin_layout Itemize
+Bepaal de groene watervoetafdruk aan de hand van de overschot die het systeem
+ heeft.
+ Als een systeem een overschot aan water heeft, is de evapotranspiratie
+ minder een probleem.
+ Bij een gebrek aan water in het systeem, willen we echter zoveel mogelijk
+ water in de grond opslaan.
+\begin_inset Newline newline
+\end_inset
+
+Het probleem is dus niet zozeer de evapotranspiratie zelf, maar hoe goed
+ het systeem met water omgaat.
+ Hoeveel verharding is er? Wordt de kleine watercyclus onderhouden?
+\end_layout
+
+\begin_layout Itemize
+Bereken de grijze watervoetafdruk niet op basis van wettelijke normen maar
+ op basis van de hoeveelheid water die nodig is om de vervuiling weg te
+ werken.
+\begin_inset Newline newline
+\end_inset
+
+In de loop van de tijd is gemerkt dat de natuur vele soorten vervuiling
+ kan wegwerken, als dan niet met de hulp van de mens.
+ Hoeveel water hiervoor nodig is (bijvoorbeeld voor het kweken van olie
+ etende bacteriën) lijkt me een stabielere indicator van de grijze watervoetafdr
+uk die meer in de realiteit gestoeld is.
+\begin_inset Newline newline
+\end_inset
+
+Voordeel is dan meteen dat het gebruik van stoffen die niet afgebroken kunnen
+ worden meteen een onoverkomelijke impact hebben.
+\end_layout
+
+\begin_layout Itemize
+Met bovenstaande verandering zal de neiging om de soorten van waterverbruik
+ simpelweg op te tellen al veel kleiner worden.
+ Dit zal de nuance in het debat behouden.
+\end_layout
+
+\begin_layout Itemize
+Tel al het waterverbruik mee, ook wat indirect verbruikt wordt.
+\end_layout
+
+\begin_layout Chapter
+Landgebruik
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
 \begin_layout Itemize
 landgebruik
 \end_layout
@@ -6569,803 +7460,6 @@ Meestal wordt enkel de energie nodig voor de winning genomen om de EROEI
  te bepalen.
  In dat geval is minimaal een EROEI groter dan 3:1 tot 5:1 nodig om op het
  einde van de rit toch nuttige energie over te houden.
-\end_layout
-
-\begin_layout Section
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Water-blauw-groen-grijs-zwart"
-
-\end_inset
-
-Water in alle kleuren van de regenboog
-\end_layout
-
-\begin_layout Standard
-Blauw water, groen water? Grijs water, zwart water? Zwaar water, licht water?
- Wat is dat allemaal?
-\end_layout
-
-\begin_layout Standard
-De helft hiervan zijn concepten die gebruikt worden bij het bekijken van
- de watervoetafdruk.
- De watervoetafdruk is een concept analoog aan de ecologische voetafdruk,
- de koolstof voetafdruk,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 15"
-key "hoekstra2002"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Nu is niet elk soort water dat gebruikt wordt gelijkwaardig.
- Het is belangrijk hier onderscheid in te maken om enerzijds een volledig
- beeld te krijgen op de impact van de mensheid op de watercyclus en anderzijds
- omdat je anders absurde getallen krijgt.
-\end_layout
-
-\begin_layout Standard
-Blauw water en groen water zijn in 1995 geïntroduceerd door Malin Falkenmark
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "falkenmark1995"
-literal "false"
-
-\end_inset
-
-.
- Grijs water is later als concept geïntroduceerd door Chapagain in 2006,
- toen nog verdunningswater genoemd
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Chapagain2006"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Een goede introductie vind je in paragraaf 3.1 van 
-\begin_inset Quotes pld
-\end_inset
-
-The Water Footprint Manual
-\begin_inset Quotes prd
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "hoekstra2011"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-Blauw water
-\end_layout
-
-\begin_layout Standard
-Blauw water is simpel gezegd stromend water.
- Het is het vloeibare water in rivieren en onder de grond (aquifer).
-\end_layout
-
-\begin_layout Standard
-De blauwe watervoetafdruk is het gebruik hiervan door de mens.
- Denk hierbij aan drinkwater, douches, irrigatie,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Het verbruik van blauw water was recentelijk nog de voornaamste focus rond
- de water verbruik.
-\end_layout
-
-\begin_layout Subsection
-Groen water
-\end_layout
-
-\begin_layout Standard
-Het is pas eind jaren '90, begin deze eeuw dat men ook is beginnen realiseren
- dat het water in de onverzadigde laag van de bodem, dat door planten gebruikt
- kan worden, ook een belangrijke factor kan spelen in de totale waterhuishouding.
- Dit water wordt groen water genoemd.
- 
-\end_layout
-
-\begin_layout Standard
-De groene watervoetafdruk is het deel van het groene water dat gebruikt
- wordt.
- Het merendeel verdampt via transpiratie van de planten of evaporatie van
- de bodem (tezamen ook evapotranspiratie genoemd).
- Een klein deel ervan wordt gebruikt door de plant om te groeien en te bloeien.
-\end_layout
-
-\begin_layout Subsection
-De watercyclus
-\end_layout
-
-\begin_layout Standard
-In figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:watercyclus"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- is een deel van de watercyclus schematisch weergegeven.
- Er komt water een systeem binnen via regen en oppervlaktewater (bv.
- afvloeiing of stroompjes).
- Dit water gaat ofwel verder via afvloeiing (blauw water) ofwel verdampt
- het direct (groen water) ofwel dringt het in de bodem.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/figuren/watercyclus.gif
-	lyxscale 10
-	width 70col%
-	groupId leach
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:watercyclus"
-
-\end_inset
-
-Een deel van de watercyclus (uit
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "rockstorm1999"
-literal "false"
-
-\end_inset
-
-)
-\begin_inset Argument 1
-status collapsed
-
-\begin_layout Plain Layout
-Deel van de watercyclus.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Het water in de bodem kan opgenomen worden door planten en verdampen (groen
- water).
- Het kan ook dieper doordringen om zo het vloeibare grondwater (blauw water)
- aan te vullen.
-\end_layout
-
-\begin_layout Standard
-Zeker in droge klimaten is er een uitwisseling tussen het groene en het
- blauwe water.
- Als er meer water verdampt door bijvoorbeeld transpiratie van planten,
- dan is er minder water dat kan doordringen tot de aquifer.
- Het is inderdaad al een aantal keer voorgekomen dat door het planten van
- een bos, er stroomafwaarts minder water beschikbaar was.
-\end_layout
-
-\begin_layout Standard
-Omgekeerd is het ook zo dat door de verdamping van water, windafwaarts meer
- neerslag kan ontstaan wat het blauwe water juist kan aanvullen.
- Denk bijvoorbeeld aan de successen die John D.
- Liu gefilmd heeft of het werk van Geoff Lawton.
-\end_layout
-
-\begin_layout Standard
-Bij irrigatie (blauw water) verdampt een deel van het water en 
-\begin_inset Quotes pld
-\end_inset
-
-wordt
-\begin_inset Quotes prd
-\end_inset
-
- het groen water.
-\end_layout
-
-\begin_layout Standard
-Je merkt het dus, het is allemaal niet zo eenduidig.
-\end_layout
-
-\begin_layout Subsection
-Grijs water
-\end_layout
-
-\begin_layout Standard
-Grijs water is bedoeld om de mate van vervuiling aan te geven.
- Het komt niet direct overeen met fysisch water in tegenstelling tot blauw
- en groen water.
-\end_layout
-
-\begin_layout Standard
-Laten we de definitie ervan zo eenvoudig mogelijk houden: grijs water is
- de hoeveelheid water die nodig is om vervuiling onder de aanvaardbare norm
- te krijgen
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Dus als de norm aangepast wordt, dan zal de hoeveelheid grijs water ook
- veranderen.
- Vandaar dat dit enkel een mate van vervuiling kan geven en het moeilijk
- is om een liter grijs water zomaar op te tellen bij een liter blauw water.
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Een voorbeeld.
- Stel 5 liter water voor.
- Hierin zit 2% van een giftige stof.
- De aanvaardbare norm is echter maar 0,2% van die stof.
- Om de verdunning dan 10 keer kleiner te krijgen, moet het totaal volume
- aan water 50 liter worden.
- We zouden dus 45 liter water moeten toevoegen om de vervuiling onder de
- norm te krijgen.
- Die 45 virtuele liters is de waarde van het grijs water.
-\end_layout
-
-\begin_layout Subsection
-Zwart water, zwaar water en licht water
-\end_layout
-
-\begin_layout Standard
-Deze termen hebben niets met waterhuishouding te maken.
- Ze klinken wel goed, niet?
-\end_layout
-
-\begin_layout Standard
-Voor de liefhebbers:
-\end_layout
-
-\begin_layout Itemize
-zwart water is water vervuild met ontlasting uit toiletten.
-\end_layout
-
-\begin_layout Itemize
-zwaar water en licht water zijn termen uit de kernfysica.
-\end_layout
-
-\begin_layout Subsection
-Koe 42 heeft dorst
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\end_layout
-
-\begin_layout Standard
-Weet je nog dat op pagina
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "15000_l_water"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- de stelling geponeerd was dat er 15.000
-\begin_inset space ~
-\end_inset
-
-l water nodig is voor 1 kg rundvlees? Dat kun je bijvoorbeeld terugvinden
- op vlees.nl
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{https://www.vlees.nl/themas/milieu-techniek/footprint-water/}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-.
- Voor een tweejarige koe komt dat neer op zo'n 10
-\begin_inset space \thinspace{}
-\end_inset
-
-000
-\begin_inset space ~
-\end_inset
-
-l per dag.
- Een koe drinkt toch lang niet zoveel
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Dat is ook de grote teneur van mensen die de watervoetafdruk beschouwen
- als volksverlakkerij om een ecologische dictatuur door ons strot te duwen.
-\end_layout
-
-\end_inset
-
-!
-\end_layout
-
-\begin_layout Standard
-Nu blijkt dat hiervan het overgrote merendeel groen water is omdat koe
-\begin_inset space ~
-\end_inset
-
-42 lange tijd blij op de wei mag grazen.
- Zolang zij dat doet, wordt de transpiratie van het gras meegerekend bij
- de groene watervoetafdruk.
-\end_layout
-
-\begin_layout Standard
-Je kunt je dan afvragen of die groene watervoetafdruk erg is.
- Dat is een zeer goede vraag.
- Zolang er genoeg regenval is, lijkt me de groene watervoetafdruk niet belangrij
-k.
- Het is maar als er te weinig neerslag is, dat ofwel oogsten gaan mislukken
- ofwel er een veel grotere vraag komt op beschikbaar water.
- Dan wordt de verdamping en evaporatie van water wel belangrijk.
-\end_layout
-
-\begin_layout Standard
-Voor blauw en grijs water is er meer consensus dat de watervoetafdruk een
- rol speelt in de duurzaamheid.
-\end_layout
-
-\begin_layout Subsection
-\SpecialChar ldots
- en noten hebben een probleem
-\end_layout
-
-\begin_layout Standard
-Nemen we de waarden gevonden op vlees.nl en zetten we voor de verschillende
- producten de blauwe en grijze watervoetafdruk uit (figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Blauwe-en-grijze-watervoetafdruk"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), dan krijgen we een verrassend resultaat.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/grafieken/eosta - blauw-grijs watervoetafdruk.svg
-	width 100text%
-	groupId grafieken
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Blauwe-en-grijze-watervoetafdruk"
-
-\end_inset
-
-Blauwe versus grijze watervoetafdruk voor verschillende landbouwproducten
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Blauwe versus grijze watervoetafdruk
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Je merkt dat, zonder rekening te houden met de groene watervoetafdruk, dierlijke
- producten over het algemeen minder goed scoren dan plantaardige.
-\end_layout
-
-\begin_layout Standard
-De grote verrassing zijn echter noten.
- Je ziet ze daar helemaal rechtsboven (de 
-\begin_inset Quotes pld
-\end_inset
-
-slechte
-\begin_inset Quotes prd
-\end_inset
-
- hoek) staan.
- Dit komt vooral door irrigatie en gewasbeschermingsmiddelen.
- Men beweert dat 1
-\begin_inset space ~
-\end_inset
-
-amandelnoot overeen komt met 10
-\begin_inset space ~
-\end_inset
-
-liter water! En dat blijkt in onderzoek niet ver van de waarheid te zijn,
- vooral bij droge jaren in Californië (waar een belangrijk deel van de amandelno
-ten geteeld worden).
-\end_layout
-
-\begin_layout Subsection
-Kritiek en bedenkingen rond de watervoetafdruk
-\end_layout
-
-\begin_layout Standard
-Er is op het concept en gebruik van de watervoetafdruk redelijk wat kritiek
- gekomen, ook uit wetenschappelijke wereld.
- Zelf heb ik erbovenop ook wel een aantal bedenkingen.
- Een deel van deze kritiek en het weerleggen ervan kan je terugvinden op
- de website van het 
-\lang english
-Water Foodprint Network
-\lang dutch
-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{https://waterfootprint.org/en/water-footprint/frequently-asked-questions/}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- en in 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "haie2018"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsubsection
-De watervoetafdruk is te simplistisch
-\end_layout
-
-\begin_layout Standard
-Dit is omdat je één getal neemt waar alles gelijkwaardig opgeteld wordt.
-\end_layout
-
-\begin_layout Standard
-De weerlegging van die kritiek komt neer op het volgende:
-\end_layout
-
-\begin_layout Itemize
-je mag niet één getal nemen.
- De watervoetafdruk is een, pas op – dure woorden, multidimensionale indicator
- van watergebruik.
-\end_layout
-
-\begin_layout Itemize
-je mag de verschillende types van water geen apart gewicht geven.
- Als je werkt met gewichten breng je subjectieve elementen aan die in een
- andere context heel anders kunnen uitvallen.
-\end_layout
-
-\begin_layout Standard
-Voor het laatste heb ik toch mijn wenkbrauwen gefronst.
- Impliciet doen ze ook een subjectieve beoordeling van de belangrijkheid
- van de verschillende kleuren water: alles is gelijk.
- 
-\begin_inset Quotes pld
-\end_inset
-
-Schoonheid van de benadering
-\begin_inset Quotes prd
-\end_inset
-
- is dan hun enige argument om dat te rechtvaardigen wat me juist zeer subjectief
- lijkt.
-\end_layout
-
-\begin_layout Standard
-Zoals reeds aangehaald, is het belang van de groene watervoetafdruk afhankelijk
- van je situatie.
- Als er meer dan genoeg neerslag valt, dan speelt die niet echt een rol.
- Als er te weinig neerslag is, dan wordt dit plots wel belangrijk.
-\end_layout
-
-\begin_layout Standard
-Ik ben het dus eens dat je niet een getal mag nemen en eigenlijk het 
-\begin_inset Quotes pld
-\end_inset
-
-multidimensionale
-\begin_inset Quotes prd
-\end_inset
-
- karakter van de watervoetafdruk moet respecteren.
- Spijtig genoeg wordt hier zelfs door het Water Foodprint Network en voorstander
-s tegen gezondigd.
-\end_layout
-
-\begin_layout Subsubsection
-De watervoetafdruk vertelt niets over de duurzaamheid van een product
-\end_layout
-
-\begin_layout Standard
-Je merkt dat de watervoetafdruk te kust en te keur gebruikt wordt om producten
- met elkaar te vergelijken.
- 
-\begin_inset Quotes pld
-\end_inset
-
-Jou vleesburger heeft een grotere watervoetafdruk dan mijn notenburger.
- Foei toch, hoe durf je het milieu zo te belasten.
-\begin_inset Quotes prd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Het tegenargument is dat de watervoetafdruk maar een (multidimensionaal)
- getal is.
- Het probleem zit hem niet in de waarde van dat getal, maar welke waarde
- de persoon eraan hecht.
-\end_layout
-
-\begin_layout Standard
-Persoonlijk vind ik dit maar een gebrekkig tegenargument.
- De realiteit is dat de geest uit de fles is.
- Overal wordt gekeken hoe we onze voetafdrukken (dus ook die van water)
- kunnen verkleinen.
-\end_layout
-
-\begin_layout Standard
-In plaats van je dan in een ivoren toren op te sluiten, zou het niet moediger
- zijn om de realiteit te aanvaarden en te zoeken naar een manier om het
- probleem zuiverder voor te stellen?
-\end_layout
-
-\begin_layout Standard
-Een aanzet wordt al gegeven door niet de kijken naar de waarde van de watervoeta
-fdruk van de verschillende kleuren water, maar hoeveel druk dat zet op de
- beschikbare hoeveelheden.
- Bijvoorbeeld, zorgt de landbouw ervoor dat er meer water verdampt dan aangevuld
- wordt door regen? Pompen we meer water uit de grond dan er aangevuld kan
- worden?
-\end_layout
-
-\begin_layout Subsubsection
-Focussen op de watervoetafdruk kan onnatuurlijke systemen promoten
-\end_layout
-
-\begin_layout Standard
-Bij het vergelijken van de watervoetafdruk van verschillende landbouwsystemen
- in de veehouderij, viel het op dat voor runderen industriële systemen een
- lagere watervoetafdruk hebben dan systemen waar de koeien vrij mogen grazen.
-\end_layout
-
-\begin_layout Standard
-Dit heeft te maken met volgende factoren
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "gerbens2013"
-literal "false"
-
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Itemize
-koeien zijn nogal inefficiënte in het omzetten van voeding in vlees.
-\end_layout
-
-\begin_layout Itemize
-in een industrieel systeem wordt voeding efficiënter omgezet in vlees.
- Dit door volgende factoren:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-de dieren zijn geselecteerd op een efficiënte omzetting van voeding in vlees.
-\end_layout
-
-\begin_layout Itemize
-de dieren hebben minder beweging waardoor ze sneller groeien bij een gelijke
- hoeveelheid voeding.
-\end_layout
-
-\begin_layout Itemize
-de dieren worden bijgevolg op jongere leeftijd geslacht waardoor ze minder
- lang voeding nodig hebben.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-in een industrieel systeem wordt meer krachtvoer gebruikt.
- Krachtvoer vraag per kg droog gewicht wel meer water.
- Dit kan verminderen door gebruik van schroot en andere reststromen.
-\end_layout
-
-\begin_layout Standard
-Als je alle factoren in rekening brengt, komen industriële systemen er beter
- uit dan vrije begrazing.
- Dat leidt er dus toe dat de watervoetafdruk van industriële veehouderij
- beter is.
-\end_layout
-
-\begin_layout Standard
-Bij groenteteelt kunnen we gelijkaardige berekeningen maken en zien dat
- een systeem zoals 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Vertical Farming
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
- weinig extern water nodig heeft omdat er veel gerecycleerd wordt.
-\end_layout
-
-\begin_layout Standard
-Je merkt dus dat hoe verder van natuurlijke processen gegaan wordt, hoe
- beter de watervoetafdruk wordt.
- Als student van een bio-dynamische landbouwopleiding heb ik hier bedenkingen
- bij.
-\end_layout
-
-\begin_layout Standard
-Nog een laatste opmerking: in hoeverre wordt de impact van het systeem zelf
- (bijvoorbeeld beton, aanmaak van recyclagezouten, productie van elektronica,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-) meegenomen? Als dit niet gedaan wordt, dan wordt de vergelijking scheef
- getrokken!
 \end_layout
 
 \begin_layout Chapter
