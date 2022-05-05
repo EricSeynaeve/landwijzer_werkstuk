@@ -16,13 +16,20 @@ Daarna moet je nog volgende LaTeX pakketten installeren:
 
 * Nederlandse spelling & afbreekregels
 * Franse spelling
+* wrapfig
+* multirow
+* mhchem
 * tocbibind
 * qrcode
-* prettyref
+
+Op Fedora Linux is dit te installeren via volgend commando:
+```
+yum install lyx texlive-babel-dutch texlive-babel-french texlive-hyphen-dutch texlive-wrapfig texlive-multirow texlive-mhchem texlive-tocbibind texlive-qrcode
+```
 
 Ook gebruikt het document volgende LyX module:
 
-* longtablepage
+* [longtablepage](https://wiki.lyx.org/Layouts/Modules#toc4)
 
 (als ik er een aantal gemist heb omdat die bij mij standaard geïnstalleerd zijn, laat het maar weten in de issues op github.)
 
