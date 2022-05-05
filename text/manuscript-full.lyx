@@ -17635,7 +17635,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ondersteunende_documenten/figuren/maatschappelijke_kosten_wordcloud.svg
+	filename ondersteunende_documenten/figuren/wordcloud_kosten.svg
 	width 100text%
 	groupId grafieken
 
@@ -17651,7 +17651,7 @@ name "fig:kosten-wordcloud"
 
 \end_inset
 
-Overzicht maatschappelijke kosten
+Overzicht kosten
 \end_layout
 
 \end_inset

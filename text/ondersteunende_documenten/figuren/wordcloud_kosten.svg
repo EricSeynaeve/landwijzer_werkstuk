@@ -3,7 +3,7 @@
    width="860.85376"
    height="600"
    version="1.1"
-   id="svg64"
+   id="svg76"
    sodipodi:docname="wordcloud_kosten.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -11,9 +11,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs68" />
+     id="defs80" />
   <sodipodi:namedview
-     id="namedview66"
+     id="namedview78"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -21,15 +21,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="1.4416667"
-     inkscape:cx="400.23121"
-     inkscape:cy="300.34682"
+     inkscape:zoom="0.72083333"
+     inkscape:cx="228.20809"
+     inkscape:cy="296.18497"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="1"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg64" />
+     inkscape:current-layer="svg76" />
   <style
      id="style2">text{font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;}</style>
   <rect
@@ -40,179 +40,216 @@
      x="0"
      y="0" />
   <text
-     font-size="123px"
+     font-size="122px"
      style="fill:#ff8e00"
      id="text6"
-     x="23"
-     y="204">kosten overheid</text>
+     x="35"
+     y="202">kosten overheid</text>
   <text
-     font-size="117px"
+     font-size="116px"
      style="fill:#00ff4b"
      id="text8"
-     x="104"
-     y="491">gezondheid</text>
+     x="36"
+     y="492">gezondheid</text>
   <text
      font-size="68px"
-     style="fill:#1f00ff"
+     style="fill:#ff0000"
      id="text10"
      x="8"
-     y="52">verlies bodemvruchtbaarheid</text>
+     y="362">verlies bodemvruchtbaarheid</text>
   <text
      font-size="68px"
-     style="fill:#a7ff00"
+     style="fill:#bf00ff"
      id="text12"
-     x="14"
-     y="399">biodiversiteit</text>
+     x="109.0289"
+     y="554">biodiversiteit</text>
   <text
-     transform="rotate(-90)"
-     font-size="55px"
-     style="fill:#ff2900"
+     font-size="60px"
+     style="fill:#ff00ac"
      id="text14"
-     x="-399"
-     y="496">arbeid</text>
+     x="261"
+     y="61">veerkracht</text>
   <text
      font-size="55px"
-     style="fill:#ff0c00"
+     style="fill:#0028ff"
      id="text16"
-     x="351"
-     y="548">klimaatverandering</text>
+     x="577"
+     y="52">arbeid</text>
   <text
      font-size="55px"
-     style="fill:#b9ff00"
+     style="fill:#0e00ff"
      id="text18"
-     x="88"
-     y="294">watervervuiling</text>
+     x="114"
+     y="265">klimaatverandering</text>
   <text
-     font-size="55px"
+     font-size="53px"
      style="fill:#00dfff"
      id="text20"
-     x="231"
-     y="96">luchtvervuiling</text>
+     x="216"
+     y="105">watervervuiling</text>
   <text
      font-size="50px"
      style="fill:#00bbff"
      id="text22"
-     x="653"
-     y="464">water</text>
+     x="495"
+     y="554">luchtvervuiling</text>
   <text
-     font-size="50px"
+     font-size="45px"
      style="fill:#b3ff00"
      id="text24"
-     x="631"
-     y="380">bodem</text>
+     x="634"
+     y="434">water</text>
   <text
-     font-size="44px"
+     font-size="45px"
      style="fill:#ff0082"
      id="text26"
-     x="549"
-     y="293">landgebruik</text>
+     x="83"
+     y="91">bodem</text>
   <text
-     font-size="44px"
+     font-size="39px"
      style="fill:#ff0088"
      id="text28"
-     x="67"
-     y="563">geurhinder</text>
+     x="582"
+     y="470">landgebruik</text>
   <text
-     font-size="44px"
+     font-size="39px"
      style="fill:#ff001e"
      id="text30"
-     x="572"
-     y="90">bodemerosie</text>
+     x="112"
+     y="405">geurhinder</text>
   <text
-     font-size="43px"
+     font-size="39px"
      style="fill:#6600ff"
      id="text32"
-     x="131"
-     y="328">waterschaarste</text>
+     x="575.48553"
+     y="240">bodemerosie</text>
   <text
-     font-size="36px"
-     style="fill:#ff0076"
+     font-size="39px"
+     style="fill:#00fff6"
      id="text34"
-     x="512"
-     y="334">energie</text>
-  <text
-     font-size="27px"
-     style="fill:#37ff00"
-     id="text36"
-     x="290"
-     y="123">tonnage</text>
-  <text
-     font-size="27px"
-     style="fill:#fa00f9"
-     id="text38"
-     x="79"
-     y="240">ziekte uitbraken</text>
-  <text
-     font-size="27px"
-     style="fill:#00ffd3"
-     id="text40"
-     x="29"
-     y="96">voedselschandalen</text>
-  <text
-     font-size="27px"
-     style="fill:#00ff74"
-     id="text42"
-     x="381"
-     y="572">verkeersveiligheid</text>
-  <text
-     font-size="27px"
-     style="fill:#ff00c9"
-     id="text44"
-     x="457"
-     y="235">verkeerscongestie</text>
-  <text
-     font-size="27px"
-     style="fill:#ff8200"
-     id="text46"
-     x="632"
-     y="405">geluidsoverlast</text>
-  <text
-     font-size="21px"
-     style="fill:#9b00ff"
-     id="text48"
-     x="31"
-     y="420">(tijdelijke) subsidieregelingen</text>
-  <text
-     font-size="21px"
-     style="fill:#00ff2d"
-     id="text50"
-     x="298"
-     y="233">voedselverspilling</text>
-  <text
-     font-size="21px"
-     style="fill:#ff4100"
-     id="text52"
-     x="368"
-     y="369">natuur</text>
-  <text
-     font-size="21px"
-     style="fill:#0080ff"
-     id="text54"
-     x="12"
-     y="469">vastgoed</text>
-  <text
-     font-size="21px"
-     style="fill:#faf900"
-     id="text56"
-     x="379"
-     y="129">landbouwopbrengsten</text>
-  <text
-     font-size="16px"
-     style="fill:#d1ff00"
-     id="text58"
-     x="92"
-     y="583">maatschappelijke kosten op sociaal gebied</text>
+     x="559.48553"
+     y="301.87283">waterschaarste</text>
   <text
      transform="rotate(-90)"
-     font-size="16px"
-     style="fill:#a2ff00"
-     id="text60"
-     x="-363"
-     y="780">kinderarbeid</text>
+     font-size="32px"
+     style="fill:#e800ff"
+     id="text36"
+     x="-302"
+     y="69">energie</text>
   <text
-     font-size="16px"
+     font-size="24px"
+     style="fill:#55ff00"
+     id="text38"
+     x="679"
+     y="88">tonnage</text>
+  <text
+     font-size="23px"
      style="fill:#fa00f9"
+     id="text40"
+     x="136"
+     y="291">arbeidsongevallen</text>
+  <text
+     font-size="23px"
+     style="fill:#fe00f1"
+     id="text42"
+     x="563"
+     y="386">vergiftiging</text>
+  <text
+     font-size="23px"
+     style="fill:#00ff74"
+     id="text44"
+     x="228"
+     y="578">ammoniak emissies</text>
+  <text
+     font-size="23px"
+     style="fill:#ff00c9"
+     id="text46"
+     x="337"
+     y="299">pesticiden</text>
+  <text
+     font-size="23px"
+     style="fill:#ff8200"
+     id="text48"
+     x="288"
+     y="385">verzuring waterbronnen</text>
+  <text
+     font-size="23px"
+     style="fill:#9b00ff"
+     id="text50"
+     x="140"
+     y="28">winderosie</text>
+  <text
+     font-size="23px"
+     style="fill:#00ff2d"
+     id="text52"
+     x="463"
+     y="579">ziekte uitbraken</text>
+  <text
+     font-size="23px"
+     style="fill:#ff4100"
+     id="text54"
+     x="26"
+     y="579">voedselschandalen</text>
+  <text
+     font-size="20px"
+     style="fill:#0080ff"
+     id="text56"
+     x="599.2948"
+     y="509.09827">verkeersveiligheid</text>
+  <text
+     font-size="20px"
+     style="fill:#b4b400;fill-opacity:1"
+     id="text58"
+     x="245"
+     y="126">verkeerscongestie</text>
+  <text
+     font-size="20px"
+     style="fill:#9000ff"
+     id="text60"
+     x="9"
+     y="22">geluidsoverlast</text>
+  <text
+     font-size="15px"
+     style="fill:#77bb00;fill-opacity:1"
      id="text62"
-     x="601"
-     y="583">slechte werkomstandigheden</text>
+     x="143"
+     y="422">(tijdelijke) subsidieregelingen</text>
+  <text
+     font-size="15px"
+     style="fill:#00ff16"
+     id="text64"
+     x="647"
+     y="577">voedselverspilling</text>
+  <text
+     transform="rotate(-90)"
+     font-size="15px"
+     style="fill:#00ff45"
+     id="text66"
+     x="-50"
+     y="550.74567">natuur</text>
+  <text
+     font-size="15px"
+     style="fill:#ff0071"
+     id="text68"
+     x="10"
+     y="532">vastgoed</text>
+  <text
+     font-size="15px"
+     style="fill:#00f0ff"
+     id="text70"
+     x="70"
+     y="109">landbouwopbrengsten</text>
+  <text
+     transform="rotate(-90)"
+     font-size="15px"
+     style="fill:#ff005f"
+     id="text72"
+     x="-314.87283"
+     y="26.936417">maatschappelijke kosten op sociaal gebied</text>
+  <text
+     font-size="15px"
+     style="fill:#00a4ff"
+     id="text74"
+     x="113"
+     y="131">kinderarbeid</text>
 </svg>

@@ -22,7 +22,7 @@ for line in open(file_in):
         freq[line] = weight_inc
 
 mask=None
-wc = WordCloud(max_words=1000, mask=mask, margin=10, random_state=1,
+wc = WordCloud(max_words=1000, mask=mask, margin=15, random_state=1,
         min_font_size = 14, font_path = font_file, width = 800, height = 600,
         background_color = "white", colormap = "hsv",
         regexp = "[:space:]{2,}"
