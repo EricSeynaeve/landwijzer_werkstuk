@@ -114,7 +114,7 @@ longtablepage
 \quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 2
+\papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -696,14 +696,6 @@ LatexCommand tableofcontents
 
 \begin_layout Standard
 \begin_inset FloatList figure
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FloatList table
 
 \end_inset
 
@@ -6331,7 +6323,7 @@ Voorbeeld van factoren mee te nemen
 \begin_inset Text
 
 \begin_layout Plain Layout
-Wat is een neutrale waarde
+Wat is een neutrale waarde?
 \end_layout
 
 \end_inset
@@ -6435,7 +6427,7 @@ Belangrijk de indirecte energie mee te nemen over de volledige voedselketen!
 \begin_inset Text
 
 \begin_layout Plain Layout
-Neutraal bij EROEI van 2:1
+Neutraal bij EROEI van 4:1
 \end_layout
 
 \end_inset
@@ -6813,33 +6805,1660 @@ end{landscape}}
 Wat leren we hier nu uit?
 \end_layout
 
-\begin_layout Itemize
-impact van indirecte kosten
-\end_layout
-
-\begin_layout Itemize
-zoeken naar een landbouw van de toekomst
-\end_layout
-
-\begin_layout Itemize
-sterkt mij in mijn idee rond FdB
-\end_layout
-
-\begin_layout Part
-Uitsmijters
-\end_layout
-
 \begin_layout Chapter
-\begin_inset CommandInset label
-LatexCommand label
-name "chap:Samenvatting-en-dromen"
+Impact van directe kosten
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Een belangrijke boodschap die Meino Smit on brengt, is dat als je enkel
+ kijkt naar de directe kosten, je een vertekend beeld krijgt van de evolutie
+ van de landbouw.
+\end_layout
 
-Samenvatting en dromen
+\begin_layout Standard
+Als manier om de evolutie van de landbouw te meten, worden er regelmatig
+ twee indicatoren gebruikt:
+\end_layout
+
+\begin_layout Itemize
+hoeveel hectare kan een boer jaarlijks bewerken
+\end_layout
+
+\begin_layout Itemize
+hoeveel ton voedsel kan een boer jaarlijks telen
+\end_layout
+
+\begin_layout Standard
+Voor Meino Smit zijn dit echter niet de beste indicatoren.
+ Hij werkt liever met indicatoren op basis van energie omdat deze de maatschappe
+lijke kosten van de landbouw beter bevatten.
+ Voorbeelden zijn de energetische efficiëntie (EROEI), de energetische output
+ per voltijds equivalent (VTE) of energetische output per hectare.
+\end_layout
+
+\begin_layout Standard
+We gaan ook eens kijken of de stijging van de energetische kosten wel in
+ verhouding staat tot de uitvoer.
 \end_layout
 
 \begin_layout Section
+De klassieke indicatoren
+\end_layout
+
+\begin_layout Subsection
+Aantal bewerkte hectare per voltijds equivalent
+\end_layout
+
+\begin_layout Standard
+Als enkel de directe bestede arbeidsuren en landgebruik genomen wordt, dan
+ is het aantal ha/VTE tussen 1950 en 2015 gestegen van ongeveer 4 ha/VTE
+ tot 16 ha/VTE, een factor 3,6.
+\end_layout
+
+\begin_layout Standard
+Bekijk je de totale bestede arbeidsuren, dus inclusief mijnbouw, veeteelt,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+, dan is het aantal ha/VTE tussen 1950 en 2015 gestegen van ongeveer 4 ha/VTE
+ tot 6 ha/VTE, een factor 1,6.
+\end_layout
+
+\begin_layout Standard
+Tot zover wat Meino Smit gebruikt heeft.
+ Mijn inziens moet echter ook het totale landgebruik meegenomen worden omdat
+ de arbeid van de mensen die dit land bewerken ook meegenomen worden in
+ de totale bestede arbeidsuren.
+ Als je dat doet, dan is de stijging tussen 1950 en 2015 toevallig hetzelfde
+ als in de eerste berekening: een factor 3,6.
+\end_layout
+
+\begin_layout Standard
+Dit is allemaal ook te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-ha_VTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Je merkt dus twee zaken op:
+\end_layout
+
+\begin_layout Itemize
+meenemen van de indirecte bijdragen heeft wel degelijk een invloed op de
+ efficiëntie stijging van de landbouw.
+ Over het algemeen daalt de efficiëntie als de indirecte bijdragen meegenomen
+ worden.
+\end_layout
+
+\begin_layout Itemize
+het is belangrijk om goed na te denken wat je meeneemt en wat niet.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid+landgebruik - tussen.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-ha_VTE"
+
+\end_inset
+
+Verloop van arbeidsproductiviteit in ha/VTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hoeveel geproduceerde ton per voltijds equivalent
+\end_layout
+
+\begin_layout Standard
+Hier is er minder discussie mogelijk over welke indirecte bijdragen meegenomen
+ moeten worden.
+\end_layout
+
+\begin_layout Standard
+Zonder rekening te houden met de indirecte arbeid, is het aantal ton/VTE
+ tussen 1950 en 2015 gestegen met een factor 11,2.
+\end_layout
+
+\begin_layout Standard
+Als je wel rekening houdt met de indirecte arbeid is deze stijging maar
+ 4,9.
+\end_layout
+
+\begin_layout Standard
+Je merkt dus een groot verschil in de verbetering zoals te zien is in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-ton_VTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht_fte.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-ton_VTE"
+
+\end_inset
+
+Verloop van arbeidsproductiviteit in ton/VTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Indicatoren op basis van energie
+\end_layout
+
+\begin_layout Subsection
+Energetische efficiëntie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-e"
+
+\end_inset
+
+Vergelijking van energetische input en output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We hebben al gezien dat de energetische efficiëntie (EROEI) tussen 1950
+ en 2015 gedaald is van 1:1 tot 1:2.
+\end_layout
+
+\begin_layout Standard
+Dit is ook te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-e"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ waar de totale input dubbel zo hoog ligt als de output.
+\end_layout
+
+\begin_layout Standard
+Wordt er echter geen rekening gehouden met de indirecte input, dan zou de
+ EROEI in 2015 op 1:1 liggen.
+ Dat is een groot verschil want in plaats van energetisch neutraal lijken
+ te zijn, is het echter zo dat de landbouw meer energie vraagt dan dat we
+ eruit krijgen.
+\end_layout
+
+\begin_layout Subsection
+Energie per hectare
+\end_layout
+
+\begin_layout Standard
+Zonder rekening te houden met het indirect landgebruik, is de output per
+ hectare tussen 1950 en 2015 gestegen met een factor 2,6.
+ Wordt de indirecte arbeid meegenomen, dan daalt deze stijging tot slechts
+ een factor 1,1.
+\end_layout
+
+\begin_layout Standard
+Het is echter zeer verhelderend om hiertegenover de input die nodig is per
+ hectare te zetten.
+\end_layout
+
+\begin_layout Standard
+Zonder rekening te houden met de indirecte bijdragen, is de energetische
+ input per hectare gestegen met een factor 6,3.
+ Houden we wel rekening met de indirecte bijdragen, dan is deze stijging
+ verhoogt naar 7,2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - totaal.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Rekening houdend met indirecte bijdragen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - direct.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Zonder rekening te houden met indirecte bijdragen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-e_ha"
+
+\end_inset
+
+Verloop van energie per hectare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De evolutie van deze waarden is weergegeven in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-e_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Merk op dat er momenteel per hectare 7 keer meer energie gestoken wordt
+ in de landbouw maar dat daar maar 0,1 keer zoveel output tegenover staat!
+ Moest het nog niet duidelijk zijn, dit stelt de efficiëntie van de 
+\begin_inset Quotes pld
+\end_inset
+
+Groen Revolutie
+\begin_inset Quotes prd
+\end_inset
+
+ helemaal in vraag.
+\end_layout
+
+\begin_layout Subsection
+Energie per voltijds equivalent
+\end_layout
+
+\begin_layout Standard
+Vergelijkbaar als met de energie per hectare, kan je ook kijken naar de
+ evolutie in zowel input als output in energie per gewerkte arbeidsuren.
+\end_layout
+
+\begin_layout Standard
+Zonder rekening te houden met de indirecte factoren stijgt de input per
+ VTE met een factor 23 en de output met een factor 9,6.
+\end_layout
+
+\begin_layout Standard
+Houden we wel rekening met de indirecte factoren, stijgt de input per VTE
+ met een factor 26 en de output met en factor 4,2.
+\end_layout
+
+\begin_layout Standard
+Het is te zien dat de output nu wel stijgt omwille van de mechanisatie.
+ Maar hiertegenover staat wel een enorme verhoging van de input die per
+ arbeidsuur nodig is.
+\end_layout
+
+\begin_layout Standard
+Dezelfde conclusies als hierboven is dus te trekken.
+ De stijging van de energetische input staat totaal niet in verhouding met
+ de stijging van de energetische output.
+\end_layout
+
+\begin_layout Section
+Opbrengst in ton per hectare
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht_ha.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-ton_ha"
+
+\end_inset
+
+Verloop opbrengsten in ton per hectare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In de opbrengst in ton producten per hectare, is er een verhoging met een
+ factor 3,1 zonder rekening te houden met de indirecte bijdragen.
+ Met de indirecte factoren daalt deze verhoging naar 1,3.
+\end_layout
+
+\begin_layout Standard
+Gezien de sterke verhoging aan energetische input die per hectare gebeurd
+ is, is deze verhoging van de output maar schamel.
+\end_layout
+
+\begin_layout Section
+Conclusie
+\end_layout
+
+\begin_layout Standard
+Het is duidelijk dat je, om een goed beeld te krijgen van de evolutie van
+ kengetallen voor de landbouw, indirecte bijdragen in rekening moet brengen.
+\end_layout
+
+\begin_layout Standard
+Zoals te verwachten is het beeld rond landbouw evolutie dan veel minder
+ flatterend.
+ Er zijn positieve evoluties, maar deze zijn veel minder sterk dan eerst
+ gedacht.
+\end_layout
+
+\begin_layout Standard
+Wat vooral opvalt is dat de stijging van de input veel groter is dan die
+ van de output.
+ Vergelijk je deze stijgingen, dan merk je op dat deze trend alsmaar verslechter
+d.
+ Met andere woorden, ondanks de verhalen rond de verhoging van de efficiëntiever
+hoging in de landbouw, moet er meer en meer energie ingestoken worden voor
+ een schamele verhoging in de output.
+ Dit is over het algemeen niet zichtbaar omdat met de verhoging van de input
+ maar beperkt meeneemt.
+\end_layout
+
+\begin_layout Standard
+Hier werd enkel de factor energie bekeken.
+ Het verhaal rond water, biodiversiteit, bodemvruchtbaarheid of andere factoren
+ die hierboven geïdentificeerd waren is nog niet meegenomen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dit is geen hoopvolle boodschap.
+ Je krijgt het gevoel dat de trein van de landbouw alsmaar sneller en sneller
+ naar de afgrond aan het rijden is.
+\end_layout
+
+\begin_layout Standard
+Kunnen we deze trend omdraaien? Dat gaan we in het laatste hoofdstuk bekijken.
+\end_layout
+
+\begin_layout Chapter
+Hoe moet landbouw er uitzien?
+\end_layout
+
+\begin_layout Standard
+Om de negatieve trend om te keren, zijn er een aantal domeinen waarop veranderin
+g kunnen gebeuren.
+ Meino Smit heeft volgende mogelijke aanpassingen geïdentificeerd die zo
+ dadelijk besproken zullen.
+\end_layout
+
+\begin_layout Standard
+Ik ben aan het leertraject van Landwijzer begonnen om zelf mijn steen te
+ kunnen bijdragen.
+ Is de visie en droom die ik oorspronkelijk had veranderd door dit werkstuk?
+\end_layout
+
+\begin_layout Section
+De droom van Meino Smit
+\end_layout
+
+\begin_layout Standard
+Meino Smit droomt van een landbouw in 2040 die wél rekening houdt met de
+ indirecte kosten.
+ Dit heeft grote implicaties op allerhande vlakken.
+\end_layout
+
+\begin_layout Standard
+Aan landbouwzijde moet er gegaan worden naar een integratie van landbouw
+ en natuurbeheer.
+ Hierdoor krijg je kleinere boerderijen die stabieler zijn.
+ Ook komt er minder specialisatie en worden kringlopen beter gesloten.
+ Het gebruik van warme kassen en de niet-voedingsglastuinbouw moet gebannen
+ worden want het is energetisch niet houdbaar (80% van de directe energie
+ in de landbouw gaat naar verwarmde kassen).
+ Hand- en dierenkracht moet terug in ere hersteld worden waardoor er ook
+ meer boeren moeten komen.
+ De oogst moet in de eerste plaats naar de eigen bevolking gaan.
+\end_layout
+
+\begin_layout Standard
+Ook maatschappelijk zijn er veranderingen nodig.
+\end_layout
+
+\begin_layout Itemize
+Er moeten meer plantaardige producten gegeten worden en minder dierlijke
+ (tabel
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:2040-voeding"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Merk op dat dit een drastische verschuiving is in het eetpatroon van de
+ maatschappij.
+ Zonder deze verschuiving eten we ons kapot.
+\end_layout
+
+\begin_layout Itemize
+Onderzoek moet zich richten op technologie die energie en grondstoffen spaart.
+\end_layout
+
+\begin_layout Itemize
+Belasting moet verschuiven van arbeid naar kapitaal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Longtable
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="19" columns="4">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waarde in 2015
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Waarde in 2040
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verschil
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aantal inwoners
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.900.726
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.000.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Groenten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.399 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.321 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+70%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fruit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.770 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+141.828 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+640%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Granen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Momenteel worden veel granen ingevoerd.
+ Het is de bedoeling om dit terug in Nederland te telen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+196.817 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+516.481 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+160%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aardappelen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Er zouden geen poot- en zetmeelaardappelen meer geteeld worden.
+ Hierdoor komt 83.000 ha landbouwgrond vrij.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71.736 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.457 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Noten
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Volgens advies van de 
+\begin_inset Quotes pld
+\end_inset
+
+Schijf van Vijf
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78.200 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++1300%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Peulvruchten
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Vervangen van dierlijk eiwitten door plantaardige eiwitten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.506 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.868 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zonnebloemen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Voornamelijk-schroot"
+
+\end_inset
+
+Voornamelijk schroot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+660 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+310.250 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Koolzaad
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Voornamelijk-schroot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+124.100 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suikerbieten
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Minder suiker en niet meer als veevoer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58.436 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bloembollen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Focus op voeding
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28.842 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oppervlakte voor paarden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40.000 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paarden
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+De hobbypaarden die er nu zijn, worden vervangen door werkpaarden.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+300%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rundvee
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.133.854
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+845.302
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Varkens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.602.888
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+401.194
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-97%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Schapen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+523.103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+250.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pluimvee
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103.038.539
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.017.938
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:2040-voeding"
+
+\end_inset
+
+Verschuivingen nodig in voeding
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Bij deze veranderingen moeten er veel meer mensen in de landbouw tewerkgesteld
+ worden en zullen de indirecte kosten sterk dalen.
+ De belangrijkste kengetallen komen ook in het groen.
+ Opvallend is dat er duidelijk meer energie uit de landbouw gehaald wordt
+ dan erin gestoken wordt.
+ Energetisch hebben we terug een positieve situatie.
+\end_layout
+
+\begin_layout Standard
+Een grote uitzondering is de totale hoeveelheid landbouwgrond per inwoner.
+ Waar die nu rond 30 are/inwoner schommelt, zal die in voorgesteld scenario
+ zakken tot 12 are/inwoner, onder de minimum grens van 14 are/inwoner.
+ Komen we dan niet in gevaarlijk vaarwater?
+\end_layout
+
+\begin_layout Standard
+Deze omschakeling in de landbouw maakt het noodzakelijk dat er een nieuwe
+ instroom van boeren met nieuwe ideeën komt.
+\end_layout
+
+\begin_layout Standard
+Een mogelijk gevolg van deze verandering is dat de prijs van landbouwproducten
+ verhoogt.
+ Maar dit is enkel het geval als er geen rekening gehouden wordt met de
+ maatschappelijke kosten.
+ Als deze aanzienlijk zouden dalen, is de maatschappij dan niet beter af?
+ Deze boodschap overbrengen is echter zeer moeilijk zoals we gezien hebben
+ in Frankrijk met de Gele Hesjes.
+\end_layout
+
+\begin_layout Standard
+Meino Smit maakt zich sterk dat als er in 1950 al een beleid was dat rekening
+ hield met alle kosten, we nu beter af waren geweest.
+ Dankzij veredeling, is er een output stijging van 20 tot 25% gebeurd in
+ het huidige systeem.
+ Mede hierdoor en door een innovatie die meer gericht was op betere arbeidsomsta
+ndigheden met minder inzet van energie en grondstoffen, bijvoorbeeld door
+ verbeterde handwerktuigen, zou de landbouw een output verhoging hebben
+ kunnen bewerkstelligen die groter was dan nu zonder de hallucinante verhoging
+ in input.
+ De landbouw zou robuuster geweest zijn en er zouden meer boeren en een
+ groter maatschappelijk draagvlak zijn.
+\end_layout
+
+\begin_layout Section
+Is mijn droom veranderd?
+\end_layout
+
+\begin_layout Standard
+In het begin van de opleiding wou ik het systeem van Ferme du Bec in Vlaanderen
+ bewerkstelligen.
+\end_layout
+
+\begin_layout Standard
+Door het studiewerk rond dit werkstuk is het duidelijk geworden dat er echt
+ nood is aan een landbouw die de gedane schade hersteld.
+ We hebben gezien dat moestuinen en vooral de Chinese landbouw van 1930
+ hier grote inspiratiebronnen kunnen zijn.
+ Het systeem van Ferme du Bec gebruikt dezelfde principes van combinatieteelten,
+ intense opvolging, hoge input van compost gecombineerd met niet verstoren
+ van de grond, permanente bedekking en nog heel wat andere factoren om de
+ natuurlijke processen de optimaliseren.
+\end_layout
+
+\begin_layout Standard
+Vanuit de ervaring die ik al opgedaan heb met dit systeem tijdens mijn stage
+ is het tijdens het opstellen van dit werkstuk mogelijk geweest om te reflectere
+n wat dit systeem doet rond de verschillende geïdentificeerde kosten.
+ Mijn slotsom is dat het systeem van Ferme du Bec een sterke basis is om
+ van te vertrekken.
+ Gaandeweg kan ik de verschillende kosten, weliswaar intuïtief, bekijken
+ om een sterkere positieve bijdrage te leveren.
+\end_layout
+
+\begin_layout Standard
+Dus mijn droom is enkel sterker geworden.
+\end_layout
+
+\begin_layout Chapter
 Samenvatting
 \end_layout
 
@@ -6867,11 +8486,12 @@ er zijn 10 calorieën olie nodig om 1 calorie voedsel te consumeren
 \end_layout
 
 \begin_layout Standard
-We hebben gevonden landbouw inderdaad zeer veel indirecte kosten draagt.
+We hebben gevonden landbouw inderdaad zeer veel indirecte energetische kosten
+ draagt.
  Dit gaat van veevoeder en kunstmest over de kost van gebouwen en machines
  tot zaken zoals mijnbouw, elektronica en diensten.
- Deze kosten zijn bij Meino Smit bekeken op het vlak van arbeid, landgebruik
- en energie.
+ Verder zijn er nog kosten op veel andere vlakken zoals arbeid, water, landgebru
+ik en noem maar op.
 \end_layout
 
 \begin_layout Standard
@@ -6879,37 +8499,18 @@ De directe kosten blijven de hoofdbrok uitmaken, maar de indirecte kosten
  zijn de laatste 50 jaar enorm gestegen totdat ze minstens even belangrijk
  geworden zijn dan de directe kosten.
  In de indirecte kosten neemt vooral veevoer een belangrijk aandeel in beslag.
- Voor landgebruik is dit zelfs zo goed als de enige factor voor de indirecte
- kosten.
- De tweede belangrijkste indirecte kost is mijnbouw.
- De top 3 wordt bij landgebruik vervolledigd met de dienstensector terwijl
- er in energie tegenwoordig een ex aequo is tussen gebouwen en dierlijke
- mest.
- De studies van Leach en Lovins 
-\emph on
-et al.
-
-\emph default
- geven ook aan dat het drogen van graan en grassen veel energie vraagt.
-\end_layout
-
-\begin_layout Standard
-In de VSA blijkt de irrigatie een belangrijk aandeel te hebben in de energetisch
-e balans.
+ Wat mij ook opgevallen is, zijn de kosten mijnbouw, het drogen van graan
+ en grassen, irrigatie een belangrijk aandeel te hebben in de energetische
+ balans.
  Dit kan bij ons in de toekomst ook een factor worden als de klimaatverandering
  warmere en drogere zomers geeft.
 \end_layout
 
 \begin_layout Standard
-Doordat de indirecte kosten niet te verwaarlozen zijn, moeten statistieken
- hier ook rekening mee houden.
- Meino Smit heeft aangetoond dat hierdoor de klassieke indicatoren voor
- efficiëntie van de landbouw zoals arbeidsproductiviteit in ton/VTE of ha/VTE
- veel minder positief uitvallen, zeker in vergelijking met de enorme stijging
- van de input.
- De focus op deze klassieke indicatoren, zeker zonder rekening te houden
- met de indirecte kosten, geeft een landbouwsysteem dat zich richt op mechanisat
-ie zonder rekening te houden met de gevolgen ervan.
+Verderop in de voedselketen vielen vooral verpakkingen en huishoudelijk
+ gebruik op.
+ Het aandeel van de landbouw in de energie consumptie van de totale voedselketen
+ is een kwart of minder.
 \end_layout
 
 \begin_layout Standard
@@ -6920,27 +8521,46 @@ ie zonder rekening te houden met de gevolgen ervan.
 \end_layout
 
 \begin_layout Standard
-Het begrip van energetische efficiëntie is geïntroduceerd als een manier
- om toch voor een deel rekening te kunnen houden met de gevolgen van de
- landbouw.
- Hierbij wordt gekeken hoeveel energie je uit het systeem haalt in vergelijking
- met de (totale!) energie die je erin stopt.
- Het gebruiken van de totale input is uitermate belangrijk omdat dit juist
- de impact van de landbouw zal weergeven.
-\end_layout
-
-\begin_layout Standard
-Het blijkt dat het huidige landbouwsysteem meer energie vraagt dan eruit
- gehaald wordt.
+Dat je 10 keer zoveel energie nodig hebt dan je consumeert blijkt te kloppen.
  Zoiets is op lange termijn niet houdbaar omdat de voorraad energie eindig
  is.
- Het is dus belangrijk te kijken of er landbouwsystemen zijn die meer energie
- opleveren dan erin gestoken wordt.
+ Hetzelfde probleem geld ook bij andere bekeken kosten.
+ 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Business as usual
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ gaat dan leiden tot 
+\begin_inset Quotes pld
+\end_inset
+
+Hongerdood door schranzen
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Het moet dus anders.
 \end_layout
 
 \begin_layout Standard
-Wordt de energetische efficiëntie van verschillende landbouwsystemen vergeleken,
+Om de nodige vooruitgang te meten is het nodig om de nuances van het leven
+ in stand te houden.
+ Deze vooruitgang samenvatten in één getal verliest deze nuance.
+ Vandaar het voorstel om te vertrekken van een duurzaamheidsbloem.
+\end_layout
+
+\begin_layout Standard
+Vergelijken we de energetische efficiëntie van verschillende landbouwsystemen,
  dan zijn er grote verschillen op te tekenen.
+ Met de informatie is na te gaan welke systemen uit de boot vallen en welke
+ goede inspiratiebronnen kunnen zijn voor een toekomstige landbouw.
 \end_layout
 
 \begin_layout Standard
@@ -6960,51 +8580,10 @@ Pre- en semi-industriële landbouwsystemen blijken op energetisch vlak vaak
 \end_layout
 
 \begin_layout Standard
-Er is ook gezien dat er een minimale opbrengst per hectare nodig is om de
- bevolking te kunnen voeden.
- Hoeveel dit is hangt af van het beschikbare landbouwareaal per inwoner.
- Als elke hectare voldoende energie moet produceren voor 3 personen, vallen
- veel landbouwsystemen al weg.
- Dit zowel bij de pre-, semi- als industriële landbouwsystemen.
-\end_layout
-
-\begin_layout Standard
-Kijken we verder dan het landbouwsysteem, blijkt dat het merendeel van de
- energie in de voedselketen verloren gaat in de verwerking.
- Verwerking zelf, verpakking, transport en infrastructuur bepalen hier in
- een grote mate de energetische input.
- Bij de distributie is er ook een belangrijk aandeel voor transport, verpakking
- en opslag (koeling).
- Om de keten volledige te maken, blijkt dat transport, opslag (koeling)
- en koken bij eindgebruikers ook nog eens veel energie te vragen.
-\end_layout
-
-\begin_layout Standard
-Wordt dan de energetische efficiëntie bekeken van de volledige voedselketen,
- zagen we dat er tussen 7 en 12 calorieën nodig zijn om 1 calorie voedsel
- te consumeren.
- De boutade hierboven aangehaald lijkt dus te kloppen.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-In de studie van Eosta wordt een eerste aanzet gegeven om de kosten van
- de biologische landbouw en de niet-biologische landbouw met elkaar vergeleken.
- Hieruit blijkt dat de kosten van de niet-biologische landbouw hoger zijn.
- Doordat dit een eerste aanzet is, zijn er verschillende factoren nog niet
- in rekening gebracht.
- Moest dit wel gebeuren, dan verwachten de opstellers van de studie dat
- de verschillen nog meer in het voordeel van de biologische landbouw zouden
- vallen.
- Aangezien veel van deze kosten niet doorgerekend worden, is het dus duidelijk
- dat de niet-biologische landbouw inderdaad meer zaken niet doorrekent in
- de eindprijs vergeleken met de biologische landbouw.
+De nodige veranderingen zijn echter niet alleen nodig in de landbouw.
+ De rest van de voedselketen moet mee een duid in de zak doen.
+ Ook het voedingspatroon moet veranderen waarbij vooral de consumptie van
+ vlees moet verminderen.
 \end_layout
 
 \begin_layout Standard
@@ -7015,456 +8594,57 @@ In de studie van Eosta wordt een eerste aanzet gegeven om de kosten van
 \end_layout
 
 \begin_layout Standard
-Alles alles hierboven samengenomen wordt, is het duidelijk dat er nood is
- aan een postindustrieel landbouwsysteem dat zowel duurzaam is en als de
- bevolking kan voeden.
- Hiertoe moet het onderzoek gebeuren naar besparing van totale energie en
- grondstoffen in plaats van besparing van arbeid.
- Er moet meer volk werken in de landbouw
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-mijn schatting is dat in een postindustriële landbouw de tewerkstellingsgraad
- van de landbouw tussen 5 en 10% moet liggen
-\end_layout
-
-\end_inset
-
-.
- Dit vraagt een verlaging van de belasting op arbeid.
-\end_layout
-
-\begin_layout Section
-Indirecte kosten
+Als er rekening gehouden wordt met hoeveel mensen gevoed kunnen worden per
+ hectare, dan vallen veel industriële landbouwsystemen af.
+ Het is terug de oude tuinbouw uit China die er op een positieve manier
+ uitsteekt.
+ De principes die dit systeem zo sterk maken, vind je ook terug in het systeem
+ van Ferme du Bec.
 \end_layout
 
 \begin_layout Standard
-In figuur
-\begin_inset space ~
+Dit systeem moet echter nog verder ontwikkeld worden.
+ In zijn huidige vorm ligt de nadruk ook heel sterk op de teelt van fijne
+ groenten.
+ Een volledig antwoord kan het dan ook niet bieden.
+ Maar een doorontwikkeling ervan kan wel inspiratie bieden om ook voor andere
+ landbouwtakken terug te gaan naar 
+\begin_inset Quotes pld
 \end_inset
 
 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:kosten-wordcloud"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- is een speels overzicht te vinden van verschillende maatschappelijke kosten.
- Zoals al gezegd, kunnen deze geïnternaliseerd worden of niet.
- Zo niet, dan zijn worden deze kosten door de maatschappij gedragen in plaats
- van de vervuiler.
- Denk bijvoorbeeld aan sanering van vervuilde gronden, ziekte door opname
- van pesticiden, vermindering van voedselzekerheid,
-\begin_inset space \thinspace{}
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
- Via heffingen kan de overheid proberen de kosten te internaliseren bij
- de vervuiler en diegenen die de vervuilende producten afnemen.
- 
-\end_layout
-
-\begin_layout Standard
-De kosten die geïdentificeerd zijn voor de voedselketen zijn voorgesteld
- in figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:kosten-voedselketen"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- Ze zijn alfabetisch gesorteerd.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/figuren/Kosten van landbouw - Sectoren voedselketen.svg
-	lyxscale 30
-	width 100col%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:kosten-voedselketen"
-
-\end_inset
-
-Kosten in de voedselketen
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Elke kostenpost zal volgende factoren hebben die een rol spelen:
-\end_layout
-
-\begin_layout Itemize
-Energie
-\end_layout
-
-\begin_layout Itemize
-Water
-\end_layout
-
-\begin_layout Itemize
-Grondstoffen
-\end_layout
-
-\begin_layout Itemize
-Arbeid
-\end_layout
-
-\begin_layout Itemize
-Landgebruik
-\end_layout
-
-\begin_layout Standard
-Hierbij telt zowel het directe verbruik als het indirecte verbruik mee.
- Als een product meerdere jaren mee gaat (bv.
- een tractor of gebouw) moet de kost afgeschreven worden op de levensduur.
-\end_layout
-
-\begin_layout Standard
-Figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:kosten-elementen"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- geeft meer details.
- De koppeling tussen energie en grondstoffen is ook duidelijk te zien.
- Ook is de afhankelijkheid van hernieuwbare energie met fossiele brandstoffen
- aangegeven.
- Dit omdat momenteel er nog altijd fossiele brandstoffen nodig zijn voor
- bijvoorbeeld de aanmaak van de toestellen of infrastructuur van hernieuwbare
- energie.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/figuren/Kosten van landbouw - Elementen.svg
-	lyxscale 30
-	width 100text%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:kosten-elementen"
-
-\end_inset
-
-Elementen die een kost bepalen
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:kosten-factoren"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- geeft per kostenpost aan wat de speciale factoren zijn waar rekening mee
- moet gehouden worden.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/figuren/Kosten van landbouw - Factoren.svg
-	lyxscale 30
-	width 100text%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:kosten-factoren"
-
-\end_inset
-
-Factoren die een rol spelen bij kosten
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Bepalen van de kosten
-\end_layout
-
-\begin_layout Standard
-Tijdens de verschillende delen zijn er al manieren bekeken om de kosten
- te bepalen (paragrafen
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:waarde-kosten-meino-smit"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:waarde-kosten-leach"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:waarde-kosten-steinhart"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- en hoofdstuk
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:waarde-kosten-eosta"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-Over het algemeen kunnen we het volgende zeggen over mogelijke methoden.
- Een belangrijke opmerking is dat kosten niet alleen een waarde in geld
- kunnen zijn.
- Ze kunnen energetisch zijn maar ook meer sociaal zoals verlies van comfort
- of beperking van keuze in eten.
-\end_layout
-
-\begin_layout Standard
-Kosten kunnen eenmalig zijn of regelmatig terugkomen in de tijd.
- Bijvoorbeeld het verlies van bodemvruchtbaarheid door vergiftiging is een
- terugkerende kost terwijl het saneren van diezelfde bodem een eenmalige
- kost is.
-\end_layout
-
-\begin_layout Standard
-Over het algemeen zijn de bepaalde methoden in te delen in volgende categorieën:
-\end_layout
-
-\begin_layout Itemize
-kost door verlies of winst
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-bijvoorbeeld bij Eosta werd bepaald wat het oogstverlies of aanwinst is
- als de toplaag erodeert dan wel aangevuld wordt.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-kost om schade weg te werken
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-bijvoorbeeld de kost voor waterzuivering.
- Deze wordt bijvoorbeeld in de UK geschat op $
-\begin_inset space ~
-\end_inset
-
-264
-\begin_inset space ~
-\end_inset
-
-miljoen 
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 39"
-key "FAO2014"
-literal "false"
-
+\lang english
+Small is beautiful
+\lang dutch
+
+\begin_inset Quotes prd
 \end_inset
 
 .
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-kost om schade te voorkomen
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-bijvoorbeeld welke investering zijn nodig om erosie van de toplaag te vermijden
-\end_layout
-
-\begin_layout Itemize
-liggen over het algemeen lager dan de kosten om de schade weg te werken
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-kost bepaald door een markt
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-bijvoorbeeld de Emission Trade System voor de kost van een ton 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
 \begin_layout Standard
-Buiten deze zichtbare kosten, zijn er meestal kosten die niet direct zichtbaar
- zijn zoals verlies van bodemleven, extra irrigatie door verlies van koolstofgeh
-alte, verlies aan biodiversiteit,
-\begin_inset space \thinspace{}
+\begin_inset VSpace defskip
 \end_inset
 
-\SpecialChar ldots
 
-\begin_inset space \thinspace{}
-\end_inset
-
-.
- 
 \end_layout
 
 \begin_layout Standard
-Sociale kosten zoals de waarde die gehecht wordt aan biodiversiteit, welbevinden
- of uitbuiting van arbeiders zijn moeilijker in geld om te zetten.
- Er bestaan wel een aantal methodes hiervoor waar men probeert in te schatten
- aan de hand van enquêtes in hoeverre mensen hier waarde aan hechten.
- Hiervoor kan men peilen hoeveel men voor een verhoging van biodiversiteit
- over heeft wegens bijvoorbeeld verhoging van bloemenpracht of stabieler
- voedselsysteem.
- De vraag kan ook omgedraaid worden door te peilen hoeveel schade men bereid
- is op zich te nemen bij verlies van biodiversiteit 
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 22"
-key "FAO2014"
-literal "false"
-
-\end_inset
-
-.
- Aan de hand hiervan kan men via modellen de kost van biodiversiteit bepalen.
- Op deze manier kan de maatschappelijke waarde bepaald worden.
+Dank zij het werken aan dit werkstuk, heb ik veel meer inzichten gekregen
+ waar de landbouw allemaal impact op heeft.
+ Het heeft me ook gesterkt in de overtuiging dat we actief moeten zoeken
+ naar een andere manier van landbouw doen.
+ Het systeem van Ferme du Bec lijkt hier een zeer goede basis voor te zijn.
 \end_layout
 
-\begin_layout Section
-Droom voor een duurzaamheidsindicator
+\begin_layout Standard
+Tijd om terug met de handen in de aarde te zitten om hier actief werk van
+ te maken.
+\end_layout
+
+\begin_layout Part
+Appendices
 \end_layout
 
 \begin_layout Chapter
@@ -8127,113 +9307,6 @@ industriële
 \end_layout
 
 \end_deeper
-\begin_layout Section
-\begin_inset CommandInset label
-LatexCommand label
-name "appendix:opgeslagen-energie"
-
-\end_inset
-
-Opgeslagen energie
-\end_layout
-
-\begin_layout Standard
-Opgeslagen energie is een vertaling van de term 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Embodied Energy
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Het is de energie die nodig geweest is om het product te produceren, inclusief
- de energie om de grondstoffen van het product te produceren.
- Dit omvat de energie die nodig is voor het winnen, transporteren en bewerken
- van zowel de energie als de grondstoffen, het brandstof- en elektriciteitsgebru
-ik van het productieproces zelf en de energie die nodig is voor het maken
- en onderhouden van de productiemiddelen.
- Ook transport moet hierbij gerekend worden.
-\end_layout
-
-\begin_layout Standard
-Deze energie is als het ware 
-\begin_inset Quotes pld
-\end_inset
-
-opgeslagen
-\begin_inset Quotes prd
-\end_inset
-
- in het product.
-\end_layout
-
-\begin_layout Standard
-Wat allemaal in kaart gebracht moet worden wordt bepaald door een 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Live Cycle Analysis
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-(LCA)
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "LCA"
-description "Live Cycle Analysis"
-literal "false"
-
-\end_inset
-
-.
- Hiermee kan de 
-\begin_inset Quotes pld
-\end_inset
-
-
-\lang english
-Gross Energy Requirement
-\lang dutch
-
-\begin_inset Quotes prd
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-(GER)
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "GER"
-description "Gross Energy Requirement"
-literal "false"
-
-\end_inset
-
- bepaald worden, de hoeveelheid energie die nodig is voor de productie van
- een bepaald product, materiaal of stof (inclusief de energie om de grondstoffen
- te produceren), beginnend met de primaire energiedragers.
- Zowel van de LCA als de GER bestaan er gegevens zodat je een eigen analyse
- kunt maken.
-\end_layout
-
 \begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
@@ -8901,16 +9974,6 @@ literal "false"
 .
  Het is dus niet meer dan normaal dat de meest verbruikende mensen de grootste
  inspanning zouden leveren.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
-set_width "auto"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
