@@ -6,34 +6,36 @@ set -o errexit
 cowsay "Creating pdf's"
 cd "$HOME/Nextcloud/Landwijzer/True cost of food/text"
 
-cowsay -f small "Double sided (default)"
-time /usr/bin/lyx --export pdf2 manuscript.lyx && git add manuscript.pdf
+function generate_files {
+	short_filename=$1
+	type_text=$2
+	language=$3
+	base_filename="$short_filename-${language,,}"
 
-cowsay -f small "Single sided"
-cp -f manuscript.lyx manuscript_single.lyx
-sed -i 's#^\\papersides .*#\\papersides 1#' manuscript_single.lyx
-sed -i 's#^\\usepackage{lscape}.*#\\usepackage{pdflscape}#' manuscript_single.lyx
-awk -v RS="\0" -v ORS=""  '{gsub(/manusc\nript\.pdf/,"manusc\nript_single.pdf"); print}' manuscript_single.lyx > manuscript_single.$$ && mv manuscript_single.$$ manuscript_single.lyx
-awk -v RS="\0" -v ORS=""  '{gsub(/manuscrip\nt\.pdf/,"manuscrip\nt_single.pdf"); print}' manuscript_single.lyx > manuscript_single.$$ && mv manuscript_single.$$ manuscript_single.lyx
-diff -u manuscript.lyx manuscript_single.lyx || true
-time /usr/bin/lyx --export pdf2 manuscript_single.lyx && git add manuscript_single.pdf
-rm manuscript_single.lyx
+	lyx_filename="$base_filename.lyx"
+	pdf_base_filename="$base_filename"
 
-cowsay "Creating FULL pdf's"
-cd "$HOME/Nextcloud/Landwijzer/True cost of food/text"
+	cowsay -f small "$type_text, ${language^^}, Double sided"
+	cp -f "$lyx_filename" tmp.lyx
+	sed -i 's#^\\papersides .*#\\papersides 2#' tmp.lyx
+	sed -i 's#^\\usepackage{pdflscape}.*#\\usepackage{lscape}#' tmp.lyx
+	sed -i -e '/\\branch screen/,+1s/\\selected.*/\\selected 0/' -e '/\\branch print/,+1s/\\selected.*/\\selected 1/' tmp.lyx
+	diff -u "$lyx_filename" tmp.lyx || true
+	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_print.pdf" tmp.lyx && git add "${pdf_base_filename}_print.pdf"
 
-cowsay -f small "Double sided (default)"
-time /usr/bin/lyx --export pdf2 manuscript-full.lyx && git add manuscript-full.pdf
+	cowsay -f small "$type_text, ${language^^},Single sided"
+	cp -f "$lyx_filename" tmp.lyx
+	sed -i 's#^\\papersides .*#\\papersides 1#' tmp.lyx
+	sed -i 's#^\\usepackage{lscape}.*#\\usepackage{pdflscape}#' tmp.lyx
+	sed -i -e '/\\branch screen/,+1s/\\selected.*/\\selected 1/' -e '/\\branch print/,+1s/\\selected.*/\\selected 0/' tmp.lyx
+	diff -u "$lyx_filename" tmp.lyx || true
+	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_screen.pdf" tmp.lyx && git add "${pdf_base_filename}_screen.pdf"
 
-cowsay -f small "Single sided"
-cp -f manuscript-full.lyx manuscript-full_single.lyx
-sed -i 's#^\\papersides .*#\\papersides 1#' manuscript-full_single.lyx
-sed -i 's#^\\usepackage{lscape}.*#\\usepackage{pdflscape}#' manuscript-full_single.lyx
-awk -v RS="\0" -v ORS=""  '{gsub(/manusc\nript\.pdf/,"manusc\nript_single.pdf"); print}' manuscript-full_single.lyx > manuscript-full_single.$$ && mv manuscript-full_single.$$ manuscript-full_single.lyx
-awk -v RS="\0" -v ORS=""  '{gsub(/manuscrip\nt\.pdf/,"manuscrip\nt_single.pdf"); print}' manuscript-full_single.lyx > manuscript-full_single.$$ && mv manuscript-full_single.$$ manuscript-full_single.lyx
-diff -u manuscript-full.lyx manuscript-full_single.lyx || true
-time /usr/bin/lyx --export pdf2 manuscript-full_single.lyx && git add manuscript-full_single.pdf
-rm manuscript-full_single.lyx
+	rm tmp.lyx
+}
+
+generate_files manuscript Conceptual nl
+generate_files manuscript-tech Technical nl
 
 cowsay "Commit & push"
 git commit
