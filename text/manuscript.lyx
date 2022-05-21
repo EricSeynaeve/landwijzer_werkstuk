@@ -15,6 +15,7 @@
 \usepackage{qrcode}
 \usepackage{afterpage}
 \usepackage{lscape}
+\usepackage[export]{adjustbox}
 % \usepackage[section]{placeins}
 
 \lefthyphenmin=2
@@ -114,7 +115,7 @@ longtablepage
 \quotes_style polish
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -725,8 +726,12 @@ Inleiding
 \begin_layout Standard
 Hallo beste lezer.
  Bedankt om dit verdiepend werkstuk eens vast te nemen.
- Laat het je meenemen op een ontdekkingsreis over wat allemaal nodig is
- om aan landbouw te doen en inspireren voor een rechtvaardiging van je prijs.
+ Laat het je meenemen op een ontdekkingsreis door de voedselketen.
+ Je gaat een heleboel kosten leren kennen van het voedsel dat we consumeren.
+ Hierdoor krijg je inzicht in waar, onder andere, landbouw allemaal een
+ impact op heeft.
+ Voor de boeren onder jullie kan het ook argumenten geven om je prijs te
+ rechtvaardigen.
 \end_layout
 
 \begin_layout Standard
@@ -751,13 +756,13 @@ De conceptie van dit werkstuk
 
 \begin_layout Standard
 Dit werkstuk is een kind van Landwijzer opleiding tot biodynamische landbouwer.
- Wat was de drijfveer om die opleiding te beginnen en vervolgens dit thema
- te kiezen?
+ Wat was voor mij de drijfveer om die opleiding te beginnen en vervolgens
+ dit thema te kiezen?
 \end_layout
 
 \begin_layout Standard
-De reden om die opleiding te starten was vanuit een bezorgdheid rond de
- stand van zaken met onze Aarde.
+De reden om de opleiding te starten was vanuit een bezorgdheid rond de stand
+ van zaken met onze Aarde.
  Noem het een mid-live crisis, maar ik wou zo rond mijn 45
 \begin_inset script superscript
 
@@ -767,7 +772,7 @@ e
 
 \end_inset
 
- echt iets goed realiseren.
+ iets echt goed realiseren.
  Zoiets waarvan je kunt zeggen: 
 \begin_inset Quotes pld
 \end_inset
@@ -781,11 +786,12 @@ de wereld is er nu een beetje beter aan toe
 
 \begin_layout Standard
 Maar waarom landbouw terwijl ik helemaal met informatica bezig was? Dat
- is een proces dat al een tijd aan de gang is.
+ is een proces dat al een tijd aan de gang was.
 \end_layout
 
 \begin_layout Standard
 Het is allemaal begonnen nadat ik in aanraking gekomen ben met de Transitie
+ beweging
 \begin_inset Foot
 status collapsed
 
@@ -807,7 +813,7 @@ url{https://transitionnetwork.org/}
 
 \end_inset
 
- beweging.
+.
  Van hieruit is permacultuur op mijn pad gekomen en zo is de interesse gegroeid
  in de landbouw.
  Vooral het voorbeeld van Ferme du Bec
@@ -838,7 +844,7 @@ url{https://www.fermedubec.com/}
 
 \begin_layout Standard
 Landbouw is natuurlijk super belangrijk.
- Een smartphone kunnen we eigenlijk allemaal wel missen, maar voeding nooit.
+ Een smartphone kunnen we eigenlijk allemaal wel missen, maar voeding niet.
  Lees maar eens 
 \begin_inset Quotes pld
 \end_inset
@@ -864,9 +870,9 @@ Collapse
 
 \begin_layout Standard
 Velen proberen de impact van de landbouw op de wereld te beperken.
- Maar kunnen we met behulp van landbouw de toegediende schade niet genezen
- in plaats van gelukkig te zijn minder schade te berokkenen? Dat is mijn
- missie geworden.
+ Maar kunnen we met behulp van landbouw de al toegediende schade niet genezen
+ in plaats van gelukkig te zijn om enkel minder schade te berokkenen? Dat
+ is mijn missie geworden.
 \end_layout
 
 \begin_layout Standard
@@ -908,21 +914,9 @@ literal "false"
 
 .
  Hierin vermeld ze, na een sandwich uit zijn plastieken doodskist gehaald
- te hebben, dat er om 1 calorie van de sandwich in je mond te kunnen steken,
+ te hebben, dat om 1 calorie van de sandwich in je mond te kunnen steken,
  er in het totaal 10 calorieën olie nodig zijn.
  Dat is een stelling die regelmatig terugkomt bij de permacultuur.
-\end_layout
-
-\begin_layout Standard
-*** Ook uit hoofdstuk 8 nemen (
-\begin_inset Quotes pld
-\end_inset
-
-Wie zoekt die vindt
-\begin_inset Quotes prd
-\end_inset
-
-) ***
 \end_layout
 
 \begin_layout Standard
@@ -966,16 +960,30 @@ Met mijn wetenschappelijke achtergrond ben ik dan geprikkeld.
 \end_layout
 
 \begin_layout Standard
+Toevallig zijn er aanwijzingen op mijn pad gekomen over de bron van Rebecca
+ Hosking's stelling.
+ Na wat spannend (?) detectivewerk was het mogelijk om me erin vast te bijten.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Anderzijds groeide in deze zoektocht ook het besef dat biologische voeding
  niet duur is.
  Het is de huidige gangbare voeding die gewoon te goedkoop is.
- Waarom? Omdat er veel kosten zijn die niet doorgerekend worden (bv.
+ Waarom? Omdat er in de gangbare voeding meer kosten zijn die niet doorgerekend
+ worden (bv.
  verlies aan biodiversiteit, gezondheidsimpact van pesticiden,
 \begin_inset space \thinspace{}
 \end_inset
 
 \SpecialChar ldots
-).
+) vergeleken met bio landbouw.
 \end_layout
 
 \begin_layout Standard
@@ -983,15 +991,20 @@ Maar welke kosten zijn er eigenlijk allemaal in de landbouw (gangbaar én
  biologisch)? Hoe worden die berekend? Hebben ze een grote impact of niet?
  De wetenschapper in mij wilt dit weten, vandaar dat ik een drang voelde
  hier eens in te duiken.
+ Op die manier kan op een meer objectieve manier bio en niet-bio naast elkaar
+ gelegd worden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Een inzicht in deze materie zal later helpen om de prijzen van mijn producten
  te verklaren en te rechtvaardigen.
-\end_layout
-
-\begin_layout Standard
-En dát is dan de aanleiding tot dit werkstuk.
 \end_layout
 
 \begin_layout Section
@@ -1009,15 +1022,18 @@ een verwondering over de kosten die meespelen in de landbouw.
 \end_layout
 
 \begin_layout Itemize
-dat er niet één manier is om zaken te vergelijken.
- Je kunt kijken met een economische bril, een energetische bril, een ecologische
- bril,
-\begin_inset space \thinspace{}
+dat de werkelijkheid, net zoals een diamant, veel facetten heeft.
+ Je kunt kijken naar het deel energie of water of economie of
+\begin_inset space ~
 \end_inset
 
 \SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
 .
- Het zal nooit volledig zijn, maar elke andere kijk leidt tot andere inzichten.
+ Elke manier van kijken werpt een andere licht op de zaak.
 \end_layout
 
 \begin_layout Itemize
@@ -1049,39 +1065,59 @@ click-bait
 \end_layout
 
 \begin_layout Itemize
-een samenkomen van puzzelstukjes waardoor je een vollediger inzicht krijgt
- in de al dan niet verborgen kosten.
+dat de impact van de kosten het beeld veranderd dat de 
+\begin_inset Quotes pld
+\end_inset
+
+Groene Revolutie
+\begin_inset Quotes prd
+\end_inset
+
+ super efficiënt is.
 \end_layout
 
 \begin_layout Itemize
-inzicht in de veranderingen die nodig zijn als alle kosten in rekening gebracht
- worden.
+dat er verschillende landbouwsystemen zijn waarbij sommigen roofbouw plegen
+ op de natuurlijke rijkdommen maar andere landbouwsystemen deze juist opbouwen.
+\end_layout
+
+\begin_layout Itemize
+inzicht hoe landbouw in de toekomst bedreven moet worden.
 \end_layout
 
 \begin_layout Standard
 Dit zal gebeuren aan de hand van een literatuurstudie.
- Dat klinkt een prima alternatief is voor het tellen van schapen op een
- slapeloze nacht.
+ Dat klinkt een prima alternatief voor het tellen van schapen op een slapeloze
+ nacht.
  Hopelijk is het gelukt om de stijl luchtig te houden.
 \end_layout
 
 \begin_layout Standard
-Door de beperkte tijd die aan dit werkstuk besteed kan worden, zal hij zeker
- niet volledig zijn.
+Dit werkstuk is zeker niet volledig.
  Een aantal geselecteerde werken zullen besproken worden.
  Deze zullen een goed beeld schetsen van verschillende invalshoeken in het
  bepalen van de kosten van de landbouw.
 \end_layout
 
 \begin_layout Standard
-*** Ook is dit conceptueel deel.
- Meer cijfers zijn in een ander werk te vinden ***
+Verder is er in deze uitvoering gekozen om zo conceptueel mogelijk de zaken
+ te benaderen.
+ Voor de liefhebbers is er een andere versie van dit werkstuk met meer technisch
+e details
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Seynaeve2022"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 Ook heb ik niet de achtergrond om een diepgaande analyse te doen van die
  werken.
- Dat is voer voor specialisten die jaren op het terrein thuis zijn.
+ Dat is voer voor specialisten die al jaren op het terrein thuis zijn.
  Dus stel je je vragen bij bepaalde aangehaalde stellingen of cijfers, is
  het tijd om de oorspronkelijke werken erbij te nemen en na te pluizen op
  details.
@@ -1106,18 +1142,18 @@ Is dat alles?
 Nu we een idee hebben waar het over gaat, geef ik jou, beste lezer, de keuze.
  Ofwel stop je hier en heb je de basis mee waar het over gaat.
  Ofwel heb je honger naar meer en kan je verder lezen.
- Wat staat nog op het programma?
+ Wat staat nog op het menu?
 \end_layout
 
 \begin_layout Itemize
-Als eerste is er een focus rond een vollediger plaatje van energieverbruik.
+Als eerste wordt een vollediger plaatje van energieverbruik geserveerd.
  Dat is belangrijk omdat energieverbruik heel nauw samen hangt met het broeikase
 ffect.
 \begin_inset Newline newline
 \end_inset
 
-Dit deel gaat voornamelijk over de zoektocht en achtergrond van de boutade
- 
+Dit deel gaat voornamelijk over de zoektocht naar de achtergrond van de
+ boutade 
 \begin_inset Quotes pld
 \end_inset
 
@@ -1130,15 +1166,13 @@ Dit deel gaat voornamelijk over de zoektocht en achtergrond van de boutade
 
 \begin_deeper
 \begin_layout Itemize
-We gaan aan de hand van een voorbeeld eerst wat meer zicht krijgen op hoe
- dit gemeten kan worden en welke mogelijke factoren meespelen.
+We gaan eerst aan de hand van een voorbeeld inzicht krijgen in mogelijke
+ factoren die meespelen.
 \end_layout
 
 \begin_layout Itemize
-Dan gaan we eens kijken vanuit de verschillende meegenomen studies welke
- waarden we terugvinden en of de bovenstaande boutade inderdaad steek houdt.
- Een kleine spoiler: hiervoor moeten we landbouw bekijken in het plaatje
- van het volledig voedselsysteem.
+Dan gaan we vanuit verschillende meegenomen studies kijken of de bovenstaande
+ boutade inderdaad steek houdt.
 \end_layout
 
 \begin_layout Itemize
@@ -1173,20 +1207,10 @@ kosten
 \emph default
  van de landbouw, niet de energie.
  Veel mensen zullen bij kosten aan geld denken.
- Er zijn 
-\lang english
-science fiction
-\lang dutch
- verhalen waar de maatschappij in energie betaald, maar dit is geen werk
- van 
-\lang english
-science fiction
-\lang dutch
- en gaat er dus verder gekeken worden dan enkel energie.
 \begin_inset Newline newline
 \end_inset
 
-In het leven zijn vele kosten mogelijk.
+In het leven zijn echter vele soorten kosten mogelijk.
  Denk bijvoorbeeld aan de uitspraak dat iemand een rijk innerlijk leven
  heeft.
  Je kunt ook iemand in tijd betalen zoals bij LETS
@@ -1218,27 +1242,23 @@ url{https://nl.wikipedia.org/wiki/Lokale_ruileconomie
 \begin_inset Newline newline
 \end_inset
 
-Een aantal factoren zijn duidelijk beïnvloed door de landbouw zoals landgebruik,
- arbeid, water, biodiversiteit, cultuur,
+Een aantal maatschappelijke factoren zoals landgebruik, arbeid, water, biodivers
+iteit, cultuur,
 \begin_inset space ~
 \end_inset
 
 \SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
- Deze worden overlopen.
+, zijn duidelijk beïnvloed door de landbouw.
+ Deze kosten worden overlopen.
 \begin_inset Newline newline
 \end_inset
 
-Ook wordt de vraag gesteld of de impact van die factoren in 1 kengetal samengeva
-t kan worden.
+Ook wordt de vraag gesteld of de impact van die factoren in 1 getal, zoals
+ euro's, samengevat kan worden.
 \end_layout
 
 \begin_layout Itemize
-Wat is nu het belang van dit allemaal te bekijken?
+Welke inzichten krijgen we als de indirecte kosten meegenomen worden?
 \end_layout
 
 \begin_deeper
@@ -1257,19 +1277,22 @@ Groene Revolutie
 
 \begin_layout Itemize
 Kunnen we hieruit een zicht krijgen over hoe we beter met de natuurlijke
- rijkdommen kunnen omgaan?
+ rijkdommen om kunnen gaan?
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-In dit verdiepend werkstuk wordt dit alles conceptueel behandeld.
- Het is mogelijk zeer veel grafieken, statistieken en tabellen te gebruiken.
- Laten we dat tot een minimum beperken om de boodschap behapbaarder te maken.
+De beschouwde studies hebben telkens de volledige landbouwsector meegenomen.
+ Dus het onderscheid tussen bio en niet-bio landbouw is niet gemaakt.
+ Daardoor kunnen we kosten hiervan niet vergelijken.
 \end_layout
 
 \begin_layout Standard
-Wie meer cijferwerk wilt zien: er is ook een technische versie van dit verdiepen
-d werkstuk dat meer cijfers bevat.
+In dit verdiepend werkstuk wordt dit alles conceptueel behandeld.
+ Het is mogelijk zeer veel grafieken, statistieken en tabellen te gebruiken.
+ Dit is echter tot een minimum beperkt om de boodschap behapbaarder te maken.
+ Wie meer cijferwerk wilt zien: er is ook een technische versie van dit
+ verdiepend werkstuk dat meer cijfers bevat.
  Deze is eenvoudig terug te vinden op het internet
 \begin_inset space ~
 \end_inset
@@ -1310,31 +1333,23 @@ literal "false"
  en waar we ons allemaal iets bij kunnen voorstellen: een brood.
 \end_layout
 
-\begin_layout Standard
-Een brood van 1
-\begin_inset space ~
-\end_inset
-
-kg heeft een voedingswaarde van 10,6
-\begin_inset space ~
-\end_inset
-
-MJ.
-\end_layout
-
 \begin_layout Section
 De blik van de boer
 \end_layout
 
 \begin_layout Standard
-Om een brood van 1 kg te maken is 934
+Om een brood van 1
+\begin_inset space ~
+\end_inset
+
+kg te maken is 934
 \begin_inset space ~
 \end_inset
 
 g graan nodig.
- De natuur geeft ons veel vrije energie via het zonlicht, maar worden er
- gangbaar nog extra inputs gegeven aan het graan.
- In de studie van Leach identificieert hij de volgende:
+ De natuur geeft ons veel vrije energie via het zonlicht, maar bij gangbare
+ landbouw worden nog extra inputs gegeven aan het graan.
+ In de studie van Leach identificeert hij de volgende:
 \end_layout
 
 \begin_layout Itemize
@@ -1362,31 +1377,59 @@ MJ voor de gegeven hoeveelheid graan.
 \end_layout
 
 \begin_layout Standard
-Laten we even stilstaan bij wat we hiermee al geleerd hebben.
-\end_layout
-
-\begin_layout Standard
-Ten eerste is het duidelijk dat enkel de direct verbruikte brandstof meenemen
- niet voldoende is.
+Laten we even bij deze lijst stilstaan.
  Typisch wordt enkel de brandstof voor de tractor en andere machines meegenomen
  en de brandstof die nodig is voor het drogen van graan.
- Maar ook kunstmest en bestrijdingsmiddelen vragen brandstoffen.
- Zowel binnen fabrieken voor het aanmaken ervan, binnen de mijnbouw (bijvoorbeel
-d fosfor- en kalimijnen voor de P en K van kunstmest) maar ook als grondstof
- zelf (de N van kunstmest wordt van aardgas gewonnen.
- Verschillende bestrijdingsmiddelen komen ook uit de petrochemische industrie).
 \end_layout
 
 \begin_layout Standard
-Vervolgens zien we dat we een bepaalde hoeveelheid energie als voedingswaarde
- kunnen plaatsen tegenover de energie die nodig is als input.
+Maar ook kunstmest en bestrijdingsmiddelen vragen brandstoffen.
+ Zowel binnen fabrieken voor het aanmaken ervan, binnen de mijnbouw (bijvoorbeel
+d fosfor- en kalimijnen voor de P en K van kunstmest) maar ook als grondstof
+ zelf (de N van kunstmest wordt van aardgas gewonnen).
+ Dit indirect gebruik van brandstoffen moet ook meegenomen worden.
+ In dit geval worden er zelfs meer indirecte brandstoffen gebruikt dan directe.
+\end_layout
+
+\begin_layout Standard
+Een bepaalde hoeveelheid energie als voedingswaarde kan geplaatst worden
+ tegenover de energie die nodig is als input.
  Dit wordt energetische efficiëntie genoemd of ook 
 \lang english
 Energy Returned On Energy Invested
 \lang dutch
- (EROEI).
- In dit geval is er een EROEI van 10,6/4,02 oftewel 2,64.
- We kunnen meer energie uit het brood halen dan dat we erin moeten steken.
+ (EROEI, Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "app:EROEI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ In dit geval is er een EROEI van 10,6
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Een brood van 1
+\begin_inset space ~
+\end_inset
+
+kg heeft een voedingswaarde van 10,6
+\begin_inset space ~
+\end_inset
+
+MJ.
+\end_layout
+
+\end_inset
+
+/4,02 oftewel 2,64:1.
+ Er komt bijna drie keer zoveel energie uit het brood dan erin gestoken
+ wordt.
 \end_layout
 
 \begin_layout Section
@@ -1518,18 +1561,28 @@ In figuur
 \begin_inset space ~
 \end_inset
 
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:verdeling-brood"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
  is dit schematisch voorgesteld.
  Hierbij zijn de cijfers de percentages aan energie nodig voor die welbepaalde
  categorie.
- Je ziet dus dat de landbouw zelf maar 20% van de 
+ Je ziet dus dat de landbouw zelf maar 20% van het volledige energieplaatje
+ vraagt.
 \end_layout
 
 \begin_layout Standard
-Dus voor het volledigere voedselsysteem heeft Leach uitgerekend dat de EROEI
- 10,6/20,7 oftwel 0,51 is.
- Met andere woorden, er moet bijna twee keer zoveel energie gestoken worden
- om een brood in de winkel aan te bieden dan dat je als voedingswaarde uit
- dat brood kunt krijgen!
+Alles bij elkaar heeft brood een EROEI van 10,6/20,7 oftewel 1:1,9.
+ Met andere woorden, er moet bijna twee keer zoveel energie gespendeerd
+ worden om een brood in de winkel te verkopen dan er aan voedingswaarde
+ uit komt!
 \end_layout
 
 \begin_layout Standard
@@ -1543,42 +1596,71 @@ km ver is en je neemt de auto om enkel een brood te gaan halen, er nog 8
 \end_inset
 
 MJ bijgeteld moet worden.
- Hierbij zakt de EROEI nog verder naar 0,37 (10,6/28,7).
+ Hierbij zakt de EROEI nog verder naar 1:2,7.
  Dus de auto nemen in plaats van de fiets of te voet gaan doet de energetische
- efficiëntie zakken van 1/2 naar 1/3!
+ efficiëntie zakken van ongeveer 1:2 naar 1:3!
 \end_layout
 
 \begin_layout Standard
 Nu is met een brood niet alles gezegd over de landbouw en het voedselsysteem.
- Laten we eerst eens kijken wat we uit de studies kunnen leren rond benodigde
- energetische input voor de landbouw.
+ Laten we eens kijken wat in de studies te vinden is rond energetische input.
 \end_layout
 
 \begin_layout Chapter
-Waar is energetische input nodig in de landbouw?
+Energiegebruik in de landbouw
 \end_layout
 
 \begin_layout Standard
 In dit hoofdstuk gaan we vanuit een aantal studies kijken welke factoren
- geïdentificeerd zijn als input voor de landbouw.
- Hierbij gaan we hier niet aangeven hoe deze waarden bepaald zijn, dat is
- terug te vinden in het meer technische verdiepend werkstuk.
+ geïdentificeerd zijn als input voor de landbouw
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smit2018,Leach1976,steinhart1974,Lovins1984"
+literal "false"
+
+\end_inset
+
+.
+ Meer details zoals bijvoorbeeld hoe deze cijfers bepaald zijn, zijn terug
+ te vinden in het meer technische verdiepend werkstuk.
 \end_layout
 
 \begin_layout Standard
-We beginnen met de studie van Meino Smit omdat deze zeer veel sectoren onder
+We beginnen met de studie van Meino Smit omdat deze zeer veel factoren onder
  de loep neemt.
  Ook heeft hij de evolutie bekeken van de Nederlandse landbouw tussen 1950
- en 2015 wat ook interessante inzichten geeft.
+ en 2015 wat interessante inzichten geeft.
 \end_layout
 
 \begin_layout Standard
 Vervolgens bekijken we de situatie rond de jaren '70 in het Verenigd Koninkrijk
  en de Verenigde Staten van Amerika.
+ Hoewel deze studies meer dan een halve eeuw oud zijn, blijven ze nog relevant.
+ Zoals Patrick Whitefield het beschrijft:
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+\begin_inset Quotes pld
+\end_inset
+
+[\SpecialChar ldots
+] it's safe to assume that the general picture remains the same.
+ Any increase in mechanical efficiency will have been swallowed up by increases
+ in mechanization, and especially in long-distance transport.
+\begin_inset Quotes prd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Inputs bepaald door Meino Smit.
+Nederlandse landbouw tussen 1950 en 2015
 \end_layout
 
 \begin_layout Standard
@@ -1594,15 +1676,15 @@ literal "false"
 
 \end_inset
 
- worden 14 sectoren die nodig zijn voor landbouw bekeken.
- Deze zijn opgelijst in tabel
+ worden 14 factoren die nodig zijn voor landbouw bekeken.
+ Deze zijn voorgesteld in figuur
 \begin_inset space ~
 \end_inset
 
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:e-in-sectoren-meino-smit"
+reference "fig:wordcloud-meino-smit"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1613,7 +1695,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
+\begin_inset Float figure
 wide false
 sideways false
 status open
@@ -1624,158 +1706,11 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Directe input
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Trekkers en machines
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Bestrijdingsmiddelen 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Veevoer
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dierlijke mest
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kunstmest
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Zaaizaad, poot- en plantgoed
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Elektronica
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dienstverlening
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Transport en infrastructuur
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Micronutriënten en sporenelementen 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Mijnbouw
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Gebouwen
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Diergeneesmiddelen
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/wordcloud_meino_smit.svg
+	lyxscale 10
+	width 70col%
+	groupId leach
 
 \end_inset
 
@@ -1785,11 +1720,11 @@ Diergeneesmiddelen
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:e-in-sectoren-meino-smit"
+name "fig:wordcloud-meino-smit"
 
 \end_inset
 
-Sectoren van energie input gebruikt bij Meino Smit
+Factoren van energie input gebruikt door Meino Smit
 \end_layout
 
 \end_inset
@@ -1797,186 +1732,23 @@ Sectoren van energie input gebruikt bij Meino Smit
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
-Een korte bespreking van deze sectoren (meer details zijn te vinden in 
-\begin_inset CommandInset citation
-LatexCommand cite
-after "paragraaf 5.1.1"
-key "Seynaeve2022"
-literal "false"
 
-\end_inset
-
-):
-\end_layout
-
-\begin_layout Description
-Direct
-\begin_inset space ~
-\end_inset
-
-input Dit is het directe brandstof- en elektriciteitsverbruik in de landbouw.
- Bijvoorbeeld de brandstof nodig voor tractor, serre, drooginstallatie,
-\begin_inset space ~
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Description
-Trekkers
-\begin_inset space ~
-\end_inset
-
-en
-\begin_inset space ~
-\end_inset
-
-machines De energie die nodig is om deze te maken (bv.
- staalindustrie) en onderhouden.
-\end_layout
-
-\begin_layout Description
-Bestrijdingsmiddelen De energie nodig voor het aanmaken van bestrijdingsmiddelen.
-\end_layout
-
-\begin_layout Description
-Veevoer De energetische inhoud van de veevoedergrondstoffen.
-\end_layout
-
-\begin_layout Description
-Dierlijke
-\begin_inset space ~
-\end_inset
-
-mest Energie nodig voor transport en opslag.
-\end_layout
-
-\begin_layout Description
-Kunstmest Energie nodig voor de aanmaak van de kunstmest alsook de energie
- van de fossiele brandstoffen die als grondstof gebruikt worden.
-\end_layout
-
-\begin_layout Description
-Zaaizaad,
-\begin_inset space ~
-\end_inset
-
-poot-
-\begin_inset space ~
-\end_inset
-
-en
-\begin_inset space ~
-\end_inset
-
-plantgoed Werd niet aparte meegeteld (beschouwd als interne levering).
-\end_layout
-
-\begin_layout Description
-Elektronica Dit is een sterk stijgende factor.
- Hierbij wordt vooral gekeken naar de energie die nodig is voor de aanmaak
- van de elektronica.
-\end_layout
-
-\begin_layout Description
-Dienstverlening Verwarming, woon-werk verkeer en gebouwen nodig voor de
- dienstverlening die aan landbouw gekoppeld is.
- Denk hierbij aan consultants, landbouwafdelingen bij regeringen en universiteit
-en, specifieke onderzoeksinstellingen,
-\begin_inset space ~
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Description
-Transport
-\begin_inset space ~
-\end_inset
-
-en
-\begin_inset space ~
-\end_inset
-
-infrastructuur Wegtransport en -verhardingen nodig voor landbouw.
-\end_layout
-
-\begin_layout Description
-Micronutriënten
-\begin_inset space ~
-\end_inset
-
-en
-\begin_inset space ~
-\end_inset
-
-sporenelementen Niet apart meegenomen omdat deze als bij de mijnbouw zitten
-\end_layout
-
-\begin_layout Description
-Mijnbouw Een belangrijke factor.
- Mijnbouw is nodig voor landbouw voor grondstoffen zoals staal (machines,
- gebouwen), bakstenen (gebouwen), kunstmest (kali, fosfaat), aardmetalen,
-\begin_inset space ~
-\end_inset
-
-\SpecialChar ldots
-
-\begin_inset space \thinspace{}
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Description
-Gebouwen Opgeslagen energie in de gebruikte materialen zoals staal (staalindustr
-ie), beton, plastic,
-\begin_inset space ~
-\end_inset
-
-\SpecialChar ldots
- alsook de energie nodig voor het aanvoer van de grondstoffen en het hulpmateria
-al (bv.
- stellingen, kranen, paletten,
-\begin_inset space ~
-\end_inset
-
-\SpecialChar ldots
-).
-\end_layout
-
-\begin_layout Description
-Diergeneesmiddelen Te weinig gegevens ter beschikking dus niet meegenomen.
 \end_layout
 
 \begin_layout Standard
-Deze factoren zijn naar beste vermogen ingeschat wat voor de verschillende
- sectoren in mindere of meerdere mate gelukt is.
+Deze factoren zijn door hem naar beste vermogen ingeschat wat voor de verschille
+nde sectoren in mindere of meerdere mate gelukt is.
  Hoe dit gedaan is, gaat ons in dit werkstuk te ver brengen maar is aangegeven
  in de technische tegenhanger van dit verdiepend werkstuk.
 \end_layout
 
 \begin_layout Standard
-Een factor die ik wel nog wil uitlichten, is de energie die opgeslagen is
- in materialen.
- Als je bijvoorbeeld een baksteen neemt, is er op veel vlakken energie nodig
- geweest voor het gebruik ervan.
+Een factor die ik wel wil uitlichten, is de energie die opgeslagen is in
+ materialen.
+ Als je bijvoorbeeld een muur neemt, is er op veel vlakken energie nodig
+ geweest voor de aanmaak.
  Om de baksteen te maken moet je grondstoffen zoals klei delven.
  Deze moeten dan getransporteerd worden waarna de baksteen in een vorm geperst
  wordt en gebakken.
@@ -1992,42 +1764,22 @@ Een factor die ik wel nog wil uitlichten, is de energie die opgeslagen is
 \end_layout
 
 \begin_layout Standard
-Het is deze energie die Meino Smit aangeeft bij 
-\begin_inset Quotes pld
-\end_inset
-
-Trekkers en machines
-\begin_inset Quotes prd
-\end_inset
-
- en 
-\begin_inset Quotes pld
-\end_inset
-
-Gebouwen
-\begin_inset Quotes prd
-\end_inset
-
- (inclusief 
-\begin_inset Quotes pld
-\end_inset
-
-Kassen
-\begin_inset Quotes prd
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
 Speciale aandacht geeft Meino Smit aan een bespreking van elektronica en
  mijnbouw en hoe dit samen een ervoor zorgt dat hij niet gelooft in het
- gebruik van hernieuwbare energie bij '
+ gebruik van hernieuwbare energie bij 
 \lang english
+
+\begin_inset Quotes pld
+\end_inset
+
 business as usual
 \lang dutch
-'.
- Hier gaan we nog meer in gaan in appendix
+
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Dit is opgenomen in appendix
 \begin_inset space ~
 \end_inset
 
@@ -2055,6 +1807,13 @@ lijnen,
 
 \SpecialChar ldots
 ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2150,26 +1909,16 @@ veevoer is een belangrijke sector bij de indirecte input.
 \end_layout
 
 \begin_layout Itemize
-Zowel mijnbouw, kassen (constructie) als elektronica zijn in aandeel gestegen.
+Zowel mijnbouw, gebouwen als elektronica zijn in aandeel gestegen.
 \end_layout
 
 \begin_layout Standard
-Zoals we later zullen zien, zorgt het meenemen van indirecte inputs (in
- dit geval energie) ervoor dat het succes van de 'Groene Revolutie' in een
- ander daglicht gesteld moet worden.
-\end_layout
-
-\begin_layout Standard
-Om dit in perspectief te zetten: het volledig verbruik aan elektriciteit
+Om de waarden in perspectief te zetten: het volledig verbruik aan elektriciteit
  in België per jaar ligt rond de 288
 \begin_inset space ~
 \end_inset
 
 PJ
-\begin_inset space ~
-\end_inset
-
-
 \begin_inset Foot
 status collapsed
 
@@ -2193,13 +1942,20 @@ url{https://www.febeg.be/statistieken-elektriciteit}
 
 .
  Met andere woorden, de Nederlandse landbouw verbruikt evenveel energie
- als het volledige elektrisch verbruik van België.
+ als het volledige elektrisch verbruik van België!
 \end_layout
 
 \begin_layout Standard
-Meino Smit heeft ook de energetische voedingswaarde bepaald van de output
- van de landbouw, zoals de hoeveelheid energie die in het geoogste fruit,
- groenten, akkerteelten en veeteelt zit.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meino Smit heeft ook de energetische output van de landbouw bepaald: de
+ hoeveelheid voedingsenergie die in het geoogste fruit, groenten, akkerteelten
+ en veeteelt zit.
 \end_layout
 
 \begin_layout Standard
@@ -2274,11 +2030,11 @@ efficiëntie van de Nederlandse Landbouw
 
 \begin_layout Standard
 Het is te zien dat in 1950, aan het begin van de industrialisatie van de
- landbouw, er meer energie uit de landbouw gehaald wordt dan erin gestoken
- wordt.
- Dit is verslechterd totdat het begin jaren '70 gestabiliseerd is.
+ landbouw, er meer energie uit de landbouw gehaald werd dan erin gestoken
+ werd.
+ Dit is verslechtert totdat het begin jaren '70 stabiliseerde.
  Vanaf dan is er om 1 calorie eten te produceren, 2 calorieën aan energie
- nodig.
+ nodig (EROEI van 1:2).
 \end_layout
 
 \begin_layout Section
@@ -2288,7 +2044,7 @@ name "sec:e-input-leach"
 
 \end_inset
 
-Inputs bepaald door Leach
+VK landbouw begin jaren 70
 \end_layout
 
 \begin_layout Standard
@@ -2306,7 +2062,7 @@ literal "false"
 \end_inset
 
 .
- Hierbij zijn volgende sectoren meegenomen:
+ Hierbij zijn volgende factoren meegenomen:
 \end_layout
 
 \begin_layout Itemize
@@ -2339,16 +2095,67 @@ Veevoer
 \end_layout
 
 \begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Net zoals bij Meino Smit, ziet Leach een stijging van de input die nodig
+ is in de landbouw zoals weergegeven in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in-VK-evolutie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Interessant is dat Leach de parallel trekt met de zware industrie.
+ Afhankelijk van hoeveel mensen je toekent aan de landbouw (directe en indirect
+ arbeidskrachten), wordt er per werknemer in de landbouw tussen de 150 en
+ 330
+\begin_inset space ~
+\end_inset
+
+GJ/jaar aan energie gebruikt.
+ Dat is overeenkomstig met de zware industrie die tussen de 170 en 300
+\begin_inset space ~
+\end_inset
+
+GJ/jaar gebruikt per werknemer.
+ We zouden nooit denken dat landbouw per werknemer evenveel energie nodig
+ heeft als zware industrie!
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De EROEI van de landbouw in het VK is, volgens de berekeningen van Leach,
+ gedaald van 1:2,2 in 1952 tot 1:2,9 in 1968.
+ Dus in 1968 zijn er 3 calorieën aan energie nodig geweest om 1 calorie
+ aan voeding te produceren.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Wrap figure
 lines 0
-placement o
+placement r
 overhang 0in
 width "50col%"
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -2377,70 +2184,18 @@ Evolutie van de energetische input van de VK landbouw
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-Net zoals bij Meino Smit, ziet Leach een stijging van de input die nodig
- is in de landbouw zoals weergegeven in figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:e-in-VK-evolutie"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Interessant is dat Leach de parallel trekt met de zware industrie.
- Afhankelijk van hoeveel mensen je toekent aan de landbouw (directe en indirect
- arbeidskrachten), wordt er per werknemer tussen de 150 en 330
-\begin_inset space ~
-\end_inset
-
-GJ/jaar aan energie gebruikt.
- Dat is overeenkomstig met de zware industrie die tussen de 170 en 300
-\begin_inset space ~
-\end_inset
-
-GJ/jaar gebruikt per werknemer.
- We zouden nooit denken dat landbouw per werknemer evenveel energie nodig
- heeft als zware industrie, maar beide sectoren zijn blijkbaar aan elkaar
- gewaagd!
-\end_layout
-
-\begin_layout Standard
-De EROEI van de landbouw in het VK is, volgens de berekeningen van Leach,
- gedaald van 0,45 in 1952 tot 0,34 in 1968.
- Dus in 1968 zijn er 3 calorieën aan energie nodig geweest om 1 calorie
- aan voeding te produceren.
 \end_layout
 
 \begin_layout Standard
 De reden hiervoor ziet Leach vooral in het gebruik van veevoer.
- Hij heeft gevonden dat maar 6% van de energetische output van de landbouw
- rechtstreeks naar de consument gaat.
+ Hij heeft gevonden dat maar 6% van de energetische output van plantaardige
+ landbouw rechtstreeks naar de consument gaat.
  De rest wordt allemaal gebruikt als veevoer.
  Op het einde van de rit is maar 12% van de energetische output van de landbouw
- beschikbaar voor menselijke consumptie.
+ (zowel plantaardig als dierlijk) beschikbaar voor menselijke consumptie.
 \end_layout
 
 \begin_layout Standard
@@ -2479,7 +2234,7 @@ ze kunnen ingezet worden op gronden die anders niet bruikbaar zijn (te nat,
 \begin_layout Standard
 Maar, trop is teveel en teveel is trop.
  Een halvering van vleesconsumptie zou het VK zelfvoorzienend maken en de
- EROEI verhogen tot 0,7.
+ EROEI verhogen tot 1:1,4.
  Dat is dan nog los van de gezondheidsvoordelen die zouden optreden.
 \end_layout
 
@@ -2489,13 +2244,13 @@ Een factor die mij persoonlijk nogal opgevallen is, is de energie die nodig
 \end_layout
 
 \begin_layout Section
-Inputs bepaald door Steinhart
+VSA landbouw begin jaren 70
 \end_layout
 
 \begin_layout Standard
-Tot slot kijken we nog aan de Verenigde Staten van Amerika (VSA) begin jaren
- '70.
- Hiervoor gebruiken we een studie van Steinhart en Steinhart (
+Tot slot kijken we nog naar` de Verenigde Staten van Amerika (VSA) begin
+ jaren '70.
+ Hiervoor gebruiken we studies van Steinhart en Steinhart (
 \begin_inset CommandInset citation
 LatexCommand cite
 key "steinhart1974"
@@ -2503,7 +2258,7 @@ literal "false"
 
 \end_inset
 
-) en Lovins 
+) en van Lovins 
 \emph on
 et al.
 
@@ -2520,8 +2275,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Steinhart en Steinhart berekenen het verloop van het relatieve energieverbruik
- binnen de landbouw zoals gegeven in figuur
+Uit de studie van Steinhart en Steinhart is het aandeel van verschillende
+ factoren op het energieverbruik binnen de landbouw zoals gegeven in figuur
 \begin_inset space ~
 \end_inset
 
@@ -2613,12 +2368,13 @@ et al.
  Als je meer wegpompt dan via natuurlijke weg aangevuld wordt, dan moet
  je de jaren daarna vanop diepere lagen oppompen.
  Hiervoor is niet alleen extra energie nodig voor het oppompen, maar ook
- voor het winnen van grondstoffen en aanmaken van de infrastructuur.
- Dit staat dan nog los van de ecologische impact op de wijdere omgeving
- die het pompen vanuit diepere lagen heeft.
+ voor de zwaardere infrastructuur (het winnen van grondstoffen en aanmaak
+ ervan).
+ Dit staat nog los van de ecologische impact op de wijdere omgeving die
+ het pompen vanuit diepere lagen heeft.
  De nood om vanop diepere lagen te moeten pompen is een tendens die we de
  laatste jaren in Vlaanderen ook merken.
- Het is dus belangrijk om dit zo snel mogelijk te keren.
+ Het is belangrijk om dit zo snel mogelijk te keren.
 \end_layout
 
 \begin_layout Standard
@@ -2626,19 +2382,26 @@ Opvallend is ook dat veevoer niet meegenomen is.
  Dat is zowel in Nederland als het VK een belangrijk deel van de energetische
  balans van de landbouw.
  Voor de reden hiertoe heb ik maar het raden.
- Ofwel hebben ze dit niet beschouwd of is de VSA zelfvoorzienend op het
- gebied van veevoer? Dat laatste wordt tegengesproken door Lovins 
+ Hebben ze dit niet beschouwd? Is de VSA zelfvoorzienend op het gebied van
+ veevoer? Dat laatste wordt tegengesproken door Lovins 
 \emph on
 et al.
 
 \emph default
- die hier 7% van de energetische aan toekennen.
+ die hier 7% van de energetische input aan toekennen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Een interessante bevinding van Steinhart en Steinhart is dat ze aantonen
- dat de efficiëntie van extra energie steken in de landbouw in de loop van
- de tijd afgenomen is.
+ dat de efficiëntie van extra gebruikte energie in de landbouw in de loop
+ van de tijd afgenomen is.
 \end_layout
 
 \begin_layout Standard
@@ -2746,7 +2509,7 @@ Verlies aan efficiëntie in de landbouw
 \end_layout
 
 \begin_layout Standard
-We lopen hier een beetje op zaken vooruit, maar laten we de figuur
+We lopen hier een beetje op zaken vooruit, maar laten we figuur
 \begin_inset space ~
 \end_inset
 
@@ -2760,7 +2523,7 @@ noprefix "false"
 
 \end_inset
 
- een bespreken.
+ eens bespreken.
  De input is hier de input voor het volledige voedselsysteem (dus niet enkel
  de landbouw).
  In de eerste figuur is te zien dat er bij een verhoogde input eerst een
@@ -2780,7 +2543,7 @@ et al.
 \emph default
  aan dat er zelfs een negatieve tendens is: in 1948 ging 7% van de oogst
  verloren aan insecten.
- Begin jaren '80 worden er 6 keer zoveel pesticiden gebruikt, maar gaat
+ Begin jaren '80 werden er 6 keer zoveel pesticiden gebruikt, maar ging
  13% van de oogst verloren aan insecten.
 \end_layout
 
@@ -2799,14 +2562,21 @@ noprefix "false"
 
 \end_inset
 
- waar je ziet dat er een daling is in de efficiëntie tussen 1950 en 1970
- waarna de efficiëntie afgevlakt is.
- Er is dus wel een stijging van de output bij een verhoogde input, maar
- deze is maar de helft als in de jaren '50.
+ waar je ziet dat er een daling is in de efficiëntie van de Nederlandse
+ landbouw tussen 1950 en 1970 waarna de efficiëntie afgevlakt is.
+ Met andere woorden, een extra MJ in de landbouw steken had in 1950 twee
+ keer zoveel effect dan na 1970.
 \end_layout
 
 \begin_layout Standard
-De EROEI van de landbouw wordt geschat op 0,45.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De EROEI van de landbouw in de VSA wordt geschat op 1:2,2.
  Dat is vergelijkbaar met Nederland en beter dan het VK.
 \end_layout
 
@@ -2821,41 +2591,37 @@ Het is duidelijk dat er zeer veel factoren zijn die je in rekening moet
 \end_layout
 
 \begin_layout Standard
-Niet alleen is het een uitdaging om de factoren te identificeren, het berekenen
- van hun waarde en impact is een wetenschap op zich.
- Er zijn verschillende manieren om dit te doen, zoals te lezen is bij Meino
- Smit en Leach en die in de technische tegenhanger van dit werkstuk besproken
- worden.
- Afhankelijk van data die al beschikbaar is, kan je ofwel data overnemen
- van betrouwbare bronnen of, aan de andere kant van het spectrum, moet je
- grove inschattingen maken via een indirecte weg.
-\end_layout
-
-\begin_layout Standard
-Wat wel duidelijk is, is dat enkel de rechtstreeks verbruikte energie bekijken
- niet het volledige plaatje geeft.
+Enkel de rechtstreeks verbruikte energie bekijken geeft niet het volledige
+ plaatje.
  Vooral omdat we zien dat de indirecte energie nodig voor de landbouw groter
- geworden is dan die directe energie.
+ geworden is dan de directe energie.
 \end_layout
 
 \begin_layout Standard
 Factoren die mij persoonlijk sterk zijn opgevallen, zijn veevoer, mijnbouw,
  elektronica, drogen en irrigatie.
- Ook valt op dat de bijdrage aan kunstmest in Nederland de laatste decennia
+ Ook valt op dat de bijdrage van kunstmest in Nederland de laatste decennia
  enorm gedaald is.
 \end_layout
 
 \begin_layout Standard
 Wat ook opvalt is dat er tot de jaren '70 een enorme stijging in de input
  geweest is die gepaard ging met een daling van de energetische efficiëntie.
- De stijging aan input daarna weliswaar trager blijven groeien, terwijl
- de efficiëntie gestabiliseerd is.
- Als met al zien we dat er steeds meer energie in de landbouw gepompt wordt,
+ De stijging aan input is daarna trager blijven groeien, terwijl de efficiëntie
+ gestabiliseerd is.
+ Al met al zien we dat er steeds meer energie in de landbouw gepompt wordt,
  maar dat de opbrengsten niet navenant volgen.
 \end_layout
 
 \begin_layout Standard
-Dit houdt dus in dat we eigenlijk meer energie verbruiken dan we opeten.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We verbruiken eigenlijk meer energie in de landbouw dan we produceren.
  In Nederland met een factor twee, in het Verenigd Koninkrijk zelfs een
  factor drie.
  Aangezien voeding een pure basisbehoefte is, is het tijdelijk te rechtvaardigen
@@ -2885,9 +2651,9 @@ literal "false"
 .
  Het is dus belangrijk voor de stabiliteit van een land om ernaar te streven
  dat de landbouw zo energetisch efficiënt mogelijk is, rekening houdend
- met alle sectoren die een invloed hebben.
+ met alle factoren die een invloed hebben.
  Spijtig dat men dit vandaag de dag nog niet inziet en dus verder blijft
- gaan op een pad van hogere energieafhankelijkheid.
+ gaan op een pad van steeds hogere energieafhankelijkheid.
 \end_layout
 
 \begin_layout Standard
@@ -2896,7 +2662,7 @@ Lovins
 et al.
 
 \emph default
- geven een verklaring waarom we blijven verder gaan op een bad dat duidelijk
+ geven een verklaring waarom we verder blijven gaan op een pad dat duidelijk
  de verkeerde richting uit gaat:
 \end_layout
 
@@ -2908,15 +2674,24 @@ de kapitaalopbouw is geleidelijk aan gegroeid en is nu zo groot geworden
 \end_inset
 
 \SpecialChar ldots
- is het moeilijk om dit af te bouwen.
+ is het moeilijk om deze af te bouwen.
  Zeker als de leningen hiervoor nog lopen.
 \end_layout
 
 \begin_layout Enumerate
 eerst was er een positief effect te zien van het gebruik van kunstmest en
- pesticiden, zoals hierboven besproken werd.
- Dit effect is tegenwoordig echter veel minder maar dit is niet echt opgemerkt.
- Enkel het 'hoera' verhaal van de beginjaren is blijven hangen.
+ pesticiden.
+ Dit effect is tegenwoordig echter veel minder maar deze vermindering is
+ niet echt opgemerkt.
+ Enkel het 
+\begin_inset Quotes pld
+\end_inset
+
+hoera
+\begin_inset Quotes prd
+\end_inset
+
+ verhaal van de beginjaren is blijven hangen.
 \end_layout
 
 \begin_layout Enumerate
@@ -2929,7 +2704,7 @@ Door het vervangen van spierkracht door mechanisatie is het nu moeilijk
  geworden om de omgekeerde richting te maken.
  Er zijn ten eerste veel minder mensen werkzaam in de landbouw zodat er
  minder spierkracht aanwezig is.
- Het gebruik van dierlijke spierkracht is zelf zo goed als volledig verdwenen.
+ Het gebruik van dierlijke spierkracht is zelfs zo goed als volledig verdwenen.
  Daarboven komt nog dat de directe energie die nodig is, in de loop van
  de tijd ook gestegen is.
  Dit houdt in dat er meer mensen en dieren werkzaam zouden moeten zijn in
@@ -2938,10 +2713,17 @@ Door het vervangen van spierkracht door mechanisatie is het nu moeilijk
 \end_layout
 
 \begin_layout Standard
-De EROEI die we hier vinden schommelt ligt voor de recentste decennia tussen
- 1:2 en 1:3.
- Dat zijn al waarden om je zorgen over te maken, zoals hierboven aangegeven,
- maar niet de verhouding van 1:10 die Whitefield aanhaalt.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De EROEI die we hier vinden ligt voor de recentste decennia tussen 1:2 en
+ 1:3.
+ Dat zijn waarden om je zorgen over te maken, maar niet de verhouding van
+ 1:10 die Whitefield aanhaalt.
  Maar Whitefield zegt hierover ook het volgende:
 \end_layout
 
@@ -2954,13 +2736,13 @@ Most of the ecological impact of food is generated in transport, processing
 
 \begin_layout Standard
 Dit hebben we ook gezien bij de inleiding van dit deel waar landbouw maar
- 20% van de energetische input was van een brood.
- Het is dus belangrijk om nog te kijken wat er met voedsel gebeurd als het
+ 20% van de energetische input gaf van een brood.
+ Het is dus belangrijk om te kijken wat er met voedsel gebeurd nadat het
  de boerderij verlaten heeft.
 \end_layout
 
 \begin_layout Chapter
-Energie voor de volledige voedselketen
+Energiegebruik van de voedselketen
 \end_layout
 
 \begin_layout Section
@@ -2968,17 +2750,16 @@ Het pad tussen de boerderij en het bord
 \end_layout
 
 \begin_layout Standard
-Tussen de boerderij en het bord liggen er grofweg 3 sectoren die meegenomen
- zijn:
+Tussen de boerderij en het bord liggen er grofweg 3 stappen:
 \end_layout
 
 \begin_layout Itemize
-verwerking van het voedsel.
+verwerking van voedsel.
 \begin_inset Newline newline
 \end_inset
 
-Denk hierbij aan persen tot sap, maken van worsten, malen van graan, lasagne
- maken, inmaken in blik of glas,
+Denk hierbij aan persen tot sap, maken van worsten, malen van graan, bereiden
+ van lasagne, inmaken in blik of glas,
 \begin_inset space ~
 \end_inset
 
@@ -2996,7 +2777,7 @@ verkopen van voedsel.
 \begin_inset Newline newline
 \end_inset
 
-Dit wordt de distributie sector genoemd.
+Ook gekend als de distributie sector.
  Hier wordt het voedsel getransporteerd, opgeslagen en in winkels verkocht.
 \end_layout
 
@@ -3005,7 +2786,7 @@ gebruiken van voedsel.
 \begin_inset Newline newline
 \end_inset
 
-Dit is in huishoudens, restaurants,
+Dit zijn huishoudens, restaurants,
 \begin_inset space ~
 \end_inset
 
@@ -3015,8 +2796,8 @@ Dit is in huishoudens, restaurants,
 \end_inset
 
 .
- In het voorbeeld van brood hebben we een extreme situatie gezien waar de
- transport naar de winkel bijna de helft extra energie kost.
+ In het voorbeeld van brood hebben we een extreme situatie gezien waar het
+ transport tussen de winkel en thuis bijna de helft extra energie kost.
  Maar er zijn meer factoren die meespelen.
 \end_layout
 
@@ -3025,8 +2806,8 @@ Verwerking
 \end_layout
 
 \begin_layout Standard
-Uiteraard is er hier transport tussen de boerderij en de verwerking zelf.
- Ook onderling worden producten verscheept (bv.
+Uiteraard is er transport tussen de boerderij en de verwerking.
+ Ook intern worden producten verscheept (bv.
  het meel naar de bakker).
 \end_layout
 
@@ -3050,8 +2831,8 @@ Er is ook energie nodig om gebouwen en machines te maken en te onderhouden.
 
 \begin_layout Itemize
 Wat opvalt is dat de energetische kosten van verpakking redelijk hoog uitvallen.
- Zeker bij conserven loopt de benodigde energie sterk op.
- Dit kan oplopen tot 25% van de energiebehoefte van verwerking!
+ Zeker bij conserven loopt de benodigde energie sterk op tot zelfs 25% van
+ de energiebehoefte van verwerking!
 \end_layout
 
 \begin_layout Standard
@@ -3070,7 +2851,7 @@ Distributie
 Zoals te verwachten is het merendeel van de energie (ongeveer de helft)
  te wijten aan transport.
  Verder is er nog energie nodig voor opslag (gebouwen en koeling), verpakkingen
- (denk bijvoorbeeld aan het wassen van bakken of verpakken als huismerken),
+ (denk bijvoorbeeld aan het wassen van bakken of herverpakken als huismerk),
  verwarming van kantoren en magazijnen, winkelgebouwen.
 \end_layout
 
@@ -3092,12 +2873,12 @@ Voedselverliezen
 \end_layout
 
 \begin_layout Standard
-Dit geeft dan ook aan hoe belangrijk het is om voedselverliezen zoveel mogelijk
- te beperken.
- Als bijvoorbeeld op het einde van de keten een halve pot ravioli verloren
- gaat, is dit niet alleen een verlies van ravioli zelf, maar ook alle energie
- die er tot dan toe ingestoken geweest is van de boer over de verwerker
- en chauffeur tot de winkelier.
+Dit geeft dan ook waarom het zo belangrijk is om voedselverliezen zoveel
+ mogelijk te beperken.
+ Als bijvoorbeeld op het einde van de keten een halve pot ravioli in de
+ vuilnisbak gekieperd wordt, is dit niet alleen een verlies van ravioli
+ zelf, maar ook alle energie die er tot dan toe ingestoken geweest is van
+ de boer over de verwerker en chauffeur tot de winkelier.
 \end_layout
 
 \begin_layout Standard
@@ -3126,20 +2907,24 @@ verliezen door achteloosheid.
 \end_layout
 
 \begin_layout Standard
+De eerste drie soorten zijn meestal in de studies opgenomen.
+\end_layout
+
+\begin_layout Standard
 Aan onvermijdbare en typische verliezen kan er alleen iets gedaan wordt
  als er nieuwe afzet gecreëerd wordt.
  Denk bijvoorbeeld de opgang van paddenstoelenteelt op koffiegruis of het
  gebruik van cacaodoppen als bodembedekker.
  Ideeën hiertoe kunnen zeker geput worden uit het verleden waar men bijvoorbeeld
  elk deel van een dier gebruikte.
- Dit ging van het gebruik van de huis in kleding (leer), haren in borstels
+ Dit ging van het gebruik van de huid in kleding (leer), haren in borstels
  (scheerborstels van varkenshaar) of constructie (paardenhaar in lemen muren)
  over het eten van organenvlees tot beenderlijm.
 \end_layout
 
 \begin_layout Standard
 De andere twee verliesposten kunnen we veel sneller en actiever beperken.
- Dit is zo'n belangrijk thema dat zelfs de FAO hier een volledige studie
+ Dit is zo'n belangrijk thema dat de FAO hier zelfs een volledige studie
  aan gewijd heeft
 \begin_inset space ~
 \end_inset
@@ -3155,7 +2940,7 @@ literal "false"
 .
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Overzicht van kosten
 \end_layout
 
@@ -3189,11 +2974,7 @@ name "fig:e-voedselsysteem-vk"
 
 \end_inset
 
-Energiestromen in de voedselketen (naar
-\begin_inset space \thinspace{}
-\end_inset
-
-
+Energiestromen in de voedselketen (VK 1968, 
 \begin_inset CommandInset citation
 LatexCommand cite
 after "fig. 9"
@@ -3301,14 +3082,10 @@ noprefix "false"
 ten.
  Wordt er nog rekening gehouden met het verbruik thuis en in restaurants,
  dan zakt dit naar zo'n 20%.
- Hierbij is telkens de import en export meegenomen wat een vertekend beeld
- geeft.
- Enkel rekening houden met goederen die zowel geproduceerd als geconsumeerd
- zijn in het VK, heeft de landbouw een aandeel van 34%.
 \end_layout
 
 \begin_layout Standard
-Het is wel duidelijk dat de verwerking de grootste energieinput nodig heeft
+Het is wel duidelijk dat de verwerking de grootste energie input nodig heeft
  in de volledige voedselketen.
 \end_layout
 
@@ -3341,9 +3118,12 @@ Als het energiegebruik in de voedselketen naar beneden moet, is het duidelijk
 
 \begin_layout Itemize
 een zo kort mogelijke keten zodat de impact van de verwerking minder wordt.
- Hierdoor zal er een verschuiving zijn naar meer individueel transport en
- koken.
- Maar we winnen enorm veel doordat veel verpakking geëlimineerd wordt (10%
+\begin_inset Newline newline
+\end_inset
+
+Hierdoor zal er wel een verschuiving zijn naar meer individueel transport
+ en koken.
+ Maar we winnen energie doordat veel verpakking geëlimineerd wordt (10%
  van het totale energieverbruik) en doordat zaken minder lang bewaard moeten
  worden in een koelkast.
 \begin_inset Newline newline
@@ -3353,7 +3133,7 @@ Denk bijvoorbeeld aan die ravioli van hierboven.
  Die moet eerst bereid worden in een fabriek, wordt geserveerd in een aluminium
  schotel, moet de hele tijd gekoeld worden (zowel in de winkel als thuis)
  en moet thuis dan nog eens opgewarmd worden.
- Als we dit thuis direct klaar maken vertrekkende van lasagnebladeren en
+ Als we dit thuis direct klaar maken vertrekkende van lasagne bladeren en
  verse producten, zal dit mijn inziens veel minder energie vragen en nog
  eens voedzamer en smakelijker zijn.
 \end_layout
@@ -3376,14 +3156,13 @@ noprefix "false"
 \end_inset
 
  zagen we al dat veel van wat de landbouw produceert naar vee gaat.
- Ook hebben dierlijke producten extra behandelingen nodig om mogelijk ziektes
- te beperken.
+ Ook hebben dierlijke producten extra zorg nodig om mogelijke ziektes te
+ beperken.
  Dit vraag allemaal extra energie.
 \end_layout
 
 \begin_layout Itemize
 zorgen dat er zo weinig mogelijk verloren gaat in de keten.
- Dit is hierboven al bekeken.
  Men schat dat 30% van alle producten ergens in de keten wel verloren gaan.
  Kunnen we dit vermijden, dan wordt er veel efficiëntie gewonnen.
 \end_layout
@@ -3429,8 +3208,8 @@ PJ, afhankelijk of je de geconsumeerde import erbij neemt of niet.
 \begin_inset space ~
 \end_inset
 
-PJ geconsumeerd, die het duidelijkste uit de studie van Leach komt, werkt,
- dan is de EROEI 1:10.
+PJ, die het meest in de de studie van Leach aangehaald wordt, is de EROEI
+ 1:10.
 \end_layout
 
 \begin_layout Standard
@@ -3469,22 +3248,7 @@ noprefix "false"
 
  zien we dat de EROEI in de landbouw zelf sinds begin jaren '70 gestabiliseerd
  is.
- Het is echter aannemelijk dat dit ook voor de volledige voedselketen zal
- gelden, zeker gezien de conclusies uit figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:e-eff-verlies"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
+ Het is aannemelijk dat dit ook voor de volledige voedselketen zal gelden.
 \end_layout
 
 \end_inset
@@ -3511,7 +3275,7 @@ Wat betekent dit voor de landbouw?
 
 \begin_layout Standard
 Als het doel is om een energetisch neutraal voedselsysteem te hebben, is
- het duidelijk dat de landbouw niet kan volstaan met een EROEI van 1.
+ het duidelijk dat de landbouw niet kan volstaan met een EROEI van 1:1.
 \end_layout
 
 \begin_layout Standard
@@ -3606,18 +3370,18 @@ Landbouw is maar één onderdeel van de voedselketen en nog niet eens diegene
 \end_layout
 
 \begin_layout Standard
-De impact van verpakking, drogen, irrigatie en huishoudens was een grote
- verrassing.
+De impact van verpakking, drogen, irrigatie en huishoudens was voor mij
+ een grote verrassing.
  De impact van de veeteelt was verwacht.
 \end_layout
 
 \begin_layout Standard
 Verder heeft dit mij veel doen nadenken over het gebruik van grondstoffen
  en elektronica.
- Dit geeft bij mij een terughoudendheid naar technologische oplossingen
- binnen de landbouw.
+ Hierdoor ben ik terughoudender geworden naar technische oplossingen in
+ de landbouw.
  Dat is verrassend omdat ik van een zeer technische achtergrond kom (Licentiaat
- natuurkunde, lang werkzaam geweest als IT'er).
+ natuurkunde en ook lang werkzaam als IT'er).
  Ik wil technologie niet afschrijven maar zal er zeker twee keer over nadenken.
 \end_layout
 
@@ -3626,11 +3390,11 @@ Ook is gevonden dat de boutade die dit verdiepend werkstuk getriggerd heeft
  wel klopt.
  Je kunt inderdaad beschouwen dat er, in het huidig systeem, 10 calorieën
  aan olie nodig zijn om 1 calorie aan eten te consumeren.
- Dat is geen houdbare situatie.
+ Dit is geen houdbare situatie.
 \end_layout
 
 \begin_layout Standard
-Het is dus zoeken naar een landbouwsysteem dat deze verhouding op zijn kop
+Het is dus zoeken naar een landbouwsysteem die deze verhouding op zijn kop
  zet.
  Kunnen we inderdaad een systeem vinden dat 3 tot 5 keer zoveel energie
  opbrengt dan dat erin gestoken wordt? Gelukkig worden in de studies al
@@ -3638,15 +3402,15 @@ Het is dus zoeken naar een landbouwsysteem dat deze verhouding op zijn kop
 \end_layout
 
 \begin_layout Chapter
-Vergelijken van verschillende landbouwsystemen
+Er is landbouw en er is landbouw
 \end_layout
 
 \begin_layout Section
-Vergelijking van systemen
+Vergelijking van landbouw systemen
 \end_layout
 
 \begin_layout Standard
-Zowel bij Leach als bij Steinhart en Steinhart zijn de energetische efficiënties
+Zowel bij Leach als bij Steinhart en Steinhart is de energetische efficiëntie
  van verschillende landbouwsystemen vergeleken.
  De resultaten zijn terug te vinden in figuren
 \begin_inset space ~
@@ -3712,15 +3476,16 @@ Energetische input/output verhouding van verschillende landbouw systemen
 \begin_inset space ~
 \end_inset
 
-
+(
 \begin_inset CommandInset citation
 LatexCommand cite
+after "fig.1 "
 key "Leach1976"
 literal "false"
 
 \end_inset
 
-
+)
 \begin_inset Argument 1
 status collapsed
 
@@ -3780,7 +3545,7 @@ Vergelijking van energie
 \emph on
 in
 \emph default
-efficiëntie van verschillende landbouwsystemen (naar 
+efficiëntie van verschillende landbouwsystemen (
 \begin_inset CommandInset citation
 LatexCommand cite
 after "fig. 5"
@@ -3821,6 +3586,13 @@ De eerste figuur geeft de EROEI aan van de systemen, de tweede de omgekeerde
  verhouding.
  Om dit duidelijker te maken heb ik de achtergronden gekleurd: hoe groener,
  hoe efficiënter het systeem is.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3890,27 +3662,42 @@ Het valt ook op dat visserij zo slecht scoort.
  Dit heeft vooral te maken met de afstanden die vissersboten moeten afleggen
  om een volle ruim te hebben.
  Omdat grotere boten veel langer moeten varen, heeft Leach gevonden dat
- deze ook slechter scoren.
+ deze slechter scoren wat tegennatuurlijk lijkt in ons systeem van 
+\begin_inset Quotes pld
+\end_inset
+
+hoe groter, hoe beter
+\begin_inset Quotes prd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 Tot slot is op te merken dat van de moderne landbouwsystemen, enkel akkerbouw
  en veeteelt systemen bekeken zijn.
  Fruit- en groenteteelt is hier niet in opgenomen.
+ Mijn verwachting is dat deze tussen akkerbouw en veeteelt systemen staan.
 \end_layout
 
 \begin_layout Standard
-Uit het werk van Leach komt ook naar boven dat hoe meer energie van spierkracht
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uit het werk van Leach komt naar boven dat hoe meer energie van spierkracht
  komt (menselijk of dierlijk), hoe beter de EROEI is.
- Hij neemt als kantelpunt 90% energie van spierkracht.
- Ook zakt de EROEI bij gemengde bedrijven naarmate er dieren meer bijdragen
+ Ook zakt de EROEI bij gemengde bedrijven naarmate dieren meer bijdragen
  aan de energetische output.
  Als verklaring ziet hij het volgende:
 \end_layout
 
 \begin_layout Itemize
-als je dieren moet houden, gaat veel van de oogst van het systeem naar de
- dieren in plaats van naar menselijke consumptie.
+als je dieren houdt, gaat veel van de oogst van het systeem naar de dieren
+ in plaats van naar menselijke consumptie.
 \end_layout
 
 \begin_layout Itemize
@@ -3947,31 +3734,41 @@ Deze studies zijn gedaan in de jaren '70.
 \end_layout
 
 \begin_layout Section
-Welke systemen zijn een goede basis voor de toekomst?
-\end_layout
-
-\begin_layout Subsection
-Puur energetisch bekeken
+Het kaf van het koren scheiden
 \end_layout
 
 \begin_layout Standard
-Hierboven was aangegeven dat een landbouwsysteem het beter moet doen dan
- 3:1 of 5:1 zodat het volledige voedselsysteem energetisch neutraal kan
- zijn.
+Het is interessant om nu, op basis van de cijfers, te kijken welke landbouwsyste
+men de bevolking kunnen voeden op een manier die de natuurlijke rijkdommen
+ niet uitput.
+ Vanuit de studies kan er alleen iets gezegd worden over energie en landgebruik.
+ Uiteraard zijn veel andere aspecten, zoals water, luchtvervuiling of arbeidsoms
+tandigheden ook belangrijk.
+ Maar bij gebruik aan gegevens in de bekeken studies, worden deze aspecten
+ hier niet behandeld.
+\end_layout
+
+\begin_layout Subsection
+Op basis van energetische efficiëntie
+\end_layout
+
+\begin_layout Standard
+Hierboven is aangegeven dat de energetische efficiëntie van een landbouwsysteem
+ beter moet zijn dan 3:1 of 5:1 zodat het volledige voedselsysteem energetisch
+ neutraal kan zijn.
  Welke moderne landbouwsystemen zitten boven 3:1?
 \end_layout
 
 \begin_layout Standard
 Bij Leach zien we dat enkel het telen van suikerbiet en granen hieraan voldoen.
- Als de rest heeft een verhouding die minder is dan 3:1.
  Opvallend is dat geen enkele dierlijk product een verhouding heeft boven
- 1.
+ 1:1.
 \end_layout
 
 \begin_layout Standard
 Kijken we bij Steinhart en Steinhart, dan zien we dat aardappelen (zowel
- intens als laag intens) en laag intense mais boven de 3:1 zit (even opletten:
- figuur
+ intens als laag intens), laag intense mais en rijst (zowel intens als laag
+ intens) boven de 3:1 zitten (even opletten: figuur
 \begin_inset space ~
 \end_inset
 
@@ -3987,12 +3784,27 @@ noprefix "false"
 
  geeft de omgekeerde verhouding aan en dan nog eens in een logaritmische
  schaal!).
- Soyabonen zitten ongeveer op de grens.
+ Sojabonen zitten ongeveer op de grens.
 \end_layout
 
 \begin_layout Standard
-Als het doel van een landbouwsysteem een EROEI van 5:1 is, is er geen enkel
- opgenomen modern landbouwsysteem die deze efficiëntie kan bieden!
+Als het doel van een landbouwsysteem een EROEI van 5:1 is, voldoen enkel
+ rijst en laag intense aardappelen hieraan! De eerste is een tropisch graan
+ waarbij veel energie via de zon en warmte komt, de tweede wordt hier waarschijn
+lijk amper nog beoefend.
+\end_layout
+
+\begin_layout Standard
+Dus de moderne landbouwsystemen en de voedselketen in onze westerse wereld
+ is niet in staat om op een duurzame manier de bevolking te voeden.
+ Ze vragen meer energie dan wat eruit gehaald kan worden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4003,7 +3815,7 @@ Kijken we naar oudere landbouwsystemen, dan valt op dat vele hiervan vlotjes
 \lang english
 slach&burn
 \lang dutch
- systemen halen allemaal de benodigde efficiëntie.
+ systemen hebben een efficiëntie van meer dan 5:1.
  Uiteraard moeten we de systemen die enkel in de tropen en de sub-tropen
  mogelijk zijn uit de lijst halen, omdat deze in ons gematigd klimaat niet
  kunnen gedijen.
@@ -4014,7 +3826,19 @@ Leach legt de nadruk op 2 systemen die volgens hem uitschieters zijn:
 \end_layout
 
 \begin_layout Description
-moestuinen Deze hebben een energetische efficiëntie die verbazend goed is.
+moestuinen
+\begin_inset space ~
+\end_inset
+
+(
+\lang english
+allotment
+\begin_inset space ~
+\end_inset
+
+gardens
+\lang dutch
+) Deze hebben een energetische efficiëntie die verbazend goed is.
  Nog niet voldoende maar dat is volgens Leach te wijten aan het gebruik
  van meststoffen en de keuze van laag energetische teelten zoals sla.
  Hij verwijst ook naar het succesvolle gebruik van volkstuinen tijdens de
@@ -4046,7 +3870,7 @@ in
 \begin_inset space ~
 \end_inset
 
-1930 Dit systeem is beschreven in
+1930 Dit systeem is uitgebreid beschreven in
 \begin_inset space ~
 \end_inset
 
@@ -4059,11 +3883,11 @@ literal "false"
 \end_inset
 
 .
- Het gaat over boeren die op kleine stukken grond een relatief zeer hoge
- productie halen.
- Het succes is hier te wijten aan het hoog gebruik van meststoffen, een
- zeer intense begroeiing (voor- en nateelt, combinatieteelten) en een zeer
- intense opvolging van de teelten.
+ Het gaat over boeren die op kleine stukken grond een zeer hoge productie
+ halen.
+ Het succes is hier te wijten aan het hoog gebruik van organische meststoffen,
+ een zeer intense begroeiing (voor- en nateelt, combinatieteelten) en een
+ zeer intense opvolging van de teelten.
  Dit is ook vergelijkbaar met wat Charles Hervé-Gruyer schrijft over de
  Parijse boeren in de 19e eeuw
 \begin_inset space ~
@@ -4081,22 +3905,16 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Bedenkingen
+Op basis van grondgebruik
 \end_layout
 
 \begin_layout Standard
-Moeten we dan terug naar de vroegere systemen? Er zijn toch wel bedenkingen
- te maken hierrond.
-\end_layout
-
-\begin_layout Subsubsection
-Grondgebruik
+Willen we de bevolking voeden, dan moet de landbouw voldoende energie produceren
+ vanop de beschikbare landbouw oppervlakte.
 \end_layout
 
 \begin_layout Standard
-Een eerste bedenking is dat systemen zoals jager/verzamelaar veel grond
- vragen.
- Als mens hebben we ongeveer 4
+Als mens hebben we ongeveer 4
 \begin_inset space ~
 \end_inset
 
@@ -4123,9 +3941,6 @@ MJ/dag of ongeveer 2
 \end_inset
 
  aan energie nodig.
- Dus een tweede vereiste voor een landbouwsysteem is dat er meerdere mensen
- gevoed kunnen worden per hectare.
- Hoeveel hangt af van hoeveel landbouwgrond er beschikbaar is per persoon.
  In België is er per inwoner 0,13
 \begin_inset space ~
 \end_inset
@@ -4147,7 +3962,11 @@ Er is ongeveer 1
 \begin_inset space ~
 \end_inset
 
-ha aan landbouwgrond voor een bevolking van ongeveer 11 miljoen inwoners.
+ha aan landbouwgrond voor een bevolking van ongeveer 11
+\begin_inset space ~
+\end_inset
+
+miljoen inwoners.
 \end_layout
 
 \end_inset
@@ -4177,14 +3996,24 @@ Aangezien tuinbouw niet opgenomen is, is het niet duidelijk of deze hier
 \end_inset
 
 .
- Systemen met dierlijke producten halen deze waarde niet.
- Het beste hier is een groot gemengd melkveebedrijf met een output van 22
+ Systemen met dierlijke producten halen deze waarde niet
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Het beste dierlijke landbouwsysteem is een groot gemengd melkveebedrijf
+ met een output van 22
 \begin_inset space ~
 \end_inset
 
-GJ/ha.
- Uiteraard zou je kunnen opbrengen dat moderne industriële veehouderij dit
- wel kan halen.
+GJ/ha
+\end_layout
+
+\end_inset
+
+.
+ Uiteraard zou je kunnen opbrengen dat moderne, niet grondgebonden, industriële
+ veehouderij dit wel kan halen.
  Het probleem is echter dat, zoals we bij Meino Smit gezien hebben, deze
  een grote indirecte energetische input (en zoals we later zullen zien ook
  landgebruik) nodig hebben.
@@ -4211,8 +4040,8 @@ km
 \end_layout
 
 \begin_layout Standard
-De twee systemen die hierboven aangehaald werden, doen het helemaal niet
- slecht.
+De twee systemen die hierboven uitgelicht werden, doen het helemaal niet
+ slecht:
 \end_layout
 
 \begin_layout Description
@@ -4242,6 +4071,10 @@ GJ/ha wat genoeg is om 70 personen te voeden.
  van dit resultaat!
 \end_layout
 
+\begin_layout Subsection
+Extra bedenkingen
+\end_layout
+
 \begin_layout Subsubsection
 Voedselzekerheid
 \end_layout
@@ -4258,6 +4091,7 @@ Het is natuurlijk de vraag of we vandaag beter af zijn.
  import of transport wegvallen.
  Of dit echt klopt laat we even in het midden, maar het is duidelijk dat
  een situatie zoals een lockdown of oorlog direct voor paniek zorgt.
+ Veel vertrouwen in de zelfvoorziening van de voedselketen is er dus niet.
 \end_layout
 
 \end_inset
@@ -4288,8 +4122,8 @@ Sociale status
 
 \begin_layout Standard
 Je zou dus denken dat een systeem zoals in het oude China ideaal is.
- Als je echter het verslag van King leest, komt daarin door dat de boeren
- onder aan de sociale ladder staan.
+ Als je echter het verslag van King leest, sijpelt daarin door dat de boeren
+ onder aan de sociale ladder stonden.
  Ook vraagt de intensiteit van dit systeem veel boeren.
  Een gemiddeld perceel was 0,25
 \begin_inset space ~
@@ -4317,21 +4151,29 @@ Het is opvallend hoeveel verschil er is tussen verschillende landbouwsystemen.
 
 \begin_layout Standard
 We hebben nu twee criteria waaraan een landbouwsysteem moet voldoen om enerzijds
- een energetisch neutrale voedselsysteem te kunnen bewerkstelligen en anderzijds
- ervoor te kunnen zorgen dat we zelfvoorzienend kunnen zijn.
- Geen enkel bekeken systeem met dierlijke productie voldoet ook maar één
- van deze voorwaarden.
+ een energetisch neutrale voedselsysteem te kunnen bewerkstelligen (EROEI
+ boven de 3:1) en anderzijds ervoor te kunnen zorgen dat we zelfvoorzienend
+ kunnen zijn (opbrengst boven de 30
+\begin_inset space ~
+\end_inset
+
+GJ per jaar en per hectare).
+\end_layout
+
+\begin_layout Standard
+Geen enkel bekeken systeem met dierlijke productie voldoet aan slechts één
+ van deze voorwaarden!
 \end_layout
 
 \begin_layout Standard
 Sommige akkerbouwsystemen voldoen aan beide voorwaarden maar geven een nogal
- eenzijdig dieet van tarwe en suiker.
+ eenzijdig dieet van granen en suiker.
  Omdat tuinbouw systemen niet opgenomen zijn in de studies is het niet duidelijk
  of deze aan de voorwaarden kunnen voldoen.
 \end_layout
 
 \begin_layout Standard
-Teruggaan naar oudere systemen zoals jager/verzamelaar is met de huidige
+Terug gaan naar oudere systemen zoals jager/verzamelaar is met de huidige
  bevolkingsdichtheid niet haalbaar.
 \end_layout
 
@@ -4340,6 +4182,13 @@ Wat wel een goede basis is, is vertrekken van systemen zoals moestuinen
  en de Chinese landbouw.
  Deze zitten al goed, of zelfs uitstekend, op het gebied van de energetische
  behoeften invullen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4354,7 +4203,7 @@ Natuurlijk bestaat het leven niet enkel uit energie.
 \end_inset
 
 .
- In het volgende deel gaan we kijken welke impact landbouw hierop kan hebben.
+ In het volgende deel gaan we kijken welke impact landbouw hierop heeft.
 \end_layout
 
 \begin_layout Part
@@ -4390,18 +4239,16 @@ Het zou me echter niet verbazen moesten er ooit levensvormen ontdekt worden
 \end_layout
 
 \begin_layout Standard
-Binnen de landbouw is het duidelijk dat de nood aan water op het veld juist
- moet zijn.
+Binnen de landbouw is er behoefte aan net genoeg water.
  Maar hoeveel wordt er ook rekening gehouden met de impact van de landbouw
- buiten het veld? Bijvoorbeeld de vervuiling van waterlopen of het zakken
- van het grondwaterniveau kan veroorzaakt worden door een teveel gebruik
- binnen de landbouw.
+ buiten het veld? Bijvoorbeeld het dalende grondwaterniveau kan veroorzaakt
+ worden door een teveel gebruik binnen de landbouw.
 \end_layout
 
 \begin_layout Standard
-De water kosten worden eerder bekeken vanuit een standpunt van schaarste
- van landbouw.
- Een teveel aan water kan ook problemen veroorzaken zoals erosie.
+De waterkosten worden bekeken vanuit een standpunt van schaarste.
+ Een teveel aan water kan ook problemen veroorzaken zoals erosie of verlies
+ van bodemleven.
  Deze worden echter als andere kosten beschouwd.
 \end_layout
 
@@ -4447,7 +4294,8 @@ Nu is niet elk soort water dat gebruikt wordt gelijkwaardig.
 \end_layout
 
 \begin_layout Standard
-Blauw water en groen water zijn in 1995 geïntroduceerd door Malin Falkenmark
+De termen blauw water en groen water zijn in 1995 geïntroduceerd door Malin
+ Falkenmark
 \begin_inset space ~
 \end_inset
 
@@ -4460,8 +4308,8 @@ literal "false"
 \end_inset
 
 .
- Grijs water is later als concept geïntroduceerd door Chapagain in 2006,
- toen nog verdunningswater genoemd
+ Grijs water is in 2006 als concept geïntroduceerd door Chapagain, toen
+ nog verdunningswater genoemd
 \begin_inset space ~
 \end_inset
 
@@ -4525,7 +4373,7 @@ De blauwe watervoetafdruk is het gebruik hiervan door de mens.
 
 \begin_layout Standard
 Het verbruik van blauw water was recentelijk nog de voornaamste focus rond
- de water verbruik.
+ waterverbruik.
 \end_layout
 
 \begin_layout Subsection
@@ -4533,9 +4381,9 @@ Groen water
 \end_layout
 
 \begin_layout Standard
-Het is pas eind jaren '90, begin deze eeuw dat men ook is beginnen realiseren
+Het is pas eind jaren '90, begin deze eeuw dat men is beginnen realiseren
  dat het water in de onverzadigde laag van de bodem, dat door planten gebruikt
- kan worden, ook een belangrijke factor kan spelen in de totale waterhuishouding.
+ kan worden, een belangrijke factor kan spelen in de totale waterhuishouding.
  Dit water wordt groen water genoemd.
  
 \end_layout
@@ -4543,131 +4391,9 @@ Het is pas eind jaren '90, begin deze eeuw dat men ook is beginnen realiseren
 \begin_layout Standard
 De groene watervoetafdruk is het deel van het groene water dat gebruikt
  wordt.
- Het merendeel verdampt via transpiratie van de planten of evaporatie van
- de bodem (tezamen ook evapotranspiratie genoemd).
+ Het merendeel verdampt via transpiratie van de planten of evaporatie (tezamen
+ ook evapotranspiratie genoemd).
  Een klein deel ervan wordt gebruikt door de plant om te groeien en te bloeien.
-\end_layout
-
-\begin_layout Subsection
-De watercyclus
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/figuren/watercyclus.gif
-	lyxscale 10
-	width 70col%
-	groupId leach
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:watercyclus"
-
-\end_inset
-
-Een deel van de watercyclus (uit
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "rockstorm1999"
-literal "false"
-
-\end_inset
-
-)
-\begin_inset Argument 1
-status collapsed
-
-\begin_layout Plain Layout
-Deel van de watercyclus.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-In figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:watercyclus"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- is een deel van de watercyclus schematisch weergegeven.
- Er komt water een systeem binnen via regen en oppervlaktewater (bv.
- afvloeiing of stroompjes).
- Dit water gaat ofwel verder via afvloeiing (blauw water) ofwel verdampt
- het direct (groen water) ofwel dringt het in de bodem.
-\end_layout
-
-\begin_layout Standard
-Het water in de bodem kan opgenomen worden door planten en verdampen (groen
- water).
- Het kan ook dieper doordringen om zo het vloeibare grondwater (blauw water)
- aan te vullen.
-\end_layout
-
-\begin_layout Standard
-Zeker in droge klimaten is er een uitwisseling tussen het groene en het
- blauwe water.
- Als er meer water verdampt door bijvoorbeeld transpiratie van planten,
- dan is er minder water dat kan doordringen tot de aquifer.
- Het is inderdaad al een aantal keer voorgekomen dat door het planten van
- een bos, er stroomafwaarts minder water beschikbaar was.
-\end_layout
-
-\begin_layout Standard
-Omgekeerd is het ook zo dat door de verdamping van water, windafwaarts meer
- neerslag kan ontstaan wat het blauwe water juist kan aanvullen.
- Denk bijvoorbeeld aan de successen die John D.
- Liu gefilmd heeft of het werk van Geoff Lawton.
-\end_layout
-
-\begin_layout Standard
-Bij irrigatie (blauw water) verdampt een deel van het water en 
-\begin_inset Quotes pld
-\end_inset
-
-wordt
-\begin_inset Quotes prd
-\end_inset
-
- het groen water.
-\end_layout
-
-\begin_layout Standard
-Je merkt het dus, het is allemaal niet zo eenduidig.
 \end_layout
 
 \begin_layout Subsection
@@ -4676,7 +4402,7 @@ Grijs water
 
 \begin_layout Standard
 Grijs water is bedoeld om de mate van vervuiling aan te geven.
- Het komt niet direct overeen met fysisch water in tegenstelling tot blauw
+ Het komt niet direct overeen met fysiek water in tegenstelling tot blauw
  en groen water.
 \end_layout
 
@@ -4712,11 +4438,21 @@ Voor de liefhebbers:
 \end_layout
 
 \begin_layout Itemize
-zwart water is water vervuild met ontlasting uit toiletten.
+zwart water is water vervuild met ontlasting (bv.
+ uit toiletten).
 \end_layout
 
 \begin_layout Itemize
 zwaar water en licht water zijn termen uit de kernfysica.
+\end_layout
+
+\begin_layout Subsection
+Koe 42 heeft dorst
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
 \end_layout
 
 \begin_layout Standard
@@ -4734,12 +4470,23 @@ noprefix "false"
 
 \end_inset
 
- de stelling geponeerd was dat er 15.000
+ de stelling geponeerd was dat er 15
+\begin_inset space \thinspace{}
+\end_inset
+
+000
 \begin_inset space ~
 \end_inset
 
-l water nodig is voor 1 kg rundvlees? Dat kun je bijvoorbeeld terugvinden
- op vlees.nl
+l water nodig is voor 1
+\begin_inset space ~
+\end_inset
+
+kg rundvlees? Dat kun je bijvoorbeeld terugvinden op 
+\noun on
+vlees.nl
+\noun default
+
 \begin_inset Foot
 status collapsed
 
@@ -4786,23 +4533,29 @@ Dat is ook de grote teneur van mensen die de watervoetafdruk beschouwen
 \end_layout
 
 \begin_layout Standard
-Nu blijkt dat hiervan het overgrote merendeel groen water is omdat koe
+Nu blijkt dat van die 15
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+l, het overgrote merendeel groen water is omdat koe
 \begin_inset space ~
 \end_inset
 
 42 lange tijd blij op de wei mag grazen.
- Zolang zij dat doet, wordt de transpiratie van het gras meegerekend bij
- de groene watervoetafdruk.
+ Voor die wei wordt de evapotranspiratie meegerekend als groene watervoetafdruk.
 \end_layout
 
 \begin_layout Standard
 Je kunt je dan afvragen of die groene watervoetafdruk erg is.
  Dat is een zeer goede vraag.
- Zolang er genoeg regenval is, lijkt me de groene watervoetafdruk niet belangrij
-k.
- Het is maar als er te weinig neerslag is, dat ofwel oogsten gaan mislukken
- ofwel er een veel grotere vraag komt op beschikbaar water.
- Dan wordt de verdamping en evaporatie van water wel belangrijk.
+ Zolang er genoeg regenval is, lijkt me de groene watervoetafdruk geen doorslagg
+evende rol te spelen.
+ Het is maar als er te weinig neerslag is, dat de verdamping en evaporatie
+ van water wel belangrijk wordt.
 \end_layout
 
 \begin_layout Standard
@@ -4816,8 +4569,12 @@ Voor blauw en grijs water is er meer consensus dat de watervoetafdruk een
 \end_layout
 
 \begin_layout Standard
-Nemen we de waarden gevonden op vlees.nl en zetten we voor de verschillende
- producten de blauwe en grijze watervoetafdruk uit (figuur
+Nemen we de waarden gevonden op 
+\noun on
+vlees.nl
+\noun default
+ en zetten we voor de verschillende producten de blauwe en grijze watervoetafdru
+k uit (figuur
 \begin_inset space ~
 \end_inset
 
@@ -4907,7 +4664,7 @@ amandelnoot overeen komt met 10
 \begin_inset space ~
 \end_inset
 
-liter water! En dat blijkt in onderzoek niet ver van de waarheid te zijn,
+liter water! En dat blijkt uit onderzoek niet ver van de waarheid te zijn,
  vooral bij droge jaren in Californië (waar een belangrijk deel van de amandelno
 ten geteeld worden).
 \end_layout
@@ -4962,7 +4719,7 @@ Dit is omdat je één getal neemt waar alles gelijkwaardig opgeteld wordt.
 \end_layout
 
 \begin_layout Standard
-Waarom doen zelfs de voorstanders van de watervoetafdruk dus ook? Hoewel
+Waarom doen zelfs de voorstanders van de watervoetafdruk dat ook? Hoewel
  ze niet zeggen waarom ze opeens de nuance achter zich laten, rechtvaardigen
  ze de 1-op-1 optelling door te stellen dat het werken met gewichten een
  subjectieve beoordeling geeft van de kleuren aan water.
@@ -4971,27 +4728,24 @@ Waarom doen zelfs de voorstanders van de watervoetafdruk dus ook? Hoewel
 \end_layout
 
 \begin_layout Subsection
-Grijs water heeft geen werkelijke waarde
+Grijs water is virtueel water
 \end_layout
 
 \begin_layout Standard
 Zoals je bij de definitie van grijs water gezien hebt, hangt deze waarde
  af van de wettelijke normen.
- Deze normen veranderen in de tijd (van geen normen tot meer of minder strenge
- normen).
- Dus meen verandering van de wet, zal het waterverbruik van voedingstoffen
- zogezegd verhogen of verlagen.
+ Deze normen veranderen in de tijd.
 \end_layout
 
 \begin_layout Standard
 Dat wil dus zeggen dat bijvoorbeeld de noten van hierboven, waar de grijze
  watervoetafdruk relatief hoog is, opeens een andere watervoetafdruk kunnen
  hebben afhankelijk van de wetgeving.
- Dat zonder dat de werkelijkheid of de reële impact anders is!
+ Dat zonder dat de reële impact veranderd is!
 \end_layout
 
 \begin_layout Subsection
-Een hoge groene watervoetafdruk is niet altijd slecht
+Een groene watervoetafdruk is niet altijd slecht
 \end_layout
 
 \begin_layout Standard
@@ -5010,23 +4764,30 @@ Tijdens de loop van het leertraject hebben we ook geleerd over de kleine
 \end_layout
 
 \begin_layout Standard
-Het is het herstellen va de kleine watercyclus die de successen verklaart
- op verschillende plaatsen in de wereld waar met terug bomen aangeplant
- heeft wat geleid heeft tot het herstel van rivieren en stroompjes.
+Het is het herstellen van de kleine watercyclus die de successen verklaart
+ op verschillende plaatsen in de wereld waar men terug bomen aangeplant
+ heeft met als resultaat het herstel van rivieren en stroompjes.
+ Hierdoor werden de percelen vochtiger waardoor landbouw terug mogelijk
+ werd.
+ Denk bijvoorbeeld aan de successen die John D.
+ Liu gefilmd heeft of het werk van Geoff Lawton.
 \end_layout
 
 \begin_layout Standard
-Hier in Vlaanderen kent men ook het gebruik van bomen om velden droger te
- maken.
- Dit is iets wat we in de toekomst waarschijnlijk anders moeten aanpakken.
+Hier in Vlaanderen kent men daarentegen het gebruik van bomen om velden
+ droger te maken.
+ Of dit nog wenselijk laat ik in het midden, maar hier gebruikt men de evapotran
+spiratie om percelen droger te maken.
 \end_layout
 
 \begin_layout Standard
-In beide voorbeelden is er een hoge groen watervoetafdruk.
+In beide voorbeelden is er een hoge groene watervoetafdruk.
  In het ene geval wordt de watervoorraad op een indirecte manier aangevuld.
  In het andere wordt de grondwaterstand verlaagd.
  Het is dus duidelijk dat de gevolgen van een hoge groene watervoetafdruk
  niet eenduidig zijn.
+ Het hangt veel af van de plaatselijke situatie: is er een overschot aan
+ neerslag of niet.
 \end_layout
 
 \begin_layout Subsection
@@ -5034,9 +4795,9 @@ Focussen op de watervoetafdruk kan onnatuurlijke systemen promoten
 \end_layout
 
 \begin_layout Standard
-Bij het vergelijken van de watervoetafdruk van verschillende landbouwsystemen
- in de veehouderij, viel het op dat voor runderen industriële systemen een
- lagere watervoetafdruk hebben dan systemen waar de koeien vrij mogen grazen.
+Bij het vergelijken van de watervoetafdruk van verschillende soorten veehouderij
+, viel het op dat voor runderen industriële systemen een lagere watervoetafdruk
+ hebben dan systemen waar de koeien vrij mogen grazen.
 \end_layout
 
 \begin_layout Standard
@@ -5081,8 +4842,8 @@ de dieren worden bijgevolg op jongere leeftijd geslacht waardoor ze minder
 
 \end_deeper
 \begin_layout Itemize
-in een industrieel systeem wordt meer krachtvoer gebruikt.
- Krachtvoer vraag per kg droog gewicht wel meer water.
+daarentegen wordt in een industrieel systeem meer krachtvoer gebruikt.
+ Krachtvoer vraag per kg droog gewicht meer water.
  Dit kan verminderen door gebruik van schroot en andere reststromen.
 \end_layout
 
@@ -5119,12 +4880,12 @@ Je merkt dus dat hoe verder van natuurlijke processen gegaan wordt, hoe
 \end_inset
 
 \SpecialChar ldots
-) echter meegenomen? Als dit niet gedaan wordt, dan wordt de vergelijking
- scheef getrokken!
+) echter meegenomen? Als dit niet gedaan wordt, worden appelen met peren
+ vergeleken.
 \end_layout
 
 \begin_layout Section
-Wat zou een betere manier zijn om de kosten rond water in rekening te brengen?
+Kan het beter?
 \end_layout
 
 \begin_layout Standard
@@ -5160,13 +4921,14 @@ Bereken de grijze watervoetafdruk niet op basis van wettelijke normen maar
 In de loop van de tijd is gemerkt dat de natuur vele soorten vervuiling
  kan wegwerken, als dan niet met de hulp van de mens.
  Hoeveel water hiervoor nodig is (bijvoorbeeld voor het kweken van olie
- etende bacteriën) lijkt me een stabielere indicator van de grijze watervoetafdr
-uk die meer in de realiteit gestoeld is.
+ etende bacteriën) lijkt me een stabielere en reëlere indicator van de grijze
+ watervoetafdruk.
 \begin_inset Newline newline
 \end_inset
 
-Voordeel is dan meteen dat het gebruik van stoffen die niet afgebroken kunnen
- worden meteen een onoverkomelijke impact hebben.
+Voordeel hierbij is dat het gebruik van stoffen die niet afgebroken kunnen
+ worden (zoals PFOS) een onoverkomelijke impact hebben.
+ Hierdoor zal men langer nadenken om deze stoffen te gebruiken.
 \end_layout
 
 \begin_layout Itemize
@@ -5201,7 +4963,8 @@ literal "false"
 \end_inset
 
 .
- De evolutie is te zien in figuur
+ De evolutie van het beschikbare landbouwareaal in Nederland is te zien
+ in figuur
 \begin_inset space ~
 \end_inset
 
@@ -5215,7 +4978,7 @@ noprefix "false"
 
 \end_inset
 
-.
+ waarbij de gele balk de hierboven vermelde grenzen aangeeft.
 \end_layout
 
 \begin_layout Standard
@@ -5245,7 +5008,7 @@ name "fig:land-klassiek-per-inwoner"
 
 \end_inset
 
-Direct landbouwareaal per inwoner
+Direct landbouwareaal per inwoner in Nederland
 \end_layout
 
 \end_inset
@@ -5259,10 +5022,17 @@ Direct landbouwareaal per inwoner
 \end_layout
 
 \begin_layout Standard
-Al geruime tijd is het beschikbare landbouwareaal per inwoner onder de minimumno
-rm zit, net zoals we uitgerekend hebben voor een Belg vandaag de dag.
+Al geruime tijd zit het beschikbare landbouwareaal per inwoner onder de
+ minimumnorm.
  Hoe is het dan mogelijk dat de Nederlandse bevolking niet sterft van de
  honger?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5277,14 +5047,74 @@ Inderdaad beste lezer, er wordt indirect land gebruikt.
 
 \begin_layout Standard
 Analyse geeft aan dat dit extra landgebruik zo goed als volledig toe te
- wijzen is aan veevoer.
+ wijzen is aan veevoer, zoals te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  De beruchte soja van Brazilië maar bijvoorbeeld ook graan uit andere Europese
  landen en mais uit de VSA.
 \end_layout
 
 \begin_layout Standard
-In het totaal is er momenteel 1,7 zoveel grond nodig buiten Nederland als
- binnen Nederland.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - alles.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-nl"
+
+\end_inset
+
+Totale gebruikte landbouwareaal van de Nederlandse landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In het totaal is er momenteel 1,7 keer zoveel grond nodig buiten Nederland
+ als binnen Nederland.
  Dat is de waarde voor alle landbouwsectoren samen.
  Moesten we dit enkel bekijken voor de veeteelt, dan zouden we zien dat
  voor elke hectare die een koe inneemt in Nederland er een veelvoud aan
@@ -5318,7 +5148,7 @@ name "fig:land-totaal-per-inwoner"
 
 \end_inset
 
-Totaal landbouwareaal per inwoner
+Totaal landbouwareaal per inwoner in Nederland
 \end_layout
 
 \end_inset
@@ -5349,7 +5179,7 @@ noprefix "false"
 
 .
  Het is echter de vraag of dit duurzaam is omdat dit ervan uitgaat dat de
- import van veevoer ongestoord kan doorgaan en op een aanvaardbare prijsniveau
+ import van veevoer ongestoord kan doorgaan en op een aanvaardbaar prijsniveau
  blijft.
  Dit is dan nog los van de extra energie die deze import vraagt.
 \end_layout
@@ -5365,19 +5195,30 @@ Het aantal boeren is in Nederland al jaren in dalende lijn.
 \end_layout
 
 \begin_layout Standard
-Nu we al ervaring hebben indirecte aandelen in deze factoren, is het interessant
- om te kijken hoeveel mensen indirect tewerkgesteld zijn in de landbouw.
- Dit zijn niet alleen de boeren in het buitenland die veevoer telen, maar
- ook arbeiders in de mijnbouw, of landbouwadviseurs of arbeiders van rubberfabri
-eken die tractorbanden maken.
+Nu je al ervaring hebt met indirecte aandelen, beste lezer, vraag je je
+ natuurlijk af hoeveel mensen indirect tewerkgesteld zijn in de landbouw.
+ Bravo, je het al goed opgelet.
+\end_layout
+
+\begin_layout Standard
+Deze indirect tewerkgestelde mensen zijn niet alleen de boeren in het buitenland
+ die veevoer telen, maar ook arbeiders in de mijnbouw, landbouwadviseurs
+ of arbeiders van rubberfabrieken die tractorbanden maken.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Meino Smit heeft dit gelukkig voor ons uitgezocht.
- Het aandeel indirecte arbeid is en blijft nog stijgen.
+ Het aandeel indirecte arbeid blijft stijgen.
  Het is zelfs zo dat elke Nederlandse boer momenteel gemiddeld 1,7 andere
  mensen nodig heeft om zijn of haar werk te kunnen doen.
- Zijn inschatting is naar eigen zeggen eerder conservatief wegens gebrekkige
+ Meino's inschatting is naar eigen zeggen eerder conservatief wegens gebrekkige
  cijfers.
  Het aantal mensen dat indirect tewerkgesteld is zal waarschijnlijk hoger
  zijn.
@@ -5393,11 +5234,32 @@ De belangrijkste sectoren die indirecte arbeid leveren aan de landbouw zijn
 \end_layout
 
 \begin_layout Standard
-Zelfs al je rekening houdt met de indirecte arbeid, is het aantal mensen
+Zelfs als je rekening houdt met de indirecte arbeid, is het aantal mensen
  dat in het totaal in de Nederlandse landbouw tewerkgesteld is in de loop
- van de tijd afgenomen.
- Dit heeft uiteraard met de doorgedreven mechanisatie van de landbouw te
- maken, zowel binnen Nederland als in het buitenland.
+ van de tijd afgenomen, zoals te zien in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeid-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Dit heeft met de doorgedreven mechanisatie van de landbouw te maken, zowel
+ binnen Nederland als in het buitenland.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5433,6 +5295,44 @@ de voeding die nodig is om menselijke (en dierlijke) arbeid te verrichten
  is in onze huidige maatschappij indirect een gebruik van fossiele energie.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid - alles.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeid-nl"
+
+\end_inset
+
+Totale arbeid van de Nederlands Landbouw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Van een veelheid naar één getal?
 \end_layout
@@ -5447,96 +5347,9 @@ Naast de hierboven genoemde kosten, zijn uit de studies nog een veelheid
 \end_layout
 
 \begin_layout Standard
-Meino Smit haalt bijvoorbeeld een aantal andere studies aan die de maatschappeli
-jke kosten van de landbouw berekend hebben (tabel
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:euro-maatschappelijke-kosten"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-afterpage{
-\backslash
-clearpage
-\backslash
-begin{landscape}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="3">
-<features booktabs="true" islongtable="true" longtabularalignment="center">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Welke kost is bekeken
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Waarde
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Wie heeft het berekend
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Milieuschade van gangbare Nederlandse landbouw
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-€
+Meino Smit haalt bijvoorbeeld een aantal studies aan die de maatschappelijke
+ kosten van de landbouw berekend hebben.
+ Deze lopen van milieuschade (geschat op €
 \begin_inset space ~
 \end_inset
 
@@ -5544,219 +5357,13 @@ Milieuschade van gangbare Nederlandse landbouw
 \begin_inset space ~
 \end_inset
 
-miljard per jaar
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Bureau Berenschot (1989)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Maatschappelijke kosten van de Nederlandse veehouderij
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-minstens €
+miljard per jaar) over maatschappelijke kosten van veehouderij (meer dan
+ €
 \begin_inset space ~
 \end_inset
 
-2,1
-\begin_inset space ~
-\end_inset
-
-miljard voor 2011
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-CE Delft
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Maatschappelijke kosten van bestrijdingsmiddelen
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-ruim €
-\begin_inset space ~
-\end_inset
-
-91
-\begin_inset space ~
-\end_inset
-
-miljoen per jaar
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-LEI (2008)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Maatschappelijke kosten van de Nederlandse veehouderij
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-€
-\begin_inset space ~
-\end_inset
-
-2,56
-\begin_inset space ~
-\end_inset
-
-miljard per jaar
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Een daling van 1,6
-\begin_inset space ~
-\end_inset
-
-miljoen koeien tot 1,1
-\begin_inset space ~
-\end_inset
-
-miljoen koeien doet de kosten dalen met €
-\begin_inset space ~
-\end_inset
-
-800
-\begin_inset space ~
-\end_inset
-
-miljoen.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Louis Bolk Instituut (2017)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Subsidies in het kader van het GLB
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "GLB"
-description "Gemeenschappelijk Landbouw Beleid"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-€
-\begin_inset space ~
-\end_inset
-
-1
-\begin_inset space ~
-\end_inset
-
-miljard
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Maatschappelijke kosten van de Nederlandse landbouw
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-tussen de €
+2 miljard per jaar) tot maatschappelijke kosten van de volledige Nederlands
+ landbouw (tussen de €
 \begin_inset space ~
 \end_inset
 
@@ -5768,114 +5375,7 @@ tussen de €
 \begin_inset space ~
 \end_inset
 
-miljard per jaar
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-De kostprijs van de broeikasgassen uitstoot is berekend aan de hand van
- de 
-\begin_inset Formula $\ce{CO2}$
-\end_inset
-
- handel (
-\lang english
-Emission Trade System
-\lang dutch
-).
- Uit een studie van het FOA haalt hij dat de kosten van broeikasgassen een
- kwart is van de de totale externe kosten.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset CommandInset citation
-LatexCommand cite
-after "par. 12.3"
-key "Smit2018"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row endfirsthead="true" caption="true">
-<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:euro-maatschappelijke-kosten"
-
-\end_inset
-
-Voorbeelden van de economische waarde van maatschappelijke kosten
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{landscape}}
-\end_layout
-
-\end_inset
-
-
+miljard per jaar).
 \end_layout
 
 \begin_layout Standard
@@ -5893,6 +5393,15 @@ Dit zijn bedragen waar je even stil van wordt.
 miljard bedraagt.
  De maatschappelijke kosten zijn dus van dezelfde grotenorde als het inkomen
  uit de landbouw.
+ Of anders gezegd, onze manier van aan landbouw doen is mogelijks maatschappelij
+k economisch onrendabel.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5904,13 +5413,11 @@ literal "false"
 
 \end_inset
 
-) brengt nog factoren aan als arbeidsongevallen, ziekte door consumptie
+) brengt nog factoren aan zoals arbeidsongevallen, ziekte door consumptie
  van pesticiden, erosie, biodiversiteit en het koolstofgehalte in de bodem.
-\end_layout
-
-\begin_layout Standard
-ternaliseren bij de vervuiler en diegenen die de vervuilende producten afnemen.
- 
+ Vanuit hun berekeningen komen ze tot de conclusie dat voor biologische
+ landbouw de economische balans positief is maar voor gangbare landbouw
+ negatief.
 \end_layout
 
 \begin_layout Standard
@@ -6008,8 +5515,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Hiervoor worden een aantal kosten bekeken en wordt hieraan een waarde in
- Euro aan gehangen.
+Hiervoor worden een aantal factoren bekeken en wordt hieraan een kost in
+ Euro gehangen.
  Op deze manier combineren ze al deze factoren samen en kunnen ze een vergelijki
 ng maken tussen zichzelf en hun niet-biologische tegenhanger.
 \end_layout
@@ -6028,13 +5535,33 @@ ze geven aan dat de
 \begin_inset Quotes pld
 \end_inset
 
+
+\lang english
 True Value
+\lang dutch
+
 \begin_inset Quotes prd
 \end_inset
 
  een te sterke vereenvoudiging is van de werkelijkheid.
- Je kunt deze waarde verbeteren door bijvoorbeeld de impact van pesticiden
- op de gezondheid te verbeteren door je werknemers meer uit te betalen
+ Je kunt bijvoorbeeld de 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ verbeteren door je werknemers meer uit te betalen.
+ Maar kan dit de slechte deelscore van bijvoorbeeld 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ uitstoot compenseren
 \begin_inset Foot
 status collapsed
 
@@ -6044,19 +5571,15 @@ Vooral niet omdat meer loon meestal meer consumptie veroorzaakt.
 
 \end_inset
 
-.
-\begin_inset Newline newline
-\end_inset
-
-Als dit je doet denken aan de discussie rond de watervoetafdruk van hierboven,
- kan ik je geen ongelijk geven.
+?
 \end_layout
 
 \begin_layout Standard
 Zelf was ik eerst heel enthousiast bij het lezen van deze studie.
  Zo'n manier van werken zou een mogelijkheid geven om op een eenvoudige
  manier aan te geven dat het niet zo is dat bio zoveel duurder is, maar
- eerder dat niet-bio zoveel kosten meeneemt die niet doorgerekend worden.
+ eerder dat niet-bio veel meer kosten veroorzaakt die niet doorgerekend
+ worden.
 \end_layout
 
 \begin_layout Standard
@@ -6146,7 +5669,8 @@ True Value
 \begin_inset Quotes prd
 \end_inset
 
- opeens positief worden of omgekeerd.
+ opeens positief worden of omgekeerd zonder dat de maatschappij er beter
+ of slechter van wordt.
 \end_layout
 
 \begin_layout Standard
@@ -6156,8 +5680,8 @@ Tot slot vind ik de hele studie nogal homocentrisch.
  Je krijgt het gevoel dat een boom enkel bekeken wordt als bron van fruit
  en hakhout.
  De andere waarden van een boom (plaats om met het gezin onder te picknicken,
- bron van insectenleven waarvan het merendeel een positieve bijdrage levert
- voor de landbouw, esthetische waarde in het landschap,
+ bron van leven zoals nuttige insecten of vogels, esthetische waarde in
+ het landschap,
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -6179,11 +5703,9 @@ Het is mijn droom dat er een indicator kan komen van duurzaamheid.
 \begin_layout Standard
 Daarom moet er gewerkt worden met een indicator die op een zichtbare manier
  de impact op verschillende aspecten benadrukt.
- Op deze manier wordt de gebruiker van de indicator vollediger geïnformeerd
- en kan deze zelf de afweging maken welke factor meer of minder meespeelt
- in de beoordeling.
- Het is niet mogelijk dat iets onverdeeld positief is, dus moeten er altijd
- afwegingen gebeuren.
+ Op deze manier wordt de gebruiker vollediger geïnformeerd en kan deze zelf
+ de afweging maken welke factor meer of minder meespeelt in de beoordeling.
+ Deze afweging zal afhangen van de context waarin de gebruiker leeft.
  Deze subjectieve beoordeling mag niet opgelegd worden maar moet ieder voor
  zich kunnen maken samen met duidelijke informatie over de facetten die
  gemeten worden.
@@ -6209,10 +5731,10 @@ noprefix "false"
 
 \begin_layout Standard
 Dit is een eerste aanzet tot zo'n indicator.
- Zoals te zien zijn er een aantal indicatoren die in het huidige systeem
- systematisch negatief zouden scoren.
+ Zoals te zien zijn er een aantal facetten die in het huidige systeem systematis
+ch negatief zouden scoren.
  Persoonlijk vind ik dat niet erg omdat 1) het een impuls geeft om te verbeteren
- en 2) er verschillende indicatoren zijn zodat de globale indruk nog positief
+ en 2) er verschillende facetten zijn zodat de globale indruk nog positief
  kan zijn.
 \end_layout
 
@@ -6239,40 +5761,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ondersteunende_documenten/figuren/duurzaamheidsbloem.svg
-	width 75text%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Duurzaamheidsbloem"
-
-\end_inset
-
-Duurzaamheidsbloem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset ERT
 status open
 
@@ -6295,12 +5783,22 @@ begin{landscape}
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="3">
+<lyxtabular version="3" rows="13" columns="4">
 <features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="10text%" special=">{\hspace*{0pt}\centering}p{1.1cm}">
 <column alignment="center" valignment="top" width="10text%" special=">{\hspace*{0pt}\raggedright}p{0.12\linewidth}">
-<column alignment="center" valignment="top" width="60text%" special=">{\hspace*{0pt}\raggedright}p{0.5\linewidth}">
+<column alignment="center" valignment="top" width="60text%" special=">{\hspace*{0pt}\raggedright}p{0.45\linewidth}">
 <column alignment="center" valignment="top" width="25text%" special=">{\hspace*{0pt}\raggedright}p{0.3\linewidth}">
 <row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -6330,7 +5828,27 @@ Wat is een neutrale waarde?
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_boer.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6375,6 +5893,26 @@ Boer komt rond met inkomen
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_economie.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Economie
 \end_layout
 
@@ -6394,7 +5932,7 @@ Is de opbrengst in geld meer dan wat erin gestopt moet worden (bv.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Er vloeit evenveel geld erin als eruit gehaald wordt
+Er vloeit evenveel geld in als eruit gehaald wordt
 \end_layout
 
 \end_inset
@@ -6402,6 +5940,26 @@ Er vloeit evenveel geld erin als eruit gehaald wordt
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_energie.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6417,17 +5975,13 @@ Energie
 Wat is de EROEI?
 \end_layout
 
-\begin_layout Plain Layout
-Belangrijk de indirecte energie mee te nemen over de volledige voedselketen!
-\end_layout
-
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Neutraal bij EROEI van 4:1
+Neutraal bij EROEI van 5:1
 \end_layout
 
 \end_inset
@@ -6435,6 +5989,26 @@ Neutraal bij EROEI van 4:1
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_grondstoffen.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6455,7 +6029,7 @@ Zijn er grondstoffen bij die schaars zijn/worden?
 \end_layout
 
 \begin_layout Plain Layout
-Zijn er grondstoffen bij die (geo)politieke problematisch zijn?
+Zijn er grondstoffen bij die (geo)politiek problematisch zijn?
 \end_layout
 
 \end_inset
@@ -6472,6 +6046,26 @@ Zijn er grondstoffen bij die (geo)politieke problematisch zijn?
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_water.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6517,6 +6111,26 @@ Voor grijs water: geen vervuiling
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_gezondheid.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Gezondheid
 \end_layout
 
@@ -6551,6 +6165,26 @@ Er worden geen stoffen gebruikt die mogelijke gezondheidsrisico's veroorzaken
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_broeikasgassen.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6601,6 +6235,26 @@ Geen netto uitstoot
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_land.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Land
 \end_layout
 
@@ -6631,6 +6285,26 @@ Opbouw of afbraak van toplaag
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_biodiversiteit.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6678,6 +6352,26 @@ Bijvoorbeeld savanne voor granenteelt of jong bos voor boomgaard
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_welzijn.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Welzijn van geteelde organismen
 \end_layout
 
@@ -6704,6 +6398,26 @@ Dieren en planten welzijn
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/bloem_cultuur.svg
+	lyxscale 33
+	width 1cm
+	height 200baselineskip%
+	keepAspectRatio
+	special valign=t
+	groupId bloem_tabel
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6759,6 +6473,15 @@ Voorstel van facetten om mee te nemen in een duurzaamheidsindicator
 
 \end_inset
 </cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -6801,16 +6524,83 @@ end{landscape}}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/duurzaamheidsbloem.svg
+	width 75text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Duurzaamheidsbloem"
+
+\end_inset
+
+Duurzaamheidsbloem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Wat leren we hier nu uit?
 \end_layout
 
 \begin_layout Chapter
-Impact van directe kosten
+Impact van indirecte kosten
 \end_layout
 
 \begin_layout Standard
-Een belangrijke boodschap die Meino Smit on brengt, is dat als je enkel
+Een belangrijke boodschap die Meino Smit ons brengt, is dat als je enkel
  kijkt naar de directe kosten, je een vertekend beeld krijgt van de evolutie
  van de landbouw.
 \end_layout
@@ -6837,8 +6627,87 @@ lijke kosten van de landbouw beter bevatten.
 \end_layout
 
 \begin_layout Standard
-We gaan ook eens kijken of de stijging van de energetische kosten wel in
- verhouding staat tot de uitvoer.
+Verder wordt ook bekeken of de stijging van de energetische kosten wel in
+ verhouding staat tot de output.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Een waarschuwing: dit is het hoofdstuk met de meeste cijfers en grafieken.
+ Is dat je ding niet, dan zijn hier de meest markante cijfers (opgelet,
+ wil je in spanning blijven moet je even dit overslaan).
+\end_layout
+
+\begin_layout Standard
+Eerst even samenvatten wat tot hier toe al gevonden is.
+ Dit zijn conservatieve inschattingen dus waarschijnlijk zijn de verhoudingen
+ slechter:
+\end_layout
+
+\begin_layout Itemize
+Per MJ die direct aan de westerse landbouw toegekend wordt, staan er nog
+ 1 tot 2
+\begin_inset space ~
+\end_inset
+
+MJ aan indirecte energie.
+\end_layout
+
+\begin_layout Itemize
+Om 1 calorie (of MJ) aan voeding te produceren, heeft de gangbare landbouw
+ tussen 2 en 3
+\begin_inset space ~
+\end_inset
+
+calorieën aan energie nodig.
+ Dit staat los van de rest van onze voedselketen (alles bij elkaar is er,
+ om 1
+\begin_inset space ~
+\end_inset
+
+calorie op te kunnen eten tussen de 7 en de 12
+\begin_inset space ~
+\end_inset
+
+calorieën nodig).
+\end_layout
+
+\begin_layout Itemize
+Voor elke Nederlands boer, zijn er nog 1,7 andere personen bezig.
+\end_layout
+
+\begin_layout Itemize
+Voor elke hectare landbouwgrond die bewerkt wordt in Nederland, is er nog
+ 1,7 hectare nodig in het buitenland.
+\end_layout
+
+\begin_layout Standard
+Als we deze getallen combineren, komen er nieuwe inzichten:
+\end_layout
+
+\begin_layout Itemize
+tussen 1950 en 2015 is de energetische input per hectare in Nederland met
+ 620% gestegen.
+ De energetische output per gebruikte hectare is met slechts 10% gestegen.
+\end_layout
+
+\begin_layout Itemize
+tussen 1950 en 2015 is de energetische input per Nederlandse boer met 2
+\begin_inset space \thinspace{}
+\end_inset
+
+500% (!) gestegen.
+ De output per VTE is in die periode met 320% gestegen.
+\end_layout
+
+\begin_layout Itemize
+tussen 1950 en 2015 is de opbrengst in ton per hectare met 30% gestegen.
 \end_layout
 
 \begin_layout Section
@@ -6868,8 +6737,7 @@ Bekijk je de totale bestede arbeidsuren, dus inclusief mijnbouw, veeteelt,
 \begin_layout Standard
 Tot zover wat Meino Smit gebruikt heeft.
  Mijn inziens moet echter ook het totale landgebruik meegenomen worden omdat
- de arbeid van de mensen die dit land bewerken ook meegenomen worden in
- de totale bestede arbeidsuren.
+ er voor indirecte arbeid ook grond gebruikt wordt.
  Als je dat doet, dan is de stijging tussen 1950 en 2015 toevallig hetzelfde
  als in de eerste berekening: een factor 3,6.
 \end_layout
@@ -6946,7 +6814,7 @@ Verloop van arbeidsproductiviteit in ha/VTE
 \end_layout
 
 \begin_layout Subsection
-Hoeveel geproduceerde ton per voltijds equivalent
+Hoeveelheid geproduceerde ton per voltijds equivalent
 \end_layout
 
 \begin_layout Standard
@@ -7090,7 +6958,7 @@ noprefix "false"
 
 \end_inset
 
- waar de totale input dubbel zo hoog ligt als de output.
+ waar de totale input in 2015 dubbel zo hoog ligt als de output.
 \end_layout
 
 \begin_layout Standard
@@ -7108,13 +6976,13 @@ Energie per hectare
 \begin_layout Standard
 Zonder rekening te houden met het indirect landgebruik, is de output per
  hectare tussen 1950 en 2015 gestegen met een factor 2,6.
- Wordt de indirecte arbeid meegenomen, dan daalt deze stijging tot slechts
+ Wordt het indirecte landgebruik meegenomen, dan is deze stijging slechts
  een factor 1,1.
 \end_layout
 
 \begin_layout Standard
-Het is echter zeer verhelderend om hiertegenover de input die nodig is per
- hectare te zetten.
+Het is zeer verhelderend om hiertegenover de input die nodig is per hectare
+ te zetten.
 \end_layout
 
 \begin_layout Standard
@@ -7266,7 +7134,7 @@ Energie per voltijds equivalent
 
 \begin_layout Standard
 Vergelijkbaar als met de energie per hectare, kan je ook kijken naar de
- evolutie in zowel input als output in energie per gewerkte arbeidsuren.
+ evolutie in zowel input als output in energie per gewerkte arbeidsuur.
 \end_layout
 
 \begin_layout Standard
@@ -7280,15 +7148,15 @@ Houden we wel rekening met de indirecte factoren, stijgt de input per VTE
 \end_layout
 
 \begin_layout Standard
-Het is te zien dat de output nu wel stijgt omwille van de mechanisatie.
+Het is te zien dat de output nu wel flink stijgt omwille van de mechanisatie.
  Maar hiertegenover staat wel een enorme verhoging van de input die per
  arbeidsuur nodig is.
 \end_layout
 
 \begin_layout Standard
 Dezelfde conclusies als hierboven is dus te trekken.
- De stijging van de energetische input staat totaal niet in verhouding met
- de stijging van de energetische output.
+ De stijging van de energetische input staat niet in verhouding met de stijging
+ van de energetische output.
 \end_layout
 
 \begin_layout Section
@@ -7354,8 +7222,8 @@ Het is duidelijk dat je, om een goed beeld te krijgen van de evolutie van
 \end_layout
 
 \begin_layout Standard
-Zoals te verwachten is het beeld rond landbouw evolutie dan veel minder
- flatterend.
+Zoals te verwachten is het beeld rond de landbouw evolutie dan veel minder
+ flatterend dan men ze momenteel schildert.
  Er zijn positieve evoluties, maar deze zijn veel minder sterk dan eerst
  gedacht.
 \end_layout
@@ -7366,7 +7234,7 @@ Wat vooral opvalt is dat de stijging van de input veel groter is dan die
  Vergelijk je deze stijgingen, dan merk je op dat deze trend alsmaar verslechter
 d.
  Met andere woorden, ondanks de verhalen rond de verhoging van de efficiëntiever
-hoging in de landbouw, moet er meer en meer energie ingestoken worden voor
+hoging in de landbouw, moet er meer en meer energie in gestoken worden voor
  een schamele verhoging in de output.
  Dit is over het algemeen niet zichtbaar omdat met de verhoging van de input
  maar beperkt meeneemt.
@@ -7402,8 +7270,8 @@ Hoe moet landbouw er uitzien?
 \begin_layout Standard
 Om de negatieve trend om te keren, zijn er een aantal domeinen waarop veranderin
 g kunnen gebeuren.
- Meino Smit heeft volgende mogelijke aanpassingen geïdentificeerd die zo
- dadelijk besproken zullen.
+ Meino Smit heeft mogelijke aanpassingen geïdentificeerd die zo dadelijk
+ besproken worden.
 \end_layout
 
 \begin_layout Standard
@@ -7425,18 +7293,21 @@ Meino Smit droomt van een landbouw in 2040 die wél rekening houdt met de
 \begin_layout Standard
 Aan landbouwzijde moet er gegaan worden naar een integratie van landbouw
  en natuurbeheer.
- Hierdoor krijg je kleinere boerderijen die stabieler zijn.
+ Er zijn kleinere boerderijen die stabieler zijn.
  Ook komt er minder specialisatie en worden kringlopen beter gesloten.
  Het gebruik van warme kassen en de niet-voedingsglastuinbouw moet gebannen
  worden want het is energetisch niet houdbaar (80% van de directe energie
  in de landbouw gaat naar verwarmde kassen).
  Hand- en dierenkracht moet terug in ere hersteld worden waardoor er ook
  meer boeren moeten komen.
- De oogst moet in de eerste plaats naar de eigen bevolking gaan.
 \end_layout
 
 \begin_layout Standard
 Ook maatschappelijk zijn er veranderingen nodig.
+\end_layout
+
+\begin_layout Itemize
+De oogst moet in de eerste plaats naar de eigen bevolking gaan.
 \end_layout
 
 \begin_layout Itemize
@@ -7458,7 +7329,7 @@ noprefix "false"
 ).
  Merk op dat dit een drastische verschuiving is in het eetpatroon van de
  maatschappij.
- Zonder deze verschuiving eten we ons kapot.
+ Zonder deze verschuiving eten we ons richting hongersnood.
 \end_layout
 
 \begin_layout Itemize
@@ -8380,7 +8251,7 @@ Verschuivingen nodig in voeding
 \end_layout
 
 \begin_layout Standard
-Bij deze veranderingen moeten er veel meer mensen in de landbouw tewerkgesteld
+Door deze veranderingen moeten er veel meer mensen in de landbouw tewerkgesteld
  worden en zullen de indirecte kosten sterk dalen.
  De belangrijkste kengetallen komen ook in het groen.
  Opvallend is dat er duidelijk meer energie uit de landbouw gehaald wordt
@@ -8393,6 +8264,13 @@ Een grote uitzondering is de totale hoeveelheid landbouwgrond per inwoner.
  Waar die nu rond 30 are/inwoner schommelt, zal die in voorgesteld scenario
  zakken tot 12 are/inwoner, onder de minimum grens van 14 are/inwoner.
  Komen we dan niet in gevaarlijk vaarwater?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8411,15 +8289,21 @@ Een mogelijk gevolg van deze verandering is dat de prijs van landbouwproducten
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Meino Smit maakt zich sterk dat als er in 1950 al een beleid was dat rekening
  hield met alle kosten, we nu beter af waren geweest.
- Dankzij veredeling, is er een output stijging van 20 tot 25% gebeurd in
- het huidige systeem.
- Mede hierdoor en door een innovatie die meer gericht was op betere arbeidsomsta
-ndigheden met minder inzet van energie en grondstoffen, bijvoorbeeld door
- verbeterde handwerktuigen, zou de landbouw een output verhoging hebben
- kunnen bewerkstelligen die groter was dan nu zonder de hallucinante verhoging
- in input.
+ Veredeling heeft een output stijging van 20 tot 25% veroorzaakt.
+ Mede hierdoor en door een innovatie die meer gericht zou geweest zijn op
+ betere arbeidsomstandigheden met minder inzet van energie en grondstoffen,
+ bijvoorbeeld door verbeterde handwerktuigen, kon de landbouw een output
+ verhoging bewerkstelligd hebben die groter was dan nu zonder de hallucinante
+ verhoging in input.
  De landbouw zou robuuster geweest zijn en er zouden meer boeren en een
  groter maatschappelijk draagvlak zijn.
 \end_layout
@@ -8429,8 +8313,8 @@ Is mijn droom veranderd?
 \end_layout
 
 \begin_layout Standard
-In het begin van de opleiding wou ik het systeem van Ferme du Bec in Vlaanderen
- bewerkstelligen.
+In het begin van de opleiding wou ik het systeem van Ferme du Bec naar Vlaandere
+n brengen.
 \end_layout
 
 \begin_layout Standard
@@ -8439,19 +8323,34 @@ Door het studiewerk rond dit werkstuk is het duidelijk geworden dat er echt
  We hebben gezien dat moestuinen en vooral de Chinese landbouw van 1930
  hier grote inspiratiebronnen kunnen zijn.
  Het systeem van Ferme du Bec gebruikt dezelfde principes van combinatieteelten,
- intense opvolging, hoge input van compost gecombineerd met niet verstoren
- van de grond, permanente bedekking en nog heel wat andere factoren om de
- natuurlijke processen de optimaliseren.
+ intense opvolging, hoge input van organische meststoffen gecombineerd met
+ niet verstoren van de grond, permanente bedekking en nog heel wat andere
+ factoren om de natuurlijke processen de optimaliseren.
 \end_layout
 
 \begin_layout Standard
-Vanuit de ervaring die ik al opgedaan heb met dit systeem tijdens mijn stage
- is het tijdens het opstellen van dit werkstuk mogelijk geweest om te reflectere
-n wat dit systeem doet rond de verschillende geïdentificeerde kosten.
- Mijn slotsom is dat het systeem van Ferme du Bec een sterke basis is om
- van te vertrekken.
- Gaandeweg kan ik de verschillende kosten, weliswaar intuïtief, bekijken
- om een sterkere positieve bijdrage te leveren.
+Binnen de Chinese landbouw van 1930 werd op een extensieve manier aan veeteelt
+ gedaan, wat bij Ferme du Bec nog ontbreekt.
+ Ook akkerbouw ontbreekt, maar we hebben gezien dat voor granen de huidige
+ manier van akkerbouw al goede cijfers geeft.
+\end_layout
+
+\begin_layout Standard
+Vanuit de ervaring die ik al opgedaan heb met de combinatieteelten van Ferme
+ du Bec, kon ik tijdens het opstellen van dit werkstuk reflecteren wat dit
+ systeem doet rond de verschillende geïdentificeerde kosten zoals water,
+ ecologie,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space ~
+\end_inset
+
+.
+ Mijn slotsom is dat het systeem van Ferme du Bec een sterke basis biedt
+ om van te vertrekken.
 \end_layout
 
 \begin_layout Standard
@@ -8474,8 +8373,16 @@ er zijn 10 calorieën olie nodig om 1 calorie voedsel te consumeren
 
 .
  Ook was er het vermoeden dat het niet zozeer is dat biologische voeding
- duur is, maar dat er bij gangbare voeding meer zaken niet doorgerekend
- worden in de eindprijs.
+ duur is, maar dat er, vergeleken met bio voeding, bij gangbare voeding
+ meer indirecte kosten zijn die daarenboven minder doorgerekend worden in
+ de eindprijs.
+\end_layout
+
+\begin_layout Standard
+Enkel bij de studie van Eosta wordt het onderscheid gemaakt tussen bio-
+ en niet-bio waarbij blijkt dat de bio minder maatschappelijke kosten heeft.
+ Alle andere studies kijken naar de totaliteit van de voedselketen zonder
+ onderscheid te maken tussen bio en niet-bio.
 \end_layout
 
 \begin_layout Standard
@@ -8486,8 +8393,8 @@ er zijn 10 calorieën olie nodig om 1 calorie voedsel te consumeren
 \end_layout
 
 \begin_layout Standard
-We hebben gevonden landbouw inderdaad zeer veel indirecte energetische kosten
- draagt.
+We hebben gevonden dat landbouw inderdaad zeer veel indirecte energetische
+ kosten draagt.
  Dit gaat van veevoeder en kunstmest over de kost van gebouwen en machines
  tot zaken zoals mijnbouw, elektronica en diensten.
  Verder zijn er nog kosten op veel andere vlakken zoals arbeid, water, landgebru
@@ -8496,20 +8403,20 @@ ik en noem maar op.
 
 \begin_layout Standard
 De directe kosten blijven de hoofdbrok uitmaken, maar de indirecte kosten
- zijn de laatste 50 jaar enorm gestegen totdat ze minstens even belangrijk
- geworden zijn dan de directe kosten.
+ zijn de laatste 50 jaar enorm gestegen totdat ze de directe kosten overtroeven.
  In de indirecte kosten neemt vooral veevoer een belangrijk aandeel in beslag.
- Wat mij ook opgevallen is, zijn de kosten mijnbouw, het drogen van graan
- en grassen, irrigatie een belangrijk aandeel te hebben in de energetische
- balans.
- Dit kan bij ons in de toekomst ook een factor worden als de klimaatverandering
- warmere en drogere zomers geeft.
+ Wat mij ook opgevallen is, zijn de bijdragen van mijnbouw, het drogen van
+ graan en grassen en irrigatie in de energetische balans.
 \end_layout
 
 \begin_layout Standard
 Verderop in de voedselketen vielen vooral verpakkingen en huishoudelijk
- gebruik op.
- Het aandeel van de landbouw in de energie consumptie van de totale voedselketen
+ gebruik op, met een energetisch aandeel dat gelijkwaardig is aan dat van
+ de landbouw zelf.
+\end_layout
+
+\begin_layout Standard
+Het aandeel van de landbouw in de energie consumptie van de totale voedselketen
  is een kwart of minder.
 \end_layout
 
@@ -8524,7 +8431,7 @@ Verderop in de voedselketen vielen vooral verpakkingen en huishoudelijk
 Dat je 10 keer zoveel energie nodig hebt dan je consumeert blijkt te kloppen.
  Zoiets is op lange termijn niet houdbaar omdat de voorraad energie eindig
  is.
- Hetzelfde probleem geld ook bij andere bekeken kosten.
+ Hetzelfde probleem geldt ook voor andere kosten.
  
 \begin_inset Quotes pld
 \end_inset
@@ -8537,7 +8444,7 @@ Business as usual
 \begin_inset Quotes prd
 \end_inset
 
- gaat dan leiden tot 
+ gaat leiden tot 
 \begin_inset Quotes pld
 \end_inset
 
@@ -8557,33 +8464,38 @@ Om de nodige vooruitgang te meten is het nodig om de nuances van het leven
 \end_layout
 
 \begin_layout Standard
-Vergelijken we de energetische efficiëntie van verschillende landbouwsystemen,
- dan zijn er grote verschillen op te tekenen.
- Met de informatie is na te gaan welke systemen uit de boot vallen en welke
- goede inspiratiebronnen kunnen zijn voor een toekomstige landbouw.
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Bij de industriële landbouwsystemen zijn dierlijke of verwarmde serre systemen
- vandaag de dag bij ons energie verslinders.
+Vergelijken we de energetische efficiëntie van verschillende landbouwsystemen,
+ dan zijn er grote verschillen op te tekenen.
+ Met de beschikbare informatie is na te gaan welke systemen uit de boot
+ vallen en welke goede inspiratiebronnen kunnen zijn voor een toekomstige
+ landbouw.
+\end_layout
+
+\begin_layout Standard
+Bij de industriële landbouwsystemen zijn dierlijke productie of verwarmde
+ serre systemen veel te sterke energie verslinders.
  Akkerbouw systemen komen er beter uit.
 \end_layout
 
 \begin_layout Standard
 Pre- en semi-industriële landbouwsystemen blijken op energetisch vlak vaak
- voordelig uit te vallen.
- De grote uitschieter is hier de tuinbouw zoals die tot begin vorige eeuw
- in China gevoerd werd.
- Dit was mogelijk door een intensieve aandacht van de boer tezamen met een
- grote toevoer van voedingstoffen, combinatieteelten en een intensieve opvolging
- van teelten.
+ voordelig uit te vallen maar velen hiervan zijn bij ons niet mogelijk door
+ de grote bevolkingsdichtheid.
 \end_layout
 
 \begin_layout Standard
-De nodige veranderingen zijn echter niet alleen nodig in de landbouw.
- De rest van de voedselketen moet mee een duid in de zak doen.
- Ook het voedingspatroon moet veranderen waarbij vooral de consumptie van
- vlees moet verminderen.
+De beste kandidaten voor een toekomstige landbouw is de tuinbouw zoals die
+ tot begin vorige eeuw in China gevoerd werd.
+ Dit was mogelijk door een intensieve aandacht van de boer tezamen met een
+ grote toevoer van voedingstoffen, combinatieteelten en een intensieve opvolging
+ van teelten.
 \end_layout
 
 \begin_layout Standard
@@ -8594,21 +8506,13 @@ De nodige veranderingen zijn echter niet alleen nodig in de landbouw.
 \end_layout
 
 \begin_layout Standard
-Als er rekening gehouden wordt met hoeveel mensen gevoed kunnen worden per
- hectare, dan vallen veel industriële landbouwsystemen af.
- Het is terug de oude tuinbouw uit China die er op een positieve manier
- uitsteekt.
- De principes die dit systeem zo sterk maken, vind je ook terug in het systeem
- van Ferme du Bec.
-\end_layout
-
-\begin_layout Standard
-Dit systeem moet echter nog verder ontwikkeld worden.
- In zijn huidige vorm ligt de nadruk ook heel sterk op de teelt van fijne
- groenten.
+De principes die de oude tuinbouw uit China zo sterk maken, vind je ook
+ terug in het systeem van Ferme du Bec.
+ Dit systeem moet echter nog verder ontwikkeld worden.
+ In zijn huidige vorm ligt de nadruk heel sterk op de teelt van fijne groenten.
  Een volledig antwoord kan het dan ook niet bieden.
  Maar een doorontwikkeling ervan kan wel inspiratie bieden om ook voor andere
- landbouwtakken terug te gaan naar 
+ landbouwtakken te gaan naar 
 \begin_inset Quotes pld
 \end_inset
 
@@ -8621,6 +8525,13 @@ Small is beautiful
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+De nodige veranderingen zijn echter niet alleen nodig in de landbouw.
+ De rest van de voedselketen moet meedoen.
+ Ook het voedingspatroon moet veranderen waarbij vooral de consumptie van
+ vlees moet verminderen.
 \end_layout
 
 \begin_layout Standard
@@ -8639,8 +8550,14 @@ Dank zij het werken aan dit werkstuk, heb ik veel meer inzichten gekregen
 \end_layout
 
 \begin_layout Standard
-Tijd om terug met de handen in de aarde te zitten om hier actief werk van
- te maken.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tijd om met de handen in de aarde hier actief werk van te maken.
 \end_layout
 
 \begin_layout Part
@@ -8712,7 +8629,7 @@ Kilo, mega, giga, oh nee
 
 \begin_layout Standard
 Om zaken korter te kunnen opschrijven, worden een aantal voorvoegsels gebruikt.
- Kilo is hiervan heel gekend als bijvoorbeeld kilogram (1
+ Kilo is hiervan heel gekend zoals bijvoorbeeld kilogram (1
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -9206,7 +9123,7 @@ En waarom kon ik dit niet laten? Tja, na een licentiaat in de fysica is
 \begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
-name "appendix:broeikasgassen"
+name "app:broeikasgassen"
 
 \end_inset
 
@@ -9310,7 +9227,7 @@ industriële
 \begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
-name "appendix:EROEI"
+name "app:EROEI"
 
 \end_inset
 
@@ -9390,7 +9307,7 @@ Schema van energieverlies in de olieketen
 \end_layout
 
 \begin_layout Standard
-In het figuur
+In figuur
 \begin_inset space ~
 \end_inset
 
@@ -9426,8 +9343,8 @@ Gaat technologie de wereld redden?
 \end_layout
 
 \begin_layout Standard
-Doorheen het proefschrift merk je dat Meino Smit vragen heeft bij de duurzaamhei
-d van elektronica en een overschakeling naar hernieuwbare energie bij 
+Doorheen zijn proefschrift merk je dat Meino Smit vragen heeft bij de duurzaamhe
+id van elektronica en een overschakeling naar hernieuwbare energie bij 
 \begin_inset Quotes pld
 \end_inset
 
@@ -9510,7 +9427,7 @@ de gebruikte grondstoffen:
 \begin_deeper
 \begin_layout Itemize
 de winning en extractie van verschillende cruciale grondstoffen is belastend,
- zowel in energetische als in menselijke kosten (bloedmetalen),
+ zowel in energetische als in maatschappelijke kosten:
 \end_layout
 
 \begin_deeper
@@ -9520,6 +9437,10 @@ gebruik van fracking
 
 \begin_layout Itemize
 giftig en radioactief afval
+\end_layout
+
+\begin_layout Itemize
+bloedmetalen
 \end_layout
 
 \end_deeper
@@ -9559,8 +9480,7 @@ het gebruik van een elektronisch apparaat heeft, zoals hierboven al aangehaald,
 \end_layout
 
 \begin_layout Standard
-Nog meer dan bij mijnbouw, zijn de kosten en de baten van elektronica onevenredi
-g verdeeld.
+De kosten en de baten van elektronica zijn onevenredig verdeeld.
  Diegenen die plezier hebben van elektronica worden totaal niet geconfronteerd
  met de kosten ervan op het gebied van sociale uitbuiting, toxisch afval,
  landverlies,
@@ -9578,7 +9498,15 @@ g verdeeld.
 \begin_layout Standard
 Er zijn continue verbetering in de efficiëntie van de productie en van de
  apparatuur zelf.
- Maar dit wordt meestal teniet gedaan door het alsmaar stijgende gebruik.
+ Maar dit wordt meestal teniet gedaan door de alsmaar stijgende consumptie
+ van elektronische apparatuur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9639,9 +9567,9 @@ Hernieuwbare energie
 Meino Smit is er niet van overtuigd dat de huidige evolutie van energiegebruik
  het mogelijk maakt om fossiele brandstoffen uit te faseren ten gunste van
  hernieuwbare energie.
- Dit heeft niet zozeer te maken met de technologie zelf, maar eerder uit
- de inschatting van de hoeveelheid grondstoffen hiervoor nodig zijn en hoe
- snel deze beschikbaar moeten zijn.
+ Dit heeft niet zozeer te maken met de technologie zelf, maar eerder vanuit
+ een inschatting van de hoeveelheid grondstoffen die hiervoor nodig zijn
+ en hoe snel deze beschikbaar moeten zijn.
  Dit gaat een impact hebben op toekomstscenario's die 
 \begin_inset Quotes pld
 \end_inset
@@ -9660,12 +9588,12 @@ Business as usual
 \begin_layout Standard
 Ook bij hernieuwbare energie spelen zeldzame aardmetalen een belangrijke
  rol.
- Niet enkel door de gebruikt elektronica, maar ook omdat deze metalen bijvoorbee
-ld de efficiëntie van magneten sterk verhogen of nodig zijn in zonnecellen.
+ Niet enkel door de gebruikte elektronica, maar ook omdat deze metalen bijvoorbe
+eld de efficiëntie van magneten sterk verhogen of nodig zijn in zonnecellen.
 \end_layout
 
 \begin_layout Standard
-De meeste vormen van duurzame energie zijn minder efficiënt zijn dan fossiele
+De meeste vormen van duurzame energie zijn minder efficiënt dan fossiele
  brandstoffen.
  In figuur
 \begin_inset space ~
@@ -9681,21 +9609,7 @@ noprefix "false"
 
 \end_inset
 
- vind je de minimale en maximale EROEI (appendix
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "appendix:EROEI"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) terug van een aantal energiebronnen.
+ vind je de minimale en maximale EROEI terug van een aantal energiebronnen.
 \end_layout
 
 \begin_layout Standard
@@ -9723,8 +9637,8 @@ Momenteel wordt 85% van onze energiebehoefte gedekt door het verbranden
 \end_layout
 
 \begin_layout Standard
-Er wordt aangenomen dat een EROEI van 3:1 tot 5:1 nodig is om een energiebron
- een positieve energiebalans te laten hebben.
+Er wordt aangenomen dat een EROEI van 3:1 tot 5:1 nodig is zodat een energiebron
+ een positieve energiebalans kan hebben.
  Dit omdat de opslag, omvorming, transport en distributie zelf ook nog heel
  wat energie vergt.
 \end_layout
@@ -9819,25 +9733,14 @@ bijwinst
 \begin_inset Quotes prd
 \end_inset
 
- bij het mijnen van een andere grondstof vrijkomen
-\begin_inset space ~
+ bij het mijnen van een andere grondstof vrijkomen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
-(zie ook paragraaf
-\begin_inset space ~
-\end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Mijnbouw"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
 \end_layout
 
 \begin_layout Standard
@@ -9890,7 +9793,7 @@ literal "false"
 \begin_inset space ~
 \end_inset
 
-GJ per persoon en per jaar, is er een gevoel van voldoende welbevinden.
+GJ per persoon per jaar, is er een gevoel van voldoende welbevinden.
  Vanaf een waarde van 100
 \begin_inset space ~
 \end_inset

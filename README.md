@@ -21,10 +21,11 @@ Daarna moet je nog volgende LaTeX pakketten installeren:
 * mhchem
 * tocbibind
 * qrcode
+* adjustbox
 
 Op Fedora Linux is dit te installeren via volgend commando:
 ```
-yum install lyx texlive-babel-dutch texlive-babel-french texlive-hyphen-dutch texlive-wrapfig texlive-multirow texlive-mhchem texlive-tocbibind texlive-qrcode
+yum install lyx texlive-babel-dutch texlive-babel-french texlive-hyphen-dutch texlive-wrapfig texlive-multirow texlive-mhchem texlive-tocbibind texlive-qrcode texlive-adjustbox
 ```
 
 Ook gebruikt het document volgende LyX module:
