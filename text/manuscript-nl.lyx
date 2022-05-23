@@ -224,6 +224,111 @@ frontmatter
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0,0.7
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight]{ondersteunende_documenten/figuren/deel 1.jpg}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0.5
+\backslash
+paperwidth,0.7
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight]{ondersteunende_documenten/figuren/deel 2.pdf}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0,0.12
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight]{ondersteunende_documenten/figuren/deel 3.pdf}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0.5
+\backslash
+paperwidth,0.12
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight]{ondersteunende_documenten/figuren/deel 4.png}
+\backslash
+end{center}}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 De échte kosten van voedsel
 \end_layout
