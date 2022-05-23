@@ -35,6 +35,54 @@
 \item[]}{\end{list}}
 
 \renewcommand{\nomlabel}[1]{\textbf{#1}}
+
+%set some decoration
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{changepage}
+\usepackage{ifthen}
+
+\def\@partimage{}
+\newcommand{\partimage}[2][]{
+	\gdef\@partimage{\includegraphics[height=0.3\paperheight]{#2}}
+}
+\def\@partimageSide{}
+\newcommand{\partimageSide}[2][]{
+	\gdef\@partimageSide{\AddToShipoutPicture{%
+		\checkoddpage
+		\ifoddpage
+			\put(0.25cm,2cm){%
+				{\includegraphics[width=1.5cm]{#2}}
+			}
+		\else
+			%important to first convert to eps and then to pdf. Better result.
+			\put(\paperwidth-1.75cm,2cm){%
+				{\includegraphics[width=1.5cm]{#2}}
+			}
+		\fi
+	}}
+}
+\def\@part[#1]#2{%
+	\ClearShipoutPicture
+    \ifnum \c@secnumdepth >-2\relax
+      \refstepcounter{part}%
+      \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+    \else
+      \addcontentsline{toc}{part}{#1}%
+    \fi
+    \markboth{}{}%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \ifnum \c@secnumdepth >-2\relax
+       \huge\bfseries \partname\nobreakspace\thepart
+       \par
+       \vskip 20\p@
+     \fi
+     \Huge \bfseries #2\vfil\@partimage\vfil\par}%
+    \@endpart
+	\@partimageSide
+}
 \end_preamble
 \options nomencl=intoc
 \use_default_options false
@@ -955,6 +1003,29 @@ mainmatter
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 1.jpg}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 1.jpg}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Inleiding
 \end_layout
@@ -1542,6 +1613,29 @@ literal "false"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 2.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 2.pdf}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -4442,6 +4536,29 @@ Natuurlijk bestaat het leven niet enkel uit energie.
  In het volgende deel gaan we kijken welke impact landbouw hierop heeft.
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 3.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 3.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Het leven is meer dan energie alleen
 \end_layout
@@ -6771,6 +6888,13 @@ status open
 clearpage
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+ClearShipoutPicture
+\end_layout
+
 \end_inset
 
 
@@ -6806,6 +6930,29 @@ Duurzaamheidsbloem
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 4.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 4.png}
 \end_layout
 
 \end_inset
@@ -8780,6 +8927,29 @@ Dank zij het werken aan dit werkstuk, heb ik veel meer inzichten gekregen
 
 \begin_layout Standard
 Tijd om met de handen in de aarde hier actief werk van te maken.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 5.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 5.png}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
