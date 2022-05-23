@@ -41,27 +41,51 @@
 \usepackage{graphicx}
 \usepackage{changepage}
 \usepackage{ifthen}
-
+\usepackage{afterpage}
+%image on part page
 \def\@partimage{}
 \newcommand{\partimage}[2][]{
 	\gdef\@partimage{\includegraphics[height=0.3\paperheight]{#2}}
 }
+%image on other pages
+\newlength{\xxEsLeft}
+\newlength{\xxEsBottom}
+\newlength{\xxEsMargin}
+\setlength{\xxEsMargin}{0.75cm}
+\newlength{\xxEsWidth}
+\setlength{\xxEsWidth}{1.5cm}
 \def\@partimageSide{}
+\newif\ifchapterpage
 \newcommand{\partimageSide}[2][]{
 	\gdef\@partimageSide{\AddToShipoutPicture{%
-		\checkoddpage
-		\ifoddpage
-			\put(0.25cm,2cm){%
-				{\includegraphics[width=1.5cm]{#2}}
-			}
+		\makeatletter
+		\if@twoside
+			\checkoddpage
+			\ifoddpage
+				\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+			\else
+				\setlength{\xxEsLeft}{\xxEsMargin}
+			\fi
 		\else
-			%important to first convert to eps and then to pdf. Better result.
-			\put(\paperwidth-1.75cm,2cm){%
-				{\includegraphics[width=1.5cm]{#2}}
-			}
+			\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
 		\fi
+		\ifchapterpage
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-50pt-4ex)}
+		\else
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-1ex)}
+		\fi
+		\put(\xxEsLeft,0pt){%
+			\parbox[b][\xxEsBottom][t]{\xxEsWidth}{
+				\includegraphics[width=\xxEsWidth]{#2}
+			}
+		}
+		\makeatother
 	}}
 }
+%make sure the image on chapter page is adjusted by adjusting the  boolean chapterpage
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\Huge\bfseries}{\chaptername\nobreakspace\thechapter}{0pt}{\global\chapterpagetrue}[\afterpage{\global\chapterpagefalse}]
+%redefine some macro to put the image on the part page
 \def\@part[#1]#2{%
 	\ClearShipoutPicture
     \ifnum \c@secnumdepth >-2\relax
