@@ -1,0 +1,180 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Dankwoord
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Dankwoord}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Een werk kan je niet doen zonder hulp van anderen.
+\end_layout
+
+\begin_layout Standard
+Bedankt lieve Anne om me de ruimte te geven mijn hart te volgen.
+ Bedankt ook om meer op te nemen terwijl ik bezig ben.
+\end_layout
+
+\begin_layout Standard
+Ik dank ook de kinderen voor hun geduld tijdens het schrijven.
+ Ze moesten hun vader teveel missen achter die computer.
+\end_layout
+
+\begin_layout Standard
+Mijn ouders verdienen hier zeker een plaats.
+ Ze hebben me zelfvertrouwen en een goede start meegegeven.
+\end_layout
+
+\begin_layout Standard
+Bedankt aan aan iedereen bij Landwijzer om me te begeleiden in dit traject.
+\end_layout
+
+\begin_layout Standard
+Dank aan Evert voor de tekeningen van Umbalio.
+\end_layout
+
+\begin_layout Standard
+Je kunt enkel groeien door het werk van de reuzen die vooraf zijn gegaan.
+ Rob Hopkins en Charles & Perrine Hervé-Gruyer zijn inspirerende voorbeelden
+ geweest die mijn pad hebben verlicht.
+\end_layout
+
+\begin_layout Standard
+Tot slot dank ik ook Colruyt om me de mogelijkheid te geven om tijd te kunnen
+ maken voor het Landwijzer traject.
+\end_layout
+
+\end_body
+\end_document

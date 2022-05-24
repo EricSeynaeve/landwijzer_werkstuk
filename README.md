@@ -2,12 +2,19 @@
 
 Welkom op de broncode van mijn verdiepend werkstuk voor de Landwijzer opleiding.
 
-## Snel lezen
+## Conceptuele versie
 
 Er zijn twee **voorlopige** PDF files van dit document:
 
-* [om af te drukken (dubbelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript.pdf)
-* [om op het scherm te lezen (enkelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript_single.pdf)
+* [om af te drukken (dubbelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-nl_print.pdf)
+* [om op het scherm te lezen (enkelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-nl_screen.pdf)
+
+## Technische versie
+
+Er zijn twee PDF files met meer cijfers en grafieken:
+
+* [om af te drukken (dubbelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-tech-nl_print.pdf)
+* [om op het scherm te lezen (enkelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-tech-nl_screen.pdf)
 
 ## Voor de diegenen die aanpassingen willen doen
 
@@ -21,10 +28,12 @@ Daarna moet je nog volgende LaTeX pakketten installeren:
 * mhchem
 * tocbibind
 * qrcode
+* adjustbox
+* titling
 
-Op Fedora Linux is dit te installeren via volgend commando:
+Op Fedora Linux is allemaal te installeren via volgend commando:
 ```
-yum install lyx texlive-babel-dutch texlive-babel-french texlive-hyphen-dutch texlive-wrapfig texlive-multirow texlive-mhchem texlive-tocbibind texlive-qrcode
+yum install lyx texlive-babel-dutch texlive-babel-french texlive-hyphen-dutch texlive-wrapfig texlive-multirow texlive-mhchem texlive-tocbibind texlive-qrcode texlive-adjustbox texlive-titling
 ```
 
 Ook gebruikt het document volgende LyX module:
@@ -32,13 +41,3 @@ Ook gebruikt het document volgende LyX module:
 * [longtablepage](https://wiki.lyx.org/Layouts/Modules#toc4)
 
 (als ik er een aantal gemist heb omdat die bij mij standaard geïnstalleerd zijn, laat het maar weten in de issues op github.)
-
----
-
----
-
-**DIT IS NOG IN ONTWIKKELING !!**
-
----
-
----

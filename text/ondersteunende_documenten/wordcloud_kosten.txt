@@ -14,6 +14,13 @@
 3 bodemerosie
 3 waterschaarste
 8 gezondheid
+6 veerkracht
+arbeidsongevallen
+vergiftiging
+ammoniak emissies
+pesticiden
+verzuring waterbronnen
+winderosie
 ziekte uitbraken
 voedselschandalen
 verkeersveiligheid

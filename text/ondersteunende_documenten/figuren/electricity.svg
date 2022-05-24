@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.307117mm"
+   height="25.387751mm"
+   viewBox="0 0 18.307117 25.38775"
+   version="1.1"
+   id="svg5940"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="electricity.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5942"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.0823513"
+     inkscape:cx="-19.465659"
+     inkscape:cy="27.900778"
+     inkscape:window-width="1876"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs5937" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-151.67396,-154.22228)">
+    <g
+       id="layer1-9"
+       transform="matrix(0.06318944,1.2551196e-4,-1.2551196e-4,0.06318944,141.86601,148.80744)">
+      <path
+         id="rect5826"
+         d="m 220.59,85.254 c -9.026,0 -16.281,7.2273 -16.281,16.187 v 87.312 H 155.59 c 3.2312,58.438 -5.5938,196.5 94.406,227 v 69.5 c 30.674,0 50,3.5935 100,0 v -69.25 c 100,-30.75 92.067,-168.55 95.312,-227.25 h -53.594 v -87.312 c 0,-8.9602 -7.2553,-16.187 -16.281,-16.187 -9.026,0 -16.281,7.2273 -16.281,16.187 v 87.312 h -122.25 v -87.312 c 0,-8.9602 -7.2865,-16.187 -16.312,-16.187 z"
+         fill="#44aa00" />
+    </g>
+  </g>
+</svg>
