@@ -246,7 +246,9 @@ begin{center}
 \backslash
 includegraphics[height=0.25
 \backslash
-paperheight]{ondersteunende_documenten/figuren/deel 1.jpg}
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 1.jpg}
 \backslash
 end{center}}}}
 \end_layout
@@ -271,7 +273,9 @@ begin{center}
 \backslash
 includegraphics[height=0.25
 \backslash
-paperheight]{ondersteunende_documenten/figuren/deel 2.pdf}
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 2.pdf}
 \backslash
 end{center}}}}
 \end_layout
@@ -294,7 +298,9 @@ begin{center}
 \backslash
 includegraphics[height=0.25
 \backslash
-paperheight]{ondersteunende_documenten/figuren/deel 3.pdf}
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 3.pdf}
 \backslash
 end{center}}}}
 \end_layout
@@ -319,7 +325,9 @@ begin{center}
 \backslash
 includegraphics[height=0.25
 \backslash
-paperheight]{ondersteunende_documenten/figuren/deel 4.png}
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 4.png}
 \backslash
 end{center}}}}
 \end_layout
