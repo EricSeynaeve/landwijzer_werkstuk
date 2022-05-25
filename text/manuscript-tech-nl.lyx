@@ -47,7 +47,7 @@
 %image on part page
 \def\@partimage{}
 \newcommand{\partimage}[2][]{
-	\gdef\@partimage{\includegraphics[height=0.3\paperheight]{#2}}
+	\gdef\@partimage{\includegraphics[height=0.3\paperheight,width=0.8\paperwidth,keepaspectratio]{#2}}
 }
 %image on other pages
 \newlength{\xxEsLeft}
@@ -219,6 +219,119 @@ status open
 
 \backslash
 frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0,0.7
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 1 tech.jpg}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0.5
+\backslash
+paperwidth,0.7
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 2 tech.png}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0,0.12
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 3 tech.pdf}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0.5
+\backslash
+paperwidth,0.12
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 5 tech.pdf}
+\backslash
+end{center}}}}
 \end_layout
 
 \end_inset
@@ -859,6 +972,29 @@ mainmatter
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 1 tech.jpg}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 1 tech.jpg}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Inleiding
 \end_layout
@@ -1216,6 +1352,29 @@ Ook heb ik niet de achtergrond om een diepgaande analyse te doen van die
 \begin_inset CommandInset include
 LatexCommand input
 filename "umbalio-nl.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 2 tech.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 2 tech.png}
+\end_layout
 
 \end_inset
 
@@ -10900,6 +11059,29 @@ Dit was dan het einde van de rondleiding door het huis van Meino Smit.
  Vergeet ook niet om de gids te belonen (grapje!).
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 3 tech.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 3 tech.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 1 calorie op het bord, 10 calorieën olie?
 \end_layout
@@ -15694,6 +15876,29 @@ efficiëntie stijgt van een positieve balans tot een waarde van ongeveer
  door Whitefield aangehaald niet uit de lucht gegrepen is.
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 4 tech.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 4 tech.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Een economische bril
 \end_layout
@@ -17511,6 +17716,29 @@ Tot slot vind ik de hele studie nogal homocentrisch.
 ) passen niet in het narratief dat gevoerd wordt.
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 5 tech.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 5 tech.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Uitsmijters
 \end_layout
@@ -18481,6 +18709,22 @@ filename "water-nl.lyx"
 \begin_inset CommandInset include
 LatexCommand input
 filename "technologie-wereldredder-nl.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ClearShipoutPicture
+\end_layout
 
 \end_inset
 

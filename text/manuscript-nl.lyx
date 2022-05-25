@@ -41,7 +41,7 @@
 %image on part page
 \def\@partimage{}
 \newcommand{\partimage}[2][]{
-	\gdef\@partimage{\includegraphics[height=0.3\paperheight]{#2}}
+	\gdef\@partimage{\includegraphics[height=0.3\paperheight,width=0.8\paperwidth,keepaspectratio]{#2}}
 }
 %image on other pages
 \newlength{\xxEsLeft}
