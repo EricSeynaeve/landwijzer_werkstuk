@@ -718,31 +718,9 @@ end{flushleft}
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 1
-use_makebox 0
-width "30col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-Hier de quote of zo
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "memoriam-nl.lyx"
 
 \end_inset
 
@@ -756,28 +734,14 @@ Hier de quote of zo
 
 \end_layout
 
-\begin_layout Section*
-Dankwoord
-\end_layout
-
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Dankwoord}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "dankwoord-nl.lyx"
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Nog een woordje van dank.
 \end_layout
 
 \begin_layout Standard

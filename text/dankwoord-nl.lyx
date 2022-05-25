@@ -119,10 +119,12 @@ longtablepage
 \begin_body
 
 \begin_layout Section*
+\noindent
 Dankwoord
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -139,41 +141,121 @@ addcontentsline{toc}{chapter}{Dankwoord}
 \end_layout
 
 \begin_layout Standard
-Een werk kan je niet doen zonder hulp van anderen.
+\noindent
+Een creatie wordt nooit vanuit een leegte geschapen.
+ Je wordt omringd door mensen die je de ruimte geven om iets te creëren
+ en bent voorafgegaan door anderen die je inspiratie geven.
 \end_layout
 
 \begin_layout Standard
-Bedankt lieve Anne om me de ruimte te geven mijn hart te volgen.
- Bedankt ook om meer op te nemen terwijl ik bezig ben.
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Ik dank ook de kinderen voor hun geduld tijdens het schrijven.
- Ze moesten hun vader teveel missen achter die computer.
+\noindent
+Bedankt lieve Anne om er te zijn.
+ Om me de ruimte te geven om mijn hart te volgen.
+ Het is niet altijd eenvoudig als ik weer eens afwezig ben, zowel letterlijk
+ als figuurlijk.
+ Laten we niet vergeten om te bewegen en het leven te vieren in dans.
 \end_layout
 
 \begin_layout Standard
-Mijn ouders verdienen hier zeker een plaats.
- Ze hebben me zelfvertrouwen en een goede start meegegeven.
+\noindent
+Ook gaat mijn dank uit naar onze fantastische kinderen die hun vader teveel
+ moesten missen bij het schrijven van dit werk.
+ Hoewel ik minder tijd had, is mijn liefde voor jullie nog altijd beregroot.
 \end_layout
 
 \begin_layout Standard
-Bedankt aan aan iedereen bij Landwijzer om me te begeleiden in dit traject.
+\noindent
+De eerste stappen in het leven zijn belangrijk voor alle volgende.
+ Mijn ouders verdienen zeker een pluim door die goede start en het zelfvertrouwe
+n dat ze meegegeven hebben.
+ Bedankt om er te zijn en in mij te geloven tijdens deze nogal uitzonderlijke
+ carrièreswitch.
 \end_layout
 
 \begin_layout Standard
-Dank aan Evert voor de tekeningen van Umbalio.
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Je kunt enkel groeien door het werk van de reuzen die vooraf zijn gegaan.
- Rob Hopkins en Charles & Perrine Hervé-Gruyer zijn inspirerende voorbeelden
- geweest die mijn pad hebben verlicht.
+\noindent
+Veel mensen hebben, zonder het te weten, bijgedragen aan dit werkstuk.
+ Ten eerste de auteurs van de werken die ik doorgenomen heb.
+ Bedankt aan Meino Smit, Gerald Leach, Steinhart en Steinhart, Amory Lovins
+ en zo veel anderen..
 \end_layout
 
 \begin_layout Standard
+\noindent
+Veel dank aan Charles & Perrine Hervé-Gruyer voor hun inspiratie, zowel
+ op vlak van doorzetten, schoonheid als de offers die ze op persoonlijk
+ vlak maken om iedereen met hun inspirerend systeem kennis te laten maken.
+ Wat jullie opgezet hebben is zo'n sterke inspiratie, zowel voor nu en als
+ voor de toekomst.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Indirect heeft Rob Hopkins ook bijgedragen aan dit werkstuk door de Transitie
+ beweging te starten.
+ Vooral het positief verhalende van zijn manier van werken is een inspiratie.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Aan alle personen die bijgedragen hebben om de software te maken waarmee
+ ik dit werk kon schrijven, bedankt.
+ Jullie hebben belangeloos tijd gestoken in software die vrij gebruikt kan
+ worden door iedereen.
+ Hetzelfde geld ook voor de mensen die de tekeningen op 
+\noun on
+freesvg.org
+\noun default
+ geplaatst hebben, waar ik dankbaar gebruik van kon maken om dit werk aanschouwe
+lijker te maken.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Bedankt aan de groep van Landwijzer om een vruchtbare bodem te bieden.
+ Iedereen draagt op zijn/haar manier bij aan deze unieke groep.
+ Speciale dank aan Evert om het verhaal van Umbalio zo fijn te illustreren.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Lien en Eva, bedankt om het technische werk te doorploeteren.
+ Dank zij jullie nodige en terechte opmerkingen is er een toegankelijkere
+ tekst uit gekomen.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 Tot slot dank ik ook Colruyt om me de mogelijkheid te geven om tijd te kunnen
- maken voor het Landwijzer traject.
+ nemen voor het Landwijzer traject.
+ 
 \end_layout
 
 \end_body
