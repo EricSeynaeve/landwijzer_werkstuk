@@ -1,0 +1,685 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+% \usepackage[section]{placeins}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+% \raggedbottom
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "app:Elektronica-en-hernieuwbare-energie"
+
+\end_inset
+
+Gaat technologie de wereld redden?
+\end_layout
+
+\begin_layout Standard
+Doorheen zijn proefschrift merk je dat Meino Smit vragen heeft bij de duurzaamhe
+id van elektronica en een overschakeling naar hernieuwbare energie bij 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+business-as-usual
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+.
+ Dat was voor mij, komende uit de ICT sector, wel een hardere noot om te
+ kraken.
+ Hoewel wat hier behandeld wordt niet direct verband houdt met het echte
+ onderwerp van dit verdiepend werkstuk, wil ik het toch noteren vanuit mijn
+ achtergrond.
+\end_layout
+
+\begin_layout Section
+Externe kosten van elektronica
+\end_layout
+
+\begin_layout Standard
+Elektronica is iets raars.
+ We kunnen ons nu geen leven meer voorstellen zonder en die afhankelijkheid
+ is vreselijk snel in ons leven geslopen.
+ Ook in de landbouw heeft elektronica op korte tijd een prominente plaats
+ gekregen.
+ Drones om plantgoed te planten, 
+\lang english
+vertical farming
+\lang dutch
+, sensoren te kust en te keur,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Je kan het zo gek niet bedenken of elektronica heeft hier een voet in de
+ deur of zelfs meer.
+\end_layout
+
+\begin_layout Standard
+Voor de productie van elektronica is meer kapitaal nodig dan tijdens het
+ gebruik.
+ Het is ook daar waar het meeste afval gegenereerd wordt en niet na het
+ afdanken van de toestellen.
+ Dit geeft aan dat recyclage van elektronische apparatuur nuttig is, maar
+ de voetafdruk niet sterk zal doen dalen.
+\end_layout
+
+\begin_layout Standard
+Tijdens het gebruik is er meestal ook een verscheidenheid van andere elektronica
+ nodig om de gegevens te transporteren (data communicatie netwerken zoals
+ 4G, Wifi, glasvezel,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+), te verwerken (rekencentra) en op te slaan (storage centra).
+\end_layout
+
+\begin_layout Standard
+Kijken we naar de kosten, dan is het volgende aan te stippen:
+\end_layout
+
+\begin_layout Itemize
+het grote energieverbruik bij productie,
+\end_layout
+
+\begin_layout Itemize
+de gebruikte grondstoffen:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+de winning en extractie van verschillende cruciale grondstoffen is belastend,
+ zowel in energetische als in maatschappelijke kosten:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+gebruik van fracking
+\end_layout
+
+\begin_layout Itemize
+giftig en radioactief afval
+\end_layout
+
+\begin_layout Itemize
+bloedmetalen
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+sommige benodigde metalen komen enkel vrij als 
+\begin_inset Quotes pld
+\end_inset
+
+bijwinning
+\begin_inset Quotes prd
+\end_inset
+
+ van andere grondstoffen waardoor niet snel gereageerd kan worden op schommeling
+en in de vraag,
+\end_layout
+
+\begin_layout Itemize
+de grote afhankelijkheid van zeldzame aardmetalen met ronkende namen zoals
+ neodymium, dysprosium of europium, heeft ook geopolitieke gevolgen.
+ 85% van de zeldzame aardmetalen komt vandaag uit China! Dat geeft één land
+ een enorme controle over de wereldwijde toevoer ervan,
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+productie van de chips zelf is een toxisch proces waarbij ultra zuiver water
+ nodig is,
+\end_layout
+
+\begin_layout Itemize
+verwerken van de afval,
+\end_layout
+
+\begin_layout Itemize
+het gebruik van een elektronisch apparaat heeft, zoals hierboven al aangehaald,
+ een hoeveelheid aan andere elektronica nodig.
+\end_layout
+
+\begin_layout Standard
+De kosten en de baten van elektronica zijn onevenredig verdeeld.
+ Diegenen die plezier hebben van elektronica worden totaal niet geconfronteerd
+ met de kosten ervan op het gebied van sociale uitbuiting, toxisch afval,
+ landverlies,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Er zijn continue verbetering in de efficiëntie van de productie en van de
+ apparatuur zelf.
+ Maar dit wordt meestal teniet gedaan door de alsmaar stijgende consumptie
+ van elektronische apparatuur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Het is niet de bedoeling om elektronica te verketteren.
+ Maar het is wel belangrijk om er bewust mee om te gaan.
+ Wat houdt dan in ?
+\end_layout
+
+\begin_layout Enumerate
+Denk eerst goed na of je de elektronica wel effectief nodig hebt.
+ De marketing is zeer goed in het aanpraten van een nieuw of complexer toestel
+ omwille van features die je eigenlijk niet nodig hebt.
+ Is het zo belangrijk dat je koelkast automatisch melk besteld?
+\end_layout
+
+\begin_layout Enumerate
+Als je koopt, kijk eerst of er een valabel toestel is op de tweedehands
+ markt.
+ Dit vermijdt het belastende productieproces en afval.
+\end_layout
+
+\begin_layout Enumerate
+Laat je elektronica zo lang mogelijk meegaan.
+ Elektronische apparatuur kent een zeer korte levenscyclus.
+ Aangezien veel kosten in de productie zitten, is een langere levenscyclus
+ een goede manier om de voetafdruk ervan te verlagen.
+ Dit houdt ook in dat de aankoop van een zuiniger toestel best niet gedaan
+ wordt want dit is in de meeste gevallen belastender dan het oude toestel
+ te blijven gebruiken.
+\end_layout
+
+\begin_layout Enumerate
+Waar mogelijk, maak gebruik van draden.
+ Wifi, GSM en andere draadloze communicatie is belastender dan 
+\begin_inset Quotes pld
+\end_inset
+
+goede oude
+\begin_inset Quotes prd
+\end_inset
+
+ netwerkkabels of vaste telefoons.
+\end_layout
+
+\begin_layout Enumerate
+Koop elektronische toestellen die je kunt repareren.
+ Meestal wordt elektronische apparatuur gerepareerd door volledige printplaten
+ te vervangen.
+ Hoe kleiner de printplaten zijn die vervangen worden, hoe minder belastend
+ de reparatie is.
+\end_layout
+
+\begin_layout Section
+Hernieuwbare energie
+\end_layout
+
+\begin_layout Standard
+Meino Smit is er niet van overtuigd dat de huidige evolutie van energiegebruik
+ het mogelijk maakt om fossiele brandstoffen uit te faseren ten gunste van
+ hernieuwbare energie.
+ Dit heeft niet zozeer te maken met de technologie zelf, maar eerder vanuit
+ een inschatting van de hoeveelheid grondstoffen die hiervoor nodig zijn
+ en hoe snel deze beschikbaar moeten zijn.
+ Dit gaat een impact hebben op toekomstscenario's die 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Business as usual
+\lang dutch
+
+\begin_inset Quotes prd
+\end_inset
+
+ nastreven.
+\end_layout
+
+\begin_layout Standard
+Ook bij hernieuwbare energie spelen zeldzame aardmetalen een belangrijke
+ rol.
+ Niet enkel door de gebruikte elektronica, maar ook omdat deze metalen bijvoorbe
+eld de efficiëntie van magneten sterk verhogen of nodig zijn in zonnecellen.
+\end_layout
+
+\begin_layout Standard
+De meeste vormen van duurzame energie zijn minder efficiënt dan fossiele
+ brandstoffen.
+ In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:eroei-energiebronnen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ vind je de minimale en maximale EROEI terug van een aantal energiebronnen.
+\end_layout
+
+\begin_layout Standard
+De EROEI van duurzame brandstoffen is gekoppeld aan die van fossiele brandstoffe
+n omdat vandaag de dag deze laatste verbruikt worden om de infrastructuur
+ van de eerste te maken
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Momenteel wordt 85% van onze energiebehoefte gedekt door het verbranden
+ van brandstoffen.
+\end_layout
+
+\end_inset
+
+.
+ Als de EROEI van fossiele brandstoffen daalt, zal de EROEI van duurzame
+ brandstoffen dus ook dalen.
+ Aangezien eerst de eenvoudiger te delven fossiele brandstoffen opgestookt
+ worden, moet er later meer energie gebruikt worden om dezelfde hoeveelheid
+ energie te extraheren.
+ In het begin was voor aardgas de EROEI 100:1.
+ Nu is deze echter gezakt naar 10:1.
+\end_layout
+
+\begin_layout Standard
+Er wordt aangenomen dat een EROEI van 3:1 tot 5:1 nodig is zodat een energiebron
+ een positieve energiebalans kan hebben.
+ Dit omdat de opslag, omvorming, transport en distributie zelf ook nog heel
+ wat energie vergt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - eroei.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:eroei-energiebronnen"
+
+\end_inset
+
+De EROEI van een aantal energiebronnen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 32 naar Hall, 2008"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+De EROEI van een aantal energiebronnen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Verder moet er veel infrastructuur, opslag en transport aangemaakt worden
+ voor duurzame energie.
+ Dit vraag niet alleen energie maar ook grondstoffen.
+ Meino Smit geeft aan dat er niet genoeg capaciteit is om deze grondstoffen
+ aan bijvoorbeeld aardmetalen op een aanzienlijke tijd te delven
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "par. 6.4"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Deze capaciteit kan maar langzaam opgeschaald worden omdat enerzijds het
+ creëren van een nieuwe grondstoffenstroom jaren duurt, maar anderzijds
+ ook omdat vele aardmetalen als 
+\begin_inset Quotes pld
+\end_inset
+
+bijwinst
+\begin_inset Quotes prd
+\end_inset
+
+ bij het mijnen van een andere grondstof vrijkomen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De enige manier om over te schakelen naar een duurzame toekomst is het energiege
+bruik in te perken.
+ De meest duurzame megajoule is diegene die niet nodig is.
+\end_layout
+
+\begin_layout Standard
+Dit kan door enerzijds minder energie te verbruiken per persoon, maar ook
+ door een afname van de bevolking te bewerkstelligen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Hoe je op een ethische en duurzame manier de bevolking kan doen afnemen,
+ lijkt me een zeer moeilijke vraag.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "par:welbevinden"
+
+\end_inset
+
+De angst dat er terug naar de middeleeuwen moet gekeerd worden is zeer begrijpel
+ijk.
+ Gelukkig wijzen studies uit dat er een verband is tussen het welbevinden
+ en de hoeveelheid energie die gebruikt wordt
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 35"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Vanaf een energiegebruik van 50 tot 70
+\begin_inset space ~
+\end_inset
+
+GJ per persoon per jaar, is er een gevoel van voldoende welbevinden.
+ Vanaf een waarde van 100
+\begin_inset space ~
+\end_inset
+
+GJ per persoon en per jaar neemt het welbevinden niet meer toe!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energieverbruik per hoofd.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:energieverbruik-per-persoon"
+
+\end_inset
+
+Energieverbruik per persoon en per jaar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:energieverbruik-per-persoon"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is de situatie weergegeven voor een aantal landen tezamen met de vermelde
+ grenzen en het wereldwijde gemiddelde.
+ We zien dat een halvering van het energieverbruik per Nederlander niet
+ veel invloed zal hebben op het welbevinden.
+\end_layout
+
+\begin_layout Standard
+Ook is het zo dat deze verlaging niet door iedereen gedragen moet worden.
+ Het is namelijk zo dat hoe rijker je bent, hoe meer energie je verbruikt
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "leeds2020"
+literal "false"
+
+\end_inset
+
+.
+ Het is dus niet meer dan normaal dat de meest verbruikende mensen de grootste
+ inspanning zouden leveren.
+\end_layout
+
+\end_body
+\end_document
