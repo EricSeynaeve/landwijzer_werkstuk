@@ -1,0 +1,454 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+% \usepackage[section]{placeins}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+% \raggedbottom
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "app:Ferme-du-Bec"
+
+\end_inset
+
+Ferme du Bec Hellouin
+\end_layout
+
+\begin_layout Standard
+Zoals je merkt, loop ik nogal hoog op met het systeem van Ferme du Bec Hellouin.
+ Voor de mensen die het niet kennen, een kleine voorstelling zoals ik het
+ zie.
+ Je kunt ook naar de docufilm 
+\begin_inset Quotes pld
+\end_inset
+
+Demain
+\begin_inset Quotes prd
+\end_inset
+
+ kijken om eens kennis te maken.
+\end_layout
+
+\begin_layout Standard
+Ferme du Bec Hellouin is gelegen in Normandië, ongeveer 20
+\begin_inset space ~
+\end_inset
+
+km ten zuidwesten van Rouen.
+\end_layout
+
+\begin_layout Standard
+Wat mij het sterkste aanspreekt in dit systeem is de combinatie van hun
+ visie en de gepubliceerde economische resultaten.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/FdB.jpg
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hun visie
+\end_layout
+
+\begin_layout Standard
+De start van Ferme du Bec Hellouin was de wens van Charles en Perrine Hervé-Gruy
+er om alle eten voor hun gezin zelf te produceren op een manier die de aarde
+ niet belast.
+ Dit houdt in: een minimale input van fossiele brandstoffen, zoveel mogelijk
+ zelf produceren, een landbouw die de aarde voedt.
+\end_layout
+
+\begin_layout Standard
+Het eerste gaat over een minimum van fossiele brandstoffen.
+ Ze hebben wel een kleine tractor maar gebruiken deze alleen voor grotere
+ infrastructuurwerken of het keren van de composthoop.
+ Ook is er indirect gebruik van fossiele brandstoffen voor het plastic van
+ de serres, de aanvoer van materiaal (zoals paardenmest), leveringen,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Ze zijn dus niet volledig onafhankelijk van fossiele brandstoffen, maar
+ proberen het gebruik te minimaliseren.
+\end_layout
+
+\begin_layout Standard
+Ze willen zoveel mogelijk zelf produceren.
+ Niet alleen groenten, maar ook brandhout produceren ze zelf.
+ Er is ook een eigen smidse, Charles doet zelf de schrijnwerkerij en ze
+ maken hun eigen biochar.
+\end_layout
+
+\begin_layout Standard
+Hun landbouw voedt de aarde.
+ Er is enorm veel biodiversiteit op hun velden.
+ Niet alleen door de verscheidenheid van groenten, maar ook door de mogelijkhede
+n die ze aanbieden aan de natuur.
+ Er worden bijen en vogels gezien die elders in Frankrijk amper gezien worden.
+ Jaar na jaar bouwen ze koolstof in de bodem op.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Buiten deze aspecten vind ik hun gevoel voor schoonheid enorm inspirerend.
+ Heel het domein is een schilderij waard.
+ Ook in de eigen publicaties is duidelijk een artistiek gevoel aanwezig.
+\end_layout
+
+\begin_layout Standard
+In hun boek 
+\begin_inset Quotes pld
+\end_inset
+
+Zaaien met toekomst
+\begin_inset Quotes prd
+\end_inset
+
+ hebben ze een visie rond microlandbouw die mij sterk aanspreekt.
+ Vooral in een Vlaamse context is het belangrijk om te kunnen werken op
+ kleine percelen.
+ Dat terwijl de gangbare trend nog altijd richting schaalvergroting gaat.
+\end_layout
+
+\begin_layout Standard
+Verder zijn ze heel gegrond in hun aanpak.
+ Het is no-nonsense en ze zijn heel duidelijk: boeren is werken, hard werken
+ en nog harder werken.
+\end_layout
+
+\begin_layout Section
+Economische resultaten
+\end_layout
+
+\begin_layout Standard
+Als een van de weinige permacultuur bedrijven, zijn hun cijfers wetenschappelijk
+ in kaart gebracht.
+\end_layout
+
+\begin_layout Standard
+Een studie van INRA (vergelijkbaar met ILVO in Vlaanderen) heeft bekeken
+ wat de opbrengst is van 0,1
+\begin_inset space ~
+\end_inset
+
+ha netto teeltoppervlakte.
+ Dit steeg in de loop van de studie van 30 tot 55
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+euro per jaar.
+ Uiteraard zijn hier veel discussies rond gaande maar het geeft een richting
+ aan.
+ Vooral omdat er in Frankrijk al verschillende boerenbedrijven zijn die
+ succesvol hun systeem overgenomen hebben.
+\end_layout
+
+\begin_layout Standard
+Hoeveel gelijkaardige projecten mislukt zijn en waarom is spijtig genoeg
+ minder duidelijk.
+\end_layout
+
+\begin_layout Section
+Relevantie met dit werkstuk
+\end_layout
+
+\begin_layout Standard
+Zoals elders aangehaald, blijkt het systeem van de Chinese landbouw uit
+ de jaren '30 een heel goede basis om van te vertrekken voor een landbouw
+ die meer energie opbrengt dan erin gestoken moet worden en tegelijkertijd
+ Vlaanderen kan voeden.
+\end_layout
+
+\begin_layout Standard
+De krachten van die Chinese landbouw uit de jaren '30 kan je ook terugvinden
+ bij Ferme du Bec Hellouin:
+\end_layout
+
+\begin_layout Itemize
+combinatieteelten
+\end_layout
+
+\begin_layout Itemize
+voor- en nateelt
+\end_layout
+
+\begin_layout Itemize
+intensieve opvolging door de boer (
+\begin_inset Quotes pld
+\end_inset
+
+De beste mest is de voetstap van de boer
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+intensieve toevoeging van mest
+\end_layout
+
+\begin_layout Standard
+Via verschillende paden zijn deze principes bij Ferme du Bec Hellouin gekomen.
+ Het meest opmerkelijke is dat deze principes ook gebruikt werden in de
+ 19e-eeuwse Parijse stadslandbouw.
+\end_layout
+
+\begin_layout Standard
+Met toevoegingen van extra principes zoals de bodem niet keren, zoveel mogelijk
+ ter plaatse laten, paden deel laten zijn van het systeem,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+ zijn er nog extra stappen genomen.
+\end_layout
+
+\begin_layout Standard
+Hoewel er geen cijfers voor beschikbaar zijn rond energetische input en
+ output, is het aan te nemen dat hun systeem de cijfers van de Chinese landbouw
+ uit de jaren '30 zullen benaderen.
+ Vandaar dat het een goede start is voor landbouw die zowel meer energie
+ opbrengt dan je erin steekt en productief genoeg om op een kleine oppervlakte
+ veel mensen te voeden.
+\end_layout
+
+\begin_layout Section
+Een paar cijfers
+\end_layout
+
+\begin_layout Standard
+Ferme du Bec Hellouin bestaat uit ongeveer 20
+\begin_inset space ~
+\end_inset
+
+ha.
+ Dit lijkt ver te staan van een microboerderij, maar 12
+\begin_inset space ~
+\end_inset
+
+ha hiervan is bos dat gebruikt wordt voor brandhout.
+ Verder is er nog 3
+\begin_inset space ~
+\end_inset
+
+ha 
+\begin_inset Quotes pld
+\end_inset
+
+eetbaar landschap
+\begin_inset Quotes prd
+\end_inset
+
+, 2,4
+\begin_inset space ~
+\end_inset
+
+ha aan terrassen die amper gebruikt worden en een woning en lesgebouw.
+ De eigenlijke velden zijn 1,8
+\begin_inset space ~
+\end_inset
+
+ha waaronder een paar kleine weilanden, 2
+\begin_inset space ~
+\end_inset
+
+voedselbossen plus een serre van 6
+\begin_inset space ~
+\end_inset
+
+are.
+\end_layout
+
+\begin_layout Standard
+Hierop werken naar schatting 4 mensen voltijds.
+ Verder is er ook een administratieve medewerken en een kok, maar het is
+ onduidelijk van welk deel van het bedrijf deze betaald worden (er is ook
+ een onderzoekscentrum en een educatieve tak).
+\end_layout
+
+\begin_layout Standard
+De afzet zit als volgt in elkaar:
+\end_layout
+
+\begin_layout Itemize
+pakketten
+\end_layout
+
+\begin_layout Itemize
+restaurants
+\end_layout
+
+\begin_layout Itemize
+winkels
+\end_layout
+
+\begin_layout Itemize
+groothandel
+\end_layout
+
+\begin_layout Standard
+Vroeger was er ook nog een hoevewinkel, maar die is recent stopgezet wegens
+ tijdsgebrek omdat ze zich meer willen focussen op onderzoek rond hun systeem.
+\end_layout
+
+\end_body
+\end_document
