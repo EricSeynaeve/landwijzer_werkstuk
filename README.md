@@ -4,7 +4,7 @@ Welkom op de broncode van mijn verdiepend werkstuk voor de Landwijzer opleiding.
 
 ## Conceptuele versie
 
-Er zijn twee **voorlopige** PDF files van dit document:
+Er zijn twee PDF files van dit document:
 
 * [om af te drukken (dubbelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-nl_print.pdf)
 * [om op het scherm te lezen (enkelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-nl_screen.pdf)
