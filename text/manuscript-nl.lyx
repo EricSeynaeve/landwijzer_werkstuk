@@ -34,6 +34,7 @@
 }%
 \item[]}{\end{list}}
 
+\usepackage{geometry}
 %set some decoration
 \usepackage{eso-pic}
 \usepackage{graphicx}
@@ -68,9 +69,9 @@
 			\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
 		\fi
 		\ifchapterpage
-			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-50pt-4ex)}
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-1in-\topmargin-\headheight-\headsep-50pt-4ex)}
 		\else
-			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-1ex)}
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-1in-\topmargin-\headheight-\headsep-1ex)}
 		\fi
 		\put(\xxEsLeft,0pt){%
 			\parbox[b][\xxEsBottom][t]{\xxEsWidth}{
@@ -134,7 +135,7 @@ longtablepage
 \bibtex_command default
 \index_command default
 \float_placement h
-\paperfontsize 12
+\paperfontsize default
 \spacing single
 \use_hyperref true
 \pdf_bookmarks true
@@ -2533,29 +2534,6 @@ Veevoer
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-Net zoals bij Meino Smit, ziet Leach een stijging van de input die nodig
- is in de landbouw zoals weergegeven in figuur
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:e-in-VK-evolutie"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace defskip
 \end_inset
 
@@ -2563,35 +2541,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Interessant is dat Leach de parallel trekt met de zware industrie.
- Afhankelijk van hoeveel mensen je toekent aan de landbouw (directe en indirect
- arbeidskrachten), wordt er per werknemer in de landbouw tussen de 150 en
- 330
-\begin_inset space ~
-\end_inset
 
-GJ/jaar aan energie gebruikt.
- Dat is overeenkomstig met de zware industrie die tussen de 170 en 300
-\begin_inset space ~
-\end_inset
-
-GJ/jaar gebruikt per werknemer.
- We zouden nooit denken dat landbouw per werknemer evenveel energie nodig
- heeft als zware industrie!
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-De EROEI van de landbouw in het VK is, volgens de berekeningen van Leach,
- gedaald van 1:2,2 in 1952 tot 1:2,9 in 1968.
- Dus in 1968 zijn er 3 calorieën aan energie nodig geweest om 1 calorie
- aan voeding te produceren.
 \end_layout
 
 \begin_layout Standard
@@ -2632,6 +2582,57 @@ Evolutie van de energetische input van de VK landbouw
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Net zoals bij Meino Smit, ziet Leach een stijging van de input die nodig
+ is in de landbouw zoals weergegeven in figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in-VK-evolutie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Interessant is dat Leach de parallel trekt met de zware industrie.
+ Afhankelijk van hoeveel mensen je toekent aan de landbouw (directe en indirect
+ arbeidskrachten), wordt er per werknemer in de landbouw tussen de 150 en
+ 330
+\begin_inset space ~
+\end_inset
+
+GJ/jaar aan energie gebruikt.
+ Dat is overeenkomstig met de zware industrie die tussen de 170 en 300
+\begin_inset space ~
+\end_inset
+
+GJ/jaar gebruikt per werknemer.
+ We zouden nooit denken dat landbouw per werknemer evenveel energie nodig
+ heeft als zware industrie!
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De EROEI van de landbouw in het VK is, volgens de berekeningen van Leach,
+ gedaald van 1:2,2 in 1952 tot 1:2,9 in 1968.
+ Dus in 1968 zijn er 3 calorieën aan energie nodig geweest om 1 calorie
+ aan voeding te produceren.
 \end_layout
 
 \begin_layout Standard

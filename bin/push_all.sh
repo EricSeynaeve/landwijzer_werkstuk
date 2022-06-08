@@ -19,6 +19,12 @@ function generate_files {
 	cp -f "$lyx_filename" tmp.lyx
 	sed -i 's#^\\papersides .*#\\papersides 2#' tmp.lyx
 	sed -i 's#^\\usepackage{pdflscape}.*#\\usepackage{lscape}#' tmp.lyx
+	if [[ $type_text == "Conceptual" ]]
+	then
+		sed -i 's#^\\paperfontsize .*#\\paperfontsize default#' tmp.lyx
+		sed -i '/^\\topmargin /d' tmp.lyx
+		sed -i '/^\\bottommargin /d' tmp.lyx
+	fi
 	sed -i -e '/\\branch screen/,+1s/\\selected.*/\\selected 0/' -e '/\\branch print/,+1s/\\selected.*/\\selected 1/' tmp.lyx
 	diff -u "$lyx_filename" tmp.lyx || true
 	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_print.pdf" tmp.lyx && git add "${pdf_base_filename}_print.pdf"
@@ -27,6 +33,20 @@ function generate_files {
 	cp -f "$lyx_filename" tmp.lyx
 	sed -i 's#^\\papersides .*#\\papersides 1#' tmp.lyx
 	sed -i 's#^\\usepackage{lscape}.*#\\usepackage{pdflscape}#' tmp.lyx
+	if [[ $type_text == "Conceptual" ]]
+	then
+		sed -i 's#^\\paperfontsize .*#\\paperfontsize 12#' tmp.lyx
+		if ! grep '^\\bottommargin ' tmp.lyx >/dev/null 2>&1
+		then
+			sed -i 's#^\\end_index#&\n\\bottommargin 0#' tmp.lyx
+		fi
+		if ! grep '^\\topmargin ' tmp.lyx >/dev/null 2>&1
+		then
+			sed -i 's#^\\end_index#&\n\\topmargin 0#' tmp.lyx
+		fi
+		sed -i 's#^\\topmargin .*#\\topmargin 2cm#' tmp.lyx
+		sed -i 's#^\\bottommargin .*#\\bottommargin 2cm#' tmp.lyx
+	fi
 	sed -i -e '/\\branch screen/,+1s/\\selected.*/\\selected 1/' -e '/\\branch print/,+1s/\\selected.*/\\selected 0/' tmp.lyx
 	diff -u "$lyx_filename" tmp.lyx || true
 	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_screen.pdf" tmp.lyx && git add "${pdf_base_filename}_screen.pdf"

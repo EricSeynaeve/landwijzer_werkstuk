@@ -72,9 +72,9 @@
 			\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
 		\fi
 		\ifchapterpage
-			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-50pt-4ex)}
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-1in-\topmargin-\headheight-\headsep-50pt-4ex)}
 		\else
-			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-1ex)}
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-1in-\topmargin-\headheight-\headsep-1ex)}
 		\fi
 		\put(\xxEsLeft,0pt){%
 			\parbox[b][\xxEsBottom][t]{\xxEsWidth}{
