@@ -16,6 +16,10 @@ Er zijn twee PDF files met meer cijfers en grafieken:
 * [om af te drukken (dubbelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-tech-nl_print.pdf)
 * [om op het scherm te lezen (enkelzijdig)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-tech-nl_screen.pdf)
 
+## Wat na dit werkstuk?
+
+Zoals vermeld in het werkstuk, deed dit de zin om het landbouwsysteem van Ferme du Bec-Hellouin naar Vlaanderen brengen enkel maar toenemen. Als je mijn wedervaardigheden hierrond wilt lezen, heb ik een [website van 'Ferme Cultuur'](https:///www.fermecultuur.be) opgezet om mijn avonturen hierrond te delen.
+
 ## Voor de diegenen die aanpassingen willen doen
 
 Wil je de broncode zelf aanpassen, heb je [LyX](https://www.lyx.org) nodig. Zie daar voor de instructies om het te installeren.
