@@ -14004,6 +14004,12 @@ Efficiëntie van een gemend bedrijf in functie van het aandeel dieren.
 \end_layout
 
 \begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:EROEI-landbouwsystemen"
+
+\end_inset
+
 EROEI van verschillende systemen
 \end_layout
 
@@ -14447,45 +14453,34 @@ eem?
 \end_layout
 
 \begin_layout Standard
-In paragraaf 
+Dit wordt in detail uitgewerkt in paragraaf
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
-LatexCommand vref
-reference "sec:landgebruik"
+LatexCommand ref
+reference "sec:Voorwaarden-realistische-landbouw"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- is bepaald dat elke inwoner van Nederland 0,3
-\begin_inset space ~
-\end_inset
-
-ha landbouwgrond ter beschikking heeft
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Dit is inclusief het indirect landgebruik maar laten we even met dit getal
- verder gaan.
+.
+ De conclusies zijn de volgende:
 \end_layout
 
-\end_inset
-
- oftewel iets meer dan 3 personen per hectare.
- Dus moet elke hectare dan 13
+\begin_layout Itemize
+Een landbouwsysteem moet minstens 36
 \begin_inset space ~
 \end_inset
 
-GJ/ha.jaar output hebben.
- Hiernaast moeten de EROEI minstens 
-\begin_inset CommandInset label
-LatexCommand label
-name "eroei-3,3"
+GJ/ha.jaar aan output hebben.
+\end_layout
 
-\end_inset
-
-3,3 zijn (waarom wordt in het volgend hoofdstuk duidelijk).
+\begin_layout Itemize
+Een landbouwsysteem moet een EROEI van minstens 3,3:1 hebben.
 \end_layout
 
 \begin_layout Standard
@@ -14506,9 +14501,12 @@ noprefix "false"
  door het lichter gekleurde gedeelte linksboven.
  Van de industriële landbouwsystemen blijven enkel een paar graanteelten
  en suikerbieten over.
- Verrassend genoeg zijn het vooral de oudere landbouwsystemen en uiteraard
- de Chinese tuinbouw die als realistische systemen overblijven.
- Niet de o zo gepromote industriële landbouw, biologisch of niet.
+ Verder steekt de Chinese tuinbouw er met kop en schouders bovenuit.
+\end_layout
+
+\begin_layout Standard
+Het blijkt dus dat de o zo gepromote industriële landbouw, biologisch of
+ niet, helemaal niet realistisch is in de Nederlandse of Belgische context.
 \end_layout
 
 \begin_layout Section
@@ -15052,7 +15050,7 @@ PJ opgegeten.
 \begin_layout Standard
 Duizelt je hoofd al? Ik kan het best geloven
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
@@ -15810,34 +15808,6 @@ Globaal kunnen we stellen dat het aandeel van de landbouw in de voedselketen
 \end_layout
 
 \begin_layout Standard
-Dat heeft belangrijke implicaties indien het doel is om een landbouwsysteem
- te ontwerpen dat energetisch positief is.
- Het is dan belangrijk dat de landbouw zelf een EROEI van minstens 3,3:1
- tot 4:1 heeft zodat verliezen later in de voedselketen opgevangen worden.
-\end_layout
-
-\begin_layout Standard
-Op pagina
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "eroei-3,3"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- is de ondergrens van 3,3:1 genomen zodat er nog 2 granenteelten (met een
- EROEI van 3,35:1 en 3,75:1) meegenomen konden worden.
- Anders was enkel de suikerbieten teelt (EROEI 4,2:1) overgebleven wat nogal
- eenzijdig zou zijn als voeding.
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace defskip
 \end_inset
 
@@ -15873,6 +15843,356 @@ efficiëntie stijgt van een positieve balans tot een waarde van ongeveer
  Het lijkt ook alsof deze evolutie niet direct zal stoppen na 1970.
  Dus ook uit deze studies kunnen we besluiten dat de EROEI waarden van 1:10
  door Whitefield aangehaald niet uit de lucht gegrepen is.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Voorwaarden-realistische-landbouw"
+
+\end_inset
+
+Voorwaarden voor een realistische landbouw
+\end_layout
+
+\begin_layout Standard
+Uiteraard zijn er veel voorwaarden te vervullen voor een duurzame landbouw.
+ Zowel op het gebied van water, bodemvruchtbaarheid, 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space ~
+\end_inset
+
+.
+ Hier gaan we twee noodzakelijke voorwaarden samenvatten rond energie.
+\end_layout
+
+\begin_layout Standard
+Ten eerste moet er voldoende geteeld worden om de bevolking te kunnen voeden.
+ Zoals hierboven al aangehaald, is er in Nederland 0,11
+\begin_inset space ~
+\end_inset
+
+ha directe landbouwgrond ter beschikking.
+ Er moeten per hectare dus 9 mensen gevoed worden oftewel 36
+\begin_inset space ~
+\end_inset
+
+GJ/jaar.
+ Voor België is dit respectievelijk 0.13
+\begin_inset space ~
+\end_inset
+
+ha landbouwgrond/inwoner en 30
+\begin_inset space ~
+\end_inset
+
+GJ/jaar.
+ Voor Vlaanderen is dit nog dramatischer: 0,10
+\begin_inset space ~
+\end_inset
+
+ha per inwoner en dus 40
+\begin_inset space ~
+\end_inset
+
+GJ/jaar te behalen per hectare.
+\end_layout
+
+\begin_layout Standard
+Dit is dus een eerste conclusie: 
+\emph on
+er moeten per hectare jaarlijks minstens 36
+\begin_inset space ~
+\end_inset
+
+GJ aan voedingsenergie geproduceerd worden
+\emph default
+.
+ Hier worden de Nederlandse cijfers genomen, maar of we nu de Vlaamse, Belgische
+ of Nederlandse cijfers nemen, de eindconclusie zal hetzelfde blijven.
+\end_layout
+
+\begin_layout Standard
+In figuur
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:eroei-input-ouput-landbouwsystemen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is te zien dat hier enkel akkerbouwsystemen (granen, aardappelen en mais
+ maar niet wortelen, spruiten of erwten), de groentetuin en de Chinese landbouw
+ aan voldoen.
+ Één rotatieteelt voldoet er ook aan (cassave), maar dit is meer de uitzondering
+ dan de regel.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hoe zit het met de EROEI? Is er een minimale EROEI die de landbouw moet
+ halen?
+\end_layout
+
+\begin_layout Standard
+Zoals we zagen, is deze momenteel tussen de 1:2 en 1:2,5.
+ Met andere woorden, de landbouw verbruikt meer energie dan hij opbrengt.
+ Dus een absoluut minimum is dat de EROEI van de landbouw beter moet zijn
+ dan 1:1.
+\end_layout
+
+\begin_layout Standard
+Hoe zit het met de volledige voedselketen? Daarvan hebben we gezien dat
+ de EROEI zich tussen de 1:7 en 1:12 bevindt.
+ Is het mogelijk om dit positief te krijgen puur door de EROEI van de landbouw
+ te verbeteren? Dit is een hypothetische oefening omdat de landbouw hier
+ opgedragen wordt om de problemen verderop in de keten op te lossen.
+ Uiteraard moet iedereen zijn duid in het zakje doen wat kan door bijvoorbeeld
+ voedselverliezen te verminderen, koeling niet te gebruiken als het nodig
+ is, afbouwen van conserven, minder bewerkte producten, minder transport,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Laten we echter eens kijken wat de conclusies zijn van deze oefening.
+\end_layout
+
+\begin_layout Standard
+We merken op dat de EROEI van de volledige voedselketen slechter is dan
+ die van de landbouw zelf.
+ Daarmee is het duidelijk dat, los van de precieze getallen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Laten we het meest optimistische scenario uitwerken.
+ Hierin zijn er 2,5
+\begin_inset space ~
+\end_inset
+
+J nodig om 1
+\begin_inset space ~
+\end_inset
+
+J aan landbouwproducten te leveren.
+ De totale voedselketen heeft 7
+\begin_inset space ~
+\end_inset
+
+J nodig om 1
+\begin_inset space ~
+\end_inset
+
+J voedsel op het bord te krijgen.
+ Dus wordt er buiten de landbouw nog 4,5
+\begin_inset space ~
+\end_inset
+
+J aan energie ingestoken.
+ Deze 4,5
+\begin_inset space ~
+\end_inset
+
+J wordt toegepast op een input van 1
+\begin_inset space ~
+\end_inset
+
+J landbouwproducten.
+ De input buiten de landbouw is dus de 1
+\begin_inset space ~
+\end_inset
+
+J aan landbouwproducten samen met de 4,5
+\begin_inset space ~
+\end_inset
+
+J energie, in totaal 5,5
+\begin_inset space ~
+\end_inset
+
+J om 1
+\begin_inset space ~
+\end_inset
+
+J aan voeding op het bord te krijgen.
+ De EROEI is dan 1:5,5.
+\end_layout
+
+\begin_layout Plain Layout
+Analoog heeft het meest pessimistische scenario een EROEI 1:11.
+\end_layout
+
+\end_inset
+
+, de EROEI van de rest van de keten niet duurzaam is.
+ Het is dan ook niet mogelijk dat de landbouw het verlies verderop in de
+ keten kan goedmaken.
+\end_layout
+
+\begin_layout Standard
+Een vereenvoudigd rekenvoorbeeld kan dit aantonen.
+ Stel je een bevolking voor van 10 miljoen mensen die elk 4
+\begin_inset space ~
+\end_inset
+
+GJ aan voedingsenergie per jaar moeten opnemen.
+ Dan is de totale hoeveelheid voedingsenergie die nodig is voor die bevolking
+ 40
+\begin_inset space ~
+\end_inset
+
+PJ.
+ Met een EROEI van 1:2,5 voor de landbouw heb je 100
+\begin_inset space ~
+\end_inset
+
+PJ energie nodig voor de landbouw.
+ Als het totale voedselsysteem een EROEI van 1:7 heeft, is hiervoor 280
+\begin_inset space ~
+\end_inset
+
+PJ aan energie nodig.
+ De rest van de voedselketen vraag dus nog 180
+\begin_inset space ~
+\end_inset
+
+PJ aan extra energie, los van de voedselgewassen
+\series bold
+ 
+\series default
+zelf die ook als input voor de rest van de voedselketen dienen
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Voor het gemak wordt ervan uitgegaan dat er geen voedingsverliezen zijn.
+ Dus elke voedselgewas dat in de rest van de keten verwerkt, getransporteerd
+ of bewaard wordt, komt op een bord terecht.
+ Zoals gezegd, dit is een vereenvoudigd voorbeeld omdat het meerekenen van
+ deze verliezen ons teveel van de essentie zouden afleiden.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Als de landbouw zou verbeteren tot een EROEI van 10:1, dan vraagt deze 4
+\begin_inset space ~
+\end_inset
+
+PJ aan energie om 40
+\begin_inset space ~
+\end_inset
+
+PJ op te leveren, een winst van 96
+\begin_inset space ~
+\end_inset
+
+PJ.
+ Maar dit kan het verlies in de rest van de keten (180
+\begin_inset space ~
+\end_inset
+
+PJ) totaal niet compenseren.
+ De rest van de keten zou ook moeten verbeteren en maximaal 36
+\begin_inset space ~
+\end_inset
+
+PJ aan energie verbruiken om een EROEI van 1:1 te beogen.
+\end_layout
+
+\begin_layout Standard
+Je merkt dat de efficiëntie van de landbouw en die van de rest van de voedselket
+en als communicerende vaten zijn.
+ Momenteel staan deze vaten kurkdroog omdat ze allebei meer energie verbruiken
+ dan nodig is.
+ Beiden moeten duurzaam zijn om water in deze communicerende vaten te hebben.
+ Dan kan je zien dat als eentje efficiënter wordt, de andere minder efficiënt
+ kan zijn en omgekeerd.
+\end_layout
+
+\begin_layout Standard
+Het is dus nodig dat zowel de landbouw als de rest van de voedselketen een
+ betere EROEI dan 1:1 moeten nastreven om de andere ademruimte te geven.
+ Met de huidige verhoudingen in energieverbruik zien we dat de landbouw
+ ongeveer drie tot vier keer minder energie nodig heeft dan de rest van
+ de keten.
+ Gaan we ervan uit dat de inspanning gelijk verdeeld moeten worden volgens
+ de huidige verhoudingen, zou 
+\emph on
+de landbouw een EROEI van pakweg 3,3:1 moeten hebben
+\emph default
+ om voldoende ademruimte over te houden voor de rest van de keten.
+\end_layout
+
+\begin_layout Standard
+Waarom 3,3:1 en geen 3:1 of 4:1? Op pagina
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "fig:eroei-landbouwsystemen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ en volgende blijkt dat er hierdoor toch nog een paar akkerbouwsystemen
+ kunnen meegenomen worden.
+ Dit zijn 2 granenteelten (met een EROEI van 3,35:1 en 3,75:1) en suikerbiet
+ (EROEI 4,2:1).
+ Een lagere EROEI had niet veel veranderd in het type van voedsel, een hogere
+ EROEI had ons enkel suikerbiet doen eten, wat nogal eenzijdig is.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uiteraard veranderen deze conclusies als de veronderstellingen veranderen.
+ Moest er bijvoorbeeld meer landbouwgrond beschikbaar komen per inwoner,
+ dan kan de hoeveelheid aan benodigde energie per hectare dalen.
+ Eveneens kan de benodigde EROEI dalen als de rest van de keten efficiënter
+ wordt.
+ Op die manier veranderd de context en kunnen meer landbouwsystemen realistisch
+ worden.
+ Het ziet er echter niet naar uit dat dit op korte of middellange termijn
+ gaat gebeuren, integendeel.
 \end_layout
 
 \begin_layout Standard
@@ -17876,7 +18196,7 @@ Pre- en semi-industriële landbouwsystemen blijken op energetisch vlak vaak
 Er is ook gezien dat er een minimale opbrengst per hectare nodig is om de
  bevolking te kunnen voeden.
  Hoeveel dit is hangt af van het beschikbare landbouwareaal per inwoner.
- Als elke hectare voldoende energie moet produceren voor 3 personen, vallen
+ Als elke hectare voldoende energie moet produceren voor 9 personen, vallen
  veel landbouwsystemen al weg.
  Dit zowel bij de pre-, semi- als industriële landbouwsystemen.
 \end_layout

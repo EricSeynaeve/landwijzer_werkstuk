@@ -289,10 +289,11 @@ We gebruiken in dit werk nog andere voorvoegsels die waarschijnlijk minder
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="5">
+<lyxtabular version="3" rows="7" columns="6">
 <features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="right" valignment="top" width="0pt">
 <column alignment="right" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="right" valignment="top" width="0pt">
@@ -315,11 +316,20 @@ symbool
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell multicolumn="1" alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 vermenigvuldig met
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -343,7 +353,7 @@ voorbeeld
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="0.5ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -375,6 +385,19 @@ k
 
 \end_inset
 </cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{3}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -398,7 +421,7 @@ kJ
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="0.5ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -434,6 +457,19 @@ M
 
 \end_inset
 </cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{6}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -457,7 +493,7 @@ MJ
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="0.5ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -497,6 +533,19 @@ G
 
 \end_inset
 </cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{9}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -520,7 +569,7 @@ GJ
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="0.5ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -564,6 +613,19 @@ T
 
 \end_inset
 </cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{12}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -587,7 +649,7 @@ TJ
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="0.5ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -635,6 +697,19 @@ P
 
 \end_inset
 </cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{15}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -658,7 +733,7 @@ PJ
 \end_inset
 </cell>
 </row>
-<row>
+<row topspace="0.5ex">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
@@ -706,6 +781,19 @@ E
 \end_inset
 
 000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{18}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset

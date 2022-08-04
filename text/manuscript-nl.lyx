@@ -3559,7 +3559,7 @@ noprefix "false"
 
 \end_inset
 
-) zien we dat de landbouw ongeveer 30% bijdraagt aan de energie van de voedselke
+) zien we dat de landbouw ongeveer 33% bijdraagt aan de energie van de voedselke
 ten.
  Wordt er nog rekening gehouden met het verbruik thuis en in restaurants,
  dan zakt dit naar zo'n 20%.
@@ -3757,13 +3757,15 @@ Wat betekent dit voor de landbouw?
 \begin_layout Standard
 Als het doel is om een energetisch neutraal voedselsysteem te hebben, is
  het duidelijk dat de landbouw niet kan volstaan met een EROEI van 1:1.
+ De rest van de voedselketen zal ook energie vragen, bovenop die van de
+ landbouw.
 \end_layout
 
 \begin_layout Standard
 We hebben hierboven gezien dat de landbouw een energetische bijdrage van
- 20 to 30% aan de totale voedselketen geeft.
- Dus moet de EROEI van de landbouw tussen 5:1 en 3:1 liggen om te zorgen
- dat het totale systeem neutraal kan zijn.
+ 25 to 33% aan de totale voedselketen geeft.
+ Een billijke inspanning van de landbouw geeft aan dat de EROEI hiervan
+ tussen de 4:1 en 3:1 moet liggen.
 \end_layout
 
 \begin_layout Standard
@@ -3771,6 +3773,21 @@ We hebben echter gezien dat de EROEI van de landbouw momenteel tussen 1:3
  en 1:2 ligt.
  Het is dus met de momenteel gangbare landbouw zelfs niet eens mogelijk
  om een energetisch neutraal voedselsysteem op te zetten.
+\end_layout
+
+\begin_layout Standard
+Analoog kunnen we inzien dat de rest van de voedselketen een EROEI heeft
+ die niet duurzaam is.
+ Daardoor is het voor de landbouw niet mogelijk om dit op te vangen, ongeacht
+ hoe groot de EROEI ook is.
+\end_layout
+
+\begin_layout Standard
+Elk onderdeel van de voedselketen moet duurzaam zijn zodat de volledige
+ keten duurzaam kan zijn.
+ Dit is een duidelijk geval dat de keten maar zo zwak is als de zwakste
+ schakel.
+ En momenteel zijn alle schakels gebroken.
 \end_layout
 
 \begin_layout Standard
@@ -4253,7 +4270,7 @@ Op basis van energetische efficiëntie
 
 \begin_layout Standard
 Hierboven is aangegeven dat de energetische efficiëntie van een landbouwsysteem
- beter moet zijn dan 3:1 of 5:1 zodat het volledige voedselsysteem energetisch
+ beter moet zijn dan 3:1 of 4:1 zodat het volledige voedselsysteem energetisch
  neutraal kan zijn.
  Welke moderne landbouwsystemen zitten boven 3:1?
 \end_layout
@@ -4284,13 +4301,10 @@ noprefix "false"
  geeft de omgekeerde verhouding aan en dan nog eens in een logaritmische
  schaal!).
  Sojabonen zitten ongeveer op de grens.
-\end_layout
-
-\begin_layout Standard
-Als het doel van een landbouwsysteem een EROEI van 5:1 is, voldoen enkel
- rijst en laag intense aardappelen hieraan! De eerste is een tropisch graan
- waarbij veel energie via de zon en warmte komt, de tweede wordt hier waarschijn
-lijk amper nog beoefend.
+ Hierbij moeten we er rekening mee houden dat rijst een tropisch graan is
+ waarbij veel energie via de zon en warmte komt en veel water nodig is,
+ dus niet geschikt voor onze context.
+ Ook worden laag intense teelten nog amper beoefend.
 \end_layout
 
 \begin_layout Standard
@@ -4314,7 +4328,7 @@ Kijken we naar oudere landbouwsystemen, dan valt op dat vele hiervan vlotjes
 \lang english
 slash&burn
 \lang dutch
- systemen hebben een efficiëntie van meer dan 5:1.
+ systemen hebben een efficiëntie van meer dan 4:1.
  Uiteraard moeten we de systemen die enkel in de tropen en de sub-tropen
  mogelijk zijn uit de lijst halen, omdat deze in ons gematigd klimaat niet
  kunnen gedijen.
@@ -4486,6 +4500,15 @@ miljoen inwoners.
 \end_inset
 
 GJ/jaar moet opbrengen.
+ Nemen we enkel Vlaanderen, dan zijn de cijfers 0,10
+\begin_inset space ~
+\end_inset
+
+ha/inwoner en 40
+\begin_inset space ~
+\end_inset
+
+GJ/jaar.
 \end_layout
 
 \begin_layout Standard
