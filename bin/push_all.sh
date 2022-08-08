@@ -15,7 +15,7 @@ function generate_files {
 	lyx_filename="$base_filename.lyx"
 	pdf_base_filename="$base_filename"
 
-	cowsay -f small "$type_text, ${language^^}, Double sided"
+	cowsay -f small "$type_text, ${language^^}, Print"
 	cp -f "$lyx_filename" tmp.lyx
 	sed -i 's#^\\papersides .*#\\papersides 2#' tmp.lyx
 	sed -i 's#^\\usepackage{pdflscape}.*#\\usepackage{lscape}#' tmp.lyx
@@ -27,9 +27,10 @@ function generate_files {
 	fi
 	sed -i -e '/\\branch screen/,+1s/\\selected.*/\\selected 0/' -e '/\\branch print/,+1s/\\selected.*/\\selected 1/' tmp.lyx
 	diff -u "$lyx_filename" tmp.lyx || true
-	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_print.pdf" tmp.lyx && git add "${pdf_base_filename}_print.pdf"
+	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_print.pdf" tmp.lyx && \
+		git add "${pdf_base_filename}_print.pdf"
 
-	cowsay -f small "$type_text, ${language^^},Single sided"
+	cowsay -f small "$type_text, ${language^^}, Screen"
 	cp -f "$lyx_filename" tmp.lyx
 	sed -i 's#^\\papersides .*#\\papersides 1#' tmp.lyx
 	sed -i 's#^\\usepackage{lscape}.*#\\usepackage{pdflscape}#' tmp.lyx
@@ -49,7 +50,10 @@ function generate_files {
 	fi
 	sed -i -e '/\\branch screen/,+1s/\\selected.*/\\selected 1/' -e '/\\branch print/,+1s/\\selected.*/\\selected 0/' tmp.lyx
 	diff -u "$lyx_filename" tmp.lyx || true
-	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_screen.pdf" tmp.lyx && git add "${pdf_base_filename}_screen.pdf"
+	time /usr/bin/lyx -E pdf2 "${pdf_base_filename}_screen-large.pdf" tmp.lyx && \
+		gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -sOutputFile="${pdf_base_filename}_screen.pdf" "${pdf_base_filename}_screen-large.pdf" && \
+		rm -f "${pdf_base_filename}_screen-large.pdf" && \
+		git add "${pdf_base_filename}_screen.pdf"
 
 	rm tmp.lyx
 }
