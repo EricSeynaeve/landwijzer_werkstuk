@@ -4,7 +4,7 @@ set -o xtrace
 set -o errexit
 
 cowsay "Creating pdf's"
-cd "$HOME/Documents/Landbouw/True cost of food/text"
+cd "$(git rev-parse --show-toplevel)/text"
 
 function generate_files {
 	short_filename=$1
