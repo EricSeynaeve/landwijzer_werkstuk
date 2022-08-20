@@ -1,0 +1,1065 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+% \usepackage[section]{placeins}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+% \raggedbottom
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+
+\renewcommand{\nomlabel}[1]{\textbf{#1}}
+
+%set some decoration
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{changepage}
+\usepackage{ifthen}
+\usepackage{afterpage}
+%image on part page
+\def\@partimage{}
+\newcommand{\partimage}[2][]{
+	\gdef\@partimage{\includegraphics[height=0.3\paperheight]{#2}}
+}
+%image on other pages
+\newlength{\xxEsLeft}
+\newlength{\xxEsBottom}
+\newlength{\xxEsMargin}
+\setlength{\xxEsMargin}{0.75cm}
+\newlength{\xxEsWidth}
+\setlength{\xxEsWidth}{1.5cm}
+\def\@partimageSide{}
+\newif\ifchapterpage
+\newcommand{\partimageSide}[2][]{
+	\gdef\@partimageSide{\AddToShipoutPicture{%
+		\makeatletter
+		\if@twoside
+			\checkoddpage
+			\ifoddpage
+				\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+			\else
+				\setlength{\xxEsLeft}{\xxEsMargin}
+			\fi
+		\else
+			\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+		\fi
+		\ifchapterpage
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-50pt-4ex)}
+		\else
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-1ex)}
+		\fi
+		\put(\xxEsLeft,0pt){%
+			\parbox[b][\xxEsBottom][t]{\xxEsWidth}{
+				\includegraphics[width=\xxEsWidth]{#2}
+			}
+		}
+		\makeatother
+	}}
+}
+%make sure the image on chapter page is adjusted by adjusting the  boolean chapterpage
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\Huge\bfseries}{\chaptername\nobreakspace\thechapter}{0pt}{\global\chapterpagetrue}[\afterpage{\global\chapterpagefalse}]
+%redefine some macro to put the image on the part page
+\def\@part[#1]#2{%
+	\ClearShipoutPicture
+    \ifnum \c@secnumdepth >-2\relax
+      \refstepcounter{part}%
+      \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+    \else
+      \addcontentsline{toc}{part}{#1}%
+    \fi
+    \markboth{}{}%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \ifnum \c@secnumdepth >-2\relax
+       \huge\bfseries \partname\nobreakspace\thepart
+       \par
+       \vskip 20\p@
+     \fi
+     \Huge \bfseries #2\vfil\@partimage\vfil\par}%
+    \@endpart
+	\@partimageSide
+}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "app:wetenschappelijke-begrippen"
+
+\end_inset
+
+Brief summary of some scientific concepts
+\end_layout
+
+\begin_layout Subsection
+Joule or calorie?
+\end_layout
+
+\begin_layout Standard
+In this work, a lot of work is done with energy.
+ The SI unit of joules (J) is taken for this purpose.
+\end_layout
+
+\begin_layout Standard
+There are different units for noting energy.
+ In food, the calorie is the best known but also the most confusing.
+ This is because a kilocalorie is actually used for food, but written down
+ as a calorie.
+ In joules, fortunately, this is not done.
+\end_layout
+
+\begin_layout Standard
+How can you convert one to the other? 1 (real) calorie equals 4.184
+\begin_inset space ~
+\end_inset
+
+joule.
+\end_layout
+
+\begin_layout Subsection
+But still acres and tons?
+\end_layout
+
+\begin_layout Standard
+But, but, but, says a fellow physicist, you still use hectare (ha) instead
+ of 10
+\begin_inset space \thinspace{}
+\end_inset
+
+000 square meters and tons instead of Mg (megagram)?
+\end_layout
+
+\begin_layout Standard
+Well, what can I say.
+ As a farmer in training, hectares and tons are simply more telling units.
+\end_layout
+
+\begin_layout Subsection
+Kilo, mega, giga, oh no
+\end_layout
+
+\begin_layout Standard
+A number of prefixes are used to write things down more concisely.
+ Kilo is well known, as in for example kilogram (1
+\begin_inset space \thinspace{}
+\end_inset
+
+000 grams) or kilometer (1
+\begin_inset space \thinspace{}
+\end_inset
+
+000 meters).
+ Hecto is known from hectare (100 are, a hecto-are).
+\end_layout
+
+\begin_layout Standard
+We use other prefixes in this work that are probably less well known.
+ So a small overview:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pronunciation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+symbol
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+multiply by
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dutch numeral
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+example
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+kilo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{3}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+thousand
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\begin_inset space ~
+\end_inset
+
+kJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mega
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{6}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+million
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\begin_inset space ~
+\end_inset
+
+MJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+giga
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+G
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{9}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+billion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4,3
+\begin_inset space ~
+\end_inset
+
+GJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tera
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{12}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+trillion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\begin_inset space ~
+\end_inset
+
+TJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+P
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{15}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+quadrillion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32
+\begin_inset space ~
+\end_inset
+
+PJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5ex">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+exa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $10^{18}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+quintillion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\begin_inset space ~
+\end_inset
+
+EJ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+And why couldn't I leave this? Well, after a degree in physics, that's probably
+ an occupational disorder.
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "app:broeikasgassen"
+
+\end_inset
+
+Greenhouse gases
+\end_layout
+
+\begin_layout Standard
+Of course, we all know about the greenhouse effect and know that 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ is a greenhouse gas.
+ But did you also know the following?
+\end_layout
+
+\begin_layout Itemize
+Greenhouse gases are not only released by combustion.
+ Livestock farming and the use of fertilizers also contribute to the greenhouse
+ effect.
+\end_layout
+
+\begin_layout Itemize
+Not only 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ is a greenhouse gas.
+ There are others such as
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "broeikasgassen2019"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+methane (
+\begin_inset Formula $\ce{NH4}$
+\end_inset
+
+).
+ This is 25 times more powerful than 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ and causes 20% of the greenhouse effect.
+ Methane, among other things, is emitted in animal husbandry and composting.
+\end_layout
+
+\begin_layout Itemize
+Nitrous oxide (
+\begin_inset Formula $\ce{N2O}$
+\end_inset
+
+).
+ This is 289 times more potent than 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ and causes 6% of the greenhouse effect.
+ Nitrous oxide is produced in agriculture from excessive use of liquid manure
+ and fertilizer.
+\end_layout
+
+\begin_layout Itemize
+Other natural greenhouse gases are water (
+\begin_inset Formula $\ce{H2O}$
+\end_inset
+
+) and ozone (
+\begin_inset Formula $\ce{O3}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes pld
+\end_inset
+
+industrial
+\begin_inset Quotes prd
+\end_inset
+
+ greenhouse gases are usually much more potent than those above (1
+\begin_inset space \thinspace{}
+\end_inset
+
+300 to 23
+\begin_inset space \thinspace{}
+\end_inset
+
+900 times more potent than 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "app:EROEI"
+
+\end_inset
+
+EROEI
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit tabel 2_en-us.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:eroei-schema"
+
+\end_inset
+
+Diagram of energy loss in the oil chain
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+EROEI (Energy Return On Energy Invested)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "EROEI"
+description "Energy Return On Energy Invested"
+literal "false"
+
+\end_inset
+
+ is the ratio of the amount of useful energy obtained to the amount of energy
+ that was needed to produce it.
+ If the EROEI is less than 1, then more energy has been consumed than has
+ been gained.
+\end_layout
+
+\begin_layout Standard
+Since energy is required not only in extracting a fuel, but also in refining,
+ transportation,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ there are different places in the process where you can determine the required
+ energy.
+ These give a different value of the EROEI which can vary considerably.
+\end_layout
+
+\begin_layout Standard
+In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:eroei-schema"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ the EROEI drops from 10:1 when only the energy for oil extraction is considered
+, to 1.3:1 when all energy is considered.
+\end_layout
+
+\begin_layout Standard
+Usually only the energy needed for extraction is taken to determine the
+ EROEI.
+ In that case, at least an EROEI greater than 3:1 to 5:1 is needed to still
+ have useful energy left at the end.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,919 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+% \usepackage[section]{placeins}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+% \raggedbottom
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+
+%set some decoration
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{changepage}
+\usepackage{ifthen}
+\usepackage{afterpage}
+%image on part page
+\def\@partimage{}
+\newcommand{\partimage}[2][]{
+	\gdef\@partimage{\includegraphics[height=0.3\paperheight]{#2}}
+}
+%image on other pages
+\newlength{\xxEsLeft}
+\newlength{\xxEsBottom}
+\newlength{\xxEsMargin}
+\setlength{\xxEsMargin}{0.75cm}
+\newlength{\xxEsWidth}
+\setlength{\xxEsWidth}{1.5cm}
+\def\@partimageSide{}
+\newif\ifchapterpage
+\newcommand{\partimageSide}[2][]{
+	\gdef\@partimageSide{\AddToShipoutPicture{%
+		\makeatletter
+		\if@twoside
+			\checkoddpage
+			\ifoddpage
+				\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+			\else
+				\setlength{\xxEsLeft}{\xxEsMargin}
+			\fi
+		\else
+			\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+		\fi
+		\ifchapterpage
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-50pt-4ex)}
+		\else
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-2cm-1ex)}
+		\fi
+		\put(\xxEsLeft,0pt){%
+			\parbox[b][\xxEsBottom][t]{\xxEsWidth}{
+				\includegraphics[width=\xxEsWidth]{#2}
+			}
+		}
+		\makeatother
+	}}
+}
+%make sure the image on chapter page is adjusted by adjusting the  boolean chapterpage
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\Huge\bfseries}{\chaptername\nobreakspace\thechapter}{0pt}{\global\chapterpagetrue}[\afterpage{\global\chapterpagefalse}]
+%redefine some macro to put the image on the part page
+\def\@part[#1]#2{%
+	\ClearShipoutPicture
+    \ifnum \c@secnumdepth >-2\relax
+      \refstepcounter{part}%
+      \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+    \else
+      \addcontentsline{toc}{part}{#1}%
+    \fi
+    \markboth{}{}%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \ifnum \c@secnumdepth >-2\relax
+       \huge\bfseries \partname\nobreakspace\thepart
+       \par
+       \vskip 20\p@
+     \fi
+     \Huge \bfseries #2\vfil\@partimage\vfil\par}%
+    \@endpart
+	\@partimageSide
+}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Blue water, green water? Gray water, black water? Heavy water, light water?
+ What is all that?
+\end_layout
+
+\begin_layout Standard
+Half of these are concepts used in looking at the water footprint.
+ The water footprint is a concept analogous to the ecological footprint,
+ the carbon footprint,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 15"
+key "hoekstra2002"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Now, not every type of user water is equivalent.
+ It is important to distinguish between them in order to get, on the one
+ hand, a full picture on the impact of humanity on the water, and on the
+ other hand because you get absurd numbers otherwise.
+\end_layout
+
+\begin_layout Standard
+The terms blue water and green water were introduced in 1995 by Malin Falkenmark
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "falkenmark1995"
+literal "false"
+
+\end_inset
+
+.
+ Gray water was introduced as a concept in 2006 by Chapagain, at that time
+ called dilution water
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chapagain2006"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A good introduction can be found in section 3.1 of 
+\begin_inset Quotes pld
+\end_inset
+
+The Water Footprint Manual
+\begin_inset Quotes prd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hoekstra2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Blue water
+\end_layout
+
+\begin_layout Standard
+Blue water, simply put, is flowing water.
+ It is the liquid water in rivers and under the ground (aquifers).
+\end_layout
+
+\begin_layout Standard
+The blue water footprint is the use of it by humans.
+ Think drinking water, showers, irrigation,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Consumption of blue water has until recently been the main focus around
+ water consumption.
+\end_layout
+
+\begin_layout Section
+Green water
+\end_layout
+
+\begin_layout Standard
+It was only in the late 1990s and early this century that people began to
+ realize that the water in the unsaturated layer of soil, which can be used
+ by plants, can play an important factor in the overall water management.
+ This water is called green water.
+ 
+\end_layout
+
+\begin_layout Standard
+The green water footprint is the portion of the green water that is used.
+ Most of it evaporates through plant transpiration or evaporation (collectively
+ called evapotranspiration).
+ A small portion of it is used by plants to grow and propagate.
+\end_layout
+
+\begin_layout Section
+Gray water
+\end_layout
+
+\begin_layout Standard
+Gray water is meant to indicate the degree of pollution.
+ It does not directly correspond to physical water unlike blue and green
+ water.
+\end_layout
+
+\begin_layout Standard
+Let's keep its definition as simple as possible: gray water is the amount
+ of water needed to bring pollution below the acceptable standard.
+\end_layout
+
+\begin_layout Standard
+An example.
+ Imagine 5 liters of water.
+ Let it contain 2% of a toxic substance.
+ However, the acceptable standard is only 0.2% of that substance.
+ Then to get the dilution 10 times smaller, the total volume of water must
+ become 50 liters.
+ So we would have to add 45 liters of water to get the contamination below
+ the standard.
+ Those 45 virtual liters is the value of the gray water.
+\end_layout
+
+\begin_layout Section
+Black water, heavy water and light water
+\end_layout
+
+\begin_layout Standard
+These terms have nothing to do with water management.
+ They do sound good though, don't they?
+\end_layout
+
+\begin_layout Standard
+For the fans:
+\end_layout
+
+\begin_layout Itemize
+black water is water contaminated with feces (e.g., from toilets).
+\end_layout
+
+\begin_layout Itemize
+Heavy water and light water are terms from nuclear physics.
+\end_layout
+
+\begin_layout Section
+Cow 42 is thirsty
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\end_layout
+
+\begin_layout Standard
+Do you remember that on page
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "15000_l_water"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ the statement was made that 15
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+l of water is needed for 1
+\begin_inset space ~
+\end_inset
+
+kg of beef? You can find that out for example on 
+\noun on
+vlees.nl
+\noun default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.vlees.nl/themas/milieu-techniek/footprint-water/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ For a two-year-old cow, this amounts to about 10
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+l per day.
+ A cow doesn't drink nearly as much
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This is also the main line from people who regard the water footprint as
+ a popular hoax to shove an ecological dictatorship down our throats.
+\end_layout
+
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+Now it turns out that of those 15
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+l, the vast majority is green water because cow
+\begin_inset space ~
+\end_inset
+
+42 is allowed to graze happily on the pasture for a long time.
+ For that pasture, the evapotranspiration is counted as green water footprint.
+\end_layout
+
+\begin_layout Standard
+You may then wonder if that green water footprint is bad.
+ That's a very good question.
+ As long as there is enough rainfall, I don't think the green water footprint
+ plays a decisive role.
+ It's only when there is too little rainfall that water evaporation and
+ transpiration becomes important.
+\end_layout
+
+\begin_layout Standard
+For blue and gray water footprint, there is more consensus that they play
+ a role in sustainability.
+\end_layout
+
+\begin_layout Section
+\SpecialChar ldots
+ and nuts have a problem
+\end_layout
+
+\begin_layout Standard
+Let's take the values found on 
+\noun on
+vlees.nl
+\noun default
+ and plot the blue and gray water footprint for different produce (figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Blauwe-en-grijze-watervoetafdruk"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ This yields a surprising result.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/eosta - blauw-grijs watervoetafdruk_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Blauwe-en-grijze-watervoetafdruk"
+
+\end_inset
+
+Blue versus gray water footprint for different agricultural products
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Blue versus gray water footprint
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You'll notice that, without taking into account the green water footprint,
+ animal products generally score lower than plant-based products.
+\end_layout
+
+\begin_layout Standard
+The big surprise, however, are nuts.
+ You can see them there at the very top right (the 
+\begin_inset Quotes pld
+\end_inset
+
+bad
+\begin_inset Quotes prd
+\end_inset
+
+ corner).
+ This is mainly due to irrigation and crop protection products.
+ It is claimed that 1
+\begin_inset space ~
+\end_inset
+
+almond nut corresponds to 10
+\begin_inset space ~
+\end_inset
+
+liters of water! And research shows this to be not far from the truth, especiall
+y during dry years in California (where a significant portion of almond
+ nuts are grown).
+\end_layout
+
+\begin_layout Section
+My problem with all those colors of water
+\end_layout
+
+\begin_layout Standard
+At first glance, the split into different forms of water use is a good thing.
+ It gives more nuance to the debate.
+ But I do have a number of problems with the way it is handled here
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+There is also criticism of this approach within the scientific community.
+ Some of this criticism and its refutation can be found on the website of
+ the Water Footprint Network and in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haie2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+The water footprint is too simplistic
+\end_layout
+
+\begin_layout Standard
+The water footprint is expressed as a single number where everything adds
+ up equally.
+ So a liter of blue water is equated to a liter of gray water.
+ Like the proponents of the water footprint, I am in favor of always explicitly
+ naming the different colors of water.
+ However, it's only human to want to lump everything together under one
+ value, losing (important) nuance.
+\end_layout
+
+\begin_layout Standard
+Why do even the proponents of the water footprint do the same? Although
+ they don't say why they suddenly leave the nuance behind, they justify
+ the 1-to-1 addition by arguing that working with weights gives a subjective
+ assessment of the colors to water.
+ I find this an odd argument because implicitly they are using a subjective
+ assessment where all forms of water use are considered equal.
+\end_layout
+
+\begin_layout Subsection
+The water footprint tells nothing about the sustainability of a product
+\end_layout
+
+\begin_layout Standard
+You notice that the water footprint is used to compare products.
+ 
+\begin_inset Quotes pld
+\end_inset
+
+Your meat burger has a bigger water footprint than my nut burger.
+ Shame on you, how dare you burden the environment like that.
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the one hand, this is linked to the criticism above (
+\begin_inset Quotes eld
+\end_inset
+
+the water footprint is too simplistic
+\begin_inset Quotes erd
+\end_inset
+
+).
+ On the other hand, I think it is also because gray and green water have
+ some side notes.
+ These side notes are not present with blue water because that is clearly
+ linked to a physical reality on the one hand and a tangible process involved.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Every drop of blue water used is measurable and lost to natural water cycles.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Gray water is virtual water
+\end_layout
+
+\begin_layout Standard
+As you saw in the definition of gray water, this value depends on legal
+ standards.
+ These standards change over time.
+\end_layout
+
+\begin_layout Standard
+This means that, for example, the nuts above have a relatively high gray
+ water footprint.
+ But if the legislation changes, they suddenly have a different gray water
+ footprint.
+ The real impact on the environment hasn't changed however!
+\end_layout
+
+\begin_layout Subsubsection
+A green water footprint is not always bad
+\end_layout
+
+\begin_layout Standard
+In the water cycle, the great water cycle is well known.
+ This is the cycle where water evaporates from the sea, passes over the
+ land as clouds, precipitates and then flows back to the sea.
+\end_layout
+
+\begin_layout Standard
+During the course of the Landwijzer training, we also learned about the
+ small water cycle.
+ This involves forests evaporating water which causes water to precipitate
+ further inland.
+ If you break this small water cycle, then there is an increased chance
+ of desertification further from the sea.
+\end_layout
+
+\begin_layout Standard
+It is the restoration of the small water cycle that explains the successes
+ in various places in the world where trees have been planted again, resulting
+ in the restoration of rivers and streams.
+ This made plots of land downstream more humid, which in turn made agriculture
+ possible.
+ Think for example of the successes filmed by John D.
+ Liu or the work of Geoff Lawton.
+\end_layout
+
+\begin_layout Standard
+Here in Flanders, on the other hand, one is familiar with the usage of trees
+ to make fields drier.
+ Whether this is still desirable I will not say, but clearly the evapotranspirat
+ion has the reverse effect as described above.
+\end_layout
+
+\begin_layout Standard
+In both examples there is a high green water footprint.
+ In one case, the water supply is replenished in an indirect way.
+ In the other, the groundwater table is lowered.
+ So it is clear that the consequences of a high green water footprint are
+ not unambiguous.
+ It depends a lot on the local situation: is there a surplus of precipitation
+ or not.
+\end_layout
+
+\begin_layout Subsection
+Focusing on water footprint can promote unnatural systems
+\end_layout
+
+\begin_layout Standard
+When comparing the water footprint of different types of livestock farming,
+ it was noticed that for cattle, industrial systems have a lower water footprint
+ than systems where cows are allowed to graze freely.
+\end_layout
+
+\begin_layout Standard
+This has to do with the following factors
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gerbens2013"
+literal "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+cows are quite inefficient at converting food into meat.
+\end_layout
+
+\begin_layout Itemize
+In an industrial system, food is converted into meat more efficiently.
+ This is due to the following factors:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the animals are bred for efficient conversion of food into meat.
+\end_layout
+
+\begin_layout Itemize
+the animals can move less so they grow faster for the same amount of food.
+\end_layout
+
+\begin_layout Itemize
+the animals are consequently slaughtered at a younger age which means they
+ require less feed.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+on the other hand, in an industrial system, more concentrated feed is used.
+ Concentrated feed requires more water per kg dry weight.
+ This can be reduced by using scrap and other residual streams.
+\end_layout
+
+\begin_layout Standard
+When you take all factors into account, industrial systems come out better
+ than free grazing.
+ So this leads to a water footprint for industrial livestock which scores
+ better than more natural systems.
+\end_layout
+
+\begin_layout Standard
+In vegetable farming, we can do similar calculations and see that a system
+ such as 
+\begin_inset Quotes pld
+\end_inset
+
+Vertical Farming
+\begin_inset Quotes prd
+\end_inset
+
+ requires little external water because it recycles a lot.
+\end_layout
+
+\begin_layout Standard
+So you notice that the further away from natural processes one goes, the
+ better the water footprint seems to become.
+ However, to what extent is the impact of the system itself (e.g.
+ concrete, production of recycling salts, production of electronics,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) included? If this is not done, apples and oranges are compared.
+\end_layout
+
+\begin_layout Section
+Can it be improved?
+\end_layout
+
+\begin_layout Standard
+A way to make the different uses of water visible is, in my opinion, a good
+ thing.
+ To reduce the problems cited above, a number of adjustments can be made.
+ These are certainly not exhaustive but can provide an impetus for improvements.
+\end_layout
+
+\begin_layout Itemize
+Determine the green water footprint based on the surplus the system has.
+ If a system has a surplus of water, evapotranspiration is less of an issue.
+ However, if the system lacks water, we want to store as much water in the
+ ground as possible.
+\begin_inset Newline newline
+\end_inset
+
+So the problem is not so much evapotranspiration itself, but how well the
+ system handles water.
+ How much pavement is there? Is the small water cycle being maintained?
+\end_layout
+
+\begin_layout Itemize
+Calculate the gray water footprint not by legal standards but by the amount
+ of water needed to eliminate pollution.
+\begin_inset Newline newline
+\end_inset
+
+Time and time again, it has been found that nature can eliminate many types
+ of pollution, if not with the help of humans.
+ How much water is needed to do this (for example, to grow oil-eating bacteria)
+ seems to me a more stable and realistic indicator of the gray water footprint.
+\begin_inset Newline newline
+\end_inset
+
+The advantage here is that the use of substances that cannot be broken down
+ (such as PFOS) have an insurmountable impact.
+ This will make people think longer about using these substances.
+\end_layout
+
+\begin_layout Itemize
+With the above change, the tendency to simply add up the types of water
+ use will already become much smaller.
+ This will preserve the nuance of the debate.
+\end_layout
+
+\begin_layout Itemize
+Count all water consumption, including what is consumed indirectly.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,285 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+\noindent
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Acknowledgments}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+A creation does not spawn from a void.
+ It is made possible by people who give you the space to create something
+ and is build on others who give you inspiration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Thank you dear Anne for being there.
+ For giving me the space to follow my heart.
+ It is not always easy when I am absent again, both literally and figuratively.
+ Let's not forget to move and celebrate life in a dance.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Also, my thanks go to our wonderful children who had to miss their father
+ too much while writing this work.
+ Although I had less time, my love for you is strong as a bear.
+\end_layout
+
+\begin_layout Standard
+\noindent
+The first steps in life are important for that follows.
+ My parents deserve credit for that good start and the self-confidence they
+ imparted.
+ Thank you for being there and believing in me during this rather extraordinary
+ career change.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Those who should definitely not be missing are the (trainee) farmers Jonas,
+ Nik and Sam from 
+\begin_inset Quotes eld
+\end_inset
+
+De Wakkere Akker
+\begin_inset Quotes erd
+\end_inset
+
+.
+ They have made it possible that an experiment with the system of Ferme
+ du Bec Hellouin could already happen, albeit on a very small scale.
+ This allowed the belief and theory to be tested in practice.
+ It gave necessary experience and data that both indicate a hopeful direction.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Many people, without knowing it, contributed to this paper.
+ First, the authors of the works I went through.
+ Thank you to Meino Smit, Gerald Leach, Steinhart and Steinhart, Amory Lovins
+ and so many others.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Many thanks to Charles & Perrine Hervé-Gruyer for their inspiration, both
+ in terms of perseverance, beauty and the sacrifices they make on a personal
+ level to introduce everyone to their inspiring system.
+ What you have set up is such a strong inspiration, both for today and for
+ the future.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Indirectly, Rob Hopkins also contributed to this body of work by starting
+ the Transition movement.
+ Especially the positive narrative of his way of working is an inspiration.
+\end_layout
+
+\begin_layout Standard
+\noindent
+To all the individuals who contributed to create the software that allowed
+ me to write this piece, thank you.
+ You have selflessly put time into software that can be freely used by everyone.
+ The same goes for the people who put the drawings on 
+\noun on
+freesvg.org
+\noun default
+ which I gratefully could use to lighten up this work.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Thank you to the group at Landwijzer for providing a fertile ground.
+ Everyone contributes in his/her own way to this unique group.
+ Special thanks to Evert the fine illustrations of Umbalio's story.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Lien and Eva, thank you for plowing through the technical work.
+ Thanks to your necessary and justified comments, a more accessible text
+ has emerged.
+ For this more accessible work, the comments of Anne and Koen have proved
+ valuable.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Finally, I also thank Colruyt for giving me the opportunity to take time
+ for the Landwijzer training.
+ 
+\end_layout
+
+\end_body
+\end_document

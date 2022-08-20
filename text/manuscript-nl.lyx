@@ -5685,7 +5685,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "tabel-duurzaamheidsbloem.lyx"
+filename "tabel-duurzaamheidsbloem-nl.lyx"
 
 \end_inset
 
@@ -7838,7 +7838,7 @@ Een aantal technische begrippen
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "begrippen.lyx"
+filename "begrippen-nl.lyx"
 
 \end_inset
 
