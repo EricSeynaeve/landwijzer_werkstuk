@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="393.362mm"
+   height="218.96494mm"
+   viewBox="0 0 393.36201 218.96494"
+   version="1.1"
+   id="svg54048"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="energie_voedingsindustrie_en-us.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview54050"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.49917265"
+     inkscape:cx="562.93148"
+     inkscape:cy="452.74916"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid107760"
+       originx="41.155094"
+       originy="-20.217429" />
+    <sodipodi:guide
+       position="321.61346,233.89071"
+       orientation="1,0"
+       id="guide108348"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="263.40513,212.72404"
+       orientation="1,0"
+       id="guide108350"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="171.62909,192.82978"
+       orientation="1,0"
+       id="guide111753"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="80.122415,191.89962"
+       orientation="1,0"
+       id="guide116424"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="393.36119,261.7988"
+       orientation="1,0"
+       id="guide12454"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs54045">
+    <marker
+       inkscape:stockid="DistanceStart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DistanceStart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g2300">
+        <path
+           id="path2306"
+           d="M 0,0 H 2"
+           style="fill:none;stroke:context-fill;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path2302"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           style="fill:context-stroke;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path2304"
+           d="M 0,-4 V 40"
+           style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6340" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6343" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(41.155101,-20.217438)"
+     style="display:inline">
+    <path
+       style="fill:none;stroke:#6e1c46;stroke-width:13.9;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.47399,173.46264 c 35.28779,0 69.69075,-10.25642 91.74674,-10.05798 27.71254,0.24933 46.17639,0.0145 58.23761,0.0145"
+       id="path54142-9-6-3-5"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#d06015;stroke-width:47.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.47399,137.05121 c 44.10981,0 75.75717,-4.30407 91.63713,-4.30407 16.80242,0 49.02261,-0.0586 58.34721,-0.0586"
+       id="path54142-9-6-3-8"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#0fc000;stroke-width:37.84;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.47399,79.45667 c 43.2871,0 72.02848,10.586105 91.79596,10.586105 15.22904,0 49.33998,-0.08444 58.18839,-0.08444"
+       id="path54142-9-6-3-8-6"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#d8d700;stroke-width:13;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 352.20607,126.33026 -62.61961,0.008"
+       id="path54142-9-6-3-8-6-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#d8d700;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 280.45293,71.459788 c 5.27564,0 3.95893,48.385672 9.27696,48.385672 l -0.0747,13.01135 c -5.24942,0 -3.99082,37.4728 -9.18092,37.4728 -10e-6,-0.84337 -0.0214,-98.869822 -0.0214,-98.869822 z"
+       id="path5900"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="display:inline;fill:#559d90;fill-opacity:1;stroke:none;stroke-width:0.115084;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 280.46675,170.36953 c 3.60435,0 2.64928,6.95074 6.28259,6.95074 l 3.4e-4,13.39758 c -3.58644,0 -2.72241,6.94459 -6.26832,6.94459 -10e-6,-0.23281 -0.0146,-27.29291 -0.0146,-27.29291 z"
+       id="path5900-1"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#0fc000;stroke-width:10.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.967307,39.263588 c 17.760564,0 69.072013,26.66011 91.506683,26.66011"
+       id="path54142"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#0fc000;stroke-width:8.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.967307,64.010042 c 18.648572,0 75.230243,11.413928 91.506683,11.413928"
+       id="path54142-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#1328bb;stroke-width:3.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.47399,24.292196 c 42.48,1.188907 72.89342,45.561612 91.76881,45.561612 9.77338,0 53.38652,-0.03883 58.21554,-0.03883"
+       id="path54142-9-5"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#0fc000;stroke-width:10.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.967307,90.988923 c 18.997059,0 72.860163,-6.233157 91.506683,-6.233157"
+       id="path54142-9-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#0fc000;stroke-width:8.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.967307,117.24838 c 19.685546,0 76.499313,-23.110329 91.506683,-23.110329"
+       id="path54142-9-6-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#559d90;stroke-width:27.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.47399,225.53237 c 35.63096,0 51.46599,-41.52938 91.87905,-41.52938 14.07038,0 45.38045,0.0191 58.1053,0.0191"
+       id="path54142-9-6-3-5-1"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#559d90;stroke-width:13.4017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 352.20607,139.37763 c -33.05857,0 -26.04196,44.64449 -65.48043,44.64449"
+       id="path54142-9-6-3-5-1-2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-5.2916737"
+       y="40.841789"
+       id="text58330"><tspan
+         sodipodi:role="line"
+         id="tspan58328"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="-5.2916737"
+         y="40.841789">fuels (108 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-41.380878"
+       y="66.067101"
+       id="text60380"><tspan
+         sodipodi:role="line"
+         id="tspan60378"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="-41.380878"
+         y="66.067101">artificial fertilizer (82 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-26.81114"
+       y="93.284866"
+       id="text61418"><tspan
+         sodipodi:role="line"
+         id="tspan61416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="-26.81114"
+         y="93.284866">animal feed (105 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-3.9017391"
+       y="119.83006"
+       id="text62184"><tspan
+         sodipodi:role="line"
+         id="tspan62182"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="-3.9017391"
+         y="119.83006">other (84 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="21.16666"
+       y="140.4657"
+       id="text88155"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="21.16666"
+         y="140.4657"
+         id="tspan88157">Food industry (476 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.99313"
+       y="176.6347"
+       id="text90539"><tspan
+         sodipodi:role="line"
+         id="tspan90537"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="29.99313"
+         y="176.6347">Distribution (139 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="54.027542"
+       y="231.07631"
+       id="text95351"><tspan
+         sodipodi:role="line"
+         id="tspan95349"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="54.027542"
+         y="231.07631">Import (273 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.668453"
+       y="28.154913"
+       id="text100383"><tspan
+         sodipodi:role="line"
+         id="tspan100381"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="57.668453"
+         y="28.154913">Fishing (33 PJ)</tspan></text>
+    <g
+       aria-label="Agriculture (379 PJ)"
+       transform="rotate(10.189859,-1.0461695,-21.595059)"
+       id="text55224"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0701146"
+         x="145.45502"
+         y="56.261322"
+         id="text3065"
+         transform="rotate(-0.6491608)"><tspan
+           sodipodi:role="line"
+           id="tspan3063"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0701146"
+           x="145.45502"
+           y="56.261322">Agriculture (379 PJ)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-132.73737"
+       y="251.87495"
+       id="text120808"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan120806"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-132.73737"
+         y="251.87495">Total energyconsumption</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-132.73737"
+         y="265.10413"
+         id="tspan1863">(1300 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-139.87997"
+       y="333.03241"
+       id="text120808-6"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan120806-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-139.87997"
+         y="333.03241">Total eaten</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-139.87997"
+         y="346.26154"
+         id="tspan1863-0">(261 PJ)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="305.0015"
+       y="130.03101"
+       id="text120808-6-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="305.0015"
+         y="130.03101"
+         id="tspan1863-0-6">130 PJ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="167.01077"
+       y="316.07632"
+       id="text120808-6-2-1"
+       transform="rotate(-31.953279)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="167.01077"
+         y="316.07632"
+         id="tspan1863-0-6-0">131 PJ</tspan></text>
+    <path
+       style="fill:none;stroke:#1328bb;stroke-width:3.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.47399,24.292196 c 42.48,1.188907 72.89342,45.561612 91.76881,45.561612 9.77338,0 53.38652,-0.03883 58.21554,-0.03883"
+       id="path9471"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#1328bb;stroke-width:0.17;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 352.20607,119.75202 c -19.8845,0 -34.2948,-49.976042 -70.67475,-49.976042"
+       id="path9471-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#1328bb;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 280.45833,68.16199 c 0.56428,0 0.53283,1.54489 1.07332,1.54489 10e-6,-0.0054 0.002,0.171874 0.002,0.171874 -0.52635,0 -0.52849,1.593369 -1.07559,1.593369 -0.28104,-0.0058 0,-3.310133 0,-3.310133 z"
+       id="path2174"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.276603;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.276603, 1.10641;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 284.9602,20.768896 V 213.38319"
+       id="path902" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="251.89201"
+       y="235.26605"
+       id="text3428"><tspan
+         sodipodi:role="line"
+         id="tspan3426"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="251.89201"
+         y="235.26605">Input</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="289.68393"
+       y="235.26605"
+       id="text4580"><tspan
+         sodipodi:role="line"
+         id="tspan4578"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="289.68393"
+         y="235.26605">Output</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.268224;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.268224, 0.268224;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-mid:url(#DistanceStart);marker-end:url(#Arrow1Lend)"
+       d="m 246.1692,225.71905 h 77.58199"
+       id="path6338" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.231283px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 284.95984,213.3773 v 24.6835"
+       id="path6778" />
+  </g>
+</svg>

@@ -1,0 +1,7856 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+
+\hyphenation{bio-lo-gisch}
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+
+\usepackage{geometry}
+%set some decoration
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{changepage}
+\usepackage{ifthen}
+\usepackage{afterpage}
+%image on part page
+\def\@partimage{}
+\newcommand{\partimage}[2][]{
+	\gdef\@partimage{\includegraphics[height=0.3\paperheight,width=0.8\paperwidth,keepaspectratio]{#2}}
+}
+%image on other pages
+\newlength{\xxEsLeft}
+\newlength{\xxEsBottom}
+\newlength{\xxEsMargin}
+\setlength{\xxEsMargin}{0.75cm}
+\newlength{\xxEsWidth}
+\setlength{\xxEsWidth}{1.5cm}
+\def\@partimageSide{}
+\newif\ifchapterpage
+\newcommand{\partimageSide}[2][]{
+	\gdef\@partimageSide{\AddToShipoutPicture{%
+		\makeatletter
+		\if@twoside
+			\checkoddpage
+			\ifoddpage
+				\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+			\else
+				\setlength{\xxEsLeft}{\xxEsMargin}
+			\fi
+		\else
+			\setlength{\xxEsLeft}{\dimexpr(\paperwidth-\xxEsMargin-\xxEsWidth)}
+		\fi
+		\ifchapterpage
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-1in-\topmargin-\headheight-\headsep-50pt-4ex)}
+		\else
+			\setlength{\xxEsBottom}{\dimexpr(\paperheight-1in-\topmargin-\headheight-\headsep-1ex)}
+		\fi
+		\put(\xxEsLeft,0pt){%
+			\parbox[b][\xxEsBottom][t]{\xxEsWidth}{
+				\includegraphics[width=\xxEsWidth]{#2}
+			}
+		}
+		\makeatother
+	}}
+}
+%make sure the image on chapter page is adjusted by adjusting the  boolean chapterpage
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\Huge\bfseries}{\chaptername\nobreakspace\thechapter}{0pt}{\global\chapterpagetrue}[\afterpage{\global\chapterpagefalse}]
+%redefine some macro to put the image on the part page
+\def\@part[#1]#2{%
+	\ClearShipoutPicture
+    \ifnum \c@secnumdepth >-2\relax
+      \refstepcounter{part}%
+      \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+    \else
+      \addcontentsline{toc}{part}{#1}%
+    \fi
+    \markboth{}{}%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \ifnum \c@secnumdepth >-2\relax
+       \huge\bfseries \partname\nobreakspace\thepart
+       \par
+       \vskip 20\p@
+     \fi
+     \Huge \bfseries #2\vfil\@partimage\vfil\par}%
+    \@endpart
+	\@partimageSide
+}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0,0.7
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 1.jpg}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0.5
+\backslash
+paperwidth,0.7
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 2.pdf}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0,0.12
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 3.pdf}
+\backslash
+end{center}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPicture*{
+\backslash
+put(0.5
+\backslash
+paperwidth,0.12
+\backslash
+paperheight){
+\backslash
+parbox[b]{0.5
+\backslash
+paperwidth}{
+\backslash
+begin{center}
+\backslash
+includegraphics[height=0.25
+\backslash
+paperheight,width=0.45
+\backslash
+paperwidth,keepaspectratio]{ondersteunende_documenten/figuren/deel 4.png}
+\backslash
+end{center}}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+The true cost of food
+\end_layout
+
+\begin_layout Author
+Eric Seynaeve
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "l"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushleft}
+\end_layout
+
+\end_inset
+
+Created with \SpecialChar LyX
+
+\begin_inset space ~
+\end_inset
+
+2.3 and \SpecialChar TeX
+ Live.
+\begin_inset space ~
+\end_inset
+
+2021.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Graphs made with LibreOffice
+\begin_inset space ~
+\end_inset
+
+7.2 and embellished here and there with Inkscape
+\begin_inset space ~
+\end_inset
+
+1.1.
+\end_layout
+
+\begin_layout Plain Layout
+Figures were created with Gimp
+\begin_inset space ~
+\end_inset
+
+2.10 and Inkscape
+\begin_inset space ~
+\end_inset
+
+1.1.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Font used is 
+\emph on
+Latin Modern Roman
+\emph default
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Where data needed to be extracted from graphs, WebPlotDigitizer (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://automeris.io/WebPlotDigitizer/}
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+This document is released under CC
+\begin_inset space ~
+\end_inset
+
+BY-SA
+\begin_inset space ~
+\end_inset
+
+4.0
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/cc-by-sa.png
+	height 1em
+
+\end_inset
+
+.
+ A copy of the license can be found at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://creativecommons.org/licenses/by-sa/4.0/legalcode.en}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Branch print
+inverted 0
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+pdfUrl}{https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manus
+cript-en-us_print.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Branch screen
+inverted 0
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+pdfUrl}{https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manus
+cript-en-us_screen.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+qrcode{
+\backslash
+pdfUrl}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushleft}
+\end_layout
+
+\end_inset
+
+The most recent version of this pdf can be found at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{
+\backslash
+pdfUrl}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+qrcode{https://github.com/EricSeynaeve/landwijzer_werkstuk}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushleft}
+\end_layout
+
+\end_inset
+
+The source code can be found at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://github.com/EricSeynaeve/landwijzer_werkstuk}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Branch print
+inverted 0
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+pdfUrl}{https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manus
+cript-tech-en_print.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Branch screen
+inverted 0
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+pdfUrl}{https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manus
+cript-tech-en_screen.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+qrcode{
+\backslash
+pdfUrl}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{flushleft}
+\end_layout
+
+\end_inset
+
+For those interested: a pdf with more figures and graphs can be found at
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{
+\backslash
+pdfUrl}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{flushleft}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "memoriam-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "dankwoord-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 1.jpg}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 1.jpg}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Introduction
+\end_layout
+
+\begin_layout Standard
+Hello dear reader.
+ Thank you for taking a hold of this in-depth paper.
+ Let it take you on a journey of discovery through the food chain.
+ You're going to learn a lot of costs of the food we consume.
+ This will give you an insight into where, among other things, agriculture
+ all has an impact.
+ For the farmers among you, it can also provide arguments to justify your
+ price.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{chapter}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The conception of this paper
+\end_layout
+
+\begin_layout Standard
+This paper is a child of the Landwijzer training to become a biodynamic
+ farmer.
+ What was the motivation for me to start that training and then choose this
+ topic?
+\end_layout
+
+\begin_layout Standard
+The reason for starting the training was from a concern about the state
+ of our Earth.
+ Call it a mid-live crisis, but around my 45
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+st
+\end_layout
+
+\end_inset
+
+I wanted to realize something really good.
+ Something that lets you say: 
+\begin_inset Quotes pld
+\end_inset
+
+the world is a little better off now
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+But why agriculture when I was all about computer science? That's a process
+ that had been going on for a while.
+\end_layout
+
+\begin_layout Standard
+It all started after I got in touch with the Transition movement
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://transitionnetwork.org/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ From here permaculture came on my path and so the interest in agriculture
+ grew.
+ Especially the example of Ferme du Bec Hellouin
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.fermedubec.com/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ inspired me: a project with beauty, permaculture, improvement of nature
+ and also commercially viable.
+\end_layout
+
+\begin_layout Standard
+Agriculture is super important, of course.
+ A smartphone is something we can actually do without, but not food.
+ Just read 
+\begin_inset Quotes pld
+\end_inset
+
+Collapse
+\begin_inset Quotes prd
+\end_inset
+
+ by Jared Diamond.
+ In it he argues that a society cannot continue to exist if nature is destroyed.
+ And given the close relationship between nature and agriculture
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Many are trying to reduce the impact of agriculture on the world.
+ But can't we use agriculture to heal the damage already inflicted instead
+ of being happy just to do less damage? That has become my mission.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And now, why this particular topic? That grew while getting into permaculture.
+\end_layout
+
+\begin_layout Standard
+A first seed was the documentary 
+\begin_inset Quotes pld
+\end_inset
+
+A Farm for the Future
+\begin_inset Quotes prd
+\end_inset
+
+ by Rebecca Hosking
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hosking2009"
+literal "false"
+
+\end_inset
+
+.
+ In it she mentions, after removing a sandwich from its plastic coffin,
+ that in order to put 1 calorie of the sandwich in your mouth, it takes
+ a total of 10 calories of oil.
+ This is a statement that comes up regularly in permaculture.
+\end_layout
+
+\begin_layout Standard
+There are other propositions that you'll also find on a regular basis: 
+\begin_inset Quotes pld
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "15000_l_water"
+
+\end_inset
+
+15
+\begin_inset space \thinspace{}
+\end_inset
+
+000 l water needed for 1 kg beef
+\begin_inset Quotes prd
+\end_inset
+
+ or 
+\begin_inset Quotes pld
+\end_inset
+
+2
+\begin_inset space \thinspace{}
+\end_inset
+
+700 l water needed for 1 T-shirt
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+With my scientific background, I was stimulated.
+ Where do these numbers come from? What do they mean? Aren't they being
+ misused?
+\end_layout
+
+\begin_layout Standard
+By coincidence, clues came my way about the source of Rebecca Hosking's
+ statement.
+ After some exciting (?) detective work, it was possible to sink my teeth
+ into that sandwich's energy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the other hand, over the years, the realization grew that organic food
+ is not expensive.
+ It is the current mainstream food that is too cheap.
+ Why? Because there are more costs in conventional food that are not passed
+ on (e.g.
+ loss of biodiversity, health impact of pesticides,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) compared to organic farming.
+\end_layout
+
+\begin_layout Standard
+But which costs are there in agriculture (conventional and organic)? How
+ are they calculated? Do they have a big impact or not? The scientist in
+ me wants to know, which is why I felt the urge to delve into this.
+ In this way, bio and non-bio can be compared in a more objective way.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An understanding of this matter will later help to explain and justify the
+ prices of my products.
+\end_layout
+
+\begin_layout Section
+What can you expect from this paper
+\end_layout
+
+\begin_layout Standard
+My hope is that when you have read through this paper, you will have experienced
+ the following:
+\end_layout
+
+\begin_layout Itemize
+a sense of wonder about the costs involved in farming.
+ At least for me, little light bulbs went off.
+\end_layout
+
+\begin_layout Itemize
+that reality, like a diamond, has many facets.
+ You can look at the part energy or water or economy or
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ Each way of looking at it sheds a different light.
+\end_layout
+
+\begin_layout Itemize
+that finding out the real cost is not a simple matter.
+ There is no single method that covers everything
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+You can feel free to have the impression that the title is 
+\begin_inset Quotes pld
+\end_inset
+
+click-bait
+\begin_inset Quotes prd
+\end_inset
+
+ because it makes it seem as if you are going to see all the costs for once
+ and for all.
+ Nothing is further from the truth.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+that the impact of indirect costs change the picture that the 
+\begin_inset Quotes pld
+\end_inset
+
+Green Revolution
+\begin_inset Quotes prd
+\end_inset
+
+ is super efficient.
+\end_layout
+
+\begin_layout Itemize
+that there are different agricultural systems where a lot are destructive
+ but others build up natural resources.
+\end_layout
+
+\begin_layout Itemize
+an understanding on how agriculture should be practiced in the future.
+\end_layout
+
+\begin_layout Standard
+This will be done through a literature review.
+ That sounds like a great alternative to counting sheep on a sleepless night.
+ Hopefully, we managed to keep the style light-hearted.
+\end_layout
+
+\begin_layout Standard
+This paper is by no means exhaustive.
+ A number of selected works will be discussed.
+ These will give a good idea of different perspectives in determining the
+ cost of agriculture.
+\end_layout
+
+\begin_layout Standard
+Furthermore, this version is approaching things as conceptually as possible.
+ For enthusiasts, there is another version of this piece with more technical
+ details
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Seynaeve2022En"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Also, I do not have the background to do an in-depth analysis of those works.
+ That is fodder for specialists who have been in the field for years.
+ So if you have questions about certain assertions or figures cited, it's
+ time to pull out the original works and check them for details.
+ Or to look up the specialists cited.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "umbalio-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Is that all?
+\end_layout
+
+\begin_layout Standard
+Now that we have an idea of what it is all about, I give you, dear reader,
+ the choice.
+ Either you stop here and have a grasp of the basics.
+ Or you're hungry for more and can continue reading.
+ What's left on the menu?
+\end_layout
+
+\begin_layout Itemize
+First, a fuller picture of energy consumption is served.
+ This is important because energy consumption is very closely related to
+ the greenhouse effect.
+\begin_inset Newline newline
+\end_inset
+
+This part is mainly about the search for the background of the statement
+ 
+\begin_inset Quotes pld
+\end_inset
+
+1 calorie of food requires 10 calories of fuel
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+We will first use an example to gain insight into possible factors at play.
+\end_layout
+
+\begin_layout Itemize
+Then we will look at the considered studies to see if the above statement
+ holds true.
+\end_layout
+
+\begin_layout Itemize
+From different farming systems (arable, horticulture, livestock, hunter/gatherer
+, slash&burn,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+), the energetic efficiency is compared.
+ It will be seen that we then begin to get a totally different picture of
+ the 
+\begin_inset Quotes pld
+\end_inset
+
+Green Revolution
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The title of the paper is about the 
+\emph on
+costs
+\emph default
+ of agriculture, not energy.
+ Many people will think of money when they think of costs.
+\begin_inset Newline newline
+\end_inset
+
+However, there are many types of costs possible in life.
+ For example, consider the statement that someone has a rich inner life.
+ You can also pay someone in time like in LETS
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Local Exchange Trading System 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://en.wikipedia.org/wiki/Local_exchange_trading_system}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ systems.
+\begin_inset Newline newline
+\end_inset
+
+A number of social factors such as land use, labor, water, biodiversity,
+ culture,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+, are clearly influenced by agriculture.
+ A overview of these costs are given.
+\begin_inset Newline newline
+\end_inset
+
+The question is also raised whether the impact of those factors can be summarize
+d in 1 number, such as Euros.
+\end_layout
+
+\begin_layout Itemize
+What insights do we get when indirect costs are included?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To what extent does the inclusion of indirect costs change the narrative
+ of the 
+\begin_inset Quotes pld
+\end_inset
+
+Green Revolution
+\begin_inset Quotes prd
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Itemize
+Can we get a view from this on how to better manage natural resources?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The studies considered included the entire agricultural sector.
+ So the distinction between organic and non-organic agriculture has not
+ been made.
+ Therefore we cannot compare costs of these systems.
+\end_layout
+
+\begin_layout Standard
+In this in-depth paper, all of this is addressed conceptually.
+ It is possible to use a lot of graphs, statistics and tables.
+ However, this has been kept to a minimum to make the message more manageable.
+ For those who want to see more figures: there is also a technical version
+ of this in-depth paper that contains more figures.
+ This can easily be found on the internet
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Seynaeve2022En"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 2.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 2.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Energy consumption
+\end_layout
+
+\begin_layout Chapter
+Give us this day our daily bread
+\end_layout
+
+\begin_layout Standard
+To get into it, let's take the example that Leach worked out
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 28"
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+ and which we can all relate to: a loaf of bread.
+\end_layout
+
+\begin_layout Section
+The view of the farmer
+\end_layout
+
+\begin_layout Standard
+To a loaf of 1
+\begin_inset space ~
+\end_inset
+
+kg of bread, 934
+\begin_inset space ~
+\end_inset
+
+g of grain is needed.
+ Nature gives us a lot of free energy through sunlight, but conventional
+ agriculture gives additional inputs to the grain.
+ In Leach's study, he identifies the following:
+\end_layout
+
+\begin_layout Itemize
+fuel for tractor and other machinery.
+\end_layout
+
+\begin_layout Itemize
+fertilizer.
+\end_layout
+
+\begin_layout Itemize
+Chemical pesticides.
+\end_layout
+
+\begin_layout Itemize
+drying of grain.
+\end_layout
+
+\begin_layout Standard
+This requires a total of 4.02
+\begin_inset space ~
+\end_inset
+
+MJ for the given amount of grain.
+\end_layout
+
+\begin_layout Standard
+Let's dwell on this list for a moment.
+ Typically, only the fuel for the tractor and other machinery is included,
+ as well as the fuel required for drying grain.
+\end_layout
+
+\begin_layout Standard
+But fertilizers and pesticides also require fuels.
+ Both within factories to create them, within mining (e.g.
+ phosphorus and potash mines for the P and K of fertilizer) but also as
+ a raw material itself (the N of fertilizer is extracted from natural gas).
+ This indirect use of fuels must also be included.
+ In this case, even more indirect fuels are used than direct ones.
+\end_layout
+
+\begin_layout Standard
+A certain amount of energy as a nutritional value can be placed against
+ the energy needed as an input.
+ This is called energy efficiency or also 
+\lang english
+Energy Returned On Energy Invested
+\lang american
+ (EROEI, see also appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "app:EROEI"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ In this case, there is an EROEI of 10.6
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A loaf of 1
+\begin_inset space ~
+\end_inset
+
+kg has a nutritional value of 10.6
+\begin_inset space ~
+\end_inset
+
+MJ.
+\end_layout
+
+\end_inset
+
+:4.02 or 2.64:1.
+ Almost three times as much energy comes out of the bread than is put into
+ it.
+\end_layout
+
+\begin_layout Section
+A broader view
+\end_layout
+
+\begin_layout Standard
+But wait a minute, something is not right here.
+ Above, we have as the final product 934
+\begin_inset space ~
+\end_inset
+
+g of grain.
+ That's not bread at all yet.
+\end_layout
+
+\begin_layout Standard
+So there are additional processes to look at before we can speak of a loaf
+ of bread.
+\end_layout
+
+\begin_layout Standard
+First, the grain must be milled.
+ This requires energy from the milling process, there is transportation
+ to the mill, the grain and flour must be packaged, the plant and machines
+ must be maintained, you need offices that must be lit,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Next, the bread must be baked.
+ The baking process itself requires (a lot of) energy.
+ Besides this, energy is needed again for transport, packaging, maintenance
+ of machines and buildings,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Finally, offering a loaf of bread in the store also requires some energy.
+ Back for building maintenance, possibly a refrigerated counter, lighting,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Taking all this together, there is a total for a loaf of 1
+\begin_inset space ~
+\end_inset
+
+kilograms, there is about 20,7
+\begin_inset space ~
+\end_inset
+
+MJ of energy is needed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Leach figuur 10.png
+	lyxscale 10
+	width 90text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:verdeling-brood"
+
+\end_inset
+
+Distribution of the energy required by a loaf of bread
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:verdeling-brood"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a schematic representation of this.
+ The figures are the percentages of energy required for that particular
+ category.
+ So you see that agriculture itself only requires 20% of the entire energy
+ picture.
+\end_layout
+
+\begin_layout Standard
+All in all, bread has an EROEI of 10.6:20.7 or 1:1.9.
+ In other words, almost twice as much energy must be spent to sell a loaf
+ in the store than comes out in nutritional value!
+\end_layout
+
+\begin_layout Standard
+And that's not even considering the transportation from the store to home.
+ Leach indicates that if the store is 1
+\begin_inset space ~
+\end_inset
+
+km away and you take the car just to go get a loaf of bread, there is still
+ 8
+\begin_inset space ~
+\end_inset
+
+MJ has to be added.
+ Here the EROEI drops even further to 1:2.7.
+ So taking the car instead of going by bike or on foot lowers the energy
+ efficiency from about 1:2 to 1:3!
+\end_layout
+
+\begin_layout Standard
+Now, with a loaf of bread, not everything is said about agriculture and
+ the food system.
+ Let's see what can be found in the studies around energetic inputs.
+\end_layout
+
+\begin_layout Chapter
+Energy use in agriculture
+\end_layout
+
+\begin_layout Standard
+In this chapter we will look at a number of studies to see which factors
+ have been identified as inputs for agriculture
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smit2018,Leach1976,steinhart1974,Lovins1984"
+literal "false"
+
+\end_inset
+
+.
+ More details such as how these grades were determined can be found in the
+ more technical in-depth paper.
+\end_layout
+
+\begin_layout Standard
+We start with Meino Smit's study because it looks at very many factors.
+ He also looked at the evolution of Dutch agriculture between 1950 and 2015
+ which gives interesting insights.
+\end_layout
+
+\begin_layout Standard
+Next we look at the situation around the 1970s in the United Kingdom and
+ the United States of America.
+ Although these studies are more than half a century old, they remain relevant.
+ As Patrick Whitefield describes it:
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+\begin_inset Quotes pld
+\end_inset
+
+[SpecialChar ldots] it's safe to assume that the general picture remains
+ the same.
+ Any increase in mechanical efficiency will have been swallowed up by increases
+ in mechanization, and especially in long-distance transport.
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dutch agriculture between 1950 and 2015
+\end_layout
+
+\begin_layout Standard
+In the doctoral thesis of Meino Smit
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+ 14 factors required for agriculture are considered.
+ These are presented in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wordcloud-meino-smit"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/wordcloud_meino_smit_en-us.svg
+	lyxscale 10
+	width 70col%
+	groupId leach
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wordcloud-meino-smit"
+
+\end_inset
+
+Factors of energy input used by Meino Smit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These factors have been estimated by him to the best of his ability, which
+ he succeeded in doing to a greater or lesser extent for the various sectors.
+ How this was done is beyond the scope of this paper but is indicated in
+ the technical counterpart of this in-depth paper.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One factor I do want to highlight is the energy stored in materials.
+ For example, if you take a wall, energy has been required on many levels
+ to create it.
+ To make the brick, you have to mine raw materials such as clay.
+ These must then be transported after which the brick is pressed into a
+ form and baked.
+ For baking and transport, ovens and trucks are needed, and the energy used
+ for this particle must also be attributed to the brick.
+ Further is transportation and storage before it arrives at the construction
+ site.
+ Then there is cement used to make the wall, scaffolding and mortar.
+ Adding all this up, along with a few more factors that I'm just losing
+ track of right now, shows how much energy was actually required to make
+ the wall.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Special attention is given by Meino Smit to a discussion of electronics
+ and mining and how this together makes one not believe in the use of renewable
+ energy at 
+\lang english
+
+\begin_inset Quotes pld
+\end_inset
+
+business as usual
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+.
+ This is included in Appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "app:Elektronica-en-hernieuwbare-energie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+He also mentions that energy and raw materials are strongly linked: you
+ need energy to extract raw materials but you also need raw materials to
+ produce energy (e.g.
+ to produce windmills, transformers, refineries, power lines,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The evolution of the energy input for Dutch agriculture between 1950 and
+ 2015, as determined by Meino Smit, is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in-NL-evolutie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie - input_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-in-NL-evolutie"
+
+\end_inset
+
+Evolution of energy input of Dutch agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The following trends can be seen:
+\end_layout
+
+\begin_layout Itemize
+direct inputs rise until the early 1970s and then more or less level off.
+ Is this the result of a changing consciousness after the oil crises in
+ that period?
+\end_layout
+
+\begin_layout Itemize
+On the other hand, we see that the indirect input is gaining in importance.
+ Since the 1980s, indirect inputs have actually become larger than direct
+ inputs and these trends have only intensified.
+\end_layout
+
+\begin_layout Itemize
+the proportion of artificial fertilizer has fallen sharply while that of
+ animal manure has risen.
+\end_layout
+
+\begin_layout Itemize
+animal feed is an important sector among indirect inputs.
+ This is quite apart from its share of direct inputs.
+\end_layout
+
+\begin_layout Itemize
+Mining, buildings and electronics have all increased in share.
+\end_layout
+
+\begin_layout Standard
+To put the values in perspective, the total consumption of electricity in
+ Belgium per year is around 288
+\begin_inset space ~
+\end_inset
+
+PJ
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.febeg.be/statistieken-elektriciteit}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ In other words, Dutch agriculture consumes as much energy as the entire
+ electrical consumption of Belgium!
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meino Smit also determined the energetic output of agriculture: the amount
+ of food energy contained in the harvested fruits, vegetables, field crops
+ and livestock.
+\end_layout
+
+\begin_layout Standard
+From this, the energy efficiency of Dutch agriculture can be determined.
+ In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ the inverse relationship, i.e.
+ the energetic 
+\emph on
+in
+\emph default
+efficiency plotted.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie - volledig - verhouding.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-eroei-nl"
+
+\end_inset
+
+Energetic 
+\emph on
+in
+\emph default
+efficiency of Dutch agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It can be seen that in 1950, at the beginning of the industrialization of
+ agriculture, more energy was taken out of agriculture than was put into
+ it.
+ This worsened until it stabilized in the early 1970s.
+ From then on, to produce 1 calorie of food, it takes 2 calories of energy
+ (EROEI of 1:2).
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:e-input-leach"
+
+\end_inset
+
+UK agriculture in the early 1970s
+\end_layout
+
+\begin_layout Standard
+Leach studied the situation of agriculture in the United Kingdom (UK) in
+ the early 1970s
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+.
+ The following factors were considered:
+\end_layout
+
+\begin_layout Itemize
+Direct
+\begin_inset space ~
+\end_inset
+
+energy
+\end_layout
+
+\begin_layout Itemize
+Fertilizer
+\end_layout
+
+\begin_layout Itemize
+Machinery,
+\begin_inset space ~
+\end_inset
+
+buildings,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\end_layout
+
+\begin_layout Itemize
+Cattle Feed
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Leach figuur 6.png
+	lyxscale 10
+	width 45col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-in-VK-evolutie"
+
+\end_inset
+
+Evolution of the energy input of UK agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As with Meino Smit, Leach sees an increase in inputs needed in agriculture
+ as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in-VK-evolutie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Interestingly, Leach draws the parallel with heavy industry.
+ Depending on how many people you allocate to agriculture (direct and indirect
+ labor), between 150 and 330
+\begin_inset space ~
+\end_inset
+
+GJ/year of energy used.
+ This is consistent with heavy industry which uses between 170 and 300
+\begin_inset space ~
+\end_inset
+
+GJ/year used per worker.
+ We would never think that agriculture would require as much energy per
+ worker as heavy industry!
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The EROEI of agriculture in the UK, according to Leach's calculations, fell
+ from 1:2.2 in 1952 to 1:2.9 in 1968.
+ So in 1968 it took 3 calories of energy to produce 1 calorie of food.
+\end_layout
+
+\begin_layout Standard
+Leach sees the reason for this primarily in the use of animal feed.
+ He has found that only 6% of the energetic output of plant agriculture
+ goes directly to the consumer.
+ The rest is all used as livestock feed.
+ At the end of the day, only 12% of the energetic output of agriculture
+ (both plant and animal) is available for human consumption.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Is it bad, however, that so much goes to animals? Leach points out that
+ animals are useful:
+\end_layout
+
+\begin_layout Itemize
+they provide essential nutrients,
+\end_layout
+
+\begin_layout Itemize
+they process agricultural products that humans cannot digest (grass, hay,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+),
+\end_layout
+
+\begin_layout Itemize
+they help maintain soil fertility, and
+\end_layout
+
+\begin_layout Itemize
+they can be used on soils that are otherwise unusable (too wet, too steep,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+).
+ That's about 1/3 of the agricultural area in the UK.
+\end_layout
+
+\begin_layout Standard
+But, trop is too much and too much is trop.
+ Halving meat consumption would make the UK self-sufficient and increase
+ EROEI to 1:1.4.
+ That's quite apart from the health benefits that would occur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One factor that is quite striking to me personally is the energy required
+ to dry hay and grain.
+\end_layout
+
+\begin_layout Section
+USA agriculture in the early 1970s
+\end_layout
+
+\begin_layout Standard
+Finally, we look at the United States of America (USA) in the early 1970s.
+ For this we use studies by Steinhart and Steinhart (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "steinhart1974"
+literal "false"
+
+\end_inset
+
+) and from Lovins 
+\emph on
+et al.
+
+\emph default
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lovins1984"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From the study by Steinhart and Steinhart, the share of different factors
+ on energy consumption within agriculture as given in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-in-VSA-evolutie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/steinhart agriculture relative_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-in-VSA-evolutie"
+
+\end_inset
+
+Evolution of the energy input of the USA agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A number of factors such as fuels (direct inputs), fertilizer and steel
+ have been discussed above.
+\end_layout
+
+\begin_layout Standard
+A new factor is irrigation which, as we see, for the USA accounts for 6
+ to 12% of the agricultural energy budget (pumping and distributing water).
+ This is a factor that did not surface with Leach and Meino Smit.
+ Probably because the Netherlands and the UK are rather wet countries, while
+ in the USA agriculture is done in very dry parts.
+ What we have seen in recent years is that the importance of irrigation
+ is also increasing here.
+ Accordingly, this will also form an increasingly important part of the
+ energy input of agriculture.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lovins 
+\emph on
+et al.
+
+\emph default
+ indicate that with irrigation there can be a problem of increased energy
+ requirements.
+ If you pump out more than is naturally replenished, you will have to pump
+ in from deeper layers in subsequent years.
+ This requires not only extra energy for pumping, but also for the heavier
+ infrastructure (extraction and production of raw materials).
+ This is quite apart from the ecological impact on the wider environment
+ that pumping from deeper layers has.
+ The need to pump from deeper layers is a trend that we have also noticed
+ in Flanders in recent years.
+ It is important to reverse this as soon as possible.
+\end_layout
+
+\begin_layout Standard
+It is also striking that cattle feed is not included.
+ This is an important part of the energy balance of agriculture in both
+ the Netherlands and the UK.
+ For the reason for this I have but to guess.
+ Have they not considered this? Is the US self-sufficient in feed? The latter
+ is contradicted by Lovins 
+\emph on
+et al.
+
+\emph default
+ who attribute 7% of the energy input to this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An interesting finding by Steinhart and Steinhart is that they show that
+ the efficiency of additional energy used in agriculture has decreased over
+ time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Steinhart fig 2.png
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Loss of efficiency of agricultural output with increased input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Steinhart fig 3.png
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Loss of efficiency in labor hours with increased energy input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-eff-verlies"
+
+\end_inset
+
+Loss of efficiency in agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We're getting a little ahead of ourselves here, but let's figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eff-verlies"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ .
+ The input here is the input to the entire food system (i.e., not just agriculture
+).
+ The first figure shows that with increased inputs, there was first a sharp
+ increase in the output of agriculture.
+ At the same time, there has been a sharp decline in the labor hours required
+ on the farm.
+ This was obviously due to the industrialization of agriculture (increased
+ use of fertilizers, pesticides and machinery).
+ This increase peaked in the late 1950s.
+ After that, we see that the increase becomes less with increased input
+ until there is a tendency for this to almost level off: additional input
+ gives a much smaller output.
+ In the field of pesticides, Lovins 
+\emph on
+et al.
+
+\emph default
+ indicate that there is even a negative trend: in 1948, 7% of the crop was
+ lost to insects.
+ In the early 1980s, 6 times as many pesticides were used, but 13% of the
+ crop was lost to insects.
+\end_layout
+
+\begin_layout Standard
+We see something similar in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ where you see that there was a decline in the efficiency of Dutch agriculture
+ between 1950 and 1970 after which the efficiency leveled off.
+ In other words, putting an extra MJ into agriculture had twice the effect
+ in 1950 than it did after 1970.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The EROEI of agriculture in the USA is estimated to be 1:2.2.
+ This is comparable to the Netherlands and better than the UK.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+It is clear that there are very many factors to consider in order to know
+ the full cost of agriculture.
+ 
+\end_layout
+
+\begin_layout Standard
+Just looking at the directly consumed energy does not give the full picture.
+ Especially since we see that the indirect energy needed for agriculture
+ has become greater than the direct energy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Factors that I personally have noticed strongly are animal feed, mining,
+ electronics, drying and irrigation.
+ It is also striking that the contribution of artificial fertilizer in the
+ Netherlands has decreased enormously in recent decades.
+\end_layout
+
+\begin_layout Standard
+What is also striking is that until the 1970s there was a huge increase
+ in inputs that went hand in hand with a decline in energy efficiency.
+ The increase in input then continued to grow more slowly, while the efficiency
+ stabilized.
+ All in all, we see that more and more energy is being pumped into agriculture,
+ but that yields do not follow suit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We actually consume more energy in agriculture than we produce.
+ In the Netherlands by a factor of two, in the UK even by a factor of three.
+ Since food is a pure basic need, it is temporarily justifiable to pump
+ more energy into it than you get out of it.
+ But that is not a strategy that can be sustained over the long term.
+ What do you do when energy becomes scarce? This can be due not only to
+ depletion of oil wells but also to geopolitical situations where the supply
+ of energy stagnates
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+That this is not an unlikely scenario has been seen in the 1970s with the
+ oil crisis, in the 1990s in Cuba (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cuba2006"
+literal "false"
+
+\end_inset
+
+) and today with the war in Ukraine.
+\end_layout
+
+\end_inset
+
+.
+ It is therefore important for the stability of a country to strive to ensure
+ that its agriculture is as energy efficient as possible, taking into account
+ all the factors that have an influence.
+ It is a pity that this is not recognized today and therefore we continue
+ on a path of increasing energy dependence.
+\end_layout
+
+\begin_layout Standard
+Lovins 
+\emph on
+et al.
+
+\emph default
+ provide an explanation for why we continue to move down a path that is
+ clearly going in the wrong direction:
+\end_layout
+
+\begin_layout Enumerate
+capital accumulation has grown gradually and has now become so large that
+ it is difficult to switch.
+ If you have already invested in larger machinery, stables,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ it's difficult to phase them out.
+ Especially if the loans for this are still running.
+\end_layout
+
+\begin_layout Enumerate
+At first there was a positive effect of the use of fertilizers and pesticides.
+ However, this effect is now much less but this reduction has not really
+ been noticed.
+ Only the 
+\begin_inset Quotes pld
+\end_inset
+
+hurrah
+\begin_inset Quotes prd
+\end_inset
+
+ story of the early years has stuck.
+\end_layout
+
+\begin_layout Enumerate
+The power of agribusiness.
+ Here we should not draw a picture.
+\end_layout
+
+\begin_layout Enumerate
+With the replacement of muscle power by mechanization, it has now become
+ difficult to make the reverse.
+ First, there are far fewer people working in agriculture so there is less
+ muscle power.
+ In fact, the use of animal muscle power has all but disappeared.
+ On top of that, the direct energy required has also increased over time.
+ This means that there should be more people and animals working in agriculture
+ compared to the era before the industrialization of agriculture.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The EROEI we find here is between 1:2 and 1:3 for the most recent decades.
+ Those are values to worry about, but not the 1:10 ratio that Whitefield
+ cites.
+ But Whitefield also says the following about this:
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+Most of the ecological impact of food is generated in transport, processing
+ and retailing, not on the farm.
+\end_layout
+
+\begin_layout Standard
+We have also seen this in the introduction to this section where agriculture
+ gave only 20% of the energy input of a loaf of bread.
+ So it is important to look at what happens to food after it leaves the
+ farm.
+\end_layout
+
+\begin_layout Chapter
+Energy use of the food chain
+\end_layout
+
+\begin_layout Section
+The path between the farm and the plate
+\end_layout
+
+\begin_layout Standard
+Between the farm and the plate there are roughly 3 steps:
+\end_layout
+
+\begin_layout Itemize
+food processing.
+\begin_inset Newline newline
+\end_inset
+
+These include pressing to juice, making sausages, grinding grain, preparing
+ lasagna, canning or glassing,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ The list is very long.
+\end_layout
+
+\begin_layout Itemize
+selling food.
+\begin_inset Newline newline
+\end_inset
+
+Also known as the distribution sector.
+ This is where food is transported, stored, and sold in stores.
+\end_layout
+
+\begin_layout Itemize
+use of food.
+\begin_inset Newline newline
+\end_inset
+
+These are households, restaurants,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ In the example of bread, we have seen an extreme situation where transportation
+ between the store and home takes almost half the extra energy.
+ But there are more factors at play.
+\end_layout
+
+\begin_layout Subsection
+Processing
+\end_layout
+
+\begin_layout Standard
+Of course there is transport between the farm and processing.
+ Products are also shipped internally (e.g., the flour to the baker).
+\end_layout
+
+\begin_layout Standard
+But the energetic input does not stop here.
+\end_layout
+
+\begin_layout Itemize
+You have the actual processing (milling, baking, cooking, drying, steaming,
+ pressing, freeze drying,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+).
+\end_layout
+
+\begin_layout Itemize
+Energy is also needed to make and maintain buildings and machines.
+\end_layout
+
+\begin_layout Itemize
+What is striking is that the energy costs of packaging are reasonably high.
+ For canned goods in particular, the energy required is as high as 25% of
+ the energy needed for processing!
+\end_layout
+
+\begin_layout Standard
+The picture becomes somewhat more difficult because you also have to take
+ into account residual flows from processing that go to agriculture, usually
+ in the form of animal feed.
+ Some of it is also destined directly for export and therefore does not
+ need to be included.
+\end_layout
+
+\begin_layout Subsection
+Distribution
+\end_layout
+
+\begin_layout Standard
+As can be expected, most of the energy (about half) is due to transportation.
+ Further energy is needed for storage (buildings and refrigeration), packaging
+ (e.g.
+ washing bins or repackaging as a private label), heating of offices and
+ warehouses, retail buildings.
+\end_layout
+
+\begin_layout Subsection
+Consumption
+\end_layout
+
+\begin_layout Standard
+What struck me very hard is that the refrigeration needed to keep food and
+ cook it requires so much energy.
+ Together with the energy needed to make appliances like refrigerators,
+ kitchen robots, microwave ovens and the infrastructure like a kitchen or
+ storage room, we have to count an extra 30% to 40% on top of the energy
+ needed in the chain up to that point!
+\end_layout
+
+\begin_layout Subsection
+Food losses
+\end_layout
+
+\begin_layout Standard
+This explains why it is so important to minimize food losses.
+ For example, if at the end of the chain half a jar of ravioli is thrown
+ in the garbage, this is not only a loss of ravioli itself, but also of
+ all the energy that has been put into it up to that point, from the farmer
+ to the processor, driver and retailer.
+\end_layout
+
+\begin_layout Standard
+Leach outlines the types of food loss he sees:
+\end_layout
+
+\begin_layout Enumerate
+losses inherent in the process.
+ These are, for example, harvest losses.
+\end_layout
+
+\begin_layout Enumerate
+losses that are unavoidable.
+ For example, the weight of eggs includes the eggshell which, however, cannot
+ be used.
+\end_layout
+
+\begin_layout Enumerate
+losses that are typical.
+ For example, these are the peels of vegetables that are not used.
+\end_layout
+
+\begin_layout Enumerate
+losses due to carelessness.
+ These are, for example, discarded meals.
+\end_layout
+
+\begin_layout Standard
+The first three types are usually included in studies.
+\end_layout
+
+\begin_layout Standard
+Unavoidable and typical losses can only be dealt with if new outlets are
+ created.
+ Consider, for example, the rise of mushroom cultivation on coffee grounds
+ or the use of cocoa shells as a ground cover.
+ Ideas for this can certainly be drawn from the past where, for example,
+ every part of an animal was used.
+ This ranged from using the skin in clothing (leather), hair in brushes
+ (shaving brushes made of pig hair) or construction (horse hair in mud walls)
+ over eating organ meat to bone glue.
+\end_layout
+
+\begin_layout Standard
+We can reduce the other two loss factors much faster and more actively.
+ This is such an important topic that the FAO has even devoted a complete
+ study to it
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FAO2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Overview of costs
+\end_layout
+
+\begin_layout Standard
+How do all these costs in the food chain relate to each other? Below we
+ present this as given by a number of studies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/energie_voedingsindustrie_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-voedselsysteem-vk"
+
+\end_inset
+
+Energy flows in the food chain (UK 1968, 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 9"
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Energy flows in the food chain (UK)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/steinhart - foodsystem USA_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-voedselsysteem-usa"
+
+\end_inset
+
+Energetic inputs to the food chain (USA 1940-1970, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "steinhart1974"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Energy inputs to the food chain (USA)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the study of Leach (Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-voedselsysteem-vk"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) we see that agriculture contributes about 33% of the energy of the food
+ chain.
+ If the consumption at home and in restaurants is also taken into account,
+ this drops to about 20%.
+\end_layout
+
+\begin_layout Standard
+It is quite clear that processing requires the largest energy input in the
+ entire food chain.
+\end_layout
+
+\begin_layout Standard
+We see something similar with Steinhart and Steinhart (figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-voedselsysteem-usa"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Here agriculture has a share of 25% and processing a share of 40%.
+ The large share of cooling and cooking at home is also evident (about 22%
+ of total energy consumption).
+\end_layout
+
+\begin_layout Standard
+If energy use in the food chain is to come down, it is clear where the biggest
+ gains can be found:
+\end_layout
+
+\begin_layout Itemize
+a chain that is as short as possible so that the impact of processing is
+ reduced.
+\begin_inset Newline newline
+\end_inset
+
+This will mean a shift to more individual transport and cooking.
+ But we gain energy because a lot of packaging is eliminated (10% of total
+ energy consumption) and because things do not have to be kept in a refrigerator
+ as long.
+\begin_inset Newline newline
+\end_inset
+
+Consider, for example, that ravioli from above.
+ It first has to be prepared in a factory, is served in an aluminum dish,
+ has to be cooled all the time (both in the store and at home) and then
+ reheated at home.
+ If we prepare it at home directly from lasagna leaves and fresh products,
+ I think it will require much less energy and be more nutritious and tasty.
+\end_layout
+
+\begin_layout Itemize
+it will be an always recurring remark, but reducing meat consumption also
+ has a large impact on energy consumption.
+ In paragraph
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:e-input-leach"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ we already saw that much of what agriculture produces goes to livestock.
+ Also, animal products need extra care to limit possible diseases.
+ This all requires extra energy.
+\end_layout
+
+\begin_layout Itemize
+Ensure that as little as possible is lost in the chain.
+ It is estimated that 30% of all products are lost somewhere in the chain.
+ If we can avoid this, we will gain a lot of efficiency.
+\end_layout
+
+\begin_layout Section
+Eureka
+\end_layout
+
+\begin_layout Standard
+Now that we have the entire food chain in view, we can take another look
+ at the energy efficiency.
+\end_layout
+
+\begin_layout Standard
+In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-voedselsysteem-vk"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows that the input 1
+\begin_inset space \thinspace{}
+\end_inset
+
+300
+\begin_inset space ~
+\end_inset
+
+PJ and the output is 130 or 261
+\begin_inset space ~
+\end_inset
+
+PJ, depending on whether you include the consumed imports or not.
+ With the first value of 130
+\begin_inset space ~
+\end_inset
+
+PJ, which is the most cited in Leach's study, the EROEI is 1:10.
+\end_layout
+
+\begin_layout Standard
+The more technical counterpart of this paper looks at these numbers in even
+ more detail by taking into account imports, exports and energy use at home.
+ Depending on the scenario that is taken, I then arrive at an EROEI between
+ 1:7 and 1:12.
+\end_layout
+
+\begin_layout Standard
+In the studies for the USA, the EROEI for the food chain is 1:9.
+\end_layout
+
+\begin_layout Standard
+These are values for the late 1960s, early 1970s.
+ As Whitefield points out and we can infer from Meino Smit's study
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ we see that the EROEI in agriculture itself has stabilized since the early
+ 1970s.
+ It is likely that the same will be true for the entire food chain.
+\end_layout
+
+\end_inset
+
+, this ratio will not have changed much since the 1970s.
+\end_layout
+
+\begin_layout Standard
+So the boldness that 
+\begin_inset Quotes pld
+\end_inset
+
+1 calorie of food requires 10 calories of input
+\begin_inset Quotes prd
+\end_inset
+
+ is certainly valid.
+ Eureka.
+\end_layout
+
+\begin_layout Section
+What does this mean for agriculture?
+\end_layout
+
+\begin_layout Standard
+If the goal is to have an energy neutral food system, it is clear that agricultu
+re cannot suffice with an EROEI of 1:1.
+ The rest of the food chain will also require energy, on top of that of
+ agriculture.
+\end_layout
+
+\begin_layout Standard
+We have seen above that agriculture gives an energetic contribution of 25
+ to 33% to the total food chain.
+ A fair effort from agriculture indicates that its EROEI should be between
+ 4:1 and 3:1.
+\end_layout
+
+\begin_layout Standard
+However, we have seen that the EROEI of agriculture is currently between
+ 1:3 and 1:2.
+ Thus, it is not even possible to establish an energy-neutral food system
+ with the currently prevailing agriculture.
+\end_layout
+
+\begin_layout Standard
+Analogously, we can see that the rest of the food chain has an EROEI that
+ is not sustainable.
+ As a result, it is not possible for agriculture to absorb this, no matter
+ how large the EROEI.
+\end_layout
+
+\begin_layout Standard
+Every part of the food chain must be sustainable for the entire chain to
+ be sustainable.
+ This is a clear case that the chain is only as weak as the weakest link.
+ And currently all the links are broken.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where does this poor relationship come from? Is there a difference between
+ the different sectors such as livestock versus arable farming? Are there
+ other farming systems known and what is their energy ratio?
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-wordcloud"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ provides an overview of the various identified factors that influence energy
+ consumption in the food chain.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/wordcloud_energie_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-wordcloud"
+
+\end_inset
+
+Wordcloud of the factors considered in energy.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Agriculture is only one part of the food chain and not even the one that
+ requires the most energy.
+ That honor is reserved for processing.
+\end_layout
+
+\begin_layout Standard
+The impact of packaging, drying, irrigation and households was a big surprise
+ to me.
+ The impact of livestock production was expected.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Further, it made me think a lot about the use of raw materials and electronics.
+ This has made me more cautious about technical solutions in agriculture.
+ This is surprising because I come from a very technical background (Licentiate
+ in Physics and also working as an IT professional for a long time).
+ I don't want to write off technology but will definitely think twice about
+ it.
+\end_layout
+
+\begin_layout Standard
+It has also been found that the witticism that triggered this in-depth piece
+ of work does hold true.
+ Indeed, you can consider that, in the current system, it takes 10 calories
+ of oil to consume 1 calorie of food.
+ This is not a sustainable situation.
+\end_layout
+
+\begin_layout Standard
+So the search is on for an agricultural system that will turn this ratio
+ on its head.
+ Can we indeed find a system that yields 3 to 5 times more energy than is
+ put into it? Fortunately, the studies are already providing some pointers.
+\end_layout
+
+\begin_layout Chapter
+There is agriculture and there is agriculture
+\end_layout
+
+\begin_layout Section
+Comparing farming systems
+\end_layout
+
+\begin_layout Standard
+Both Leach and Steinhart and Steinhart compared the energy efficiency of
+ different farming systems.
+ The results can be found in figures
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-landbouwsystemen-Lea76"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-landbouwsystemen-SS74"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Leach Er.png
+	lyxscale 10
+	height 10cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-eroei-landbouwsystemen-Lea76"
+
+\end_inset
+
+Energy efficiency of different farming systems
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig.1 "
+key "Leach1976"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Energy efficiency of different farming systems
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/Steinhart fig 5.png
+	lyxscale 30
+	height 12cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:e-eroei-landbouwsystemen-SS74"
+
+\end_inset
+
+Energetic 
+\emph on
+in
+\emph default
+efficiency of different farming systems
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset CommandInset citation
+LatexCommand cite
+after "fig. 5"
+key "steinhart1974"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Energetic 
+\emph on
+in
+\emph default
+efficiency of different farming systems
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first figure shows the EROEI of the systems, the second the inverse
+ relationship.
+ To make this clearer, I have colored the backgrounds: the greener, the
+ more efficient the system is.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is striking is that the more modern systems do much worse than the
+ old farming systems.
+ For example, you can see in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-landbouwsystemen-SS74"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ that cow farming on a prairie (
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+range-fed beef
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+) has a ratio of 2:1.
+ More intense is the system that was used here in Europe: pastures with
+ arable crops to feed the cattle (
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+grass-fed beef
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+).
+ The EROEI now drops to about 1:3.
+ Intense livestock production has an even worse ratio of about 1:11 (
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+feedlot beef
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+).
+ Something similar can be seen for chicken, potatoes and rice.
+\end_layout
+
+\begin_layout Standard
+It is also striking that fishing scores so poorly.
+ This has mainly to do with the distances fishing boats have to travel to
+ have a full hold.
+ Because larger boats have to travel much longer, Leach has found that they
+ score worse which seems counter-natural in our system of 
+\begin_inset Quotes pld
+\end_inset
+
+the bigger, the better
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Finally, it is worth noting that of the modern farming systems, only arable
+ and livestock systems were considered.
+ Fruit and vegetable farming is not included here.
+ My expectation is that these are between arable and livestock systems.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Leach's work suggests that the more energy comes from muscle power (human
+ or animal), the better the EROEI.
+ Also, on mixed farms, the EROEI drops as animals contribute more to the
+ energetic output.
+ As an explanation, he sees the following:
+\end_layout
+
+\begin_layout Itemize
+if you keep animals, much of the harvest of the system goes to the animals
+ rather than to human consumption.
+\end_layout
+
+\begin_layout Itemize
+with mechanization, the proportion of indirect energy needed for the system
+ grows.
+ This is something that Meino Smit has also demonstrated for Dutch agriculture.
+\end_layout
+
+\begin_layout Standard
+In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-landbouwsystemen-SS74"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ also shows the evolution of the inverse EROEI of the food system in the
+ USA.
+ It can be clearly seen that it gets worse as the years go by and was at
+ an EROEI of 1:9 in 1970.
+\end_layout
+
+\begin_layout Standard
+These studies were done in the 1970s.
+ We have already mentioned above that the conclusions drawn then are in
+ all likelihood still valid today.
+\end_layout
+
+\begin_layout Section
+Separating the wheat from the chaff
+\end_layout
+
+\begin_layout Standard
+It is interesting to look now, based on the figures, at which farming systems
+ can feed the population in a way that does not deplete natural resources.
+ From the studies, we can only say something about energy and land use.
+ Of course, many other aspects, such as water, air pollution or working
+ conditions are also important.
+ But due to use of data in the reviewed studies, these aspects are not covered
+ here.
+\end_layout
+
+\begin_layout Subsection
+On the basis of energy efficiency
+\end_layout
+
+\begin_layout Standard
+It has been indicated above that the energetic efficiency of an agricultural
+ system must be better than 3:1 or 4:1 for the entire food system to be
+ energy neutral.
+ Which modern farming systems are above 3:1?
+\end_layout
+
+\begin_layout Standard
+At Leach, we see that only growing sugar beet and grains meet this.
+ It is notable that no animal products have a ratio above 1:1.
+\end_layout
+
+\begin_layout Standard
+Looking at Steinhart and Steinhart, we see that potatoes (both intense and
+ low intense), low intense corn, and rice (both intense and low intense)
+ are above 3:1 (note: figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:e-eroei-landbouwsystemen-SS74"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows the inverse ratio and then again in a logarithmic scale!).
+ Soybeans are about on the borderline.
+ Here we must take into account that rice is a tropical grain where a lot
+ of energy comes through the sun and heat and a lot of water is needed,
+ so not suitable for our context.
+ Also, low intensity crops are still hardly practiced.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the modern farming systems and food chain in our western world is not
+ capable of feeding the population in a sustainable way.
+ They require more energy than what can be extracted.
+\end_layout
+
+\begin_layout Standard
+If we look at older farming systems, it is noticeable that many of them
+ smoothly achieve the required energy efficiency.
+ The hunter/gatherer, rotational crops of the past but also well maintained
+ 
+\lang english
+slash-and-burn
+\lang american
+ systems have efficiencies in excess of 4:1.
+ Of course, we have to remove from the list the systems that are only possible
+ in the tropics and sub-tropics, because they cannot thrive in our temperate
+ climate.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Leach emphasizes 2 systems that he believes are outliers:
+\end_layout
+
+\begin_layout Description
+vegetable gardens
+\begin_inset space ~
+\end_inset
+
+(
+\lang english
+allotment
+\begin_inset space ~
+\end_inset
+
+gardens
+\lang american
+) These have an energy efficiency that is surprisingly good.
+ Not enough yet but that, according to Leach, is due to the use of fertilizers
+ and the choice of low energy crops such as lettuce.
+ He also refers to the successful use of allotment gardens during World
+ War II (
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Victory Gardens
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+chinese
+\begin_inset space ~
+\end_inset
+
+agriculture
+\begin_inset space ~
+\end_inset
+
+in
+\begin_inset space ~
+\end_inset
+
+1930 This system is described in detail in
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "King1911"
+literal "false"
+
+\end_inset
+
+.
+ It is about farmers who achieve very high production on small pieces of
+ land.
+ The success here is due to the high use of organic fertilizers, a very
+ intense vegetation (pre- and post-crop, combination crops) and a very intense
+ succession of crops.
+ This is also similar to what Charles Hervé-Gruyer writes about Parisian
+ farmers in the 19th century
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "HerveNL2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Based on land use
+\end_layout
+
+\begin_layout Standard
+If we want to feed the population, agriculture must produce enough energy
+ from the available agricultural area.
+\end_layout
+
+\begin_layout Standard
+As humans, we have about 4
+\begin_inset space ~
+\end_inset
+
+GJ/year
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This corresponds to an 11
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+MJ/day or about 2
+\begin_inset space \thinspace{}
+\end_inset
+
+500 kcal/day
+\end_layout
+
+\end_inset
+
+ of energy.
+ In Belgium, per capita energy consumption is 0.13
+\begin_inset space ~
+\end_inset
+
+ha of agricultural land available
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+There is about 1
+\begin_inset space \thinspace{}
+\end_inset
+
+400
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+ha of agricultural land for a population of about 11
+\begin_inset space ~
+\end_inset
+
+million inhabitants.
+\end_layout
+
+\end_inset
+
+.
+ We only count the readily available land here because the goal is to have
+ a self-sustaining agriculture.
+ This means that each hectare should be able to feed about 7.8 people or
+ about 30
+\begin_inset space ~
+\end_inset
+
+GJ/year.
+ If we only take Flanders, then the figures are 0.10
+\begin_inset space ~
+\end_inset
+
+ha/inhabitant and 40
+\begin_inset space ~
+\end_inset
+
+GJ/year.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Leach's figures show that of the modern farming systems this is only achieved
+ in arable systems
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Since horticulture is not included, it is not clear whether it would meet
+ this requirement.
+\end_layout
+
+\end_inset
+
+.
+ Systems with animal products do not reach this value.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The best animal farming system is a large mixed dairy farm with an output
+ of 22
+\begin_inset space ~
+\end_inset
+
+GJ/ha
+\end_layout
+
+\end_inset
+
+.
+ Of course, one could argue that modern, non-land-based, industrial livestock
+ production can achieve this.
+ The problem, however, is that, as we have seen with Meino Smit, these require
+ a large indirect energetic input (and, as we shall see later, land use
+ as well).
+ If you include everything, it is very questionable whether they would still
+ make it.
+\end_layout
+
+\begin_layout Standard
+The very worst score is for the hunter/gatherer.
+ To feed 1 person, no less than 13% of the food is needed.
+\begin_inset space ~
+\end_inset
+
+km
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ required.
+ That's about the area of Kessel-Lo!
+\end_layout
+
+\begin_layout Standard
+The two systems highlighted above are not doing badly at all:
+\end_layout
+
+\begin_layout Description
+vegetable gardens These can feed about 15 people per acre.
+\end_layout
+
+\begin_layout Description
+chinese
+\begin_inset space ~
+\end_inset
+
+agriculture
+\begin_inset space ~
+\end_inset
+
+in
+\begin_inset space ~
+\end_inset
+
+1930 This is really the topper.
+ The annual yield here is 280
+\begin_inset space ~
+\end_inset
+
+GJ/ha which is enough to feed 70 people.
+ No system discussed by Leach even comes close to this result!
+\end_layout
+
+\begin_layout Subsection
+Additional caveats
+\end_layout
+
+\begin_layout Subsubsection
+Food Security
+\end_layout
+
+\begin_layout Standard
+In many earlier systems, little food was stored.
+ A disappointing catch or harvest had an immediate impact
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The question is, of course, whether we are better off today.
+ It is said that there is only a 3-day supply available if all import or
+ transport is lost.
+ Whether this is really true we will leave to one side, but it is clear
+ that a situation such as a lockdown or war immediately causes panic.
+ So there is not much confidence in the self-sufficiency of the food chain.
+\end_layout
+
+\end_inset
+
+.
+ It was important for our region to avoid lean periods such as winter or
+ the beginning of spring (the 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Hunger Gap
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+).
+ We can do this by growing crops whose consumption can be staggered.
+ This is either because they can be stored for a long time (tuber and root
+ crops, cereals, cabbages) or because the slaughter can be staggered.
+\end_layout
+
+\begin_layout Subsubsection
+Social status
+\end_layout
+
+\begin_layout Standard
+So you would think that a system like the one in ancient China would be
+ ideal.
+ However, if you read King's account, it seeps in that the farmers were
+ at the bottom of the social ladder.
+ Also, the intensity of this system required many farmers.
+ An average plot was 0.25
+\begin_inset space ~
+\end_inset
+
+ha! So it took a very large number of farmers to feed the population.
+ As you can calculate, there was 1 farmer for every 17 inhabitants.
+\end_layout
+
+\begin_layout Standard
+If we want to introduce such a system here, it is necessary to encourage
+ many people to go back into farming.
+ That social position and prestige of farmers improve will be an important
+ factor for this.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+It is striking how much difference there is between different farming systems.
+ So just looking at the average of a country hides very much.
+\end_layout
+
+\begin_layout Standard
+We now have two criteria that an agricultural system must meet in order
+ to achieve an energy neutral food system on the one hand (EROEI above 3:1)
+ and on the other hand to ensure that we can be self-sufficient (yield above
+ 30
+\begin_inset space ~
+\end_inset
+
+GJ per year and per hectare).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No viewed system with animal production meets just one of these conditions!
+\end_layout
+
+\begin_layout Standard
+Some arable systems meet both conditions but provide a rather one-sided
+ diet of grains and sugar.
+ Because horticultural systems were not included in the studies, it is not
+ clear whether they can meet the conditions.
+\end_layout
+
+\begin_layout Standard
+Going back to older systems such as hunter/gatherer is not feasible with
+ current population densities.
+\end_layout
+
+\begin_layout Standard
+What is a good basis, however, is departing from systems such as kitchen
+ gardens and Chinese agriculture.
+ These are already good, or even excellent, at filling the energetic needs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Of course, life does not consist only of energy.
+ There is also a need for water, space, people, air, fun,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ In the next section we will look at the impact of agriculture on this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 3.pdf}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 3.pdf}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Life is more than just energy
+\end_layout
+
+\begin_layout Chapter
+Water in all colors of the rainbow
+\end_layout
+
+\begin_layout Standard
+Water.
+ It is a miraculous substance.
+ In chemistry, it occupies a prominent role.
+ In the quest for life, it is considered an indispensable element for life
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+It would not surprise me, however, if one day life forms were discovered
+ that did not need water.
+ Life is so much more resourceful than our minds can conceive!
+\end_layout
+
+\end_inset
+
+.
+ Even outside of hard science it is considered a miraculous substance as
+ in homeopathic dilutions or Emoto's ice crystals.
+ And yet we treat it so carelessly.
+\end_layout
+
+\begin_layout Standard
+Within agriculture there is a need for just enough water.
+ But how much is the impact of agriculture outside the field taken into
+ account? For example, declining groundwater levels may be caused by overuse
+ within agriculture.
+\end_layout
+
+\begin_layout Standard
+Water costs are viewed from a standpoint of scarcity.
+ Excess water can also cause problems such as erosion or loss of soil life.
+ However, these are considered different costs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "water-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Firm footing
+\end_layout
+
+\begin_layout Standard
+Although the population is increasing, the agricultural area in NL is slowly
+ decreasing.
+ As a result, the available agricultural land per inhabitant is decreasing.
+ Meino Smit cites that food requires between 14 and 21 acres per person.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 63"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ The evolution of the available agricultural area in the Netherlands is
+ shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-klassiek-per-inwoner"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ where the yellow bar indicates the limits mentioned above.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - klassiek - nodig - prepared.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-klassiek-per-inwoner"
+
+\end_inset
+
+Direct agricultural area per capita in the Netherlands
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For some time now, the available agricultural land per capita has been below
+ the minimum standard.
+ So how is it possible that the Dutch population is not dying of starvation?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Indeed dear reader, land is used indirectly.
+ Meino Smit's study shows that in 1950 this was minimal.
+ But this indirect land use has risen sharply over time.
+ Hereby, by the end of the 1960s, there is as much indirect land use as
+ direct land use.
+ This increase continued until the 1980s after which it stabilized.
+\end_layout
+
+\begin_layout Standard
+Analysis indicates that this additional land use is almost entirely attributable
+ to livestock feed, as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The infamous soy from Brazil but also, for example, grain from other European
+ countries and corn from the USA.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - alles_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-nl"
+
+\end_inset
+
+Total used agricultural area of Dutch agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In total, 1.7 times as much land is currently needed outside the Netherlands
+ as within it.
+ This is the value for all agricultural sectors combined.
+ If we were to look at this only in the livestock sector, we would see that
+ for every hectare that a cow occupies in the Netherlands, a multiple of
+ land is needed abroad.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - landgebruik - alles - nodig - prepared_en-us.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:land-totaal-per-inwoner"
+
+\end_inset
+
+Total agricultural area per capita in the Netherlands
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we take this indirect land use into account, then there is more than
+ enough agricultural land available per capita, as shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:land-totaal-per-inwoner"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ However, it is questionable whether this is sustainable because it assumes
+ that the import of cattle feed can continue undisturbed and remain at an
+ acceptable price level.
+ This is then quite apart from the additional energy this import requires.
+\end_layout
+
+\begin_layout Chapter
+The sweat of the brow
+\end_layout
+
+\begin_layout Standard
+The number of farmers in the Netherlands has been in decline for years.
+ There were five times fewer people directly employed in agriculture in
+ 2015 compared to 1950.
+\end_layout
+
+\begin_layout Standard
+Now that you already have experience with indirect shares, dear reader,
+ you naturally wonder how many people are indirectly employed in agriculture.
+ Bravo, you've already been paying attention.
+\end_layout
+
+\begin_layout Standard
+These indirectly employed people are not only the farmers abroad who grow
+ fodder, but also workers in mining, agricultural consultants or workers
+ of rubber factories who make tractor tires.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meino Smit has fortunately figured this out for us.
+ The share of indirect labor continues to rise.
+ In fact, each Dutch farmer currently needs an average of 1.7 other people
+ to do his or her job.
+ Meino's estimate is, in his own words, rather conservative due to flawed
+ figures.
+ The number of people employed indirectly is likely to be higher.
+\end_layout
+
+\begin_layout Standard
+The main sectors providing indirect labor to agriculture are animal feed,
+ mining and services, together accounting for more than three-quarters of
+ indirect labor.
+ These individuals are partly in the Netherlands itself (e.g.
+ civil servants), partly outside the Netherlands (e.g.
+ miners).
+\end_layout
+
+\begin_layout Standard
+Even taking into account indirect labor, the number of people employed in
+ total in Dutch agriculture has declined over time, as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:arbeid-nl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ This has to do with the thorough mechanization of agriculture, both within
+ the Netherlands and abroad.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meino Smit makes a few more interesting observations about labor:
+\end_layout
+
+\begin_layout Itemize
+there is always a dependence on human labor.
+ This can be very indirect, such as the programmer of a milking robot without
+ whom that milking robot cannot work at all.
+\end_layout
+
+\begin_layout Itemize
+Are we spending our time, energy and resources in a useful way? Why should
+ so much work be put into a system of automatic plant recognition when it
+ can be learned so much faster by a human?
+\end_layout
+
+\begin_layout Itemize
+Human muscle power can be used much more efficiently by applying knowledge.
+ For example, the use of simple tools such as a hoe or aids such as ball
+ bearings.
+\end_layout
+
+\begin_layout Itemize
+has the replacement of human labor by machines been accompanied by an increase
+ in job satisfaction, health and meaning of work?
+\end_layout
+
+\begin_layout Itemize
+the food required to perform human (and animal) labor is indirectly a use
+ of fossil energy in our current society.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid - alles_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:arbeid-nl"
+
+\end_inset
+
+Total labor of the Dutch agriculture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+From a multitude to a single number?
+\end_layout
+
+\begin_layout Section
+There are a great many factors
+\end_layout
+
+\begin_layout Standard
+In addition to the costs mentioned above, a multitude of potential impacts
+ of agriculture can be identified from the studies.
+\end_layout
+
+\begin_layout Standard
+Meino Smit, for example, cites a number of studies that have calculated
+ the social costs of agriculture.
+ These run from environmental damage (estimated at €
+\begin_inset space ~
+\end_inset
+
+2,77
+\begin_inset space ~
+\end_inset
+
+billion per year) over the social costs of livestock farming (more than
+\begin_inset space ~
+\end_inset
+
+2 billion per year) to social costs of the entire Dutch agricultural sector
+ (between €
+\begin_inset space ~
+\end_inset
+
+5 and €
+\begin_inset space ~
+\end_inset
+
+20
+\begin_inset space ~
+\end_inset
+
+billion per year).
+\end_layout
+
+\begin_layout Standard
+These are sums that make you stop and think.
+ Especially since Meino Smit calculates that the agricultural income (net
+ added value at factor costs) for Dutch agriculture in 2015 will be € 1.5
+ billion.
+\begin_inset space ~
+\end_inset
+
+6,9
+\begin_inset space ~
+\end_inset
+
+billion for Dutch agriculture in 2015.
+ The social costs are therefore of the same order of magnitude as the income
+ from agriculture.
+ Or to put it another way, our way of doing agriculture is possibly socially
+ economically unprofitable.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The study by Eosta (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "eosta2017"
+literal "false"
+
+\end_inset
+
+) adds factors such as accidents at work, illnesses caused by consumption
+ of pesticides, erosion, biodiversity and the carbon content of the soil.
+ From their calculations they conclude that for organic farming the economic
+ balance is positive but for conventional farming it is negative.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/wordcloud_kosten_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:kosten-wordcloud"
+
+\end_inset
+
+Overview social costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+However, there are still very many possible costs that need to be taken
+ into account.
+ Just think of noise pollution, odor nuisance, social exploitation or food
+ scandals.
+ These are shown schematically in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:kosten-wordcloud"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Can this be converted into money?
+\end_layout
+
+\begin_layout Standard
+Eosta is an organic wholesaler that has ordered a study to determine the
+ 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ of their company and compare it with a similar non-organic wholesaler
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "eosta2017"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For this purpose, a number of factors are examined and a cost in Euros is
+ attached to them.
+ In this way they combine all these factors and can make a comparison between
+ themselves and their non-organic counterpart.
+\end_layout
+
+\begin_layout Standard
+They themselves make a number of comments on this study:
+\end_layout
+
+\begin_layout Itemize
+it is the first time such a study is done.
+ Consequently, the number of factors taken into account is rather limited.
+\end_layout
+
+\begin_layout Itemize
+they indicate that the 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ is an oversimplification of reality.
+ For example, you can use the 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ improve by paying your employees more.
+ But can this reduce the poor partial score of, say 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ emissions offset
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Especially since higher wages usually cause higher consumption.
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Personally, I was very enthusiastic at first when I read this study.
+ Such a way of working would give a possibility to indicate in a simple
+ way that it is not that organic is so much more expensive, but rather that
+ non-bio causes many more costs that are not passed on.
+\end_layout
+
+\begin_layout Standard
+The more I worked on it, the more reservations about this view of the world
+ arose.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As they themselves point out, capturing value in a single number is a gross
+ simplification of reality.
+ This allows choices to be made that are unsustainable in reality but improve
+ this value.
+ A similar comment was also made about the water footprint.
+\end_layout
+
+\begin_layout Standard
+Although they caution against focusing too hard on the 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ value, the study's report exudes a link between the 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ and sustainability.
+ In my view, it is dangerous to measure sustainability as a purely economic
+ value.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Expressing sustainability in terms of money strikes me as odd.
+ The monetary value of a product or service is subject to laws that have
+ little to do with physical reality.
+ What is the value of a ton 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+? In the physical world, its impact is fixed, independent of any speculation.
+ But the monetary value is not fixed.
+ Meino Smit, for example, cites a value between €
+\begin_inset space ~
+\end_inset
+
+5 and €
+\begin_inset space ~
+\end_inset
+
+300 per ton.
+ What value you take has an impact on the calculated 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ but not on the environmental impact.
+ In this way, a negative 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+True Value
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ suddenly become positive or vice versa without making society better or
+ worse off.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally, I find the entire study rather homocentric.
+ Nowhere does it look at the impact on other organisms unless humans benefit.
+ You get the feeling that a tree is only looked at as a source of fruit
+ and coppice.
+ The other values of a tree (place to have a family picnic under, source
+ of life such as beneficial insects or birds, aesthetic value in the landscape,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+) do not fit into the narrative being conducted.
+\end_layout
+
+\begin_layout Section
+The sustainability flower
+\end_layout
+
+\begin_layout Standard
+It is my dream that there can be an indicator of sustainability.
+ As is clear, this is not possible by bundling everything together in one
+ parameter because there are so many factors that come into play.
+ For example, how do you weigh a farmer's wages against water management?
+\end_layout
+
+\begin_layout Standard
+Therefore, we need to work with an indicator that highlights the impact
+ on different aspects in a visible way.
+ In this way, the user is more fully informed and can himself weigh up which
+ factor plays a greater or lesser role in the assessment.
+ This consideration will depend on the context in which the user lives.
+ This subjective assessment should not be imposed but each user should be
+ able to make it for himself together with clear information about the aspects
+ being measured.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Personally, I propose eleven facets to be included which are summarized
+ in table
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:voorstel-duurzaamheidsindicator"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This is a first step towards such an indicator.
+ As can be seen, there are a number of facets that would systematically
+ score negatively under the current system.
+ Personally I don't mind because 1) it gives an impulse to improve and 2)
+ there are several facets so the overall impression can still be positive.
+\end_layout
+
+\begin_layout Standard
+To represent this visually I dream of a flower where each petal represents
+ a facet.
+ The size and color of the petal indicates the value of the facet with a
+ subtle line indicating the neutral value.
+ Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Duurzaamheidsbloem"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ represents a conceptual sketch of such a flower.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "tabel-duurzaamheidsbloem-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+clearpage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ClearShipoutPicture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/duurzaamheidsbloem.svg
+	width 75text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Duurzaamheidsbloem"
+
+\end_inset
+
+Sustainability Flower
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 4.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 4.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+What do we learn from this?
+\end_layout
+
+\begin_layout Chapter
+Impact of indirect costs
+\end_layout
+
+\begin_layout Standard
+An important message that Meino Smit brings us is that if you only look
+ at direct costs, you will get a distorted picture of the evolution of agricultu
+re.
+\end_layout
+
+\begin_layout Standard
+As a way of measuring the evolution of agriculture, two indicators are regularly
+ used:
+\end_layout
+
+\begin_layout Itemize
+how many hectares can a farmer cultivate annually
+\end_layout
+
+\begin_layout Itemize
+how many tons of food can a farmer grow annually
+\end_layout
+
+\begin_layout Standard
+For Meino Smit, however, these are not the best indicators.
+ He prefers to work with energy-based indicators because they better capture
+ the social costs of agriculture.
+ Examples are energy efficiency (EROEI), energy output per full-time equivalent
+ (FTE) or energy output per hectare.
+\end_layout
+
+\begin_layout Standard
+Furthermore, it also considers whether the increase in energetic costs is
+ proportional to the output.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A word of warning: this is the chapter with the most numbers and graphs.
+ If that's not your thing, here are the most striking figures (note, if
+ you want to stay in suspense you'll have to skip this one).
+\end_layout
+
+\begin_layout Standard
+First, let's summarize what has been found so far.
+ These are conservative estimates so probably the ratios are worse:
+\end_layout
+
+\begin_layout Itemize
+For every MJ directly attributed to western agriculture, there are still
+ 1 to 2
+\begin_inset space ~
+\end_inset
+
+MJ of indirect energy.
+\end_layout
+
+\begin_layout Itemize
+To produce 1 calorie (or MJ) of food, mainstream agriculture needs between
+ 2 and 3
+\begin_inset space ~
+\end_inset
+
+calories of energy.
+ This is separate from the rest of our food chain (all together, to produce
+ 1
+\begin_inset space ~
+\end_inset
+
+calorie to eat between 7 and 12
+\begin_inset space ~
+\end_inset
+
+calories).
+\end_layout
+
+\begin_layout Itemize
+For every Dutch farmer, there are 1.7 other individuals working.
+\end_layout
+
+\begin_layout Itemize
+For every hectare of farmland worked in the Netherlands, another 1.7 hectares
+ are needed abroad.
+\end_layout
+
+\begin_layout Standard
+When we combine these numbers, new insights emerge:
+\end_layout
+
+\begin_layout Itemize
+Between 1950 and 2015, the energetic input per hectare in the Netherlands
+ increased by 620%.
+ The energetic output per hectare used increased by only 10%.
+\end_layout
+
+\begin_layout Itemize
+Between 1950 and 2015, the energetic input per Dutch farmer increased by
+ 2
+\begin_inset space \thinspace{}
+\end_inset
+
+500% (!).
+ Output per FTE increased by 320% during that period.
+\end_layout
+
+\begin_layout Itemize
+between 1950 and 2015, yield in tons per hectare increased by 30%.
+\end_layout
+
+\begin_layout Section
+The classic indicators
+\end_layout
+
+\begin_layout Subsection
+Number of hectares cultivated per full-time equivalent
+\end_layout
+
+\begin_layout Standard
+If only direct labor hours and land use are taken, then between 1950 and
+ 2015 the number of hectares/FTE increased from about 4 hectares/FTE to
+ 16 hectares/FTE, a factor of 3.6.
+\end_layout
+
+\begin_layout Standard
+If you look at the total labor hours spent, so including mining, livestock,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+, then between 1950 and 2015 the number of ha/FTE increased from about 4
+ ha/FTE to 6 ha/FTE, a factor of 1.6.
+\end_layout
+
+\begin_layout Standard
+So much for what Meino Smit used.
+ However, in my opinion, total land use should also be included because
+ land is also used for indirect labor.
+ If you do that, then the increase between 1950 and 2015 happens to be the
+ same as in the first calculation: a factor of 3.6.
+\end_layout
+
+\begin_layout Standard
+All this is also shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-ha_VTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+So you notice two things:
+\end_layout
+
+\begin_layout Itemize
+including indirect contributions does affect the efficiency increase in
+ agriculture.
+ In general, efficiency decreases when indirect contributions are included.
+\end_layout
+
+\begin_layout Itemize
+it's important to think carefully about what you include and what you don't.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - arbeid+landgebruik - tussen_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-ha_VTE"
+
+\end_inset
+
+Movement of labor productivity in ha/FTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Amount of tons produced per full-time equivalent
+\end_layout
+
+\begin_layout Standard
+Here there is less discussion about which indirect contributions should
+ be included.
+\end_layout
+
+\begin_layout Standard
+Excluding indirect labor, tons/FTE increased by a factor of 11.2 between
+ 1950 and 2015.
+\end_layout
+
+\begin_layout Standard
+If you do take indirect labor into account, this increase is only 4.9.
+\end_layout
+
+\begin_layout Standard
+So you notice a big difference in the improvement as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-ton_VTE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht_fte_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-ton_VTE"
+
+\end_inset
+
+Movement of labor productivity in tons/FTE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Indicators based on energy
+\end_layout
+
+\begin_layout Subsection
+Energy efficiency
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-e"
+
+\end_inset
+
+Comparison of energetic input and output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have already seen that the energetic efficiency (EROEI) fell from 1:1
+ to 1:2 between 1950 and 2015.
+\end_layout
+
+\begin_layout Standard
+This is also shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-e"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ where the total input in 2015 is double the output.
+\end_layout
+
+\begin_layout Standard
+However, if indirect inputs are not taken into account, the EROEI in 2015
+ would be 1:1.
+ This is a big difference because instead of appearing to be energy neutral,
+ however, agriculture is demanding more energy than we are getting out.
+\end_layout
+
+\begin_layout Subsection
+Energy per hectare
+\end_layout
+
+\begin_layout Standard
+Without taking into account indirect land use, output per hectare increased
+ by a factor of 2.6 between 1950 and 2015.
+ If indirect land use is included, this increase is only a factor of 1.1.
+\end_layout
+
+\begin_layout Standard
+It is very enlightening to contrast this with the inputs needed per hectare.
+\end_layout
+
+\begin_layout Standard
+Without taking into account the indirect contributions, the energy input
+ per hectare has increased by a factor of 6.3.
+ If we do take the indirect contributions into account, this increase increases
+ to 7.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - totaal_en-us.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Taking into account indirect contributions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energie_ha - direct.svg
+	width 45col%
+	groupId grafieken klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Without taking indirect contributions into account
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-e_ha"
+
+\end_inset
+
+Course of energy per hectare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The evolution of these values is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:impact-e_ha"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Note that currently 7 times more energy per hectare is invested in agriculture
+ but only 0.1 times more output! If it is not clear yet, this represents
+ the efficiency of the 
+\begin_inset Quotes pld
+\end_inset
+
+Green Revolution
+\begin_inset Quotes prd
+\end_inset
+
+ the efficiency of the Green Revolution.
+\end_layout
+
+\begin_layout Subsection
+Energy per full-time equivalent
+\end_layout
+
+\begin_layout Standard
+Similar to energy per hectare, you can also look at the evolution in both
+ input and output in energy per labor hour worked.
+\end_layout
+
+\begin_layout Standard
+Without taking into account the indirect factors, input per FTE increases
+ by a factor of 23 and output by a factor of 9.6.
+\end_layout
+
+\begin_layout Standard
+If we do take the indirect factors into account, input per FTE increases
+ by a factor of 26 and output by a factor of 4.2.
+\end_layout
+
+\begin_layout Standard
+It can be seen that output is now rising sharply because of mechanization.
+ But this is offset by an enormous increase in the input needed per hour
+ of work.
+\end_layout
+
+\begin_layout Standard
+So the same conclusions as above can be drawn.
+ The increase in energy input is not in proportion to the increase in energy
+ output.
+\end_layout
+
+\begin_layout Section
+Yield in tons per hectare
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - gewicht_ha_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:impact-ton_ha"
+
+\end_inset
+
+Development of yield in tons per hectare
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the yield in tons of products per hectare, there is an increase by a
+ factor of 3.1 without taking into account the indirect contributions.
+ With the indirect factors, this increase drops to 1.3.
+\end_layout
+
+\begin_layout Standard
+Considering the strong increase in energetic inputs that happened per hectare,
+ this increase in output is only paltry.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+It is clear that to get a good picture of the evolution of key figures for
+ agriculture, you have to take into account indirect contributions.
+\end_layout
+
+\begin_layout Standard
+As can be expected, the picture of agricultural evolution is much less flatterin
+g than it is currently portrayed.
+ There are positive evolutions, but they are much weaker than first thought.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is particularly striking is that the increase in input is much greater
+ than that in output.
+ If you compare these increases, you notice that this trend is getting worse.
+ In other words, despite the stories around increasing efficiency in agriculture
+, more and more energy has to be put into it for a meager increase in output.
+ This is generally not visible because of the limited inclusion of the increase
+ in inputs.
+\end_layout
+
+\begin_layout Standard
+Here only the energy factor was considered.
+ The story around water, biodiversity, soil fertility or other factors identifie
+d above has not yet been included.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is not a hopeful message.
+ You get the feeling that the train of agriculture is speeding up to the
+ abyss.
+\end_layout
+
+\begin_layout Standard
+Can we reverse this trend? We will look at that in the final chapter.
+\end_layout
+
+\begin_layout Chapter
+What should agriculture look like?
+\end_layout
+
+\begin_layout Standard
+To reverse the negative trend, there are a number of areas where change
+ can happen.
+ Meino Smit has identified possible adjustments that will be discussed in
+ a moment.
+\end_layout
+
+\begin_layout Standard
+I started the learning process of Landwijzer in order to be able to contribute
+ my own stone, starting from the system of Ferme du Bec Hellouin.
+ Has the vision and dream I originally had changed as a result of this piece
+ of work?
+\end_layout
+
+\begin_layout Section
+The dream of Meino Smit
+\end_layout
+
+\begin_layout Standard
+Meino Smit dreams of an agriculture in 2040 that does take indirect costs
+ into account.
+ This has major implications in all sorts of areas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On the agricultural side, we need to move towards an integration of agriculture
+ and nature management.
+ There will be smaller farms that are more stable.
+ There will also be less specialization and better closed cycles.
+ The use of hot greenhouses and non-food greenhouse farming must be banned
+ because it is energetically unsustainable (80% of direct energy in agriculture
+ goes to heated greenhouses).
+ Hand and animal power must be reinstated which also means more farmers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Social changes are also needed.
+\end_layout
+
+\begin_layout Itemize
+The harvest must go first and foremost to the local population.
+\end_layout
+
+\begin_layout Itemize
+More plant products should be eaten and less animal products (Table
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:2040-voeding"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Note that this is a drastic shift in society's diet.
+ Without this shift, we are eating our way toward starvation.
+\end_layout
+
+\begin_layout Itemize
+Research must focus on technology that saves energy and resources.
+\end_layout
+
+\begin_layout Itemize
+Taxes should shift from labor to capital.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Longtable
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="19" columns="4">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value in 2015
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value in 2040
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Difference
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Number of inhabitants
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.900.726
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.000.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vegetables
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25,399 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44,321 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+70%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fruit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19,770 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+141,828 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+640%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grains
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Currently, many grains are imported.
+ The intention is to grow this back in the Netherlands.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+196,817 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+516,481 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+160%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Potatoes
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+No more seed and starch potatoes would be grown.
+ This would free up 83,000 ha of agricultural land.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71,736 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35,457 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nuts
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+According to the advice of the 
+\begin_inset Quotes pld
+\end_inset
+
+Disk of Five
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78,200 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++1300%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Legumes
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Replacing animal proteins with plant proteins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15,506 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23,868 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sunflowers
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:Voornamelijk-schroot"
+
+\end_inset
+
+Mainly scrap
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+660 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+310,250 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rapeseed
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:Voornamelijk-schroot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+124,100 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sugar beet
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Less sugar and no longer used as cattle feed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58,436 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flower bulbs
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Focus on nutrition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28,842 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\begin_inset space \thinspace{}
+\end_inset
+
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Area for horses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40,000 ha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horses
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The hobby horses that are there now will be replaced by work horses.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\begin_inset space \thinspace{}
+\end_inset
+
+300%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cattle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.133.854
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+845.302
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pigs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.602.888
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+401.194
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-97%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sheep
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+523.103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+250.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Poultry
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103.038.539
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.017.938
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-80%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:2040-voeding"
+
+\end_inset
+
+Shifts needed in food
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+These changes mean that many more people need to be employed in agriculture
+ and indirect costs will fall sharply.
+ The most important key figures also come in green.
+ It is striking that clearly more energy is taken out of agriculture than
+ is put into it.
+ Energetically, we have a positive situation again.
+\end_layout
+
+\begin_layout Standard
+A big exception is the total amount of agricultural land per inhabitant.
+ Whereas this currently hovers around 30 ares/inhabits, in the proposed
+ scenario it will drop to 12 ares/inhabits, below the minimum limit of 14
+ ares/inhabits.
+ Won't that put us in dangerous waters?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This change in agriculture will require a new influx of farmers with new
+ ideas.
+\end_layout
+
+\begin_layout Standard
+One possible consequence of this change is that the price of agricultural
+ products increases.
+ But this is only the case if the social costs are not taken into account.
+ If these were to fall significantly, wouldn't society be better off? However,
+ getting this message across is very difficult as we have seen in France
+ with the Yellow Rashes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meino Smit makes the case that if there had been a policy in 1950 that took
+ all costs into account, we would be better off now.
+ Breeding has caused an output increase of 20 to 25%.
+ Partly because of this and through innovation that would have focused more
+ on better working conditions with less use of energy and raw materials,
+ for example through improved hand tools, agriculture could have achieved
+ an output increase that was greater than today without the hallucinatory
+ increase in input.
+ Agriculture would have been more robust and there would be more farmers
+ and greater social support.
+\end_layout
+
+\begin_layout Section
+Has my dream changed?
+\end_layout
+
+\begin_layout Standard
+My goal in starting the training is to bring the system of Ferme du Bec
+ Hellouin to Flanders.
+\end_layout
+
+\begin_layout Standard
+Through the study work around this paper, it has become clear that there
+ is a real need for agriculture that repairs the damage done.
+ We have seen that kitchen gardens and especially the Chinese agriculture
+ of 1930 can be great sources of inspiration here.
+ The system of Ferme du Bec Hellouin uses the same principles of combined
+ cultivation, intense follow-up, high input of organic fertilizers combined
+ with not disturbing the soil, permanent cover and many other factors to
+ optimize the natural processes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Within the Chinese agriculture of 1930, cattle breeding was done in an extensive
+ way, which is still missing at Ferme du Bec Hellouin.
+ Also arable farming is missing, but we have seen that for cereals the current
+ way of arable farming already gives good figures.
+\end_layout
+
+\begin_layout Standard
+From the experience I already had with the combination crops of Ferme du
+ Bec Hellouin, I could reflect during the drafting of this paper what this
+ system does around the different identified costs such as water, ecology,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space ~
+\end_inset
+
+.
+ My conclusion is that the system of Ferme du Bec Hellouin offers a strong
+ base to start from.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So my dream has only grown stronger.
+\end_layout
+
+\begin_layout Chapter
+Summary
+\end_layout
+
+\begin_layout Standard
+This search for the true cost of food started with a search for the origin
+ of the boutade 
+\begin_inset Quotes pld
+\end_inset
+
+it takes 10 calories of oil to consume 1 calorie of food
+\begin_inset Quotes prd
+\end_inset
+
+.
+ There was also the suspicion that it is not so much that organic food is
+ expensive, but that, compared to organic food, conventional food has more
+ indirect costs that are less reflected in the final price.
+\end_layout
+
+\begin_layout Standard
+Only the Eosta study distinguishes between organic and non-organic and shows
+ that organic has lower social costs.
+ All other studies look at the totality of the food chain without making
+ a distinction between organic and non-bio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We found that agriculture indeed bears very high indirect energy costs.
+ These range from feed and fertilizer over the cost of buildings and machinery
+ to things like mining, electronics and services.
+ There are also costs in many other areas such as labor, water, land use
+ and you name it.
+\end_layout
+
+\begin_layout Standard
+Direct costs remain the main chunk, but indirect costs have increased dramatical
+ly over the last 50 years until they outpace direct costs.
+ In indirect costs, livestock feed takes up a particularly important share.
+ What I have also noticed are the contributions of mining, grain and grass
+ drying, and irrigation in the energy balance.
+\end_layout
+
+\begin_layout Standard
+Further down the food chain, packaging and household use particularly stood
+ out, with an energetic share equivalent to that of agriculture itself.
+\end_layout
+
+\begin_layout Standard
+The share of agriculture in the energy consumption of the total food chain
+ is a quarter or less.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That you need 10 times more energy than you consume turns out to be true.
+ Such a thing is not sustainable in the long run because the supply of energy
+ is finite.
+ The same problem applies to other costs as well.
+ 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Business as usual
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+ is going to lead to 
+\begin_inset Quotes pld
+\end_inset
+
+Starvation by gorging
+\begin_inset Quotes prd
+\end_inset
+
+.
+ So it has to be different.
+\end_layout
+
+\begin_layout Standard
+To measure necessary progress, it is necessary to maintain the nuances of
+ life.
+ Summarizing this progress in one number loses this nuance.
+ Hence the proposal to start from a sustainability flower.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we compare the energy efficiency of different farming systems, we can
+ see major differences.
+ With the available information, it is possible to determine which systems
+ fall by the wayside and which can be good sources of inspiration for future
+ agriculture.
+\end_layout
+
+\begin_layout Standard
+Among the industrial farming systems, animal production or heated greenhouse
+ systems are far too strong energy devourers.
+ Arable systems come out better.
+\end_layout
+
+\begin_layout Standard
+Pre- and semi-industrial farming systems often turn out to be energetically
+ advantageous but many of these are not possible in our area due to high
+ population density.
+\end_layout
+
+\begin_layout Standard
+The best candidates for a future agriculture is horticulture as practiced
+ in China until the beginning of the last century.
+ This was possible because of the intensive attention of the farmer together
+ with a large supply of nutrients, combination crops and an intensive follow-up
+ of crops.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The principles that make the old horticulture from China so strong can also
+ be found in the system of Ferme du Bec Hellouin.
+ However, this system still needs to be developed further.
+ In its present form, the emphasis is very much on the cultivation of fine
+ vegetables.
+ Therefore, it cannot offer a complete answer.
+ But its further development can provide inspiration for other branches
+ of agriculture to go to 
+\begin_inset Quotes pld
+\end_inset
+
+
+\lang english
+Small is beautiful
+\lang american
+
+\begin_inset Quotes prd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+However, the necessary changes are not only needed in agriculture.
+ The rest of the food chain must join in.
+ The diet must also change, with a particular need to reduce the consumption
+ of meat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thanks to working on this paper, I have gained many more insights into what
+ agriculture all impacts on.
+ It has also strengthened my conviction that we must actively seek a different
+ way of doing agriculture.
+ The system of Ferme du Bec Hellouin seems to be a very good basis for this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Time to actively work on this with our hands in the earth.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimage[]{ondersteunende_documenten/figuren/deel 5.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+partimageSide[]{ondersteunende_documenten/figuren/deel 5.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Attachments
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% for some reason, this is not done
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+chaptername{Attachments}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Some technical terms
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "begrippen-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "ferme-du-bec-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "technologie-wereldredder-en-us.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Make sure that the bibliography line in the TOC in on the same level as
+ a 'part' but doesn't get the titlepage of a 'part'.
+\end_layout
+
+\begin_layout Plain Layout
+
+% In order to do this, we define the style as 'chapter'
+\end_layout
+
+\begin_layout Plain Layout
+
+% and add this tot the TOC as 'part'.
+\end_layout
+
+\begin_layout Plain Layout
+
+% This is especially interesting in the PDF because it puts the bibliography
+ on the same level as the last part instead of under it.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Inspiration from https://tex.stackexchange.com/a/573058
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+defbibheading{bibintoc}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+chapter*{
+\backslash
+bibname}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{part}{
+\backslash
+bibname}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "ondersteunende_documenten/permaculture,ondersteunende_documenten/meino_smit,ondersteunende_documenten/leach,ondersteunende_documenten/eosta"
+options "bibtotoc"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
