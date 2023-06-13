@@ -458,7 +458,8 @@ Latin Modern Roman
 \end_layout
 
 \begin_layout Plain Layout
-Where data needed to be extracted from graphs, WebPlotDigitizer (
+Where data needed to be extracted from graphs, WebPlotDigitizer is used
+ (
 \begin_inset ERT
 status open
 
