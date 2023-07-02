@@ -21,9 +21,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="1.1416667"
-     inkscape:cx="521.16788"
-     inkscape:cy="308.32117"
+     inkscape:zoom="0.80728027"
+     inkscape:cx="494.25214"
+     inkscape:cy="322.06906"
      inkscape:window-width="1920"
      inkscape:window-height="1021"
      inkscape:window-x="0"
@@ -34,25 +34,18 @@
      inkscape:deskcolor="#d1d1d1" />
   <style
      id="style2">text{font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;}</style>
-  <rect
-     width="100%"
-     height="100%"
-     style="fill:#ffffff"
-     id="rect4"
-     x="42.153992"
-     y="0" />
   <text
      font-size="112px"
      style="fill:#ff8e00"
      id="text6"
-     x="235.67953"
-     y="215.19754">Direct input</text>
+     x="343.44879"
+     y="200.33281">Direct input</text>
   <text
      font-size="91px"
      style="fill:#00ff8c"
      id="text8"
-     x="49.153992"
-     y="456">Tractors and machines</text>
+     x="129.67126"
+     y="470.86472">Tractors and machines</text>
   <text
      font-size="91px"
      style="fill:#1f00ff"
@@ -69,8 +62,8 @@
      font-size="91px"
      style="fill:#ff2900"
      id="text14"
-     x="126.96441"
-     y="539.38684">Animal manure</text>
+     x="65.028053"
+     y="550.5354">Animal manure</text>
   <text
      font-size="77px"
      style="fill:#ff0c00"
@@ -81,8 +74,8 @@
      font-size="39px"
      style="fill:#b9ff00"
      id="text18"
-     x="478.71155"
-     y="79.502098">Seeds, planting stock</text>
+     x="715.30841"
+     y="93.128098">Seeds, planting stock</text>
   <text
      font-size="39px"
      style="fill:#00dfff"
@@ -93,14 +86,14 @@
      font-size="39px"
      style="fill:#00bbff"
      id="text22"
-     x="656.25903"
-     y="582.64233">Services</text>
+     x="834.63574"
+     y="561.58398">Services</text>
   <text
      font-size="39px"
      style="fill:#b3ff00"
      id="text24"
-     x="-1.404"
-     y="371.612">Transport and infrastructure</text>
+     x="10.983272"
+     y="380.28308">Transport and infrastructure</text>
   <text
      font-size="32px"
      style="fill:#ff0082"
@@ -111,8 +104,8 @@
      font-size="32px"
      style="fill:#ff0088"
      id="text28"
-     x="740.2124"
-     y="277.05408">Mining</text>
+     x="979.28674"
+     y="258.47318">Mining</text>
   <text
      font-size="32px"
      style="fill:#ff001e"

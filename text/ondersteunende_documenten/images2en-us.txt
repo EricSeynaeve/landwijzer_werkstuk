@@ -89,7 +89,7 @@ Totaal energieverbruik|Total energyconsumption
 Totaal gegeten|Total eaten
 Koeling en koken (huis)|Cooling and cooking (domestic)
 Koelapparatuur (commercieel en huis)|Cooling equipment (commercial and domestic)
-Koeling en koken (commercieel)|Cooling an cooking (commercial)
+Koeling en koken (commercieel)|Cooling and cooking (commercial)
 Vrachtvervoer (aanmaak)|Transportation (creation)
 Brandstoffen (transport)|Fuels (transportation)
 Verpakking|Packaging

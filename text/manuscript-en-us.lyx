@@ -1312,7 +1312,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-There are other propositions that you'll also find on a regular basis: 
+There are other memes that you'll also find on a regular basis: 
 \begin_inset Quotes pld
 \end_inset
 
@@ -1743,11 +1743,11 @@ The view of the farmer
 \end_layout
 
 \begin_layout Standard
-To a loaf of 1
+In order to bake a 1
 \begin_inset space ~
 \end_inset
 
-kg of bread, 934
+kg loaf of bread, 934
 \begin_inset space ~
 \end_inset
 
@@ -1766,7 +1766,7 @@ fertilizer.
 \end_layout
 
 \begin_layout Itemize
-Chemical pesticides.
+chemical pesticides.
 \end_layout
 
 \begin_layout Itemize
@@ -1789,7 +1789,7 @@ Let's dwell on this list for a moment.
 
 \begin_layout Standard
 But fertilizers and pesticides also require fuels.
- Both within factories to create them, within mining (e.g.
+ This is consumed in factories to create them, needed for mining (e.g.
  phosphorus and potash mines for the P and K of fertilizer) but also as
  a raw material itself (the N of fertilizer is extracted from natural gas).
  This indirect use of fuels must also be included.
@@ -1799,10 +1799,7 @@ But fertilizers and pesticides also require fuels.
 \begin_layout Standard
 A certain amount of energy as a nutritional value can be placed against
  the energy needed as an input.
- This is called energy efficiency or also 
-\lang english
-Energy Returned On Energy Invested
-\lang american
+ This is called energy efficiency or also Energy Returned On Energy Invested
  (EROEI, see also appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1848,7 +1845,7 @@ But wait a minute, something is not right here.
 \end_inset
 
 g of grain.
- That's not bread at all yet.
+ That's not bread at all.
 \end_layout
 
 \begin_layout Standard
@@ -1890,7 +1887,8 @@ Next, the bread must be baked.
 
 \begin_layout Standard
 Finally, offering a loaf of bread in the store also requires some energy.
- Back for building maintenance, possibly a refrigerated counter, lighting,
+ Once more for maintenance of the building, possibly a refrigerated counter,
+ lighting,
 \begin_inset space ~
 \end_inset
 
@@ -1903,15 +1901,15 @@ Finally, offering a loaf of bread in the store also requires some energy.
 \end_layout
 
 \begin_layout Standard
-Taking all this together, there is a total for a loaf of 1
+Taking all this together, a loaf of 1
 \begin_inset space ~
 \end_inset
 
-kilograms, there is about 20,7
+kilograms requires 20,7
 \begin_inset space ~
 \end_inset
 
-MJ of energy is needed.
+MJ of energy.
 \end_layout
 
 \begin_layout Standard
@@ -1961,7 +1959,7 @@ Distribution of the energy required by a loaf of bread
 \end_layout
 
 \begin_layout Standard
-In figure
+Figure
 \begin_inset space ~
 \end_inset
 
@@ -1989,17 +1987,17 @@ All in all, bread has an EROEI of 10.6:20.7 or 1:1.9.
 \end_layout
 
 \begin_layout Standard
-And that's not even considering the transportation from the store to home.
+And that's not considering the transportation from the store to home.
  Leach indicates that if the store is 1
 \begin_inset space ~
 \end_inset
 
-km away and you take the car just to go get a loaf of bread, there is still
+km away and you take the car just to go get a loaf of bread, there is another
  8
 \begin_inset space ~
 \end_inset
 
-MJ has to be added.
+MJ to be added.
  Here the EROEI drops even further to 1:2.7.
  So taking the car instead of going by bike or on foot lowers the energy
  efficiency from about 1:2 to 1:3!
@@ -2030,8 +2028,8 @@ literal "false"
 \end_inset
 
 .
- More details such as how these grades were determined can be found in the
- more technical treatise.
+ More details such as how these figures were determined can be found in
+ the more technical treatise.
 \end_layout
 
 \begin_layout Standard
@@ -2048,13 +2046,11 @@ Next we look at the situation around the 1970s in the United Kingdom and
 \end_layout
 
 \begin_layout Quote
-
-\lang english
 \begin_inset Quotes pld
 \end_inset
 
-[SpecialChar ldots] it's safe to assume that the general picture remains
- the same.
+[\SpecialChar ldots
+] it's safe to assume that the general picture remains the same.
  Any increase in mechanical efficiency will have been swallowed up by increases
  in mechanization, and especially in long-distance transport.
 \begin_inset Quotes prd
@@ -2081,7 +2077,7 @@ literal "false"
 \end_inset
 
  14 factors required for agriculture are considered.
- These are presented in Figure
+ These are presented in figure
 \begin_inset space ~
 \end_inset
 
@@ -2163,7 +2159,7 @@ One factor I do want to highlight is the energy stored in materials.
  These must then be transported after which the brick is pressed into a
  form and baked.
  For baking and transport, ovens and trucks are needed, and the energy used
- for this particle must also be attributed to the brick.
+ must also be attributed to the brick.
  Further is transportation and storage before it arrives at the construction
  site.
  Then there is cement used to make the wall, scaffolding and mortar.
@@ -2180,22 +2176,17 @@ One factor I do want to highlight is the energy stored in materials.
 \end_layout
 
 \begin_layout Standard
-Special attention is given by Meino Smit to a discussion of electronics
- and mining and how this together makes one not believe in the use of renewable
- energy at 
-\lang english
-
+Special attention is given by Meino Smit to electronics and mining and how
+ this together makes him not believe in the use of renewable energy at 
 \begin_inset Quotes pld
 \end_inset
 
 business as usual
-\lang american
-
 \begin_inset Quotes prd
 \end_inset
 
 .
- This is included in Appendix
+ This discussion is summarized in appendix
 \begin_inset space ~
 \end_inset
 
@@ -2233,7 +2224,7 @@ He also mentions that energy and raw materials are strongly linked: you
 
 \begin_layout Standard
 The evolution of the energy input for Dutch agriculture between 1950 and
- 2015, as determined by Meino Smit, is shown in Figure
+ 2015, as determined by Meino Smit, is shown in figure
 \begin_inset space ~
 \end_inset
 
@@ -2301,7 +2292,7 @@ The following trends can be seen:
 \end_layout
 
 \begin_layout Itemize
-direct inputs rise until the early 1970s and then more or less level off.
+Direct inputs rise until the early 1970s and then more or less level off.
  Is this the result of a changing consciousness after the oil crises in
  that period?
 \end_layout
@@ -2309,17 +2300,17 @@ direct inputs rise until the early 1970s and then more or less level off.
 \begin_layout Itemize
 On the other hand, we see that the indirect input is gaining in importance.
  Since the 1980s, indirect inputs have actually become larger than direct
- inputs and these trends have only intensified.
+ inputs and this trend has only intensified.
 \end_layout
 
 \begin_layout Itemize
-the proportion of artificial fertilizer has fallen sharply while that of
+The proportion of artificial fertilizer has fallen sharply while that of
  animal manure has risen.
 \end_layout
 
 \begin_layout Itemize
-animal feed is an important sector among indirect inputs.
- This is quite apart from its share of direct inputs.
+Animal feed is an important sector among indirect inputs.
+ This is quite apart from it's direct input.
 \end_layout
 
 \begin_layout Itemize
@@ -2327,8 +2318,8 @@ Mining, buildings and electronics have all increased in share.
 \end_layout
 
 \begin_layout Standard
-To put the values in perspective, the total consumption of electricity in
- Belgium per year is around 288
+To put the values in perspective, the total yearly consumption of electricity
+ in Belgium is around 288
 \begin_inset space ~
 \end_inset
 
@@ -2393,7 +2384,7 @@ noprefix "false"
 \emph on
 in
 \emph default
-efficiency plotted.
+efficiency, is plotted.
 \end_layout
 
 \begin_layout Standard
@@ -2561,7 +2552,7 @@ Evolution of the energy input of UK agriculture
 
 \begin_layout Standard
 As with Meino Smit, Leach sees an increase in inputs needed in agriculture
- as shown in Figure
+ as shown in figure
 \begin_inset space ~
 \end_inset
 
@@ -2580,17 +2571,17 @@ noprefix "false"
 
 \begin_layout Standard
 Interestingly, Leach draws the parallel with heavy industry.
- Depending on how many people you allocate to agriculture (direct and indirect
- labor), between 150 and 330
+ Depending on how many people you allocate to agriculture (only direct or
+ direct+indirect labor), between 150 and 330
 \begin_inset space ~
 \end_inset
 
-GJ/year of energy used.
+GJ/year and per worker is used.
  This is consistent with heavy industry which uses between 170 and 300
 \begin_inset space ~
 \end_inset
 
-GJ/year used per worker.
+GJ/year per worker.
  We would never think that agriculture would require as much energy per
  worker as heavy industry!
 \end_layout
@@ -2657,7 +2648,7 @@ they can be used on soils that are otherwise unusable (too wet, too steep,
 \end_layout
 
 \begin_layout Standard
-But, trop is too much and too much is trop.
+But, too much is too much.
  Halving meat consumption would make the UK self-sufficient and increase
  EROEI to 1:1.4.
  That's quite apart from the health benefits that would occur.
@@ -2671,8 +2662,7 @@ But, trop is too much and too much is trop.
 \end_layout
 
 \begin_layout Standard
-One factor that is quite striking to me personally is the energy required
- to dry hay and grain.
+The factor that surprised me is the energy required to dry hay and grain.
 \end_layout
 
 \begin_layout Section
@@ -2714,7 +2704,7 @@ literal "false"
 
 \begin_layout Standard
 From the study by Steinhart and Steinhart, the share of different factors
- on energy consumption within agriculture as given in Figure
+ on energy consumption within agriculture are given as in figure
 \begin_inset space ~
 \end_inset
 
@@ -2790,8 +2780,8 @@ A new factor is irrigation which, as we see, for the USA accounts for 6
  in the USA agriculture is done in very dry parts.
  What we have seen in recent years is that the importance of irrigation
  is also increasing here.
- Accordingly, this will also form an increasingly important part of the
- energy input of agriculture.
+ Accordingly, this will also become a bigger part of the energy input of
+ agriculture.
 \end_layout
 
 \begin_layout Standard
@@ -2810,7 +2800,7 @@ et al.
  indicate that with irrigation there can be a problem of increased energy
  requirements.
  If you pump out more than is naturally replenished, you will have to pump
- in from deeper layers in subsequent years.
+ from deeper layers in subsequent years.
  This requires not only extra energy for pumping, but also for the heavier
  infrastructure (extraction and production of raw materials).
  This is quite apart from the ecological impact on the wider environment
@@ -2952,7 +2942,7 @@ Loss of efficiency in agriculture
 \end_layout
 
 \begin_layout Standard
-We're getting a little ahead of ourselves here, but let's figure
+We're getting a little ahead of ourselves here, but let's consider figure
 \begin_inset space ~
 \end_inset
 
@@ -2978,7 +2968,7 @@ noprefix "false"
  This increase peaked in the late 1950s.
  After that, we see that the increase becomes less with increased input
  until there is a tendency for this to almost level off: additional input
- gives a much smaller output.
+ gives a much smaller increase in output.
  In the field of pesticides, Lovins 
 \emph on
 et al.
@@ -3047,8 +3037,8 @@ Just looking at the directly consumed energy does not give the full picture.
 \end_layout
 
 \begin_layout Standard
-Factors that I personally have noticed strongly are animal feed, mining,
- electronics, drying and irrigation.
+Factors that I personally found remarkable were animal feed, mining, electronics
+, drying and irrigation.
  It is also striking that the contribution of artificial fertilizer in the
  Netherlands has decreased enormously in recent decades.
 \end_layout
@@ -3072,8 +3062,8 @@ What is also striking is that until the 1970s there was a huge increase
 \begin_layout Standard
 We actually consume more energy in agriculture than we produce.
  In the Netherlands by a factor of two, in the UK even by a factor of three.
- Since food is a pure basic need, it is temporarily justifiable to pump
- more energy into it than you get out of it.
+ Since food is a basic need, it is temporarily justifiable to pump more
+ energy into it than you get out of it.
  But that is not a strategy that can be sustained over the long term.
  What do you do when energy becomes scarce? This can be due not only to
  depletion of oil wells but also to geopolitical situations where the supply
@@ -3097,9 +3087,9 @@ literal "false"
 \end_inset
 
 .
- It is therefore important for the stability of a country to strive to ensure
- that its agriculture is as energy efficient as possible, taking into account
- all the factors that have an influence.
+ It is therefore important for the stability of a country to strive for
+ an energy efficient agriculture, taking into account all the factors that
+ have an influence.
  It is a pity that this is not recognized today and therefore we continue
  on a path of increasing energy dependence.
 \end_layout
@@ -3123,7 +3113,7 @@ capital accumulation has grown gradually and has now become so large that
 
 \SpecialChar ldots
  it's difficult to phase them out.
- Especially if the loans for this are still running.
+ Especially if the loans for these investments are not payed off.
 \end_layout
 
 \begin_layout Enumerate
@@ -3172,15 +3162,13 @@ The EROEI we find here is between 1:2 and 1:3 for the most recent decades.
 \end_layout
 
 \begin_layout Quote
-
-\lang english
 Most of the ecological impact of food is generated in transport, processing
  and retailing, not on the farm.
 \end_layout
 
 \begin_layout Standard
-We have also seen this in the introduction to this section where agriculture
- gave only 20% of the energy input of a loaf of bread.
+The example of the loaf of bread showed agriculture responsible for only
+ 20% of the energy input.
  So it is important to look at what happens to food after it leaves the
  farm.
 \end_layout
@@ -3190,11 +3178,11 @@ Energy use of the food chain
 \end_layout
 
 \begin_layout Section
-The path between the farm and the plate
+From the farm and the table
 \end_layout
 
 \begin_layout Standard
-Between the farm and the plate there are roughly 3 steps:
+Between the farm and the dining table there are roughly 3 steps:
 \end_layout
 
 \begin_layout Itemize
@@ -3202,7 +3190,7 @@ food processing.
 \begin_inset Newline newline
 \end_inset
 
-These include pressing to juice, making sausages, grinding grain, preparing
+This include pressing to juice, making sausages, grinding grain, preparing
  lasagna, canning or glassing,
 \begin_inset space ~
 \end_inset
@@ -3226,11 +3214,11 @@ Also known as the distribution sector.
 \end_layout
 
 \begin_layout Itemize
-use of food.
+usage of food.
 \begin_inset Newline newline
 \end_inset
 
-These are households, restaurants,
+This takes place in households, restaurants,
 \begin_inset space ~
 \end_inset
 
@@ -3240,8 +3228,8 @@ These are households, restaurants,
 \end_inset
 
 .
- In the example of bread, we have seen an extreme situation where transportation
- between the store and home takes almost half the extra energy.
+ In the example of a loaf of bread, we have seen an extreme situation where
+ transportation between the store and home adds almost 50% extra energy.
  But there are more factors at play.
 \end_layout
 
@@ -3250,8 +3238,8 @@ Processing
 \end_layout
 
 \begin_layout Standard
-Of course there is transport between the farm and processing.
- Products are also shipped internally (e.g., the flour to the baker).
+Of course there is transport between the farm and processing facilities.
+ Products are also shipped between facilities (e.g., the flour to the baker).
 \end_layout
 
 \begin_layout Standard
@@ -3273,7 +3261,7 @@ Energy is also needed to make and maintain buildings and machines.
 \end_layout
 
 \begin_layout Itemize
-What is striking is that the energy costs of packaging are reasonably high.
+What is striking is that the energy costs of packaging are rather high.
  For canned goods in particular, the energy required is as high as 25% of
  the energy needed for processing!
 \end_layout
@@ -3295,7 +3283,7 @@ As can be expected, most of the energy (about half) is due to transportation.
  Further energy is needed for storage (buildings and refrigeration), packaging
  (e.g.
  washing bins or repackaging as a private label), heating of offices and
- warehouses, retail buildings.
+ warehouses, building and maintenance fo retail buildings.
 \end_layout
 
 \begin_layout Subsection
@@ -3304,7 +3292,7 @@ Consumption
 
 \begin_layout Standard
 What struck me very hard is that the refrigeration needed to keep food and
- cook it requires so much energy.
+ cooking requires so much energy.
  Together with the energy needed to make appliances like refrigerators,
  kitchen robots, microwave ovens and the infrastructure like a kitchen or
  storage room, we have to count an extra 30% to 40% on top of the energy
@@ -3317,7 +3305,7 @@ Food losses
 
 \begin_layout Standard
 This explains why it is so important to minimize food losses.
- For example, if at the end of the chain half a jar of ravioli is thrown
+ If, for example, at the end of the chain half a jar of ravioli is thrown
  in the garbage, this is not only a loss of ravioli itself, but also of
  all the energy that has been put into it up to that point, from the farmer
  to the processor, driver and retailer.
@@ -3335,17 +3323,17 @@ losses inherent in the process.
 \begin_layout Enumerate
 losses that are unavoidable.
  For example, the weight of eggs includes the eggshell which, however, cannot
- be used.
+ be consumed.
 \end_layout
 
 \begin_layout Enumerate
 losses that are typical.
- For example, these are the peels of vegetables that are not used.
+ For example, the peels of vegetables that are not used.
 \end_layout
 
 \begin_layout Enumerate
 losses due to carelessness.
- These are, for example, discarded meals.
+ For example, discarded meals.
 \end_layout
 
 \begin_layout Standard
@@ -3357,8 +3345,8 @@ Unavoidable and typical losses can only be dealt with if new outlets are
  created.
  Consider, for example, the rise of mushroom cultivation on coffee grounds
  or the use of cocoa shells as a ground cover.
- Ideas for this can certainly be drawn from the past where, for example,
- every part of an animal was used.
+ Ideas for this can certainly be drawn from the past where every part of
+ an animal was used.
  This ranged from using the skin in clothing (leather), hair in brushes
  (shaving brushes made of pig hair) or construction (horse hair in mud walls)
  over eating organ meat to bone glue.
@@ -3506,7 +3494,7 @@ Energy inputs to the food chain (USA)
 \end_layout
 
 \begin_layout Standard
-In the study of Leach (Figure
+In the study of Leach (figure
 \begin_inset space ~
 \end_inset
 
@@ -3570,7 +3558,7 @@ This will mean a shift to more individual transport and cooking.
 \begin_inset Newline newline
 \end_inset
 
-Consider, for example, that ravioli from above.
+Consider, for example, the ravioli from above.
  It first has to be prepared in a factory, is served in an aluminum dish,
  has to be cooled all the time (both in the store and at home) and then
  reheated at home.
@@ -3616,7 +3604,7 @@ Now that we have the entire food chain in view, we can take another look
 \end_layout
 
 \begin_layout Standard
-In figure
+Figure
 \begin_inset space ~
 \end_inset
 
@@ -3630,7 +3618,7 @@ noprefix "false"
 
 \end_inset
 
- shows that the input 1
+ shows that an input of 1
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -3638,7 +3626,7 @@ noprefix "false"
 \begin_inset space ~
 \end_inset
 
-PJ and the output is 130 or 261
+PJ and an output of 130 or 261
 \begin_inset space ~
 \end_inset
 
@@ -3668,7 +3656,7 @@ These are values for the late 1960s, early 1970s.
 status collapsed
 
 \begin_layout Plain Layout
-In Figure
+In figure
 \begin_inset space ~
 \end_inset
 
@@ -3693,7 +3681,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-So the boldness that 
+So the meme that 
 \begin_inset Quotes pld
 \end_inset
 
@@ -3720,7 +3708,7 @@ re cannot suffice with an EROEI of 1:1.
 We have seen above that agriculture gives an energetic contribution of 25
  to 33% to the total food chain.
  A fair effort from agriculture indicates that its EROEI should be between
- 4:1 and 3:1.
+ 4:1 and 3:1 in order to give a neutral food system.
 \end_layout
 
 \begin_layout Standard
@@ -3740,7 +3728,7 @@ Analogously, we can see that the rest of the food chain has an EROEI that
 \begin_layout Standard
 Every part of the food chain must be sustainable for the entire chain to
  be sustainable.
- This is a clear case that the chain is only as weak as the weakest link.
+ This is a clear case where the chain is only as weak as the weakest link.
  And currently all the links are broken.
 \end_layout
 
@@ -3844,17 +3832,17 @@ The impact of packaging, drying, irrigation and households was a big surprise
 \begin_layout Standard
 Further, it made me think a lot about the use of raw materials and electronics.
  This has made me more cautious about technical solutions in agriculture.
- This is surprising because I come from a very technical background (Licentiate
- in Physics and also working as an IT professional for a long time).
+ This is surprising because I come from a very technical background (master
+ in physics and also working as an IT professional for a long time).
  I don't want to write off technology but will definitely think twice about
  it.
 \end_layout
 
 \begin_layout Standard
-It has also been found that the witticism that triggered this in-depth piece
- of work does hold true.
+It has also been found that the meme that triggered this treatise holds
+ true.
  Indeed, you can consider that, in the current system, it takes 10 calories
- of oil to consume 1 calorie of food.
+ of fossil fuels to consume 1 calorie of food.
  This is not a sustainable situation.
 \end_layout
 
@@ -4084,11 +4072,7 @@ noprefix "false"
 \begin_inset Quotes pld
 \end_inset
 
-
-\lang english
 range-fed beef
-\lang american
-
 \begin_inset Quotes prd
 \end_inset
 
@@ -4098,11 +4082,7 @@ range-fed beef
 \begin_inset Quotes pld
 \end_inset
 
-
-\lang english
 grass-fed beef
-\lang american
-
 \begin_inset Quotes prd
 \end_inset
 
@@ -4112,11 +4092,7 @@ grass-fed beef
 \begin_inset Quotes pld
 \end_inset
 
-
-\lang english
 feedlot beef
-\lang american
-
 \begin_inset Quotes prd
 \end_inset
 
@@ -4129,7 +4105,7 @@ It is also striking that fishing scores so poorly.
  This has mainly to do with the distances fishing boats have to travel to
  have a full hold.
  Because larger boats have to travel much longer, Leach has found that they
- score worse which seems counter-natural in our system of 
+ score worse which seems counter-intuitive in our system of 
 \begin_inset Quotes pld
 \end_inset
 
@@ -4174,7 +4150,7 @@ with mechanization, the proportion of indirect energy needed for the system
 \end_layout
 
 \begin_layout Standard
-In figure
+The inset in figure
 \begin_inset space ~
 \end_inset
 
@@ -4188,8 +4164,7 @@ noprefix "false"
 
 \end_inset
 
- also shows the evolution of the inverse EROEI of the food system in the
- USA.
+ shows the evolution of the inverse EROEI of the food system in the USA.
  It can be clearly seen that it gets worse as the years go by and was at
  an EROEI of 1:9 in 1970.
 \end_layout
@@ -4210,8 +4185,8 @@ It is interesting to look now, based on the figures, at which farming systems
  From the studies, we can only say something about energy and land use.
  Of course, many other aspects, such as water, air pollution or working
  conditions are also important.
- But due to use of data in the reviewed studies, these aspects are not covered
- here.
+ But due to lack of data on these aspects in the reviewed studies, they
+ are not covered here.
 \end_layout
 
 \begin_layout Subsection
@@ -4220,13 +4195,14 @@ On the basis of energy efficiency
 
 \begin_layout Standard
 It has been indicated above that the energetic efficiency of an agricultural
- system must be better than 3:1 or 4:1 for the entire food system to be
- energy neutral.
+ system must be better than 3:1 or 4:1 in order for the entire food system
+ to be energy neutral.
  Which modern farming systems are above 3:1?
 \end_layout
 
 \begin_layout Standard
-At Leach, we see that only growing sugar beet and grains meet this.
+From the study of Leach, we see that only growing sugar beet and grains
+ meet this.
  It is notable that no animal products have a ratio above 1:1.
 \end_layout
 
@@ -4263,20 +4239,16 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-So the modern farming systems and food chain in our western world is not
- capable of feeding the population in a sustainable way.
+So the modern farming systems and the food chain in our western world is
+ not capable of feeding the population in a sustainable way.
  They require more energy than what can be extracted.
 \end_layout
 
 \begin_layout Standard
 If we look at older farming systems, it is noticeable that many of them
- smoothly achieve the required energy efficiency.
+ overwhelmingly achieve the required energy efficiency.
  The hunter/gatherer, rotational crops of the past but also well maintained
- 
-\lang english
-slash-and-burn
-\lang american
- systems have efficiencies in excess of 4:1.
+ slash-and-burn systems have efficiencies in excess of 4:1.
  Of course, we have to remove from the list the systems that are only possible
  in the tropics and sub-tropics, because they cannot thrive in our temperate
  climate.
@@ -4294,31 +4266,27 @@ Leach emphasizes 2 systems that he believes are outliers:
 \end_layout
 
 \begin_layout Description
-vegetable gardens
-\begin_inset space ~
-\end_inset
-
-(
-\lang english
-allotment
+vegetable
 \begin_inset space ~
 \end_inset
 
 gardens
-\lang american
-) These have an energy efficiency that is surprisingly good.
- Not enough yet but that, according to Leach, is due to the use of fertilizers
+\begin_inset space ~
+\end_inset
+
+(allotment
+\begin_inset space ~
+\end_inset
+
+gardens) These have an energy efficiency that is surprisingly good.
+ Not good enough but that, according to Leach, is due to the use of fertilizers
  and the choice of low energy crops such as lettuce.
  He also refers to the successful use of allotment gardens during World
  War II (
 \begin_inset Quotes pld
 \end_inset
 
-
-\lang english
 Victory Gardens
-\lang american
-
 \begin_inset Quotes prd
 \end_inset
 
@@ -4356,8 +4324,8 @@ literal "false"
  The success here is due to the high use of organic fertilizers, a very
  intense vegetation (pre- and post-crop, combination crops) and a very intense
  succession of crops.
- This is also similar to what Charles Hervé-Gruyer writes about Parisian
- farmers in the 19th century
+ This is similar to what Charles Hervé-Gruyer writes about Parisian farmers
+ in the 19th century
 \begin_inset space ~
 \end_inset
 
@@ -4382,20 +4350,16 @@ If we want to feed the population, agriculture must produce enough energy
 \end_layout
 
 \begin_layout Standard
-As humans, we have about 4
+As humans, we need about 4
 \begin_inset space ~
 \end_inset
 
-GJ/year
+GJ of energy per year
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-This corresponds to an 11
-\begin_inset space \thinspace{}
-\end_inset
-
-000
+This corresponds to 11
 \begin_inset space ~
 \end_inset
 
@@ -4408,12 +4372,12 @@ MJ/day or about 2
 
 \end_inset
 
- of energy.
- In Belgium, per capita energy consumption is 0.13
+.
+ In Belgium, about 0.13
 \begin_inset space ~
 \end_inset
 
-ha of agricultural land available
+ha of agricultural land is available per person
 \begin_inset Foot
 status collapsed
 
@@ -4440,10 +4404,10 @@ million inhabitants.
 \end_inset
 
 .
- We only count the readily available land here because the goal is to have
- a self-sustaining agriculture.
- This means that each hectare should be able to feed about 7.8 people or
- about 30
+ We only count the direct available land because the goal is to have a self-sust
+aining agriculture.
+ This means that each hectare should be able to feed about 7.8 people and
+ thus produce about 30
 \begin_inset space ~
 \end_inset
 
@@ -4480,7 +4444,7 @@ Since horticulture is not included, it is not clear whether it would meet
 \end_inset
 
 .
- Systems with animal products do not reach this value.
+ Systems with animal products do not reach this value
 \begin_inset Foot
 status collapsed
 
@@ -4507,7 +4471,7 @@ GJ/ha
 
 \begin_layout Standard
 The very worst score is for the hunter/gatherer.
- To feed 1 person, no less than 13% of the food is needed.
+ To feed 1 person, no less than 13.
 \begin_inset space ~
 \end_inset
 
@@ -4520,7 +4484,7 @@ km
 
 \end_inset
 
- required.
+ is required.
  That's about the area of Kessel-Lo!
 \end_layout
 
@@ -4529,7 +4493,11 @@ The two systems highlighted above are not doing badly at all:
 \end_layout
 
 \begin_layout Description
-vegetable gardens These can feed about 15 people per acre.
+vegetable
+\begin_inset space ~
+\end_inset
+
+gardens These can feed about 15 people per hectare.
 \end_layout
 
 \begin_layout Description
@@ -4563,7 +4531,7 @@ Food Security
 \end_layout
 
 \begin_layout Standard
-In many earlier systems, little food was stored.
+In many historical systems, little food was stored.
  A disappointing catch or harvest had an immediate impact
 \begin_inset Foot
 status collapsed
@@ -4585,16 +4553,12 @@ The question is, of course, whether we are better off today.
 \begin_inset Quotes pld
 \end_inset
 
-
-\lang english
 Hunger Gap
-\lang american
-
 \begin_inset Quotes prd
 \end_inset
 
 ).
- We can do this by growing crops whose consumption can be staggered.
+ We can do this by growing crops whose consumption can be delayed.
  This is either because they can be stored for a long time (tuber and root
  crops, cereals, cabbages) or because the slaughter can be staggered.
 \end_layout
@@ -4652,7 +4616,7 @@ GJ per year and per hectare).
 \end_layout
 
 \begin_layout Standard
-No viewed system with animal production meets just one of these conditions!
+No viewed system with animal production meets any of these conditions!
 \end_layout
 
 \begin_layout Standard
@@ -4668,7 +4632,7 @@ Going back to older systems such as hunter/gatherer is not feasible with
 \end_layout
 
 \begin_layout Standard
-What is a good basis, however, is departing from systems such as kitchen
+What is a good basis, however, is starting from systems such as allotment
  gardens and Chinese agriculture.
  These are already good, or even excellent, at filling the energetic needs.
 \end_layout
