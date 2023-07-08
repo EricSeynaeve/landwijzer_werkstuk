@@ -2361,7 +2361,7 @@ url{https://www.febeg.be/statistieken-elektriciteit}
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2454,7 +2454,7 @@ lines 0
 placement r
 overhang 0in
 width "50col%"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
