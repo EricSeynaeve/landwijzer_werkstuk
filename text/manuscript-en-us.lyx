@@ -7653,7 +7653,7 @@ partimageSide[]{ondersteunende_documenten/figuren/deel 5.png}
 \end_layout
 
 \begin_layout Part
-Attachments
+Appendices
 \end_layout
 
 \begin_layout Standard
@@ -7672,7 +7672,7 @@ status open
 \backslash
 renewcommand
 \backslash
-chaptername{Attachments}
+chaptername{Appendix}
 \end_layout
 
 \end_inset
