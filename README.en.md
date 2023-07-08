@@ -6,8 +6,8 @@ Welcome to the source code of my treatise for the Landwijzer training.
 
 There are two PDF files of this document:
 
-* [to print (double sided)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-en_print.pdf)
-* [to read on a screen (single sided)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-en_screen.pdf)
+* [to print (double sided)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-en-us_print.pdf)
+* [to read on a screen (single sided)](https://github.com/EricSeynaeve/landwijzer_werkstuk/raw/master/text/manuscript-en-us_screen.pdf)
 
 ## Technical version
 
