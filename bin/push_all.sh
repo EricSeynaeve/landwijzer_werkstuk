@@ -60,6 +60,7 @@ function generate_files {
 
 generate_files manuscript Conceptual nl
 generate_files manuscript-tech Technical nl
+generate_files manuscript Conceptual en-us
 
 cowsay "Commit & push"
 git commit
