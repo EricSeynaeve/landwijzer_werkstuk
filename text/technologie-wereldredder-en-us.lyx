@@ -1,0 +1,650 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+% \usepackage[section]{placeins}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+% \raggedbottom
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "app:Elektronica-en-hernieuwbare-energie"
+
+\end_inset
+
+Will technology save the world?
+\end_layout
+
+\begin_layout Standard
+Throughout his dissertation, you notice that Meino Smit questions the sustainabi
+lity of electronics and a switch to renewable energy in a 
+\begin_inset Quotes pld
+\end_inset
+
+business-as-usual
+\begin_inset Quotes prd
+\end_inset
+
+ scenario.
+ For me, coming from the IT sector, that was a bitter pill to swallow.
+ Although what is discussed here is not directly related to the real subject
+ of this in-depth piece of work, due to my background, I would like share
+ it with you.
+\end_layout
+
+\begin_layout Section
+External costs of electronics
+\end_layout
+
+\begin_layout Standard
+Electronics is a strange thing.
+ We can't imagine life without them, and this dependence has crept into
+ our lives awfully fast.
+ Electronics has also become prominent in agriculture in a short period
+ of time.
+ Drones to plant crops, vertical farming, sensors galore,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ You can't think of anything or electronics has a foot in the door or even
+ more.
+\end_layout
+
+\begin_layout Standard
+More capital is required for the production of electronics than during their
+ use.
+ Production is also where most of the waste is generated, not the disposal
+ of the electronic devices.
+ This indicates that recycling of electronic equipment is useful but will
+ not greatly reduce the footprint.
+\end_layout
+
+\begin_layout Standard
+During usable lifetime of electronics, a variety of other electronics is
+ also needed to transport (data communication networks such as 4G, WiFi,
+ fiber optics,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+), process (computing centers) and store (storage centers) the data that
+ is generated.
+\end_layout
+
+\begin_layout Standard
+Looking at costs, the following can be noted:
+\end_layout
+
+\begin_layout Itemize
+the large energy consumption in production,
+\end_layout
+
+\begin_layout Itemize
+the raw materials used:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the mining and extraction of various crucial raw materials is burdensome,
+ both in energy and social costs:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+use of fracking
+\end_layout
+
+\begin_layout Itemize
+toxic and radioactive waste
+\end_layout
+
+\begin_layout Itemize
+blood metals
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+some needed metals are only obtained as byproduct of other raw materials,
+ which does not allow for a rapid response to fluctuations in demand,
+\end_layout
+
+\begin_layout Itemize
+the high dependence on rare earths with exotic names like neodymium, dysprosium
+ or europium also has geopolitical consequences.
+ 85% of rare earths today come from China! That gives one country enormous
+ control over its global supply,
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+production of the chips themselves is a toxic process requiring ultra pure
+ water,
+\end_layout
+
+\begin_layout Itemize
+processing the waste,
+\end_layout
+
+\begin_layout Itemize
+the use of an electronic device, as mentioned above, requires a plethora
+ of other electronic devices.
+\end_layout
+
+\begin_layout Standard
+The costs and benefits of electronics are disproportionately distributed.
+ Those who take pleasure in electronics are totally unaffected by its costs
+ in terms of social exploitation, toxic waste, land loss,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+There are continuous improvements in the efficiency of production and of
+ the equipment itself.
+ But this is mostly offset by the ever-increasing consumption of electronic
+ equipment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is not the intention to condemn electronics.
+ But it is important to be conscious of its impact.
+ So what does this entail ?
+\end_layout
+
+\begin_layout Enumerate
+First think carefully whether you really need the electronics.
+ Marketing is very good at talking you into buying a new or more complex
+ appliance because of features you don't really need.
+ Is it so important that your refrigerator automatically orders milk?
+\end_layout
+
+\begin_layout Enumerate
+When you buy, first look for a valid appliance on the secondhand market.
+ This avoids the burdensome manufacturing process and it's waste.
+\end_layout
+
+\begin_layout Enumerate
+Make your electronics last as long as possible.
+ Electronic equipment has a very short life cycle.
+ Since much of the cost is in manufacturing, a longer life cycle is a good
+ way to reduce its footprint.
+ This also means that it is best not to purchase a more energy friendly
+ appliance because in most cases this is more taxing than continuing to
+ use the old one.
+\end_layout
+
+\begin_layout Enumerate
+Whenever possible, make use of wires.
+ Wifi, GSM and other wireless communications have a higher footprint than
+ 
+\begin_inset Quotes pld
+\end_inset
+
+good old
+\begin_inset Quotes prd
+\end_inset
+
+ network cables or landline phones.
+\end_layout
+
+\begin_layout Enumerate
+Buy electronic devices that you can repair.
+ Usually electronic devices are repaired by replacing entire circuit boards.
+ The smaller the circuit boards that are replaced, the less impact the repair
+ will have.
+\end_layout
+
+\begin_layout Section
+Renewable energy
+\end_layout
+
+\begin_layout Standard
+Meino Smit is not convinced that the current evolution of energy use allows
+ for the phasing out of fossil fuels in favor of renewable energy.
+ This has not so much to do with the technology itself, but rather from
+ an assessment of the amount of raw materials needed to complete the transformat
+ion and how quickly they need to be available.
+ This is going to have an impact on 
+\begin_inset Quotes pld
+\end_inset
+
+Business as usual
+\begin_inset Quotes prd
+\end_inset
+
+ scenarios.
+\end_layout
+
+\begin_layout Standard
+Rare earths also play an important role in renewable energy.
+ Not only because of the electronics used, but also because these metals,
+ for example, greatly increase the efficiency of magnets or are needed in
+ solar cells.
+\end_layout
+
+\begin_layout Standard
+Most forms of renewable energy are less efficient than fossil fuels.
+ In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:eroei-energiebronnen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ you can find the minimum and maximum EROEI of a number of energy sources.
+\end_layout
+
+\begin_layout Standard
+The EROEI of renewable fuels is linked to that of fossil fuels because even
+ today the latter are consumed to make the infrastructure of the former
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Currently, 85% of our energy needs are met by burning fuels.
+\end_layout
+
+\end_inset
+
+.
+ Therefore, if the EROEI of fossil fuels decreases, the EROEI of renewable
+ fuels will also decrease.
+ Since the easier to extract fossil fuels are consumed first, more energy
+ must be used in the future to extract the same amount of energy.
+ In the beginning, the EROEI for natural gas was 100:1.
+ Now, however, it has dropped to 10:1.
+\end_layout
+
+\begin_layout Standard
+It is assumed that an EROEI of 3:1 to 5:1 is needed for an energy source
+ to have a positive energy balance.
+ This is because the storage, conversion, transportation and distribution
+ also require a great deal of energy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - eroei_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:eroei-energiebronnen"
+
+\end_inset
+
+The EROEI of a number of energy sources.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 32 naar Hall, 2008"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+The EROEI of a number of energy sources
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Furthermore, a lot of storage, transport and other infrastructure needs
+ to be created for renewable energy.
+ This requires not only energy but also raw materials.
+ Meino Smit indicates that there is not enough capacity to mine these raw
+ materials of, for example, earth metals in a considerable time.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "par. 6.4"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ Scaling up of this capacity goes very slow because, on the one hand, the
+ creation of a new raw material flow takes years, but on the other hand,
+ because many earth metals are byproducts when another raw material is mined.
+ Therefore, an increase in need of the byproduct might not be feasible if
+ there is no similar increase in the other raw material.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The only way to shift to a sustainable future is to curb energy use.
+ The most sustainable mega joule is the one that is not needed.
+\end_layout
+
+\begin_layout Standard
+This can be done by using less energy per person on the one hand, but also
+ by reducing the population
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+How to ethically and sustainably reduce population seems to me to be a very
+ difficult question.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "par:welbevinden"
+
+\end_inset
+
+The fear of returning to the Middle Ages is very understandable.
+ Fortunately, studies show that there is a link between well-being and the
+ amount of energy used
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 35"
+key "Smit2018"
+literal "false"
+
+\end_inset
+
+.
+ From an energy consumption of 50 to 70
+\begin_inset space ~
+\end_inset
+
+GJ per person per year, there is a feeling of sufficient well-being.
+ From a value of 100
+\begin_inset space ~
+\end_inset
+
+GJ per person and per year, well-being no longer increases!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/grafieken/meino smit - energieverbruik per hoofd_en-us.svg
+	width 100text%
+	groupId grafieken
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:energieverbruik-per-persoon"
+
+\end_inset
+
+Energy consumption per person and per year
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:energieverbruik-per-persoon"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows the situation for a number of countries together with the mentioned
+ boundaries and the global average.
+ We see that halving the energy consumption per Dutch person will not have
+ much impact on well-being.
+\end_layout
+
+\begin_layout Standard
+It is also true that this reduction should not be borne equally by everyone.
+ After all, the richer you are, the more energy you consume
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "leeds2020"
+literal "false"
+
+\end_inset
+
+.
+ So it is only natural that the most consuming people would make the greatest
+ effort.
+\end_layout
+
+\end_body
+\end_document

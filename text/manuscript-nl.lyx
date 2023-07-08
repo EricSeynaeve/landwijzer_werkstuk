@@ -2004,7 +2004,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Alles bij elkaar heeft brood een EROEI van 10,6/20,7 oftewel 1:1,9.
+Alles bij elkaar heeft brood een EROEI van 10,6:20,7 oftewel 1:1,9.
  Met andere woorden, er moet bijna twee keer zoveel energie gespendeerd
  worden om een brood in de winkel te verkopen dan er aan voedingswaarde
  uit komt!
@@ -2708,7 +2708,7 @@ VSA landbouw begin jaren 70
 \end_layout
 
 \begin_layout Standard
-Tot slot kijken we nog naar` de Verenigde Staten van Amerika (VSA) begin
+Tot slot kijken we nog naar de Verenigde Staten van Amerika (VSA) begin
  jaren '70.
  Hiervoor gebruiken we studies van Steinhart en Steinhart (
 \begin_inset CommandInset citation
@@ -4444,10 +4444,6 @@ status collapsed
 
 \begin_layout Plain Layout
 dit komt overeen met een 11
-\begin_inset space \thinspace{}
-\end_inset
-
-000
 \begin_inset space ~
 \end_inset
 
@@ -5685,7 +5681,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "tabel-duurzaamheidsbloem.lyx"
+filename "tabel-duurzaamheidsbloem-nl.lyx"
 
 \end_inset
 
@@ -7838,7 +7834,7 @@ Een aantal technische begrippen
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "begrippen.lyx"
+filename "begrippen-nl.lyx"
 
 \end_inset
 

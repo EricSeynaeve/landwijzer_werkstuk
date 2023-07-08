@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="947.31598"
+   height="626.28754"
+   version="1.1"
+   id="svg76"
+   sodipodi:docname="wordcloud_kosten_en-us.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs80" />
+  <sodipodi:namedview
+     id="namedview78"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.0194123"
+     inkscape:cx="276.62998"
+     inkscape:cy="318.81114"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg76"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <style
+     id="style2">text{font-family:'Latin Modern Roman';font-weight:normal;font-style:normal;}</style>
+  <rect
+     width="100%"
+     height="100%"
+     style="fill:#ffffff"
+     id="rect4"
+     x="0"
+     y="9.7772312" />
+  <text
+     font-size="122px"
+     style="fill:#ff8e00"
+     id="text6"
+     x="35"
+     y="211.77724">government costs</text>
+  <text
+     font-size="116px"
+     style="fill:#00ff4b"
+     id="text8"
+     x="61.50489"
+     y="525.32019">health</text>
+  <text
+     font-size="68px"
+     style="fill:#ff0000"
+     id="text10"
+     x="5.057128"
+     y="380.60583">loss of soil fertilisation</text>
+  <text
+     font-size="68px"
+     style="fill:#bf00ff"
+     id="text12"
+     x="125.70518"
+     y="584.37732">biodiversity</text>
+  <text
+     font-size="60px"
+     style="fill:#ff00ac"
+     id="text14"
+     x="261"
+     y="70.777229">resilience</text>
+  <text
+     font-size="55px"
+     style="fill:#0028ff"
+     id="text16"
+     x="641.74316"
+     y="46.081909">labor</text>
+  <text
+     font-size="55px"
+     style="fill:#0e00ff"
+     id="text18"
+     x="114"
+     y="274.77722">climate change</text>
+  <text
+     font-size="53px"
+     style="fill:#00dfff"
+     id="text20"
+     x="216"
+     y="114.77723">water pollution</text>
+  <text
+     font-size="50px"
+     style="fill:#00bbff"
+     id="text22"
+     x="585.24811"
+     y="556.91052">air pollution</text>
+  <text
+     font-size="45px"
+     style="fill:#b3ff00"
+     id="text24"
+     x="726.21002"
+     y="447.70105">water</text>
+  <text
+     font-size="45px"
+     style="fill:#ff0082"
+     id="text26"
+     x="83"
+     y="100.77723">soil</text>
+  <text
+     font-size="39px"
+     style="fill:#ff0088"
+     id="text28"
+     x="591.711"
+     y="483.93906">land usage</text>
+  <text
+     font-size="39px"
+     style="fill:#ff001e"
+     id="text30"
+     x="28.61862"
+     y="427.52966">odor pollution</text>
+  <text
+     font-size="39px"
+     style="fill:#6600ff"
+     id="text32"
+     x="575.48553"
+     y="249.77724">soil erosion</text>
+  <text
+     font-size="39px"
+     style="fill:#00fff6"
+     id="text34"
+     x="559.48553"
+     y="311.65005">water scarcity</text>
+  <text
+     transform="rotate(-90)"
+     font-size="32px"
+     style="fill:#e800ff"
+     id="text36"
+     x="-334.33923"
+     y="93.523933">energy</text>
+  <text
+     font-size="24px"
+     style="fill:#55ff00"
+     id="text38"
+     x="691.75244"
+     y="112.49159">tonnage</text>
+  <text
+     font-size="23px"
+     style="fill:#fa00f9"
+     id="text40"
+     x="136"
+     y="300.77722">occupational accident</text>
+  <text
+     font-size="23px"
+     style="fill:#fe00f1"
+     id="text42"
+     x="472.75192"
+     y="443.84415">poisening</text>
+  <text
+     font-size="23px"
+     style="fill:#00ff74"
+     id="text44"
+     x="228"
+     y="626.03455">ammoniak emissies</text>
+  <text
+     font-size="23px"
+     style="fill:#ff00c9"
+     id="text46"
+     x="367.40967"
+     y="314.66296">pesticides</text>
+  <text
+     font-size="23px"
+     style="fill:#ff8200"
+     id="text48"
+     x="354.70511"
+     y="412.43445">acidification of water resources</text>
+  <text
+     font-size="23px"
+     style="fill:#9b00ff"
+     id="text50"
+     x="116.53864"
+     y="60.660717">wind erosion</text>
+  <text
+     font-size="23px"
+     style="fill:#00ff2d"
+     id="text52"
+     x="491.44775"
+     y="595.64392">outbreak of deceases</text>
+  <text
+     font-size="23px"
+     style="fill:#ff4100"
+     id="text54"
+     x="3.4379799"
+     y="616.24402">food scandals</text>
+  <text
+     font-size="20px"
+     style="fill:#0080ff"
+     id="text56"
+     x="501.19907"
+     y="515.93262">traffic safety</text>
+  <text
+     font-size="20px"
+     style="fill:#b4b400;fill-opacity:1"
+     id="text58"
+     x="304.83841"
+     y="140.68202">traffic congestion</text>
+  <text
+     font-size="20px"
+     style="fill:#9000ff"
+     id="text60"
+     x="9"
+     y="31.777231">noise pollution</text>
+  <text
+     font-size="15px"
+     style="fill:#77bb00;fill-opacity:1"
+     id="text62"
+     x="382.35361"
+     y="480.8251">(temporary) subsidies</text>
+  <text
+     font-size="15px"
+     style="fill:#00ff16"
+     id="text64"
+     x="725.47656"
+     y="595.60583">food wastage</text>
+  <text
+     transform="rotate(-90)"
+     font-size="15px"
+     style="fill:#00ff45"
+     id="text66"
+     x="-42.119995"
+     y="547.8028">nature</text>
+  <text
+     font-size="15px"
+     style="fill:#ff0071"
+     id="text68"
+     x="2.1523407"
+     y="553.54871">real estate</text>
+  <text
+     font-size="15px"
+     style="fill:#00f0ff"
+     id="text70"
+     x="17.028301"
+     y="120.73914">agricultural benefits</text>
+  <text
+     transform="rotate(-90)"
+     font-size="15px"
+     style="fill:#ff005f"
+     id="text72"
+     x="-303.069"
+     y="21.050673">social costs</text>
+  <text
+     font-size="15px"
+     style="fill:#00a4ff"
+     id="text74"
+     x="113"
+     y="140.77724">child labor</text>
+</svg>

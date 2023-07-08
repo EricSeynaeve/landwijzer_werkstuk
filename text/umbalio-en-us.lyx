@@ -1,0 +1,1418 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Presentation of the problem
+\end_layout
+
+\begin_layout Standard
+Every human activity has an impact, whether in agriculture, education or
+ any other sector.
+ This impact can be a consumption of energy, investment of time, use of
+ land, consumption of water,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ You can assign to that impact a cost in energy (joules), time (hours),
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This cost is either directly attributable to the activity, a direct cost,
+ or is incurred through dependencies necessary for the activity, an indirect
+ cost.
+ For example, to manufacture machinery, raw materials must be mined, water
+ is used,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Social costs are costs born by society.
+ Consider, for example, environmental pollution.
+\end_layout
+
+\begin_layout Standard
+Some costs that are incurred are not passed on in the price of a product
+ or service.
+ These are external costs.
+ They can be internalized by either passing them on directly or collecting
+ them through levies.
+\end_layout
+
+\begin_layout Standard
+An example makes this dry explanation much clearer.
+\end_layout
+
+\begin_layout Standard
+Let's introduce Umbalio.
+ Umbalio is a peasant woman who is going to help us clarify the concept
+ of cost
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+For the historians and other scholars among us, this is a completely fictional
+ story with a number of historical, geological and other facts completely
+ ignored.
+ Please turn a blind eye to this.
+ The rest of this paper will be less imaginative.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Broadening the view
+\end_layout
+
+\begin_layout Standard
+We meet Umbalio in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-alleen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 1a.jpg
+	lyxscale 10
+	height 5cm
+	groupId Umbalio_klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-alleen"
+
+\end_inset
+
+Say hello to Umbalio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can see that she is a bit on her own.
+ But of course that is not true.
+ She has relationships with her surroundings (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-omgeving"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 1b.jpg
+	lyxscale 10
+	height 5cm
+	groupId Umbalio_klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-omgeving"
+
+\end_inset
+
+Umbalio in her surroundings
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the picture is already more complete.
+ Umbalio is enjoying the sunlight and the rain.
+ She breathes in oxygen and exhales carbon dioxide and water vapor.
+ She eats leaves and meat.
+ She feeds her environment with urine and excrement.
+ In this way, of course, we can think of quite a few more direct relationships
+ with the environment.
+\end_layout
+
+\begin_layout Standard
+You can go a step further and see what the relationships are of the things
+ Umbalio consumes and produces (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-omgeving-2e-orde"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 1c.jpg
+	lyxscale 10
+	height 5cm
+	groupId Umbalio_klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-omgeving-2e-orde"
+
+\end_inset
+
+Umbalio and the relationships of her surroundings
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The leaves come from a tree.
+ The meat from a rabbit.
+\end_layout
+
+\begin_layout Standard
+The droppings are used by a dung beetle for its larvae.
+ The urine makes the plants in that place grow a little better.
+\end_layout
+
+\begin_layout Standard
+One step further, the trees in the forest also make use of the same sun
+ and water.
+ The roots have symbiosis with mycorrhiza.
+ Earthworms convert waste into compost.
+ Trees absorb carbon dioxide and give off oxygen.
+\end_layout
+
+\begin_layout Standard
+You can keep going expanding the relationships and find that everything
+ is connected to everything.
+\end_layout
+
+\begin_layout Standard
+This, of course, is going too far.
+ We would then drown in the amount of relationships.
+ These are interesting for an ecologist but we are now only looking for
+ relationships that we, as humans, influence.
+ Hence all 
+\begin_inset Quotes pld
+\end_inset
+
+simple
+\begin_inset Quotes prd
+\end_inset
+
+ natural relationships are not going to be considered.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have learned the following:
+\end_layout
+
+\begin_layout Itemize
+an organism (e.g., a person) is connected to other organisms and processes.
+\end_layout
+
+\begin_layout Itemize
+these are in turn connected to still other organisms and processes.
+ This allows us to continue to expand our view.
+\end_layout
+
+\begin_layout Subsection
+Use of a natural tool
+\end_layout
+
+\begin_layout Standard
+Umbalio obviously wants to do something.
+ Grow food.
+ Oh yeah, forgot to mention: Umbalio lives in prehistoric times.
+ To prepare the ground, she uses a stick she found in the forest.
+ Let's sketch this in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-met-stok"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 2a.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-met-stok"
+
+\end_inset
+
+Umbalio is preparing the ground with a stick
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now Umbalio uses something that does not belong to her own body: the stick.
+ With it, she prepares soil to grow plants.
+\end_layout
+
+\begin_layout Standard
+She partly eats the harvest herself, partly she shares it with her clan.
+ But both portions come from the soil through her labor and the natural
+ miracle of farming.
+ So we must count both as harvest.
+\end_layout
+
+\begin_layout Standard
+The stick doesn't just come out of nowhere because a tree made it.
+ Should we look at that tree along in the relations, as in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-met-stok-en-boom"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 2b.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-met-stok-en-boom"
+
+\end_inset
+
+A dead stick giving live
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is not necessary because for the growth of the tree there was no human
+ intervention, only a divine one.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The time Umbalio has to put into producing the food is not just the time
+ she spends on the land.
+ You must also include the time she puts into finding the right stick.
+ This time must be spread over the crops for which the stick is used.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We learned a few new things:
+\end_layout
+
+\begin_layout Itemize
+part of the harvest can be used for one's own needs.
+ But it still remains part of the harvest.
+\end_layout
+
+\begin_layout Itemize
+the time it takes to have a harvest is not just the time spent on the land,
+ but also in preparing the tools.
+\end_layout
+
+\begin_layout Itemize
+The time spent in preparing the tools should be spread over the crops for
+ which the tool is used.
+\end_layout
+
+\begin_layout Subsection
+Indirect costs
+\end_layout
+
+\begin_layout Standard
+We are a few years further on and Umbalio has made an invention: a hoe with
+ a stone head.
+ This allows her to both prepare the soil faster and remove weeds faster,
+ and it also lasts longer.
+ This ensures that she can grow more and therefore more food becomes available.
+ This is shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-met-hak"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 3a.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-met-hak"
+
+\end_inset
+
+Umbalio invents a hoe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can see that because of the larger harvest, the part that Umbalio itself
+ uses has become relatively less.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The hoe is made from a stick and a piece of flint (we're still in prehistory!).
+ To get the flint in the right shape, Umbalio needs help from Gornan, the
+ expert flint cutter of her clan.
+ This is an additional relationship that we must take into account as shown
+ in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-hak-Gornex"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 3b.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-hak-Gornex"
+
+\end_inset
+
+Umbalio needs Gornan to make a hoe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As before, we have to include some of the time Umbalio put into making the
+ hoe in order to figure out the number of work hours for the harvest.
+\end_layout
+
+\begin_layout Standard
+However, a new factor has been added: the time Gornan put into preparing
+ the stone head, including some of the time he took to learn to chop stones.
+\end_layout
+
+\begin_layout Standard
+As long as this indirect cost is not charged, it is an external cost.
+ If it is charged, it is internalized.
+\end_layout
+
+\begin_layout Standard
+We see something else special.
+ Gornan eats part of Umbalio's harvest so that he has energy to make the
+ chop! But even taking that into account, there is going to be more harvest
+ left for the rest of the clan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Again, we learned new things:
+\end_layout
+
+\begin_layout Itemize
+the right tool increases the efficiency of the farmer.
+\end_layout
+
+\begin_layout Itemize
+you have to take into account the indirect cost (time or food) required
+ to produce tools.
+\end_layout
+
+\begin_layout Itemize
+as the system becomes more efficient, the discussion of whether consumed
+ crop should be included or not becomes less relevant.
+\end_layout
+
+\begin_layout Subsection
+Social costs
+\end_layout
+
+\begin_layout Standard
+We now take a jump in time to the Bronze Age.
+ A great-great-granddaughter of Umbalio (who also happens to be named Umbalio)
+ uses an improved hoe with a bronze head.
+ This was prepared by Borjan, a great-great-grandson of Gornan.
+\end_layout
+
+\begin_layout Standard
+To make bronze, Borjan needs copper and tin ores mined by Kalian and Mapran
+ in an above-ground mine.
+ He also needs clay to make a furnace and wood for the fire.
+\end_layout
+
+\begin_layout Standard
+Kalian and Mapran in turn need shovels and picks.
+ To transport the ores to Borjan, they use a carrying system made of twig
+ baskets and wood.
+\end_layout
+
+\begin_layout Standard
+A classic way of looking at it is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-met-koperen-hak"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Doesn't it look fantastic, the technology that man can develop?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 4a.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-met-koperen-hak"
+
+\end_inset
+
+More technology requires more input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With this you can see that the indirect costs of growing the food have increased.
+ More people are needed to make the tools.
+\end_layout
+
+\begin_layout Standard
+But not everything is so rosy.
+ Even in prehistoric times there was an impact on the environment.
+ So the reality is rather like in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-met-koperen-hak-en-impact"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 4b.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-met-koperen-hak-en-impact"
+
+\end_inset
+
+The start of environmental pollution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The metallurgy of Borjan creates pollution from soot, 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+ emissions,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ It consumes wood which depletes nearby forests.
+\end_layout
+
+\begin_layout Standard
+Kalian's and Mapran's mine is causing deforestation of the surrounding area
+ and stone waste.
+ Nature will eventually repair this damage but it will be very slow because
+ fertility must be rebuilt.
+\end_layout
+
+\begin_layout Standard
+These are indirect costs that harm the entire clan and thus are born by
+ all.
+ Again, these costs can be external, i.e.
+ not passed on, or internalized, i.e.
+ included in the price of the product.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have gained a lot of insights again:
+\end_layout
+
+\begin_layout Itemize
+the more technological things become, the more external factors you need
+ to be able to fulfill the main task.
+\end_layout
+
+\begin_layout Itemize
+transportation lines usually require technology as well.
+\end_layout
+
+\begin_layout Itemize
+certain indirect costs are born by society.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Een-sprong-naar-vandaag"
+
+\end_inset
+
+A jump to today
+\end_layout
+
+\begin_layout Standard
+Do you know dance class videos? First they show the basic dance steps, then
+ suddenly, boom, complicated figures are taught that make your mouth drop.
+ Well, we are now also making such a giant leap by looking at today's situation.
+\end_layout
+
+\begin_layout Standard
+Umbalio (yes, yes, the great-great-great-great-\SpecialChar ldots
+-great-granddaughter of)
+ now drives around in a tractor to work the land (figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-in-tractor"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Cozy, right? Because she believes in the 
+\begin_inset Quotes pld
+\end_inset
+
+Green Revolution
+\begin_inset Quotes prd
+\end_inset
+
+ she does what is customary in our farming systems.
+ This allows her to produce more per hour she works in the field.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 5a.jpg
+	lyxscale 10
+	height 5cm
+	groupId Umbalio_klein
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-in-tractor"
+
+\end_inset
+
+Umbalio as a modern peasant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But to be able to do agriculture in this way, she needs some things like
+ fuel, fertilizer and pesticides (figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-in-tractor-ronde-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The tractor and harrow were made in a factory, so that relationship should
+ be included.
+\end_layout
+
+\begin_layout Standard
+One step further (figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-in-tractor-ronde-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) you need iron ore.
+ And building materials to make the factory.
+ The factory itself also uses energy.
+ Fertilizer is made from gas.
+ Pesticides need fossil fuels for production.
+\end_layout
+
+\begin_layout Standard
+But none of this occurs naturally either (Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umbalio-in-tractor-ronde-3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ You need oil fields and drilling rigs.
+ Refineries must make crude oil usable.
+ Mines provide raw materials.
+ Just about everything needs fossil fuels.
+ And to close the loop, factories and raw materials are needed to build
+ and maintain the oil fields and drilling rigs.
+\end_layout
+
+\begin_layout Standard
+Many relationships involve transportation.
+ There are people everywhere working to make the relationship possible.
+\end_layout
+
+\begin_layout Standard
+You notice, it takes a whole web of dependencies to make sure Umbalio can
+ produce food.
+ If something goes wrong somewhere, the threads unravel.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 5b.jpg
+	lyxscale 10
+	width 45col%
+	groupId Umbalio_groep
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-in-tractor-ronde-1"
+
+\end_inset
+
+What Umbalio needs to farm
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 5c.jpg
+	lyxscale 10
+	width 45col%
+	groupId Umbalio_groep
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-in-tractor-ronde-2"
+
+\end_inset
+
+\SpecialChar ldots
+ is more than you think.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 5d.jpg
+	lyxscale 10
+	width 45col%
+	groupId Umbalio_groep
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umbalio-in-tractor-ronde-3"
+
+\end_inset
+
+Even much more!!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The complexity of agriculture grows
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Throughout this web we also have social costs such as polluted water, 
+\begin_inset Formula $\ce{CO2}$
+\end_inset
+
+, 
+\begin_inset Formula $\ce{NO_{x}}$
+\end_inset
+
+,
+\begin_inset space \thinspace{}
+\end_inset
+
+\SpecialChar ldots
+ (figure
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Umalio-in-tractor-volledig"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ There are medical expenses.
+ There is waste.
+ There is a need for irrigation.
+ And then we forget a lot of factors.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/externe kost 5e.jpg
+	lyxscale 10
+	width 70col%
+	groupId Umbalio
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Umalio-in-tractor-volledig"
+
+\end_inset
+
+The incomplete, polluted, picture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+We clearly see what we have already noted.
+ The more technological your solution becomes, the more you need to be able
+ to perform your main task (in our case: growing food).
+\end_layout
+
+\begin_layout Standard
+You might wonder whether it is all progress because:
+\end_layout
+
+\begin_layout Itemize
+there are more indirect costs.
+\end_layout
+
+\begin_layout Itemize
+there are more social costs.
+ When and by whom will they be paid?
+\end_layout
+
+\begin_layout Itemize
+your system becomes more vulnerable to failures.
+\end_layout
+
+\begin_layout Itemize
+at some point, you run the risk that the social costs will outweigh the
+ benefits society derives from the main task.
+\end_layout
+
+\begin_layout Standard
+After the produce leave the farm it is usually still processed into, for
+ example, flour, jam, preserves,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ This was less so in the past because food was eaten raw or after simple
+ preparations.
+ Now new sectors are emerging such as processing and distribution.
+\end_layout
+
+\begin_layout Standard
+In all these sectors, costs are incurred that are necessary to bring food
+ to our plates.
+\end_layout
+
+\end_body
+\end_document

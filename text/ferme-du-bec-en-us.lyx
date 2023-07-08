@@ -1,0 +1,450 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\let\oldquote\quote
+\renewcommand\quote{\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\small\oldquotation}
+
+\usepackage{tocbibind}
+\usepackage{qrcode}
+\usepackage{afterpage}
+\usepackage{lscape}
+\usepackage[export]{adjustbox}
+% \usepackage[section]{placeins}
+
+\lefthyphenmin=2
+\widowpenalty=10000
+\clubpenalty=10000
+% \raggedbottom
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+\end_preamble
+\options nomencl=intoc
+\use_default_options false
+\begin_modules
+longtablepage
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 95 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style abbrv
+\biblatex_bibstyle alphabetic
+\biblatex_citestyle alphabetic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch print
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch screen
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "app:Ferme-du-Bec"
+
+\end_inset
+
+Ferme du Bec Hellouin
+\end_layout
+
+\begin_layout Standard
+As is clear, I'm a big fan of Ferme du Bec Hellouin.
+ For those not familiar with it, here a little description as I see it.
+ You can also watch the documentary film 
+\begin_inset Quotes pld
+\end_inset
+
+Tomorrow
+\begin_inset Quotes prd
+\end_inset
+
+ to get acquainted.
+\end_layout
+
+\begin_layout Standard
+Ferme du Bec Hellouin is located in Normandy, about 20
+\begin_inset space ~
+\end_inset
+
+km southwest of Rouen.
+\end_layout
+
+\begin_layout Standard
+What appeals to me most about this system is the combination of their vision
+ and the published economic results.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ondersteunende_documenten/figuren/FdB.jpg
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Their vision
+\end_layout
+
+\begin_layout Standard
+The start of Ferme du Bec Hellouin was the desire of Charles and Perrine
+ Hervé-Gruyer to produce all the food for their family themselves in a way
+ that does not burden the earth.
+ This means: a minimum input of fossil fuels, producing as much as possible
+ themselves, an agriculture that nourishes the earth.
+\end_layout
+
+\begin_layout Standard
+The first goal is minimizing fossil fuels.
+ They do have a small tractor but only use it for larger infrastructure
+ works or turning the compost pile.
+ There is also an indirect use of fossil fuels from the plastic of the greenhous
+es, the supply of materials (such as horse manure), deliveries,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset space \thinspace{}
+\end_inset
+
+.
+ So they are not completely independent of fossil fuels, but try to minimize
+ the use.
+\end_layout
+
+\begin_layout Standard
+They want to produce as much as possible themselves.
+ Not only vegetables, but also commodities such as firewood.
+ They have their own blacksmith shop, Charles does his own woodwork and
+ they make their own biochar.
+\end_layout
+
+\begin_layout Standard
+Their agriculture feeds the earth.
+ There is an enormous amount of biodiversity in their fields.
+ Not only because of the variety of vegetables, but also because of the
+ opportunities they offer to nature.
+ Bees and birds are seen that are barely seen elsewhere in France.
+ Year after year, they build up carbon in the soil.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beyond these aspects, I find their sense of beauty hugely inspiring.
+ The whole estate is worthy of a painting.
+ An artistic sense is also clearly present in their own publications.
+\end_layout
+
+\begin_layout Standard
+In their book 
+\begin_inset Quotes pld
+\end_inset
+
+Miraculous Abundance
+\begin_inset Quotes prd
+\end_inset
+
+ they have a vision on micro-farming that strongly appeals to me.
+ Especially in a Flemish context, it is important to be able to work on
+ small plots.
+ And this while the prevailing trend is still towards an increase in scale.
+\end_layout
+
+\begin_layout Standard
+Furthermore, they are very grounded in their approach.
+ It is no-nonsense and they are very clear: farming is work, hard work and
+ even harder work.
+\end_layout
+
+\begin_layout Section
+Economic results
+\end_layout
+
+\begin_layout Standard
+As one of the few permaculture companies, their numbers have been scientifically
+ mapped.
+\end_layout
+
+\begin_layout Standard
+A study by INRA (comparable to ILVO in Flanders) looked at the yield of
+ 0.1
+\begin_inset space ~
+\end_inset
+
+ha net cultivation area.
+ This yield increased over the course of the study from 30 to 55
+\begin_inset space \thinspace{}
+\end_inset
+
+000
+\begin_inset space ~
+\end_inset
+
+Euros per year.
+ Obviously there are many discussions around this but it gives a direction.
+ Especially since there are already several farms in France that have successful
+ly adopted their system.
+\end_layout
+
+\begin_layout Standard
+How many similar projects have failed and why is unfortunately less clear.
+\end_layout
+
+\begin_layout Section
+Relevance to this work
+\end_layout
+
+\begin_layout Standard
+As mentioned elsewhere, the system of the Chinese agriculture from the 1930s
+ appears to be a very good basis from which to start an agriculture that
+ produces more energy than it takes to feed Flanders.
+\end_layout
+
+\begin_layout Standard
+The strengths of the Chinese agriculture from the 1930s can also be found
+ at Ferme du Bec Hellouin:
+\end_layout
+
+\begin_layout Itemize
+combination crops
+\end_layout
+
+\begin_layout Itemize
+pre- and post-harvests
+\end_layout
+
+\begin_layout Itemize
+intensive monitoring by the farmer (
+\begin_inset Quotes pld
+\end_inset
+
+The best manure is the footstep of the farmer
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+intensive usage of manure
+\end_layout
+
+\begin_layout Standard
+Through various paths, these principles came to Ferme du Bec Hellouin.
+ Most remarkably, these principles were also used in 19th century Parisian
+ urban agriculture.
+\end_layout
+
+\begin_layout Standard
+With additional principles such as not turning the soil, leaving as much
+ plant residues as possible in situ, making paths part of the system,
+\begin_inset space ~
+\end_inset
+
+\SpecialChar ldots
+ additional steps were taken.
+\end_layout
+
+\begin_layout Standard
+Although there are no figures available about energetic input and output,
+ it is to be assumed that their system will approach the figures of the
+ Chinese agriculture of the 1930s.
+ Hence, it's a good start for agriculture that both yields more energy than
+ you put into it and is productive enough to feed many people on a small
+ area.
+\end_layout
+
+\begin_layout Section
+A few figures
+\end_layout
+
+\begin_layout Standard
+Ferme du Bec Hellouin consists of about 20
+\begin_inset space ~
+\end_inset
+
+ha.
+ This seems large from a microfarm, but 12
+\begin_inset space ~
+\end_inset
+
+ha of this is forest used for firewood.
+ Furthermore, there is 3
+\begin_inset space ~
+\end_inset
+
+ha 
+\begin_inset Quotes pld
+\end_inset
+
+edible landscape
+\begin_inset Quotes prd
+\end_inset
+
+, 2,4
+\begin_inset space ~
+\end_inset
+
+ha of terraces that are barely used and a house and eco-center building.
+ The actual fields are 1.8
+\begin_inset space ~
+\end_inset
+
+ha including a few small meadows, 2
+\begin_inset space ~
+\end_inset
+
+food forests plus a greenhouse of 6
+\begin_inset space ~
+\end_inset
+
+are.
+\end_layout
+
+\begin_layout Standard
+An estimated 4 people work here full time.
+ There is also an administrative assistant and a cook, but it is unclear
+ from which part of the company these are paid (there is also a research
+ center and an educational branch).
+\end_layout
+
+\begin_layout Standard
+Sales are as follows:
+\end_layout
+
+\begin_layout Itemize
+packages
+\end_layout
+
+\begin_layout Itemize
+restaurants
+\end_layout
+
+\begin_layout Itemize
+stores
+\end_layout
+
+\begin_layout Itemize
+wholesale
+\end_layout
+
+\begin_layout Standard
+There used to be a farm store, but it has recently been discontinued due
+ to lack of time as they want to focus more on research around their system.
+\end_layout
+
+\end_body
+\end_document

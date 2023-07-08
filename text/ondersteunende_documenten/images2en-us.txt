@@ -1,0 +1,163 @@
+Peulvruchten|Legumes
+Noten|Nuts
+Grijs water per kg product|Gray water per kg of produce
+Blauw water per kg product|Blue water pek kg of produce
+Melk|Milk
+Kippenvlees|Chicken meat
+Varkensvlees|Pork meat
+Rundvlees|Beef
+Eieren|Eggs
+Boter|Butter
+Granen|Cereals
+Groenten|Vegetables
+Oliegewassen|Oil crops
+Fruit|Fruit
+Zetmeel wortelgewassen|Starch root crops
+Suikergewassen|Sugar crops
+Schapen|Sheep
+geitenvlees|goat meat
+Winning|Extraction
+Raffinage|Refining
+Infrastructuur en transport|Infrastructure and transport
+Transport naar eindgebruiker|Transport to end-user
+Energie in de olie|Energy in the oil
+Netto over|Net left
+kolen|coal
+aardgas|natural gas
+teerzand|tar sand
+leisteenolie|shale oil
+biodiesel|biodiesel
+ethanol|ethanol
+kernenergie|nucleair energy
+waterkracht|hydropower
+getijde-energie|tidal energy
+golfenergie|wave energy
+geothermie|geothermal
+zon|sun
+fotovoltaïsch|photovoltaic
+Verenigde Staten|United States
+Rusland|Russia
+Nederland|Netherlands
+Zwitserland|Swiss
+Wereldwijd|Worldwide
+Bovengrens stijging welbevinden|Upper limit growth well-being
+Minimaal nodig|Minimal needed
+bovengrens|upper limit
+ondergrens|lower limit
+Noord Korea|North Korea
+olie|oil
+Directe input|Direct input
+Trekkers en machines|Tractors and machines
+Bestrijdingsmiddelen|Pesticides
+Veevoer|Animal feed
+Dierlijke mest|Animal manure
+Kunstmest|Artificial fertilizer
+Zaaizaad, poot- en plantgoed|Seeds, planting stock
+Elektronica|Electronics
+Dienstverlening|Services
+Transport en infrastructuur|Transport and infrastructure
+Micronutriënten en sporenelementen|Micronutrients and trace elements
+Mijnbouw|Mining
+Gebouwen|Buildings
+Diergeneesmiddelen|Animal drugs
+indirecte input|indirect input
+dienstensector|services
+elektronica|electronics
+bestrijdingsmiddelen|pesticides
+kunstmest|artificial fertilizer
+dierlijke mest|animal manure
+veevoer|animal feed
+trekkers en machines|tractors and machines
+overige gebouwen|other buildings
+kassen|greenhouses
+mijnbouw|mining
+transport en infrastr.|transport and infrastr.
+directe input|direct input
+Brandstoffen (direct gebruik)|Fuels (direct usages)
+Elektriciteit|Electricity
+Staal (landbouw)|Steel (agriculture)
+Machines (landbouw)|Machines (agriculture)
+Tractoren|Tractors
+Irrigatie|Irrigation
+Visserij|Fishing
+brandstoffen|fuels
+andere|other
+Landbouw|Agriculture
+Voedingsindustrie|Food industry
+Distributie|Distribution
+Totaal energieverbruik|Total energyconsumption
+Totaal gegeten|Total eaten
+Koeling en koken (huis)|Cooling and cooking (domestic)
+Koelapparatuur (commercieel en huis)|Cooling equipment (commercial and domestic)
+Koeling en koken (commercieel)|Cooling and cooking (commercial)
+Vrachtvervoer (aanmaak)|Transportation (creation)
+Brandstoffen (transport)|Fuels (transportation)
+Verpakking|Packaging
+staal en aluminium|steel and aluminium
+glas|glass
+papier|paper
+Voedingsverwerking|Food processing
+industrie|industry
+Commercieel en huis|Commercial and domestic
+Voedingsverwerkingsindustrie|Food processing industry
+Boerderij|Farm
+traktor|tractor
+drogen|drying
+trekkers|tractors
+bewaring|conservation
+koeling|cooling
+koken|cooking
+serres|greenhouses
+verwerking|processing
+brandstof|fuel
+gebouwen|buildings
+verpakking|packaging
+irrigatie|irrigation
+transport|transportation
+indirect landgebruik|indirect land usage
+dienstverlening|services
+energie toelevering|energy suppliers
+direct landgebruik|direct land usage
+Direct areaal|direct area
+Totaal areaal|total area
+VTE|FTE
+indirecte arbeid|indirect labor
+electronica|electronics
+directe arbeid|direct labor
+gezondheid|health
+geluidsoverlast|noise pollution
+bodem|soil
+veerkracht|resilience
+arbeid|labor
+natuur|nature
+winderosie|wind erosion
+maatschappelijke kosten op sociaal gebied|social costs
+kosten overheid|government costs
+watervervuiling|water pollution
+verkeerscongestie|traffic congestion
+landbouwopbrengsten|agricultural benefits
+kinderarbeid|child labor
+energie|energy
+klimaatverandering|climate change
+bodemerosie|soil erosion
+arbeidsongevallen|occupational accident
+pesticiden|pesticides
+waterschaarste|water scarcity
+verlies bodemvruchtbaarheid|loss of soil fertilisation
+geurhinder|odor pollution
+verzuring waterbronnen|acidification of water resources
+vergiftiging|poisening
+tijdelijke|temporary
+subsidieregelingen|subsidies
+landgebruik|land usage
+verkeersveiligheid|traffic safety
+vastgoed|real estate
+biodiversiteit|biodiversity
+luchtvervuiling|air pollution
+voedselschandalen|food scandals
+ammoniak emmissies|ammonia emmisions
+ziekte uitbraken|outbreak of deceases
+voedselverspilling|food wastage
+totaal|total
+totale|total
+gew. output|weight out
