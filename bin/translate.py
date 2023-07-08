@@ -10,7 +10,7 @@ if len(sys.argv) > 2:
     target_lang = sys.argv[2]
 source_lang = 'nl'
 if len(sys.argv) > 3:
-    target_lang = sys.argv[3]
+    source_lang = sys.argv[3]
 
 authkey_filename = Path(Path.home(), '.deepl', 'auth_key')
 source_filename = Path('/extra_disk', 'landwijzer_werkstuk','text', file_name+'-'+source_lang+'.xml')
